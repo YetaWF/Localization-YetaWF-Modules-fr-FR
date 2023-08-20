@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.SMSTestModule+Model",
+      "BaseTypeName": null,
+      "Header": "SMS nécessite un fournisseur SMS. Ceux-ci ne sont pas inclus avec YetaWF et sont disponibles séparément auprès de Softel vdm, Inc. Consultez la boutique du site Web YetaWF pour plus d’informations. Veuillez noter que les fournisseurs de SMS n’émettent pas d’erreur lorsque le message SMS est envoyé - Inspectez le fichier journal pour trouver des erreurs dans le traitement des SMS.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "PhoneNumber",
+          "Caption": "Numéro de téléphone",
+          "Description": "Le numéro de téléphone qui recevra le SMS",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Le numéro de téléphone n’est pas validé - Il est possible de spécifier une adresse e-mail à la place pour tester le repli de l’e-mail si aucun fournisseur SMS n’est disponible."
+        },
+        {
+          "Name": "Text",
+          "Caption": "SMS",
+          "Description": "Le message texte à envoyer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le test SMS"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "SMS"
+    },
+    {
+      "Name": "displayText",
+      "Text": "SMS"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le test SMS"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test - SMS"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour tester l’envoi d’un SMS. Une page de test pour ce module peut être trouvée à Tests > Modules > SMS (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "SMS Test"
+    },
+    {
+      "Name": "ok",
+      "Text": "SMS envoyés"
+    }
+  ]
+}

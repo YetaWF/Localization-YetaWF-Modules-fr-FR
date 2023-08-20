@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantDeleteDefault",
+      "Text": "Le site par défaut d’une instance YetaWF ne peut pas être supprimé"
+    },
+    {
+      "Name": "siteExists",
+      "Text": "Impossible d’ajouter un nouveau site « {0} » - le site existe déjà"
+    },
+    {
+      "Name": "updFail",
+      "Text": "Impossible de mettre à jour la définition de site - elle a peut-être déjà été supprimée"
+    }
+  ]
+}

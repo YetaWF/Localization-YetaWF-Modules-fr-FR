@@ -1,0 +1,93 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Menus.Modules.MenuModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités",
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "L’URL utilisée pour modifier ce menu - Si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HoverDelay",
+          "Caption": "Délai de survol",
+          "Description": "Spécifie le délai (en millisecondes) avant la fermeture du menu - Utilisé pour éviter la fermeture accidentelle en partant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LICssClass",
+          "Caption": "<LI> Classe CSS",
+          "Description": "La classe Css facultative ajoutée à chaque <LI> balise du menu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MiniScroll",
+          "Caption": "Mini barres de défilement",
+          "Description": "Définit si des barres de défilement minimales sont utilisées (orientation verticale uniquement).",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Orientation",
+          "Caption": "Orientation",
+          "Description": "Définit l’orientation du menu.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowActionMenu",
+          "Caption": "Afficher le menu Action",
+          "Description": "Indique si le menu d’action est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SmallMenuMaxWidth",
+          "Caption": "Taille maximale du petit écran",
+          "Description": "Définit la plus grande taille d’écran où le petit menu est utilisé - Si l’écran est plus large, le grand menu s’affiche.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerticalWidth",
+          "Caption": "Largeur du menu vertical",
+          "Description": "Définit la largeur du menu (orientation verticale uniquement).",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Menu"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Menus simples et page principale"
+    }
+  ]
+}

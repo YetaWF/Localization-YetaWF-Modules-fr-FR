@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateMaskedEditModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1",
+          "Caption": "SSN",
+          "Description": "Numéro de sécurité sociale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "SSN (obligatoire)",
+          "Description": "Numéro de sécurité sociale (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "SSN (lecture/seule)",
+          "Description": "Numéro de sécurité sociale (en lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test de modèle - MaskedEdit"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modèle de test MaskedEdit"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modèle de test MaskedModifier"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

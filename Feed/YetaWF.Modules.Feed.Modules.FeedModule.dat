@@ -1,0 +1,73 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feed.Modules.FeedModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités",
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "CacheKey",
+          "Caption": "Clé de cache",
+          "Description": "Nom utilisé pour mettre en cache les informations d’actualité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedUrl",
+          "Caption": "URL du fil d’actualité",
+          "Description": "L’URL fournissant le fil d’actualité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Interval",
+          "Caption": "Intervalle",
+          "Description": "Nombre de secondes après lesquelles l’actualité principale est remplacée par l’élément suivant - spécifiez 0 pour désactiver",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NumEntries",
+          "Caption": "Entrées de nouvelles",
+          "Description": "Le nombre maximum d’entrées d’actualités affichées (entre 2 et 50)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le fil d’actualité {0}"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le fil d’actualité {0}"
+    },
+    {
+      "Name": "modName",
+      "Text": "Fil d’actualité"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche le flux d’actualités défini. Utilisez les paramètres du module pour définir le fil d’actualité souhaité. Des exemples de modules de flux d’actualités sont accessibles sur Tests > News Feed (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Fil d’actualité"
+    }
+  ]
+}

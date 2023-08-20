@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "apply",
+      "Text": "Appliquer"
+    },
+    {
+      "Name": "applyTT",
+      "Text": "Appliquer tous les changements à la peau actuelle"
+    },
+    {
+      "Name": "coll",
+      "Text": "Palette d’habillage - Modifier les paramètres d’habillage et générer de nouvelles variables CSS à utiliser dans les skins"
+    }
+  ]
+}

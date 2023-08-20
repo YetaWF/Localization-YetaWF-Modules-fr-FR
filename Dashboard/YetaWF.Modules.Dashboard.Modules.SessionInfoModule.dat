@@ -1,0 +1,116 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.SessionInfoModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Key",
+          "Caption": "Me?",
+          "Description": "La clé SessionState",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Size",
+          "Caption": "Taille",
+          "Description": "La taille de la valeur (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Value",
+          "Caption": "Valeur",
+          "Description": "Les 100 premiers octets de la valeur SessionState",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.SessionInfoModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "Éléments SessionState",
+          "Description": "Les clés SessionState et les valeurs (le type de données ou les 100 premiers octets de données sont affichés)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TotalSize",
+          "Caption": "Taille totale",
+          "Description": "Taille approximative de tous les éléments SessionState",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche les informations SessionState (HttpContext.Current.Session)"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "HttpContext.Current.Session"
+    },
+    {
+      "Name": "displayText",
+      "Text": "HttpContext.Current.Session"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher les informations SessionState (HttpContext.Current.Session)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Informations SessionState (HttpContext.Current.Session)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les informations SessionState (HttpContext.Current.Session). Les informations d’état de session sont accessibles à l’aide du tableau de bord Admin > > HttpContext.Current.Session (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Informations SessionState (HttpContext.Current.Session)"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer tous les paramètres de session pour tous les utilisateurs ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime toutes les informations SessionState"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer les paramètres de session"
+    },
+    {
+      "Name": "removeText",
+      "Text": "Supprimer les paramètres de session"
+    },
+    {
+      "Name": "removeTooltip",
+      "Text": "Supprimer toutes les informations SessionState"
+    }
+  ]
+}

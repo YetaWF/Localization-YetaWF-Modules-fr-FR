@@ -1,0 +1,50 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Models.StepInfo+StepEntry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caption",
+          "Caption": "Légende",
+          "Description": "La légende de cette étape",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Description de cette étape",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom de cette étape - Ce nom est utilisé par d’autres modules à des fins de notification - Les modules qui prennent en charge l’affichage des étapes ont des noms normalisés pour les étapes, qui doivent être documentés dans leur documentation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "dfltCaption",
+      "Text": "(Légende)"
+    },
+    {
+      "Name": "dfltDesription",
+      "Text": "(Description)"
+    }
+  ]
+}

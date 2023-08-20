@@ -1,0 +1,146 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.StatusModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "BlueGreenDeploy",
+          "Caption": "Type de déploiement",
+          "Description": "Le type de déploiement utilisé pour le site actuel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Build",
+          "Caption": "Construire",
+          "Description": "Le type de build en cours d’exécution",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CoreVersion",
+          "Caption": "YetaWF Version",
+          "Description": "La version YetaWF installée (Core Package)",
+          "HelpLink": "https://YetaWF.com",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FrameworkDescription",
+          "Caption": "Cadre",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastDeploy",
+          "Caption": "Dernier déploiement",
+          "Description": "La date et l’heure auxquelles le site a été déployé - Affichées uniquement pour les sites déployés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastRestart",
+          "Caption": "Dernier redémarrage",
+          "Description": "La date et l’heure du dernier redémarrage du site (toutes les instances)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LetsEncrypt",
+          "Caption": "LetsEncrypt",
+          "Description": "Indique si LetsEncrypt est activé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MultiInstance",
+          "Caption": "Multi-instance activée",
+          "Description": "Définit si la prise en charge de plusieurs instances en cours d’exécution (conteneur/batterie de serveurs/webjardin) est activée à l’aide de la mise en cache partagée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OSArchitecture",
+          "Caption": "Architecture du système d’exploitation",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OSDescription",
+          "Caption": "Système d’exploitation",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ProcessArchitecture",
+          "Caption": "Architecture du processeur",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "blueGreen5",
+      "Text": "{0} - {1}"
+    },
+    {
+      "Name": "blueGreenNone",
+      "Text": "N/A"
+    },
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche les informations d’état YetaWF"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Informations sur l’état"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Informations sur l’état"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher les informations d’état YetaWF"
+    },
+    {
+      "Name": "letsEncryptEnabled",
+      "Text": "Activé"
+    },
+    {
+      "Name": "modName",
+      "Text": "Informations sur l’état"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche des informations sur l’instance YetaWF. Les informations d’état sont accessibles à l’aide du tableau de bord Admin > > des informations d’état (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Informations sur l’état"
+    }
+  ]
+}

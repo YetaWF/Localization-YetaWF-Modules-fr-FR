@@ -1,0 +1,86 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "L’utilisation prévue du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "URL de connexion après la publication",
+          "Description": "URL où un utilisateur avec ce rôle est redirigé après s’être connecté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RoleId",
+          "Caption": "ID de rôle",
+          "Description": "L’ID interne du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche un rôle existant"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher un rôle existant"
+    },
+    {
+      "Name": "modDisplayTitle",
+      "Text": "{0} Rôle"
+    },
+    {
+      "Name": "modName",
+      "Text": "Rôle d’affichage"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un rôle existant. Ceci est utilisé par le module Rôles pour afficher un rôle."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Rôle"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Le rôle « {0} » introuvable."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoryAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Category",
+          "Caption": "Catégorie",
+          "Description": "Le nom de cette catégorie de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CommentApproval",
+          "Caption": "Approbation des commentaires",
+          "Description": "Définit si les commentaires soumis doivent être approuvés avant d’être visibles publiquement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description de la catégorie de blog - la description de la catégorie est affichée en haut de chaque entrée de blog pour décrire votre blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Syndicated",
+          "Caption": "Syndiqué",
+          "Description": "Définit si la catégorie de blog peut être souscrite par les lecteurs de nouvelles (les entrées doivent être publiées avant de pouvoir être syndiquées)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationCopyright",
+          "Caption": "Droits d’auteur de syndication",
+          "Description": "Les informations facultatives sur les droits d’auteur affichées lorsque les lecteurs de nouvelles accèdent au blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationEmail",
+          "Caption": "Adresse e-mail de syndication",
+          "Description": "L’adresse e-mail utilisée comme adresse e-mail responsable de la catégorie blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCaptcha",
+          "Caption": "Utiliser Captcha",
+          "Description": "Définit si les utilisateurs anonymes saisissant des commentaires reçoivent un Captcha pour s’assurer qu’il ne s’agit pas de scripts de spam automatisés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Crée une nouvelle catégorie de blog"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Créer une nouvelle catégorie de blog"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Une catégorie de blog nommée « {0} » existe déjà."
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter une catégorie de blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Crée une nouvelle catégorie de blog. Utilisé par le module Catégories de blogs."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter une nouvelle catégorie de blog"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouvelle catégorie de blog enregistrée"
+    }
+  ]
+}

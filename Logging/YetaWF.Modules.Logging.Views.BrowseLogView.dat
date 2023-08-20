@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "file",
+      "Text": "La navigation dans les journaux n’est pas disponible. Le fournisseur de journaux suivant est utilisé : {0}"
+    },
+    {
+      "Name": "fileNA",
+      "Text": "Le journal du site n’est pas disponible. La journalisation n’a pas été démarrée."
+    },
+    {
+      "Name": "fileNA2",
+      "Text": "Cela peut être dû à un dossier journal manquant (\\Data\\DataFolder\\YetaWF_Logging), une base de données ou un fournisseur de données externe."
+    }
+  ]
+}

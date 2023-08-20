@@ -1,0 +1,43 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "additional",
+      "Text": "Additionnel"
+    },
+    {
+      "Name": "additionalDesc",
+      "Text": "Sélectionnez cette option pour activer une plage de temps supplémentaire"
+    },
+    {
+      "Name": "closed",
+      "Text": "Fermé"
+    },
+    {
+      "Name": "closedDesc",
+      "Text": "Sélectionnez cette option pour indiquer quand fermé toute la journée"
+    },
+    {
+      "Name": "dtrFrom2",
+      "Text": "L’heure de début dans le champ intitulé '{0}' doit être postérieure à l’heure de début et de fin de la première plage horaire"
+    },
+    {
+      "Name": "dtrTo",
+      "Text": "L’heure de fin dans le champ intitulé '{0}' doit être postérieure à l’heure de début"
+    },
+    {
+      "Name": "time0",
+      "Text": ""
+    },
+    {
+      "Name": "time1",
+      "Text": "{0} - {1}"
+    },
+    {
+      "Name": "time2",
+      "Text": "{0} - {1}, {2} - {3} "
+    }
+  ]
+}

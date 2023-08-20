@@ -1,0 +1,126 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AllowAnonymous",
+          "Caption": "Utilisateurs anonymes",
+          "Description": "Si les utilisateurs anonymes peuvent afficher la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowAnyUser",
+          "Caption": "Tous les utilisateurs",
+          "Description": "Si un utilisateur connecté peut afficher la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Count",
+          "Caption": "Compter",
+          "Description": "Le nombre de fois que ce mot-clé a été trouvé sur la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateAdded",
+          "Caption": "Supplémentaire",
+          "Description": "La date/heure à laquelle ce mot-clé a été ajouté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplaySearchDataId",
+          "Caption": "Id",
+          "Description": "L’ID interne de ce mot-clé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Language",
+          "Caption": "Langue",
+          "Description": "La langue de la page où ce mot-clé a été trouvé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageUrl",
+          "Caption": "URL",
+          "Description": "La page où ce mot-clé a été trouvé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchTerm",
+          "Caption": "Mot-clé de recherche",
+          "Description": "Mot-clé de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Le mot-clé de recherche avec id {0} a été supprimé et ne peut plus être mis à jour."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un mot-clé de recherche avec id {0} existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie un élément de recherche existant"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier un élément de recherche existant"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier l’élément de recherche"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier un terme de recherche existant. Ceci est utilisé par le module Mots-clés de recherche pour modifier un terme de recherche."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Élément de recherche"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Mot-clé de recherche avec id {0} introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Mot-clé de recherche enregistré"
+    }
+  ]
+}

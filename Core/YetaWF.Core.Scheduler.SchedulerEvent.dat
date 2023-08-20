@@ -1,0 +1,49 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.Scheduler.SchedulerEvent",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "EventBuiltinDescription",
+          "Caption": "Action de l’événement",
+          "Description": "L’action de cet événement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ImplementingAssembly",
+          "Caption": "Assemblée",
+          "Description": "Nom de l’assembly implémentant cet événement de planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ImplementingType",
+          "Caption": "Type",
+          "Description": "Type d’assembly implémentant cet événement de planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Événement",
+          "Description": "Le nom de l’événement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

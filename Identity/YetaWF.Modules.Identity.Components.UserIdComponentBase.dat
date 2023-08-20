@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "noUser",
+      "Text": "(aucune)"
+    },
+    {
+      "Name": "select",
+      "Text": "(sélectionner)"
+    },
+    {
+      "Name": "ttClear",
+      "Text": "Effacer la sélection actuelle"
+    }
+  ]
+}

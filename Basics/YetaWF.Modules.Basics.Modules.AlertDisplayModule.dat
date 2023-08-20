@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Message d’alerte (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Peut être référencé par des sites, des pages ou des modules. Une fois référencée, une alerte sera affichée (une fois ou jusqu’à ce qu’elle soit rejetée, selon les paramètres d’alerte)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Message d’alerte (habillage)"
+    }
+  ]
+}

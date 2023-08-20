@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Mailto Obfuscator (Peau)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module d’habillage implémentant mailto: obfuscation en JavaScript. Peut être activé en le référençant à l’échelle du site ou par page."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Mailto Obfuscator"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Tawk.to (Peau)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente la fenêtre de chat TawkTo, référencée par votre (vos) page(s) ou site. Il n’est pas ajouté à un habillage ou à une page, mais référencé par un site, une page ou un module. Le référencement du module TawkTo (Skin) entraîne l’affichage de la fenêtre de chat TawkTo telle que configurée dans votre compte https://www.tawk.to."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Tawk.to de la peau"
+    }
+  ]
+}

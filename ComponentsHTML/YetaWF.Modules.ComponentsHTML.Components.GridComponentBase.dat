@@ -1,0 +1,123 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "allPages",
+      "Text": "Tout"
+    },
+    {
+      "Name": "allPagesTT",
+      "Text": "Afficher toutes les entrées"
+    },
+    {
+      "Name": "btnFilter",
+      "Text": "Activer ou désactiver la barre de filtre"
+    },
+    {
+      "Name": "btnFirst",
+      "Text": "Aller à la première page"
+    },
+    {
+      "Name": "btnLast",
+      "Text": "Aller à la dernière page"
+    },
+    {
+      "Name": "btnNext",
+      "Text": "Aller à la page suivante"
+    },
+    {
+      "Name": "btnPrev",
+      "Text": "Aller à la page précédente"
+    },
+    {
+      "Name": "btnTop",
+      "Text": "Recharger la page active"
+    },
+    {
+      "Name": "coll",
+      "Text": "Cliquez pour réduire ce panneau"
+    },
+    {
+      "Name": "demo",
+      "Text": "(Démo - N/A)"
+    },
+    {
+      "Name": "dropdownWidth",
+      "Text": "12"
+    },
+    {
+      "Name": "exp",
+      "Text": "Cliquez pour agrandir ce panneau"
+    },
+    {
+      "Name": "f_bw",
+      "Text": "Commence par"
+    },
+    {
+      "Name": "f_contains",
+      "Text": "Contient"
+    },
+    {
+      "Name": "f_endswith",
+      "Text": "Se termine par"
+    },
+    {
+      "Name": "f_equals",
+      "Text": "Égal"
+    },
+    {
+      "Name": "f_g",
+      "Text": "Plus"
+    },
+    {
+      "Name": "f_ge",
+      "Text": "Plus ou égal"
+    },
+    {
+      "Name": "f_l",
+      "Text": "Moins"
+    },
+    {
+      "Name": "f_le",
+      "Text": "Moins ou égal"
+    },
+    {
+      "Name": "f_nbw",
+      "Text": "Ne commence pas par"
+    },
+    {
+      "Name": "f_ncontains",
+      "Text": "Ne contient pas"
+    },
+    {
+      "Name": "f_ne",
+      "Text": "Pas égal"
+    },
+    {
+      "Name": "f_nendswith",
+      "Text": "Ne se termine pas par"
+    },
+    {
+      "Name": "filter",
+      "Text": "Filtre"
+    },
+    {
+      "Name": "loading",
+      "Text": "Chargement..."
+    },
+    {
+      "Name": "noSel",
+      "Text": "(pas de sélection)"
+    },
+    {
+      "Name": "pagesTT",
+      "Text": "Afficher {0} entrées"
+    },
+    {
+      "Name": "searchTT",
+      "Text": "Sélectionnez la méthode de recherche"
+    }
+  ]
+}

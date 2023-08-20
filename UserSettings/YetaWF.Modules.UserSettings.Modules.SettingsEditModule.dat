@@ -1,0 +1,178 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.UserSettings.Modules.SettingsEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ConfirmActions",
+          "Caption": "Confirmer les actions",
+          "Description": "Définit si les actions doivent être confirmées avant d’être exécutées. Ceci est normalement utilisé pour les actions qui nécessitent une invite mais qui ne sont pas destructrices (supprimer) dans la nature",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ConfirmDelete",
+          "Caption": "Confirmer la suppression",
+          "Description": "Définit si les actions de suppression doivent être confirmées avant la suppression d’éléments",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateFormat",
+          "Caption": "Date Format",
+          "Description": "Le format de date souhaité lorsque les dates sont affichées sur ce site Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GridActionsUser",
+          "Caption": "Actions de grille",
+          "Description": "La méthode d’affichage souhaitée pour les actions disponibles dans les grilles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguageId",
+          "Caption": "Langue",
+          "Description": "La langue par défaut utilisée pour l’ensemble du site (utilisée uniquement lorsque la localisation est activée)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowEnumValue",
+          "Caption": "Afficher les valeurs Enum",
+          "Description": "Définit si les valeurs énumérées (dans les listes déroulantes) affichent leur valeur numérique. Les valeurs numériques ne sont généralement utiles qu’à des fins de programmation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowGridSearchToolbar",
+          "Caption": "Afficher la barre d’outils de filtre",
+          "Description": "Définit si la barre d’outils de filtre est toujours affichée sur les grilles - Si elle n’est pas affichée, elle est toujours accessible à l’aide du bouton de recherche dans chaque grille, en bas de la grille, à côté du bouton d’actualisation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowInternals",
+          "Caption": "Afficher les données internes",
+          "Description": "Définit si les informations internes sont affichées (par exemple, ids)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleOwnership",
+          "Caption": "Afficher la propriété du module",
+          "Description": "Définit si les modules qui ne peuvent pas être vus par les utilisateurs anonymes ou les utilisateurs réguliers sont affichés avec des couleurs d’arrière-plan spéciales - Nécessite une enveloppe qui prend en charge l’affichage de la propriété",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowPageOwnership",
+          "Caption": "Afficher la propriété de la page",
+          "Description": "Définit si les pages qui ne peuvent pas être vues par les utilisateurs anonymes ou les utilisateurs réguliers sont affichées avec des couleurs d’arrière-plan spéciales - Nécessite un habillage qui prend en charge l’affichage de la propriété",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowVariables",
+          "Caption": "Afficher les variables",
+          "Description": "Définit si les noms de variables sont affichés pour les propriétés et si toutes les variables disponibles sont répertoriées sur les pages de propriétés. Les variables sont utilisées pour la substitution de variables dans les modules et les pages et bien sûr à des fins de programmation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thème",
+          "Description": "Le thème utilisé pour toutes les pages du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeFormat",
+          "Caption": "Format de l’heure",
+          "Description": "Le format d’heure souhaité lorsque les heures sont affichées sur ce site Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Fuseau horaire",
+          "Description": "Votre fuseau horaire - toutes les dates/heures de ce site Web seront ajustées pour le fuseau horaire spécifié",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie vos paramètres utilisateur, tels que les formats de date/heure, la langue utilisée et d’autres options"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Modifier les paramètres"
+    },
+    {
+      "Name": "editText",
+      "Text": "Modifier les paramètres"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifiez vos paramètres utilisateur, tels que les formats de date et d’heure, la langue utilisée et d’autres options"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres utilisateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie les paramètres de l’utilisateur connecté, tels que les formats de date / heure souhaités, le fuseau horaire, la langue utilisée et d’autres options. Le module Paramètres utilisateur est accessible à l’aide des Paramètres > utilisateur (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres utilisateur"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Vos paramètres ont été enregistrés avec succès"
+    },
+    {
+      "Name": "roleUseDev",
+      "Text": "Le rôle est autorisé à utiliser les paramètres de développement"
+    },
+    {
+      "Name": "roleUseDevC",
+      "Text": "Utiliser les paramètres de développement"
+    },
+    {
+      "Name": "userUseDev",
+      "Text": "L’utilisateur est autorisé à utiliser les paramètres de développement"
+    },
+    {
+      "Name": "userUseDevC",
+      "Text": "Utiliser les paramètres de développement"
+    }
+  ]
+}

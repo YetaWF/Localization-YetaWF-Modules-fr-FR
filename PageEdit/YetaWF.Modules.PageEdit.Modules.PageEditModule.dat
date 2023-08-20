@@ -1,0 +1,447 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageEditModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Afficher le menu du module",
+          "Description": "Indique si le menu du module est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageEditModule+EditablePage",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Addons": "Extensions",
+        "Authorization": "Autorisation",
+        "Meta": "Méta",
+        "Page": "Page",
+        "References": "Références",
+        "Skin": "Peau",
+        "Urls": "URL",
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "AllowedRoles",
+          "Caption": "Rôles autorisés",
+          "Description": "Les rôles autorisés à accéder à cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowedUsers",
+          "Caption": "Utilisateurs autorisés",
+          "Description": "Les utilisateurs autorisés à accéder à cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Analytics",
+          "Caption": "Analytics",
+          "Description": "Ajouter du code Javascript d’analyse (par exemple, le code de suivi Universal Analytics utilisé par Google Analytics ou le code utilisé par Clicky) - Tout code qui doit être ajouté à la fin de la page HTML peut être ajouté ici, y compris <script></script> les balises - S’il est omis, le code d’analyse défini par le site est utilisé (Paramètres du site)",
+          "HelpLink": null,
+          "TextAbove": "Le code Analytics n’est disponible que dans les sites de production déployés et est ignoré dans les builds de débogage (non marqués comme déployés).",
+          "TextBelow": null
+        },
+        {
+          "Name": "AnalyticsContent",
+          "Caption": "Analyse (contenu)",
+          "Description": "Ajouter du code Javascript d’analyse qui doit être exécuté lorsqu’une nouvelle page devient active dans un ensemble de pages unifié actif - Ne pas inclure <script></script> de balises - Utilisez <<Url>> pour remplacer l’URL réelle - S’il est omis, le code d’analyse défini par le site est utilisé (Paramètres du site)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanonicalUrl",
+          "Caption": "URL canonique",
+          "Description": "URL complète facultative utilisée pour identifier cette page (y compris la chaîne de requête) - Si elle n’est pas spécifiée, l’URL est utilisée à la place - Les données saisies sont utilisées telles quelles mais permettent la substitution de variables - Les caractères spéciaux dans la partie chaîne de requête doivent être codés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanonicalUrlLink",
+          "Caption": "Lien URL canonique",
+          "Description": "Le code HTML utilisé pour l’URL canonique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ChangeFrequency",
+          "Caption": "Fréquence de changement",
+          "Description": "Définit la fréquence de modification de la page utilisée pour le plan de site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Copyright",
+          "Caption": "Copyright",
+          "Description": "Définit un avis de droit d’auteur facultatif affiché sur la page, s’il est pris en charge par l’habillage utilisé - S’il n’est pas défini, un avis de droit d’auteur par défaut peut être défini dans Propriétés du site - Utiliser <<Year>> pour l’année en cours",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CopyrightEvaluated",
+          "Caption": "Copyright",
+          "Description": "La propriété Copyright avec substitutions évaluées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date de création de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": "Classe CSS",
+          "Description": "Les classes CSS facultatives à ajouter à la balise de la page <body> pour une personnalisation ultérieure via des feuilles de style",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description de la page - Cette description est utilisée pour les balises meta et lorsque des informations sur cette page sont affichées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyBottom",
+          "Caption": "<BODY> Fond",
+          "Description": "Toutes les balises qui doivent être ajoutées au bas de la <BODY> balise de chaque page peuvent être ajoutées ici",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyTop",
+          "Caption": "<BODY> Retour au début",
+          "Description": "Toutes les balises qui doivent être ajoutées en haut de la <BODY> balise de chaque page peuvent être ajoutées ici",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraHead",
+          "Caption": "<HEAD>",
+          "Description": "Toutes les balises qui doivent être ajoutées à la <HEAD> balise de chaque page peuvent être ajoutées ici",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Fav_SVG",
+          "Caption": "FavIcon (SVG)",
+          "Description": "L’icône SVG représentant cette page (généralement rendue sous forme d’image de 32x32 pixels) affichée dans les barres de page utilisée pour afficher la page - Utilisez une <SVG> balise complète ou référencez un SVG d’habillage en préfixant le nom de l’icône avec # qui localise le SVG dans le dossier de l’habillage ./SVG/FAV_name (par exemple, #UserSettings utilise ./SVG/FAV_UserSettings.svg)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIcon",
+          "Caption": "FavIcon",
+          "Description": "L’icône représentant cette page (une image PNG de 32x32 pixels) affichée par le navigateur Web utilisé pour afficher la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HrefLangHtml",
+          "Caption": "Hreflang Html",
+          "Description": "Le code HTML utilisé pour la définition du langage (hreflang et métadonnées)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IFrameUse",
+          "Caption": "Utilisation d’IFrame",
+          "Description": "Définit si la page peut être utilisée dans un IFrame par ce site et d’autres",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Keywords",
+          "Caption": "Mots-clés",
+          "Description": "Définit les mots-clés de page - Ces mots-clés sont utilisés pour les balises meta et pour générer des termes de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguageId",
+          "Caption": "Langue de la page",
+          "Description": "Définit la langue de la page - Spécifiez une langue spécifique si cette page n’est pas disponible dans plusieurs langues",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MobilePageUrl",
+          "Caption": "Mobile Page Url",
+          "Description": "Si cette page est accessible par un appareil mobile, elle est redirigée vers l’URL définie ici comme URL de la page mobile - La redirection n’est pas active en mode d’édition du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageGuidName",
+          "Caption": "Nom du GUID de la page",
+          "Description": "Le nom de la page encodé à l’aide de son identifiant unique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageMetaTags",
+          "Caption": "Balises Meta",
+          "Description": "Définit les balises <meta> ajoutées à la page : si elles sont spécifiées, elles remplacent les balises meta de site définies à l’aide de la propriété PageMetaTags (Paramètres du site)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSecurity",
+          "Caption": "Page sécurisée",
+          "Description": "Définit si la page est accessible à l’aide d’une connexion sécurisée (à l’aide de SSL) - L’utilisation de connexions sécurisées nécessite que les connexions sécurisées dans les propriétés du site soient également activées, sinon la propriété de page définie ici est ignorée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageUrl",
+          "Caption": "Page Url",
+          "Description": "Renvoie l’URL définie par l’utilisateur (propriété Url) ou, si aucune n’a été définie, une URL générée par le système.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Panes",
+          "Caption": "Vitres",
+          "Description": "Les volets définis par l’enveloppe de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupPage",
+          "Caption": "Page contextuelle",
+          "Description": "La page contextuelle utilisée pour la fenêtre contextuelle lorsque cette page est affichée dans une fenêtre contextuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RedirectToPageUrl",
+          "Caption": "Rediriger vers la page",
+          "Description": "Si vous accédez à cette page, elle est redirigée vers l’URL définie ici - La redirection n’est pas active en mode d’édition du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferencedModules",
+          "Caption": "Modules de peau",
+          "Description": "Définit les modules qui doivent être injectés dans cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoArchive",
+          "Caption": "Robots - NoArchive",
+          "Description": "Indique aux moteurs de recherche de ne pas stocker une copie archivée de la page si elle est définie - non prise en charge par tous les moteurs de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoFollow",
+          "Caption": "Robots - NoFollow",
+          "Description": "Empêche une page d’être explorée par les moteurs de recherche si elle est définie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoIndex",
+          "Caption": "Robots - NoIndex",
+          "Description": "Empêche une page d’être indexée par les moteurs de recherche si elle est définie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoSnippet",
+          "Caption": "Robots - NoSnippet",
+          "Description": "Indique aux moteurs de recherche de ne pas inclure un extrait de la page avec la liste de la page dans les résultats de recherche - non pris en charge par tous les moteurs de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMapPriority",
+          "Caption": "Priorité du plan de site",
+          "Description": "Définit la priorité de page utilisée pour le plan de site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticPage",
+          "Caption": "Page statique",
+          "Description": "Définit si la page est rendue en tant que page statique (pour les utilisateurs anonymes uniquement) - Une page dont le contenu ne change pas peut être marquée comme une page statique, ce qui accélère le chargement de la page pour l’utilisateur final - Les paramètres du site peuvent être utilisés pour activer/désactiver l’utilisation de pages statiques globalement à l’aide de la propriété StaticPages - Les pages statiques ne sont utilisées qu’avec les sites déployés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TemplateGuid",
+          "Caption": "Modèle",
+          "Description": "La page locale utilisée comme modèle pour cette page - Tous les modules du modèle sont copiés et rendus sur cette page dans leur volet défini - Les modules dans les volets qui ne sont pas disponibles ne sont pas affichés - N’importe quelle page peut être utilisée comme modèle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Temporary",
+          "Caption": "Temporaire",
+          "Description": "Définit si la page active est une page temporaire (générée)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre de la page qui apparaîtra comme titre dans la fenêtre du navigateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Updated",
+          "Caption": "Actualisé",
+          "Description": "La date de la dernière mise à jour de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL utilisée pour identifier cette page - les URL locales commencent par / et n’incluent pas http:// ou https://",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantSearch",
+          "Caption": "Mots-clés de recherche",
+          "Description": "Définit si le contenu de cette page doit être ajouté aux mots-clés de recherche du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Cette page a été supprimée et ne peut plus être mise à jour."
+    },
+    {
+      "Name": "delConfirm",
+      "Text": "Êtes-vous ABSOLUMENT sûr de vouloir supprimer la page actuellement affichée? Cette action ne peut pas être annulée."
+    },
+    {
+      "Name": "delLegend",
+      "Text": "Supprime la page active"
+    },
+    {
+      "Name": "delLink",
+      "Text": "Supprimer la page actuelle"
+    },
+    {
+      "Name": "delText",
+      "Text": "Supprimer la page actuelle"
+    },
+    {
+      "Name": "delTooltip",
+      "Text": "Supprimer la page active"
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres de la page"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres de la page"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres de la page"
+    },
+    {
+      "Name": "editTitle",
+      "Text": "Page {0}"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres de la page"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier la page"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Met en œuvre des services d’édition de pages."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modifier la page"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Page {0} n’existe pas"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de page enregistrés"
+    }
+  ]
+}

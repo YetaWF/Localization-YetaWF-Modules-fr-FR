@@ -1,0 +1,39 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "passwordDelim",
+      "Text": ", "
+    },
+    {
+      "Name": "passwordEnd",
+      "Text": "."
+    },
+    {
+      "Name": "passwordLen",
+      "Text": "comporter au moins {0} caractères"
+    },
+    {
+      "Name": "passwordLower",
+      "Text": "contiennent au moins un caractère minuscule de A à Z"
+    },
+    {
+      "Name": "passwordNonAlpha",
+      "Text": "contenir au moins un caractère spécial (non alphanumérique)"
+    },
+    {
+      "Name": "passwordNum",
+      "Text": "contiennent au moins un chiffre de 0 à 9"
+    },
+    {
+      "Name": "passwordStart",
+      "Text": "Le mot de passe doit "
+    },
+    {
+      "Name": "passwordUpper",
+      "Text": "contiennent au moins un caractère majuscule de A à Z"
+    }
+  ]
+}

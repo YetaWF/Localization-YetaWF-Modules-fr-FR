@@ -1,0 +1,282 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoriesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter une nouvelle catégorie de blog - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BrowseEntriesUrl",
+          "Caption": "URL des entrées de navigation",
+          "Description": "L’URL permettant de parcourir les entrées de blog - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL à afficher",
+          "Description": "L’URL pour afficher une catégorie de blog - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "L’URL pour modifier une catégorie de blog - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoriesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Category",
+          "Caption": "Catégorie",
+          "Description": "Le nom de cette catégorie de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CommentApproval",
+          "Caption": "Approbation des commentaires",
+          "Description": "Définit si les commentaires soumis doivent être approuvés avant d’être visibles publiquement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateCreated",
+          "Caption": "Date de création",
+          "Description": "La date de création de la catégorie blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description de la catégorie de blog - la description de la catégorie est affichée en haut de chaque entrée de blog pour décrire votre blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Id",
+          "Description": "L’identifiant de cette catégorie de blog - utilisé pour identifier de manière unique cette catégorie de blog en interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Syndicated",
+          "Caption": "Syndiqué",
+          "Description": "Définit si la catégorie de blog peut être souscrite par les lecteurs de nouvelles (les entrées doivent être publiées avant de pouvoir être syndiquées)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationCopyright",
+          "Caption": "Droits d’auteur de syndication",
+          "Description": "Les informations facultatives sur les droits d’auteur affichées lorsque les lecteurs de nouvelles accèdent au blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationEmail",
+          "Caption": "Adresse courriel",
+          "Description": "L’adresse e-mail utilisée comme adresse e-mail responsable de la catégorie blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCaptcha",
+          "Caption": "Utiliser Captcha",
+          "Description": "Définit si les utilisateurs anonymes saisissant des commentaires reçoivent un Captcha pour s’assurer qu’il ne s’agit pas de scripts de spam automatisés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les catégories de blog"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Catégories de blogs"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Catégories de blogs"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les catégories de blog"
+    },
+    {
+      "Name": "downloadLegend",
+      "Text": "Télécharge le fichier de plan du site d’actualités"
+    },
+    {
+      "Name": "downloadLink",
+      "Text": "Télécharger le plan du site News"
+    },
+    {
+      "Name": "downloadMenu",
+      "Text": "Télécharger le plan du site News"
+    },
+    {
+      "Name": "downloadTT",
+      "Text": "Télécharger le fichier de plan du site d’actualités"
+    },
+    {
+      "Name": "modName",
+      "Text": "Catégories de blogs"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les catégories de blog. Il est accessible via Admin > Blog > Categories (site YetaWF standard). Il est utilisé pour ajouter, modifier et supprimer des catégories de blog et afficher des entrées de blog. Il offre également une génération automatisée de sitemap Google actualités."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Catégories de blogs"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer cette catégorie de blog ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime la catégorie de blog"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer la catégorie de blog"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer la catégorie de blog"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer la catégorie de blog"
+    },
+    {
+      "Name": "roleNewsSiteMapC",
+      "Text": "Gérer le plan du site d’actualités"
+    },
+    {
+      "Name": "roleNewsSiteMaps",
+      "Text": "Le rôle est autorisé à gérer le plan du site d’actualités"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des catégories de blog individuelles"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer les catégories de blog"
+    },
+    {
+      "Name": "screAuthConfirm",
+      "Text": "Êtes-vous sûr de vouloir créer un nouveau plan de site d’actualités ?"
+    },
+    {
+      "Name": "screAuthLegend",
+      "Text": "Crée un plan du site d’actualités"
+    },
+    {
+      "Name": "screAuthLink",
+      "Text": "Créer un plan du site d’actualités"
+    },
+    {
+      "Name": "screAuthMenu",
+      "Text": "Créer un plan du site d’actualités"
+    },
+    {
+      "Name": "screAuthPlsWait",
+      "Text": "Création d’un plan du site d’actualités..."
+    },
+    {
+      "Name": "screAuthTT",
+      "Text": "Créer un plan du site d’actualités"
+    },
+    {
+      "Name": "sremAuthConfirm",
+      "Text": "Voulez-vous vraiment supprimer le plan du site d’actualités actuel ?"
+    },
+    {
+      "Name": "sremAuthLegend",
+      "Text": "Supprime le plan du site d’actualités actuelles"
+    },
+    {
+      "Name": "sremAuthLink",
+      "Text": "Supprimer le plan du site News"
+    },
+    {
+      "Name": "sremAuthMenu",
+      "Text": "Supprimer le plan du site News"
+    },
+    {
+      "Name": "sremAuthTT",
+      "Text": "Supprimer le plan du site d’actualités actuelles"
+    },
+    {
+      "Name": "userNewsSiteMapC",
+      "Text": "Gérer le plan du site d’actualités"
+    },
+    {
+      "Name": "userNewsSiteMaps",
+      "Text": "L’utilisateur a l’autorisation de gérer le plan du site d’actualités"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur a l’autorisation de supprimer des catégories de blog individuelles"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer les catégories de blog"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LanguageDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description de la langue - elle est utilisée à titre informatif uniquement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "ID",
+          "Description": "L’ID de langue - il est identique au nom de culture utilisé dans .NET",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShortName",
+          "Caption": "Nom",
+          "Description": "Le nom de la langue, qui est affiché dans les contrôles de sélection de langue afin que l’utilisateur puisse sélectionner une langue",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche une langue existante"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Affiche une langue existante"
+    },
+    {
+      "Name": "modName",
+      "Text": "Langue d’affichage"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet d’afficher des informations sur une langue. Ceci est utilisé par le module Langues."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Langue"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Langue « {0} » introuvable"
+    },
+    {
+      "Name": "title",
+      "Text": "Langue « {0} »"
+    }
+  ]
+}

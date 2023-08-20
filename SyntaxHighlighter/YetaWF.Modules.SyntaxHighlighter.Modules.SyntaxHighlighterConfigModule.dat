@@ -1,0 +1,80 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.SyntaxHighlighter.Modules.SyntaxHighlighterConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": "Les paramètres sont utilisés pour définir la coloration syntaxique pour l’ensemble du site. Si plusieurs surligneurs de syntaxe sont disponibles, les deux peuvent être utilisés, mais ne doivent pas être utilisés sur la même page. Pour activer la coloration syntaxique, les paramètres du site, de la page ou du module doivent référencer l’un des modules d’habillage disponibles. Les <pre> balises et/ou <code> doivent être utilisées pour définir le langage de coloration de syntaxe souhaité.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Highlight.js": "Faits saillants .js"
+      },
+      "Properties": [
+        {
+          "Name": "HighlightJSSkin",
+          "Caption": "Peau",
+          "Description": "Enveloppe utilisée pour la coloration syntaxique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HighlightJSUrl",
+          "Caption": "Aide",
+          "Description": "Le surligneur de syntaxe utilise Surligner.js",
+          "HelpLink": null,
+          "TextAbove": "Le surligneur de syntaxe utilise Highlight.js.",
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguagesHighlightJSUrl",
+          "Caption": "Traduction",
+          "Description": "Affiche l’aide pour les langues qui peuvent être utilisées par Surligner.js pour la coloration syntaxique - Tous peuvent ne pas être installés et disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du surligneur de syntaxe"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres du surligneur syntaxique"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres du surligneur syntaxique"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du surligneur syntaxique"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres du surligneur syntaxique"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de configuration pour la coloration syntaxique. Définissez l’apparence des sections à l’aide de la coloration syntaxique. Il est accessible à l’aide des paramètres de > d’administration > des paramètres de surligneur de syntaxe (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres du surligneur syntaxique"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres du surligneur syntaxique sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de surligneur syntaxique enregistrés"
+    }
+  ]
+}

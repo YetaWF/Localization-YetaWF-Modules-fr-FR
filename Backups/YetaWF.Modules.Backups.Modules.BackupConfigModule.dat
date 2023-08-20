@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Backups.Modules.BackupConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "DataOnly",
+          "Caption": "Données uniquement",
+          "Description": "Définit si seules les données sont sauvegardées (sauvegardes planifiées) - Sinon, tous les fichiers source et binaires (packages complets) sont sauvegardés - Pour les sites de production, il suffit généralement de sauvegarder les données",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Days",
+          "Caption": "Jours",
+          "Description": "Le nombre de jours pendant lesquels une sauvegarde est sauvegardée - une fois qu’une sauvegarde a été enregistrée pendant le nombre de jours spécifié, elle est supprimée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres de sauvegarde"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres de sauvegarde"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres de sauvegarde"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres de sauvegarde"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres de sauvegarde"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie les paramètres de sauvegarde d’un site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres de sauvegarde"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres de sauvegarde sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de sauvegarde enregistrés"
+    }
+  ]
+}

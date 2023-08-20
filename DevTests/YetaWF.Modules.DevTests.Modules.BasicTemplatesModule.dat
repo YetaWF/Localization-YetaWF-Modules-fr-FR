@@ -1,0 +1,356 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.BasicTemplatesModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Test des composants YetaWF - Tous les champs sont obligatoires, mais certains ont des valeurs par défaut qui sont acceptables, donc aucun avertissement ne sera affiché. Certains composants ont leur propre page de test (voir Tests > Composants) et ne sont donc pas inclus sur cette page.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Core": "Noyau"
+      },
+      "Properties": [
+        {
+          "Name": "Boolean",
+          "Caption": "Booléen",
+          "Description": "Booléen (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BooleanText",
+          "Caption": "Texte booléen",
+          "Description": "BooleanText (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CAProvince",
+          "Caption": "CAProvince",
+          "Description": "CAProvince (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Country",
+          "Caption": "PaysISO3166",
+          "Description": "CountryISO3166 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Currency",
+          "Caption": "Monnaie",
+          "Description": "Devise (obligatoire) - Utilise la mise en forme définie à l’aide des paramètres du site, onglet Général",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CurrencyISO4217",
+          "Caption": "MonnaieISO4217",
+          "Description": "CurrencyISO4217 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Decimal",
+          "Caption": "Décimal",
+          "Description": "Décimal (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DropDownList",
+          "Caption": "Liste déroulante",
+          "Description": "DropDownList (SelectionRequired)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DropDownListInt",
+          "Caption": "DropDownListInt",
+          "Description": "DropDownListInt (SelectionRequired)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enum",
+          "Caption": "Enum",
+          "Description": "Enum (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileUpload1",
+          "Caption": "FichierUpload1",
+          "Description": "FichierUpload1",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Guid",
+          "Caption": "Guid",
+          "Description": "Guid (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue",
+          "Caption": "Valeur IntValue",
+          "Description": "IntValue (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue2",
+          "Caption": "IntValue2",
+          "Description": "IntValue2 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue4",
+          "Caption": "IntValue4",
+          "Description": "IntValue4 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue6",
+          "Caption": "IntValue6",
+          "Description": "IntValue6 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguageId",
+          "Caption": "LanguageId",
+          "Description": "LanguageId (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LongValue",
+          "Caption": "Valeur longue",
+          "Description": "LongValue (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSelection",
+          "Caption": "PageSélection",
+          "Description": "PageSelection (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PaneSelection",
+          "Caption": "Sélection de volets",
+          "Description": "PaneSelection (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password20",
+          "Caption": "Mot de passe20",
+          "Description": "Password20 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SMTPServer",
+          "Caption": "SMTPServer",
+          "Description": "SMTPServer (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Switch",
+          "Caption": "Interrupteur",
+          "Description": "Interrupteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SwitchDis",
+          "Caption": "Switch (désactivé)",
+          "Description": "Switch (désactivé)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text",
+          "Caption": "SMS",
+          "Description": "Texte (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text10",
+          "Caption": "Texte10",
+          "Description": "Text10 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text20",
+          "Caption": "Texte20",
+          "Description": "Text20 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text40",
+          "Caption": "Texte40",
+          "Description": "Text40 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text80",
+          "Caption": "Texte80",
+          "Description": "Text80 (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TextArea",
+          "Caption": "Zone de texte",
+          "Description": "TextArea (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "USState",
+          "Caption": "USState",
+          "Description": "USState (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.BasicTemplatesModule+EditModel+SampleEnum",
+      "Entries": [
+        {
+          "Name": "Value1",
+          "Value": "Value1",
+          "Caption": "Enum 1",
+          "Description": "Info-bulle pour Enum 1"
+        },
+        {
+          "Name": "Value2",
+          "Value": "Value2",
+          "Caption": "Enum 2",
+          "Description": "Info-bulle pour Enum 2"
+        },
+        {
+          "Name": "Value3",
+          "Value": "Value3",
+          "Caption": "Énumération 3",
+          "Description": "Info-bulle pour Enum 3"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "btnSelect",
+      "Text": "Télécharger un fichier..."
+    },
+    {
+      "Name": "currencyPH",
+      "Text": "(Montant)"
+    },
+    {
+      "Name": "decimalPH",
+      "Text": "(Nombre)"
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Utilisé pour tester tous les composants généralement disponibles"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Composants de base"
+    },
+    {
+      "Name": "editText",
+      "Text": "Composants de base"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Utilisé pour tester tous les composants généralement disponibles"
+    },
+    {
+      "Name": "intvaluePH",
+      "Text": "(Nombre)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test des composants de base"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour de nombreux modèles standard YetaWF.Core intégrés de base. Une page de test pour ce module se trouve sur Tests > Templates > Basic Templates (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Test des composants de base"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    },
+    {
+      "Name": "password20PH",
+      "Text": "(Mot de passe)"
+    },
+    {
+      "Name": "textPH",
+      "Text": "(Il s’agit d’un espace réservé)"
+    }
+  ]
+}

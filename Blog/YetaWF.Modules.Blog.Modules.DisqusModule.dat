@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Commentaires Disqus"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Conserve tous les commentaires d’une entrée de blog sur la page active à l’aide du service Disqus. Ce module est généralement utilisé sur la même page que le module d’affichage des entrées."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Commentaires"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres Disqus sont introuvables"
+    },
+    {
+      "Name": "notShortName",
+      "Text": "Les paramètres Disqus doivent être mis à jour pour définir le nom abrégé du site"
+    }
+  ]
+}

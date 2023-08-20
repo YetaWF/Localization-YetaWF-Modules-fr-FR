@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "disabled",
+      "Text": "Les pages statiques sont désactivées pour ce site."
+    },
+    {
+      "Name": "enabledBut",
+      "Text": "Les pages statiques sont activées, mais ne sont pas utilisées pour ce site, car le nom d’hôte utilisé ne correspond pas au nom d’hôte défini."
+    },
+    {
+      "Name": "explain",
+      "Text": "<p>Les pages statiques sont des pages à chargement rapide dont le contenu ne change généralement pas. La liste ci-dessous affiche toutes les pages statiques actuellement chargées. Il peut y avoir des pages supplémentaires qui ont été définies comme des pages statiques (dans leurs paramètres de page) qui n’ont pas encore été chargées.</p><p>Les pages statiques sont activées par page (Paramètres de page) et à l’échelle du site à l’aide des paramètres du site.</p>"
+    }
+  ]
+}

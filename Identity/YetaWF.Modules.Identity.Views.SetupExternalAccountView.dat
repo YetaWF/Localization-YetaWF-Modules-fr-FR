@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnSave",
+      "Text": "Configurer le compte externe"
+    },
+    {
+      "Name": "extAcct",
+      "Text": "Vous vous êtes authentifié avec <strong>succès avec {0}</strong>. <br>Veuillez entrer vos informations ci-dessous et cliquez sur le bouton Configurer un compte externe pour terminer la connexion."
+    },
+    {
+      "Name": "extAcctInvite",
+      "Text": "Vous vous êtes authentifié avec <strong>succès avec {0}</strong>. <br>Veuillez entrer le code d’invitation ci-dessous et cliquez sur le bouton Configurer un compte externe pour terminer la connexion."
+    }
+  ]
+}

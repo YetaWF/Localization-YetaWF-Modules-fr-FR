@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.TemplateUserIdModule+Model",
+      "BaseTypeName": null,
+      "Header": "Cas de test pour le modèle YetaWF_Identity_UserId, qui permet de sélectionner 1 utilisateur. Si moins de 50 utilisateurs sont disponibles, une liste déroulante s’affiche. Pour plus de 50, une grille défilante (Ajax) est utilisée à la place pour prendre en charge des milliers d’utilisateurs. Certains de ces champs forcent explicitement un affichage de grille même avec moins de 50 utilisateurs.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1",
+          "Caption": "Nom d’utilisateur",
+          "Description": "Nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Grid",
+          "Caption": "UserId (grille)",
+          "Description": "Nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1GridReq",
+          "Caption": "UserId (grille, obligatoire)",
+          "Description": "UserId (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "UserId (obligatoire)",
+          "Description": "UserId (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "UserId (en lecture/uniquement)",
+          "Description": "UserId (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le modèle de test UserId"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Nom d’utilisateur"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Nom d’utilisateur"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le modèle de test UserId"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test des composants - UserId"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant UserId (édition et affichage). Une page de test pour ce module se trouve à l’adresse Tests > Templates > UserId (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test UserId"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

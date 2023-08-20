@@ -1,0 +1,35 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche l’état du processeur SMS"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher l’état du processeur SMS"
+    },
+    {
+      "Name": "modName",
+      "Text": "État du processeur SMS"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche l’état du processeur SMS (le cas échéant). Une page de test pour ce module peut être trouvée à Tests > Modules > SMS (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "État du processeur SMS"
+    }
+  ]
+}

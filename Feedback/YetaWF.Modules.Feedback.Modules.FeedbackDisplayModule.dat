@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "Date de création du message",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "L’adresse e-mail de l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP à partir de laquelle le message de commentaires a été envoyé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Message",
+          "Description": "Le message de rétroaction",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom de l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Subject",
+          "Caption": "Objet",
+          "Description": "L’objet du message",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche un message de commentaires"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le message de commentaires"
+    },
+    {
+      "Name": "modName",
+      "Text": "Message de commentaires"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un message de commentaires entré par un visiteur du site. Ceci est utilisé par le module Parcourir les commentaires."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Message de commentaires"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’évaluation « {0} » introuvable."
+    }
+  ]
+}

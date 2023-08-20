@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.EditExtensionModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Décrit l’extension - Ce texte est utilisé pour identifier l’extension lors du filtrage des appels.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Extension",
+          "Description": "Définit l’extension (chiffres)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PhoneNumbers",
+          "Caption": "Numéros de téléphone",
+          "Description": "Définit les numéros de téléphone à appeler lorsque cette extension est entrée - Au moins un numéro de téléphone est requis",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Utilisateurs",
+          "Description": "Définit les utilisateurs qui peuvent accéder aux messages vocaux pour cette extension",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "L’extension {0} a été supprimée et ne peut plus être mise à jour"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Extension {0} existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie une extension existante"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier l’extension"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier l’extension"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie une extension existante."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Extension"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Extension « {0} » introuvable"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Extension enregistrée"
+    },
+    {
+      "Name": "title",
+      "Text": "Extension « {0} »"
+    }
+  ]
+}

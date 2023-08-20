@@ -1,0 +1,77 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.ImportModule+ImportModel",
+      "BaseTypeName": null,
+      "Header": "Fournissez un fichier ZIP distant ou local pour importer un package binaire ou de code source.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Local ZIP File": "Fichier ZIP local",
+        "Remote ZIP File": "Fichier ZIP distant"
+      },
+      "Properties": [
+        {
+          "Name": "RemoteFile",
+          "Caption": "Fichier ZIP",
+          "Description": "Entrez l’URL d’un fichier ZIP à télécharger - Utilisé pour importer un paquet (paquet binaire ou code source)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RemoteGo",
+          "Caption": "Envoyer",
+          "Description": "Cliquez pour télécharger et installer le package",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UploadFile",
+          "Caption": "Fichier ZIP",
+          "Description": "Sélectionner un fichier ZIP local - Permet d’importer un package (package binaire ou code source)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnImport",
+      "Text": "Importer un package binaire ou de code source..."
+    },
+    {
+      "Name": "modName",
+      "Text": "Package d’importation (package binaire ou de code source)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Utilisé pour importer un package dans votre site YetaWF. Le paquet peut être un package complet incluant le code source ou un package binaire uniquement. Les packages de code source ne peuvent être importés que sur les systèmes de développement dans une version de débogage."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Package d’importation (package binaire ou de code source)"
+    },
+    {
+      "Name": "roleImports",
+      "Text": "Le rôle est autorisé à importer des packages binaires et de code source"
+    },
+    {
+      "Name": "roleImportsC",
+      "Text": "Importer des packages"
+    },
+    {
+      "Name": "userImports",
+      "Text": "L’utilisateur est autorisé à importer des packages binaires et de code source"
+    },
+    {
+      "Name": "userImportsC",
+      "Text": "Importer des packages"
+    }
+  ]
+}

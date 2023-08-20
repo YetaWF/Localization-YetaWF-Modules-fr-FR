@@ -1,0 +1,192 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseCallLogModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "URL permettant d’afficher une entrée du journal des appels - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseCallLogModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caller",
+          "Caption": "De",
+          "Description": "Le numéro de téléphone de l’appelant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCity",
+          "Caption": "De la ville",
+          "Description": "La ville de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCountry",
+          "Caption": "Du pays",
+          "Description": "Le pays de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerState",
+          "Caption": "De l’État",
+          "Description": "L’état de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerZip",
+          "Caption": "À partir du code postal",
+          "Description": "Le code postal de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure de réception de l’appel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "Id",
+          "Description": "L’ID interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "To",
+          "Caption": "Numéro de téléphone",
+          "Description": "Le numéro de téléphone appelé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseCallLogModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les entrées du journal des appels"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Entrées du journal des appels"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Entrées du journal des appels"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les entrées du journal des appels"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrées du journal des appels"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les entrées du journal des appels."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrées du journal des appels"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer l’entrée du journal des appels avec l’ID {0} ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime l’entrée du journal des appels"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer l’entrée du journal des appels"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des entrées de journal d’appels individuelles"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer les entrées du journal des appels"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des entrées de journal d’appels individuelles"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer les entrées du journal des appels"
+    }
+  ]
+}

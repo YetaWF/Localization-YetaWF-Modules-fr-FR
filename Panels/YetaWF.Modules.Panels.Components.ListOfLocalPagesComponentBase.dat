@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "confimMsg",
+      "Text": "Voulez-vous vraiment supprimer la page {0} ?"
+    },
+    {
+      "Name": "lblAllPages",
+      "Text": "Toutes les pages"
+    },
+    {
+      "Name": "lblFindPages",
+      "Text": "Rechercher des pages"
+    },
+    {
+      "Name": "removeMsg",
+      "Text": "La page {0} a été supprimée"
+    },
+    {
+      "Name": "ttAllPages",
+      "Text": "Affiche toutes les pages conçues disponibles sur le site - Sélectionnez une page pour mettre à jour la liste déroulante ci-dessus, afin que la page puisse être ajoutée à la liste des pages"
+    },
+    {
+      "Name": "ttFindPages",
+      "Text": "Développer pour trouver les pages disponibles pour ce site"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SmallestMixedToken",
+          "Caption": "Le plus petit mot-clé (casse mixte)",
+          "Description": "Le plus petit mot-clé en casse mixte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SmallestUpperCaseToken",
+          "Caption": "Plus petit mot-clé (majuscules)",
+          "Description": "Le plus petit mot-clé tout en majuscules",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres de recherche"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres de recherche"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres de recherche"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres de recherche du site"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres de recherche"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de configuration principal pour les paramètres de recherche. Il est accessible à l’aide des paramètres de > d’administration > des paramètres de recherche (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres de recherche"
+    },
+    {
+      "Name": "notFound",
+      "Text": "La configuration de recherche est introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Configuration de recherche enregistrée"
+    }
+  ]
+}

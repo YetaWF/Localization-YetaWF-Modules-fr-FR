@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "allRemoved",
+      "Text": "Tous les enregistrements de journal ont été supprimés"
+    },
+    {
+      "Name": "logNotFound",
+      "Text": "Le fichier journal '{0}' est introuvable"
+    }
+  ]
+}

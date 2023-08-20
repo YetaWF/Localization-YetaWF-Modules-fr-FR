@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.AddHolidayModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description des vacances",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HolidayDate",
+          "Caption": "Date",
+          "Description": "La date du jour férié",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute une nouvelle entrée de jour férié"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter une nouvelle entrée de jour férié"
+    },
+    {
+      "Name": "dup",
+      "Text": "Une entrée pour {0} existe déjà"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter une nouvelle entrée de vacances"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute un nouveau jour férié."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter un nouveau jour férié"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouvelles vacances sauvegardées"
+    }
+  ]
+}

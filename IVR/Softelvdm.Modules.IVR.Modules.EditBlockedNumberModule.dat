@@ -1,0 +1,82 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.EditBlockedNumberModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description du numéro bloqué",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Number",
+          "Caption": "Numéro bloqué",
+          "Description": "Affiche le numéro de téléphone bloqué",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Le numéro bloqué {0} a été supprimé et ne peut plus être mis à jour"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Numéro bloqué {0} existe déjà"
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie un numéro bloqué existant"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier le numéro bloqué"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier le numéro bloqué"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie un numéro bloqué existant."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Numéro bloqué"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Numéro de téléphone bloqué « {0} » introuvable"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Numéro bloqué enregistré"
+    },
+    {
+      "Name": "title",
+      "Text": "Numéro de téléphone bloqué « {0} »"
+    }
+  ]
+}

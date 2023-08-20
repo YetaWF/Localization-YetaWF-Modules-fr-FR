@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "linkTT",
+      "Text": "Cliquez pour prévisualiser le module dans une nouvelle fenêtre - tous les modules ne peuvent pas être affichés correctement et peuvent nécessiter des paramètres supplémentaires"
+    },
+    {
+      "Name": "name",
+      "Text": "{0} - {1}"
+    },
+    {
+      "Name": "noLink",
+      "Text": "(introuvable - {0})"
+    },
+    {
+      "Name": "noLinkNone",
+      "Text": "(aucune)"
+    }
+  ]
+}

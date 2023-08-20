@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.DisplayCallLogModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caller",
+          "Caption": "De",
+          "Description": "Le numéro de téléphone de l’appelant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCity",
+          "Caption": "De la ville",
+          "Description": "La ville de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCountry",
+          "Caption": "Du pays",
+          "Description": "Le pays de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerState",
+          "Caption": "De l’État",
+          "Description": "L’état de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerZip",
+          "Caption": "À partir du code postal",
+          "Description": "Le code postal de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure de réception de l’appel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "Id",
+          "Description": "L’ID interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "To",
+          "Caption": "Numéro de téléphone",
+          "Description": "Le numéro de téléphone appelé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche une entrée de journal des appels existante"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher l’entrée du journal des appels"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrée du journal des appels"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une entrée de journal des appels existante."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrée du journal des appels"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Entrée du journal des appels avec ID introuvable {0}"
+    }
+  ]
+}

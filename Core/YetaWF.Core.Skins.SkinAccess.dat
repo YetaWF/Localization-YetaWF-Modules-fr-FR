@@ -1,0 +1,55 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "coll",
+      "Text": "Cliquez pour réduire ce panneau"
+    },
+    {
+      "Name": "exp",
+      "Text": "Cliquez pour agrandir ce panneau"
+    },
+    {
+      "Name": "page",
+      "Text": "Page par défaut"
+    },
+    {
+      "Name": "pagePlain",
+      "Text": "Page simple"
+    },
+    {
+      "Name": "pagePlainTT",
+      "Text": "Page simple"
+    },
+    {
+      "Name": "pageTT",
+      "Text": "Page par défaut"
+    },
+    {
+      "Name": "pop",
+      "Text": "Popup (par défaut)"
+    },
+    {
+      "Name": "popMed",
+      "Text": "Popup moyen"
+    },
+    {
+      "Name": "popMedTT",
+      "Text": "Popup moyen"
+    },
+    {
+      "Name": "popSmall",
+      "Text": "Petite fenêtre contextuelle"
+    },
+    {
+      "Name": "popSmallTT",
+      "Text": "Petite fenêtre contextuelle"
+    },
+    {
+      "Name": "popTT",
+      "Text": "Grande fenêtre contextuelle"
+    }
+  ]
+}

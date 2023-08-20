@@ -1,0 +1,30 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Languages.DataProvider.LocalizeConfigData+TranslationServiceEnum",
+      "Entries": [
+        {
+          "Name": "None",
+          "Value": "None",
+          "Caption": "Aucun",
+          "Description": "Aucun"
+        },
+        {
+          "Name": "GoogleTranslate",
+          "Value": "GoogleTranslate",
+          "Caption": "Google Traduction",
+          "Description": null
+        },
+        {
+          "Name": "MicrosoftTranslator",
+          "Value": "MicrosoftTranslator",
+          "Caption": "Microsoft Translator - Azure",
+          "Description": null
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

@@ -1,0 +1,47 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantInstallModels",
+      "Text": "Impossible d’installer des modèles pour le package {0}:(+nl)"
+    },
+    {
+      "Name": "cantLocalize",
+      "Text": "Impossible de localiser le package {0}:(+nl)"
+    },
+    {
+      "Name": "cantRemove",
+      "Text": "Impossible de supprimer le package {0}:(+nl)"
+    },
+    {
+      "Name": "cantUninstallModels",
+      "Text": "Impossible de désinstaller des modèles pour le package {0}:(+nl)"
+    },
+    {
+      "Name": "generated",
+      "Text": "Ressources de localisation de packages générées avec succès"
+    },
+    {
+      "Name": "generatedAll",
+      "Text": "Les ressources de localisation pour tous les packages ont été générées avec succès"
+    },
+    {
+      "Name": "installed",
+      "Text": "Modèles de package installés avec succès"
+    },
+    {
+      "Name": "okRemoved",
+      "Text": "Package supprimé avec succès - Ces paramètres ne prendront effet qu’après le redémarrage du site."
+    },
+    {
+      "Name": "okRemovedSrc",
+      "Text": "Package supprimé avec succès - Ces paramètres ne prendront effet qu’après le redémarrage du site(+nl)(+nl)Ce package inclut le code source. Le code source, le projet et les références de projet doivent être supprimés manuellement dans la solution Visual Studio pour ce site YetaWF."
+    },
+    {
+      "Name": "removed",
+      "Text": "Modèles de package supprimés avec succès"
+    }
+  ]
+}

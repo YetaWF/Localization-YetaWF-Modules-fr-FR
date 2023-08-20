@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Menu principal"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente un menu. Cela peut être ajouté à l’habillage d’un site ou peut être ajouté aux pages selon les besoins."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Menu principal"
+    }
+  ]
+}

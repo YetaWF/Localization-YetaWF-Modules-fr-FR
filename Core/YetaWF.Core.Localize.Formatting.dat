@@ -1,0 +1,416 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Localize.Formatting+DateFormatEnum",
+      "Entries": [
+        {
+          "Name": "MMDDYYYY",
+          "Value": "MMDDYYYY",
+          "Caption": "Mois/Jour/Année",
+          "Description": null
+        },
+        {
+          "Name": "MMDDYYYYdash",
+          "Value": "MMDDYYYYdash",
+          "Caption": "Mois-Jour-Année",
+          "Description": null
+        },
+        {
+          "Name": "MMDDYYYYdot",
+          "Value": "MMDDYYYYdot",
+          "Caption": "Mois.Jour.Année",
+          "Description": null
+        },
+        {
+          "Name": "DDMMYYYY",
+          "Value": "DDMMYYYY",
+          "Caption": "Jour/Mois/Année",
+          "Description": null
+        },
+        {
+          "Name": "DDMMYYYYdash",
+          "Value": "DDMMYYYYdash",
+          "Caption": "Jour-Mois-Année",
+          "Description": null
+        },
+        {
+          "Name": "DDMMYYYYdot",
+          "Value": "DDMMYYYYdot",
+          "Caption": "Jour.Mois.Année",
+          "Description": null
+        },
+        {
+          "Name": "YYYYMMDD",
+          "Value": "YYYYMMDD",
+          "Caption": "Année/Mois/Jour",
+          "Description": null
+        },
+        {
+          "Name": "YYYYMMDDdash",
+          "Value": "YYYYMMDDdash",
+          "Caption": "Année-Mois-Jour",
+          "Description": null
+        },
+        {
+          "Name": "YYYYMMDDdot",
+          "Value": "YYYYMMDDdot",
+          "Caption": "Année.Mois.Jour",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Localize.Formatting+TimeFormatEnum",
+      "Entries": [
+        {
+          "Name": "HHMMAM",
+          "Value": "HHMMAM",
+          "Caption": "hh:mm AM/PM",
+          "Description": null
+        },
+        {
+          "Name": "HHMMAMdot",
+          "Value": "HHMMAMdot",
+          "Caption": "hh.mm AM/PM",
+          "Description": null
+        },
+        {
+          "Name": "HHMM",
+          "Value": "HHMM",
+          "Caption": "hh:mm (heures indiquées par 0..23)",
+          "Description": null
+        },
+        {
+          "Name": "HHMMdot",
+          "Value": "HHMMdot",
+          "Caption": "hh.mm (heures indiquées par 0..23)",
+          "Description": null
+        },
+        {
+          "Name": "HHMMSSAM",
+          "Value": "HHMMSSAM",
+          "Caption": "hh:mm:ss AM/PM",
+          "Description": null
+        },
+        {
+          "Name": "HHMMSSAMdot",
+          "Value": "HHMMSSAMdot",
+          "Caption": "hh.mm.ss AM/PM",
+          "Description": null
+        },
+        {
+          "Name": "HHMMSS",
+          "Value": "HHMMSS",
+          "Caption": "hh:mm:ss (heures indiquées par 0..23)",
+          "Description": null
+        },
+        {
+          "Name": "HHMMSSdot",
+          "Value": "HHMMSSdot",
+          "Caption": "hh.mm.ss (heures indiquées comme 0..23)",
+          "Description": null
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "agoDay",
+      "Text": "Hier"
+    },
+    {
+      "Name": "agoDays",
+      "Text": "{0} il y a quelques jours"
+    },
+    {
+      "Name": "agoFewSecs",
+      "Text": "il y a quelques secondes"
+    },
+    {
+      "Name": "agoHour",
+      "Text": "il y a une heure"
+    },
+    {
+      "Name": "agoHours",
+      "Text": "{0} hours ago"
+    },
+    {
+      "Name": "agoMin",
+      "Text": "il y a une minute"
+    },
+    {
+      "Name": "agoMins",
+      "Text": "{0} minutes ago"
+    },
+    {
+      "Name": "agoMonth",
+      "Text": "il y a un mois"
+    },
+    {
+      "Name": "agoMonths",
+      "Text": "Il y a {0} mois"
+    },
+    {
+      "Name": "agoSecs",
+      "Text": "{0} il y a quelques secondes"
+    },
+    {
+      "Name": "agoWeek",
+      "Text": "La semaine dernière"
+    },
+    {
+      "Name": "agoWeeks",
+      "Text": "Il y a {0} semaines"
+    },
+    {
+      "Name": "agoYear",
+      "Text": "il y a un an"
+    },
+    {
+      "Name": "agoYears",
+      "Text": "{0} il y a des années"
+    },
+    {
+      "Name": "April",
+      "Text": "Avril"
+    },
+    {
+      "Name": "August",
+      "Text": "Août"
+    },
+    {
+      "Name": "DayNames",
+      "Text": "Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi"
+    },
+    {
+      "Name": "DayNames2",
+      "Text": "Su, Mo, Tu, We, Th, Fr, Sa"
+    },
+    {
+      "Name": "December",
+      "Text": "Décembre"
+    },
+    {
+      "Name": "February",
+      "Text": "Février"
+    },
+    {
+      "Name": "Friday",
+      "Text": "Vendredi"
+    },
+    {
+      "Name": "Friday2",
+      "Text": "Fr"
+    },
+    {
+      "Name": "inDay",
+      "Text": "demain"
+    },
+    {
+      "Name": "inDays",
+      "Text": "en {0} jours"
+    },
+    {
+      "Name": "inFewSecs",
+      "Text": "en quelques secondes"
+    },
+    {
+      "Name": "inHour",
+      "Text": "en une heure"
+    },
+    {
+      "Name": "inHours",
+      "Text": "en {0} heures"
+    },
+    {
+      "Name": "inMin",
+      "Text": "Une minute"
+    },
+    {
+      "Name": "inMins",
+      "Text": "en {0} minutes"
+    },
+    {
+      "Name": "inMonth",
+      "Text": "en un mois"
+    },
+    {
+      "Name": "inMonths",
+      "Text": "en {0} mois"
+    },
+    {
+      "Name": "inSecs",
+      "Text": "en {0} secondes"
+    },
+    {
+      "Name": "inWeek",
+      "Text": "La semaine prochaine"
+    },
+    {
+      "Name": "inWeeks",
+      "Text": "dans {0} semaines"
+    },
+    {
+      "Name": "inYear",
+      "Text": "dans un an"
+    },
+    {
+      "Name": "inYears",
+      "Text": "dans {0} ans"
+    },
+    {
+      "Name": "January",
+      "Text": "Janvier"
+    },
+    {
+      "Name": "July",
+      "Text": "Juillet"
+    },
+    {
+      "Name": "June",
+      "Text": "Juin"
+    },
+    {
+      "Name": "less1KB",
+      "Text": "< 1K"
+    },
+    {
+      "Name": "longDate",
+      "Text": "{0}, {1} {2}, {3}"
+    },
+    {
+      "Name": "longDateTime",
+      "Text": "{0}, {1} {2}, {3} à "
+    },
+    {
+      "Name": "March",
+      "Text": "Mars"
+    },
+    {
+      "Name": "May",
+      "Text": "Mai"
+    },
+    {
+      "Name": "Monday",
+      "Text": "Lundi"
+    },
+    {
+      "Name": "Monday2",
+      "Text": "Lu"
+    },
+    {
+      "Name": "MonthNames",
+      "Text": "Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre"
+    },
+    {
+      "Name": "November",
+      "Text": "Novembre"
+    },
+    {
+      "Name": "now",
+      "Text": "Maintenant"
+    },
+    {
+      "Name": "October",
+      "Text": "Octobre"
+    },
+    {
+      "Name": "Saturday",
+      "Text": "Samedi"
+    },
+    {
+      "Name": "Saturday2",
+      "Text": "Sa"
+    },
+    {
+      "Name": "September",
+      "Text": "Septembre"
+    },
+    {
+      "Name": "str0MB",
+      "Text": "0 Mo"
+    },
+    {
+      "Name": "strFmtKB",
+      "Text": "{0} Ko"
+    },
+    {
+      "Name": "strFmtKBdet",
+      "Text": "{0:##,0} Octets"
+    },
+    {
+      "Name": "strFmtMB",
+      "Text": "{0} Mo"
+    },
+    {
+      "Name": "strFmtMBdet",
+      "Text": "{0:##,#} Octets"
+    },
+    {
+      "Name": "strLT1MB",
+      "Text": "< 1 Mo"
+    },
+    {
+      "Name": "strMonth_Day",
+      "Text": "{0} {1}"
+    },
+    {
+      "Name": "strMonth_Day_Year",
+      "Text": "{0} {1}, {2}"
+    },
+    {
+      "Name": "strMonth_YYYY",
+      "Text": "{0} {1}"
+    },
+    {
+      "Name": "Sunday",
+      "Text": "Dimanche"
+    },
+    {
+      "Name": "Sunday2",
+      "Text": "Su"
+    },
+    {
+      "Name": "Thursday",
+      "Text": "Jeudi"
+    },
+    {
+      "Name": "Thursday2",
+      "Text": "Ième"
+    },
+    {
+      "Name": "timeSpan",
+      "Text": "{1:D2}:{2:D2}:{3:D2}"
+    },
+    {
+      "Name": "timeSpanDays",
+      "Text": "{0} Days {1:D2}:{2:D2}:{3:D2}"
+    },
+    {
+      "Name": "timeSpanHM",
+      "Text": "{0:D2}:{1:D2}"
+    },
+    {
+      "Name": "Tuesday",
+      "Text": "Mardi"
+    },
+    {
+      "Name": "Tuesday2",
+      "Text": "Tu"
+    },
+    {
+      "Name": "unknownKB",
+      "Text": "(inconnu)"
+    },
+    {
+      "Name": "Wednesday",
+      "Text": "Mercredi"
+    },
+    {
+      "Name": "Wednesday2",
+      "Text": "Nous"
+    }
+  ]
+}

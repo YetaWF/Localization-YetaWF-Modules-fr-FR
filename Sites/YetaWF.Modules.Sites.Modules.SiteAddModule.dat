@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.SiteAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteDomain",
+          "Caption": "Domaine du site",
+          "Description": "Le nom de domaine du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteName",
+          "Caption": "Nom du site",
+          "Description": "Le nom associé à votre site, généralement le nom de votre entreprise ou votre nom",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Crée un nouveau site Web"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter un nouveau site"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter un nouveau site"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Créer un nouveau site Web"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter un nouveau site"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Crée un nouveau site Web. Il est utilisé par le module Sites. Il est recommandé d’ajouter le nouveau domaine de site à votre fichier hosts AVANT d’ajouter un nouveau site, afin qu’IIS puisse résoudre le site lorsqu’il est demandé la première fois."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter un nouveau site"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouveau site « {0} » créé - Cliquez sur OK pour remplir le nouveau site avec le modèle de site actuel. (+nl) (+nl) IMPORTANT : Ce site n’est pas accessible par son URL tant que le domaine « {0} » n’est pas défini dans IIS et dans le fichier hosts."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseVoiceMailsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "URL permettant d’afficher un client d’entrée de messagerie vocale - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseVoiceMailsModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caller",
+          "Caption": "De",
+          "Description": "Le numéro de téléphone de l’appelant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCity",
+          "Caption": "De la ville",
+          "Description": "La ville de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCountry",
+          "Caption": "Du pays",
+          "Description": "Le pays de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerState",
+          "Caption": "De l’État",
+          "Description": "L’état de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerZip",
+          "Caption": "À partir du code postal",
+          "Description": "Le code postal de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallSid",
+          "Caption": "Appeler Sid",
+          "Description": "L’identifiant utilisé par Twilio pour identifier l’appel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure de création du message vocal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Duration",
+          "Caption": "Durée",
+          "Description": "Durée du message vocal (en secondes)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Extension",
+          "Description": "L’extension pour laquelle le message vocal est enregistré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Heard",
+          "Caption": "Entendu",
+          "Description": "Définit si la messagerie vocale a déjà été écoutée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "Id",
+          "Description": "L’ID interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "To",
+          "Caption": "Numéro de téléphone",
+          "Description": "Le numéro de téléphone pour lequel le message vocal est enregistré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseVoiceMailsModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les entrées de messagerie vocale"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Entrées de messagerie vocale"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Entrées de messagerie vocale"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les entrées de messagerie vocale"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrées de messagerie vocale"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les entrées de messagerie vocale."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrées de messagerie vocale"
+    },
+    {
+      "Name": "noInbox",
+      "Text": "Aucune extension définie pour l’utilisateur actuel"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer cette entrée de messagerie vocale"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime l’entrée de messagerie vocale"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer l’entrée de messagerie vocale"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des entrées de messagerie vocale individuelles"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer les entrées de messagerie vocale"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des entrées de messagerie vocale individuelles"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer les entrées de messagerie vocale"
+    }
+  ]
+}

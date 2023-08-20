@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Security.Modules.MakeKeysModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "PrivateKey",
+          "Caption": "Clé privée",
+          "Description": "La clé privée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PublicKey",
+          "Caption": "Clé publique",
+          "Description": "La clé publique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Crée une clé publique/privée à l’aide de RSA"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Créer des clés"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Créer des clés"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Créer une clé publique/privée à l’aide de RSA"
+    },
+    {
+      "Name": "modName",
+      "Text": "Clés RSA"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Crée des clés publiques/privées à l’aide de RSA. Ceux-ci peuvent être utilisés par les fonctions YetaWF.Core.Security.RSACrypto Encrypt et Decrypt pour chiffrer et déchiffrer les jetons, utilisés pour implémenter la sécurité des données. Chaque fois que le module est affiché, une nouvelle paire de clés est générée. Une page de test pour le module RSA Keys est accessible à l’aide de Tests > Modules > MakeKeys (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Clés RSA"
+    }
+  ]
+}

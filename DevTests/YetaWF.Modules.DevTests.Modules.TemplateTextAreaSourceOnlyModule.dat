@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateTextAreaSourceOnlyModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1",
+          "Caption": "TextAreaSourceOnly",
+          "Description": "TextAreaSourceOnly",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "TextAreaSourceOnly (obligatoire)",
+          "Description": "TextAreaSourceOnly (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "TextAreaSourceOnly (lecture/uniquement)",
+          "Description": "TextAreaSourceOnly (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test des composants - TextAreaSourceOnly"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant TextAreaSourceOnly. Une page de test pour ce module se trouve à Tests > Templates > TextAreaSourceOnly (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test TextAreaSourceOnly"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    },
+    {
+      "Name": "prop1PH",
+      "Text": "(Il s’agit d’un champ facultatif)"
+    },
+    {
+      "Name": "prop1ReqPH",
+      "Text": "(Il s’agit d’un champ obligatoire)"
+    }
+  ]
+}

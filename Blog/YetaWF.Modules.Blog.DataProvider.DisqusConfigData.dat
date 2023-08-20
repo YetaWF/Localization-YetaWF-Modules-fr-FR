@@ -1,0 +1,24 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Blog.DataProvider.DisqusConfigData+AvatarTypeEnum",
+      "Entries": [
+        {
+          "Name": "Default",
+          "Value": "Default",
+          "Caption": "Faire défaut",
+          "Description": "Avatar tel que fourni par Disqus"
+        },
+        {
+          "Name": "Gravatar",
+          "Value": "Gravatar",
+          "Caption": "Gravatar",
+          "Description": "Avatar tel que fourni par Gravatar, basé sur l’adresse e-mail"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

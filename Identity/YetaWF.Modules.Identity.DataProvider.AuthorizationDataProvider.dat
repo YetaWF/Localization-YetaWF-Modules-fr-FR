@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addFail",
+      "Text": "Erreur inattendue lors de l’ajout d’un nouvel enregistrement - {0}"
+    },
+    {
+      "Name": "maxUsers",
+      "Text": "Seuls {0} utilisateurs peuvent être autorisés pour une ressource. Envisagez plutôt de créer un rôle et ajoutez tous les utilisateurs à ce rôle. Il n’y a pas de limite au nombre d’utilisateurs qui peuvent être ajoutés à un rôle."
+    },
+    {
+      "Name": "updFail",
+      "Text": "Erreur inattendue lors de la mise à jour de l’enregistrement - {0}"
+    }
+  ]
+}

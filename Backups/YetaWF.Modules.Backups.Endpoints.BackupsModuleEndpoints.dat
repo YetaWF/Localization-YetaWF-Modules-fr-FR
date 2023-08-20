@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "backupCreated",
+      "Text": "La sauvegarde du site a été créée avec succès"
+    },
+    {
+      "Name": "backupNotFound",
+      "Text": "La sauvegarde '{0}' est introuvable."
+    },
+    {
+      "Name": "cantBackup",
+      "Text": "Impossible de créer une sauvegarde de site pour le site {0}:(+nl)"
+    },
+    {
+      "Name": "templatesCreated",
+      "Text": "Les modèles du site actuel ont été créés avec succès dans le dossier \\SiteTemplates\\Data"
+    }
+  ]
+}

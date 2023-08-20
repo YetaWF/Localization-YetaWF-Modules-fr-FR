@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "confimMsg",
+      "Text": "Voulez-vous vraiment supprimer le nom d’utilisateur {0} ?"
+    },
+    {
+      "Name": "lblAllUserNames",
+      "Text": "Tous les noms d’utilisateur"
+    },
+    {
+      "Name": "lblFindUsers",
+      "Text": "Trouver des utilisateurs"
+    },
+    {
+      "Name": "removeMsg",
+      "Text": "Nom d’utilisateur {0} a été supprimé"
+    },
+    {
+      "Name": "ttAllUserNames",
+      "Text": "Affiche tous les noms d’utilisateur disponibles sur ce site - Sélectionnez un nom d’utilisateur pour mettre à jour la zone de texte ci-dessus, afin que le nom d’utilisateur puisse être ajouté à la liste des noms d’utilisateur - Cliquez pour fermer"
+    },
+    {
+      "Name": "ttFindUsers",
+      "Text": "Développer pour trouver les noms d’utilisateur disponibles sur ce site"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valLogoff",
+      "Text": "L’URL de fermeture de session n’est pas valide - Elle doit commencer par un caractère / (une URL directe sur ce site)"
+    },
+    {
+      "Name": "valLogoff2",
+      "Text": "L’URL de fermeture de session n’est pas valide (propriété '{0}') - Elle doit commencer par un caractère / (une URL directe sur ce site)"
+    },
+    {
+      "Name": "valLogoff3",
+      "Text": "L’URL de déconnexion '{0}' n’est pas valide - Elle doit commencer par un caractère / (une URL directe sur ce site)"
+    }
+  ]
+}

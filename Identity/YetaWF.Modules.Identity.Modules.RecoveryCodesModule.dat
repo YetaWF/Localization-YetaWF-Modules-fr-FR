@@ -1,0 +1,90 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RecoveryCodesModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Les codes de récupération sont utilisés pour accéder à votre compte si vous ne parvenez pas à vous authentifier à l’aide de la ou des authentifications en deux étapes actuellement définies. Assurez-vous d’enregistrer le code de récupération dans un endroit sûr afin de pouvoir accéder à votre compte au cas où vous ne seriez pas en mesure d’utiliser l’une des méthodes d’authentification activées.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GenerateRecoveryCode",
+          "Caption": " ",
+          "Description": " ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Mot de passe",
+          "Description": "Entrez votre mot de passe pour accéder à votre code de récupération",
+          "HelpLink": null,
+          "TextAbove": "Entrez votre mot de passe pour afficher votre code de récupération.",
+          "TextBelow": null
+        },
+        {
+          "Name": "RecoveryCode",
+          "Caption": "Votre code de récupération",
+          "Description": "Affiche le code de récupération disponible",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Tout comme le mot de passe de votre compte, gardez ce code de récupération secret."
+        },
+        {
+          "Name": "ShowRecoveryCodes",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowRecoveryCodesLogin",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "badPassword",
+      "Text": "Le mot de passe n’est pas valide"
+    },
+    {
+      "Name": "cantUpdate",
+      "Text": "Echec de la mise à jour des informations utilisateur - {0}"
+    },
+    {
+      "Name": "genCode",
+      "Text": "Générer un nouveau code de récupération"
+    },
+    {
+      "Name": "modName",
+      "Text": "Codes de récupération"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet aux utilisateurs d’examiner et de générer des codes de récupération d’authentification en deux étapes."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Codes de récupération"
+    },
+    {
+      "Name": "newCode",
+      "Text": "Un nouveau code de récupération a été généré"
+    },
+    {
+      "Name": "showCode",
+      "Text": "Afficher le code de récupération"
+    }
+  ]
+}

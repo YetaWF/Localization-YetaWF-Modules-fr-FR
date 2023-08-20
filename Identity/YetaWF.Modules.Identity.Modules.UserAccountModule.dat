@@ -1,0 +1,122 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UserAccountModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "Entrez votre adresse e-mail qui peut être utilisée par ce site pour communiquer avec vous",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginDate",
+          "Caption": "Dernière connexion",
+          "Description": "La dernière fois que vous vous êtes connecté à votre compte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginIP",
+          "Caption": "Dernière adresse IP de connexion",
+          "Description": "L’adresse IP à partir de laquelle l’utilisateur s’est connecté pour la dernière fois sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastPasswordChangedDate",
+          "Caption": "Dernière modification du mot de passe",
+          "Description": "La dernière fois que vous avez changé votre mot de passe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordChangeIP",
+          "Caption": "Mot de passe Changer l’adresse IP",
+          "Description": "L’adresse IP à partir de laquelle l’utilisateur a modifié le mot de passe pour la dernière fois sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Nom",
+          "Description": "Votre nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "L’utilisateur nommé « {0} » a été supprimé et ne peut plus être mis à jour."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un utilisateur nommé « {0} » existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les informations de compte de l’utilisateur actuel"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Compte"
+    },
+    {
+      "Name": "editText",
+      "Text": "Compte"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les informations de votre compte"
+    },
+    {
+      "Name": "emailUsed",
+      "Text": "Un compte utilisant l’adresse e-mail {0} existe déjà."
+    },
+    {
+      "Name": "modEditTitle",
+      "Text": "Compte utilisateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Compte utilisateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier le nom d’utilisateur ou l’adresse e-mail du compte de l’utilisateur actuel et d’afficher des informations supplémentaires. Le module de compte utilisateur est accessible à l’aide du compte > utilisateur (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Compte utilisateur"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’utilisateur « {0} » introuvable."
+    },
+    {
+      "Name": "noUser",
+      "Text": "Aucun utilisateur n’est connecté."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Les informations de votre compte ont été enregistrées"
+    }
+  ]
+}

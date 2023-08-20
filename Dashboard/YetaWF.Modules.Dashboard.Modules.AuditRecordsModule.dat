@@ -1,0 +1,240 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.AuditRecordsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "URL d’affichage d’un enregistrement d’audit - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.AuditRecordsModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Action",
+          "Caption": "Action",
+          "Description": "L’action qui a créé cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Changes",
+          "Caption": "Changements",
+          "Description": "Les propriétés qui ont été modifiées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure de création de cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Description de cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExpensiveMultiInstance",
+          "Caption": "Action coûteuse",
+          "Description": "Définit si cette action est coûteuse dans un site multi-instance",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "Id",
+          "Description": "L’ID interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IdentifyGuid",
+          "Caption": "Identificateur/Type",
+          "Description": "Le type de l’enregistrement - La chaîne d’identificateur et le type identifient tous deux la source de cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IdentifyString",
+          "Caption": "Identificateur/Chaîne",
+          "Description": "La chaîne d’identification de l’enregistrement - La chaîne d’identificateur et le type identifient tous deux la source de cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequiresRestart",
+          "Caption": "Redémarrage en attente",
+          "Description": "Définit si cette action nécessite un redémarrage pour prendre effet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site",
+          "Description": "Le site qui a été modifié",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur",
+          "Description": "L’utilisateur qui a effectué la modification",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.AuditRecordsModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AuditingActive",
+          "Caption": "Audit actif",
+          "Description": "Définit si l’audit est actif (activé à l’aide de appsettings.json)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastRestart",
+          "Caption": "Dernier redémarrage",
+          "Description": "La date et l’heure du dernier redémarrage du site (toutes les instances)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RestartPending",
+          "Caption": "Redémarrage en attente",
+          "Description": "Définit si un redémarrage de site (toutes les instances) est en attente pour activer toutes les modifications en attente",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les informations d’audit"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Renseignements sur l’audit"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Renseignements sur l’audit"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les informations d’audit"
+    },
+    {
+      "Name": "modName",
+      "Text": "Renseignements sur l’audit"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les informations d’audit. Les informations d’audit sont accessibles à l’aide du tableau de bord Admin > > des informations d’audit (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Renseignements sur l’audit"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer l’enregistrement d’audit « {0} » ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime l’enregistrement d’audit"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer l’enregistrement d’audit"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer l’enregistrement d’audit"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer l’enregistrement d’audit"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des enregistrements d’audit individuels"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer les informations d’audit"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des enregistrements d’audit individuels"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer les informations d’audit"
+    }
+  ]
+}

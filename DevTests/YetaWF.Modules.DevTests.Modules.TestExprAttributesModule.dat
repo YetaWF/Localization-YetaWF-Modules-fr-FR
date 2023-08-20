@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TestExprAttributesModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "OnOff",
+          "Caption": "Processus d’activation/d’arrêtSi",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "String1",
+          "Caption": "Chaîne1",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "String2",
+          "Caption": "Chaîne2",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Tester ExprAttributes"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour divers attributs de propriété. Ceci est utilisé uniquement pour les tests internes."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Tester ExprAttributes"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

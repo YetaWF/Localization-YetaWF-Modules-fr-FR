@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "invUrlArg",
+      "Text": "{0} argument URL non valide ou manquant"
+    },
+    {
+      "Name": "noUser",
+      "Text": "Vous devez être connecté pour effectuer cette action"
+    }
+  ]
+}

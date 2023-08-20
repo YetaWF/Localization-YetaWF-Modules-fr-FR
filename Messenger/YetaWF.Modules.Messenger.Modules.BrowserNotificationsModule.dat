@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Messenger.Modules.BrowserNotificationsModule+Model",
+      "BaseTypeName": null,
+      "Header": "Le module Web Browser Notifications (Skin) doit être défini comme une référence à l’échelle du site pour que les notifications soient envoyées au bureau.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Message",
+          "Caption": "Message",
+          "Description": "Définit le message à envoyer",
+          "HelpLink": null,
+          "TextAbove": "Veuillez saisir le message à envoyer en tant que notification de bureau.",
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Définit le titre du message à envoyer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le test de notification du navigateur Web"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Notification du navigateur"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Notification du navigateur"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le test de notification du navigateur Web"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test - Notification du navigateur Web"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Test de notification du navigateur Web"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Test de notification du navigateur Web"
+    }
+  ]
+}

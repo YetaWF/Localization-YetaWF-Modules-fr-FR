@@ -1,0 +1,130 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.BlogModule+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Actions",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Author",
+          "Caption": "Auteur",
+          "Description": "Le nom de l’auteur du blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AuthorUrl",
+          "Caption": "Auteur",
+          "Description": "L’URL facultative renvoyant aux informations de l’auteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePublished",
+          "Caption": "Date de publication",
+          "Description": "La date de publication de cet article",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayableSummary",
+          "Caption": "Résumé",
+          "Description": "Le résumé de cet article de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ViewAction",
+          "Caption": "Vue",
+          "Description": "Voir l’entrée de blog complète",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "countLegend",
+      "Text": "Affiche les entrées de blog commençant par {0}"
+    },
+    {
+      "Name": "countLink",
+      "Text": "{0} ({1})"
+    },
+    {
+      "Name": "countMenu",
+      "Text": "{0} ({1})"
+    },
+    {
+      "Name": "countTooltip",
+      "Text": "Afficher les entrées de blog commençant par {0}"
+    },
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le blog"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Blog"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Blog"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le blog"
+    },
+    {
+      "Name": "latest",
+      "Text": "{0} - Dernières nouvelles"
+    },
+    {
+      "Name": "modName",
+      "Text": "Blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche le point d’entrée principal du blog avec toutes les catégories de blog ou une seule. Ajoutez ce module à une page en tant que point d’entrée principal de votre blog global pour les catégories de blogs individuelles. Il affiche les entrées de blog sous forme courte. Le nombre maximum d’entrées affichées peut être limité à l’aide du module Paramètres du blog (Paramètres > d’administration > Paramètres du blog, site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog"
+    },
+    {
+      "Name": "rssLegend",
+      "Text": "Affiche le flux RSS du blog"
+    },
+    {
+      "Name": "rssLink",
+      "Text": "Flux rss"
+    },
+    {
+      "Name": "rssMenu",
+      "Text": "Flux rss"
+    },
+    {
+      "Name": "rssTT",
+      "Text": "Afficher le flux RSS du blog"
+    }
+  ]
+}

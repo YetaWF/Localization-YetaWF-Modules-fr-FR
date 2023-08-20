@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplatePropertyListModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ApplyButton",
+          "Caption": " ",
+          "Description": " ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Site",
+          "Caption": "Exemple de liste de propriétés",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Style",
+          "Description": "Définit le style d’affichage de la liste de propriétés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test de modèle - PropertyList"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant PropertyList. Une page de test pour ce module se trouve sur Tests > Templates > PropertyList (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modèle de test PropertyList"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

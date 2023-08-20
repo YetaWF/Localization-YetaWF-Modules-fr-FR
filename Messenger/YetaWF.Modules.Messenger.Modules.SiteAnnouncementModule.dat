@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Messenger.Modules.SiteAnnouncementModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": " ",
+          "Description": " ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Message",
+          "Description": "Définit le message à envoyer",
+          "HelpLink": null,
+          "TextAbove": "Veuillez saisir le message à envoyer à tous les utilisateurs qui utilisent actuellement le site (utilisateurs anonymes et connectés).",
+          "TextBelow": null
+        },
+        {
+          "Name": "TestModeDemo",
+          "Caption": "Test Mode",
+          "Description": "Sélectionnez cette option pour tester l’envoi d’un message à vous-même (aucun autre utilisateur ne recevra ce message)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestModeProd",
+          "Caption": "Test Mode",
+          "Description": "Sélectionnez cette option pour tester l’envoi d’un message à vous-même (aucun autre utilisateur ne recevra ce message)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Définit le titre du message à envoyer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Envoie une nouvelle annonce de site à tous les utilisateurs"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Envoyer une annonce"
+    },
+    {
+      "Name": "addText",
+      "Text": "Envoyer une annonce"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Envoyer une nouvelle annonce de site à tous les utilisateurs"
+    },
+    {
+      "Name": "anncTitle",
+      "Text": "Annonce du site"
+    },
+    {
+      "Name": "demo",
+      "Text": "En mode Démo, le message est envoyé à l’utilisateur actuel uniquement - les autres utilisateurs ne reçoivent pas le message."
+    },
+    {
+      "Name": "modName",
+      "Text": "Annonce du site"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Envoie une nouvelle annonce de site à tous les utilisateurs"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Nouvelle annonce de site"
+    },
+    {
+      "Name": "noLog",
+      "Text": "Message envoyé. Impossible d’ajouter un nouvel enregistrement du journal des annonces de site"
+    }
+  ]
+}

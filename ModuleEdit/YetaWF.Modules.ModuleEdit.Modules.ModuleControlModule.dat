@@ -1,0 +1,196 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ModuleEdit.Modules.ModuleControlModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "A des paramètres",
+          "Description": "Définit si le module possède des paramètres qui peuvent être modifiés et enregistrés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Afficher le menu du module",
+          "Description": "Indique si le menu du module est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "confirmPermRemove",
+      "Text": "Êtes-vous sûr de vouloir supprimer DÉFINITIVEMENT ce module ?"
+    },
+    {
+      "Name": "confirmRemove",
+      "Text": "Voulez-vous vraiment supprimer ce module ?"
+    },
+    {
+      "Name": "modExportLegend",
+      "Text": "Exporte les données du module en créant un fichier ZIP importable (à l’aide du Panneau de configuration, Module d’importation)"
+    },
+    {
+      "Name": "modExportLink",
+      "Text": "Exportation"
+    },
+    {
+      "Name": "modExportMenu",
+      "Text": "Module d’exportation"
+    },
+    {
+      "Name": "modExportTT",
+      "Text": "Exporter les données du module en créant un fichier ZIP importable (à l’aide du Panneau de configuration, du module d’importation)"
+    },
+    {
+      "Name": "modHelpLegend",
+      "Text": "Affiche les informations d’aide"
+    },
+    {
+      "Name": "modHelpLink",
+      "Text": "Aide"
+    },
+    {
+      "Name": "modHelpMenu",
+      "Text": "Aide"
+    },
+    {
+      "Name": "modHelpTT",
+      "Text": "Afficher les informations d’aide"
+    },
+    {
+      "Name": "modMoveBottomLegend",
+      "Text": "Déplace le module vers le bas du volet"
+    },
+    {
+      "Name": "modMoveBottomLink",
+      "Text": "Déplacer vers le bas"
+    },
+    {
+      "Name": "modMoveBottomText",
+      "Text": "Fond"
+    },
+    {
+      "Name": "modMoveBottomTooltip",
+      "Text": "Déplacer le module vers le bas du volet"
+    },
+    {
+      "Name": "modMoveDownLegend",
+      "Text": "Déplace le module vers le bas dans le volet"
+    },
+    {
+      "Name": "modMoveDownLink",
+      "Text": "Descendre"
+    },
+    {
+      "Name": "modMoveDownText",
+      "Text": "En bas"
+    },
+    {
+      "Name": "modMoveDownTooltip",
+      "Text": "Déplacez le module vers le bas dans le volet"
+    },
+    {
+      "Name": "modMoveToLegend",
+      "Text": "Déplace le module vers le volet {0}"
+    },
+    {
+      "Name": "modMoveToLink",
+      "Text": "Déplacer vers {0}"
+    },
+    {
+      "Name": "modMoveTopLegend",
+      "Text": "Déplace le module vers le haut du volet"
+    },
+    {
+      "Name": "modMoveTopLink",
+      "Text": "Déplacer vers le haut"
+    },
+    {
+      "Name": "modMoveTopText",
+      "Text": "Retour au début"
+    },
+    {
+      "Name": "modMoveTopTooltip",
+      "Text": "Déplacer le module vers le haut du volet"
+    },
+    {
+      "Name": "modMoveUpLegend",
+      "Text": "Déplace le module vers le haut dans le volet"
+    },
+    {
+      "Name": "modMoveUpLink",
+      "Text": "Monter"
+    },
+    {
+      "Name": "modMoveUpText",
+      "Text": "En haut"
+    },
+    {
+      "Name": "modMoveUpTooltip",
+      "Text": "Déplacer le module vers le haut dans le volet"
+    },
+    {
+      "Name": "modName",
+      "Text": "Contrôle de module"
+    },
+    {
+      "Name": "modRemoveLegend",
+      "Text": "Supprime le module de cette page (le module lui-même et ses données ne sont PAS supprimés et peuvent toujours être utilisés sur d’autres pages ou ajoutés à nouveau)"
+    },
+    {
+      "Name": "modRemoveLink",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "modRemovePermLegend",
+      "Text": "Supprime définitivement le module - Le module et ses données sont supprimés DÉFINITIVEMENT et ne peuvent plus être utilisés sur aucune page"
+    },
+    {
+      "Name": "modRemovePermLink",
+      "Text": "Supprimer DÉFINITIVEMENT"
+    },
+    {
+      "Name": "modRemovePermText",
+      "Text": "Supprimer DÉFINITIVEMENT"
+    },
+    {
+      "Name": "modRemovePermTooltip",
+      "Text": "Supprimer définitivement le module - Le module et ses données sont supprimés DÉFINITIVEMENT et ne peuvent plus être utilisés sur aucune page"
+    },
+    {
+      "Name": "modRemoveText",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "modRemoveTooltip",
+      "Text": "Supprimez le module de cette page (le module et ses données ne sont PAS supprimés et peuvent toujours être utilisés sur d’autres pages ou ajoutés à nouveau)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente les services d’édition utilisés en mode d’édition de site pour déplacer des modules dans les volets, modifier leur position, supprimer des modules d’une page et exporter des données de module."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Contrôle de module"
+    },
+    {
+      "Name": "ttMoveToPane",
+      "Text": "Déplacez le module vers le volet {0}"
+    }
+  ]
+}

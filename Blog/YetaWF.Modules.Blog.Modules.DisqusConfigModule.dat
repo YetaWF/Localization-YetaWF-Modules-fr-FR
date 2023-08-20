@@ -1,0 +1,94 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.DisqusConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AvatarType",
+          "Caption": "Type d’avatar",
+          "Description": "Définit la source des avatars utilisateur (à l’aide de l’authentification unique)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarDefault",
+          "Caption": "Gravatar par défaut",
+          "Description": "Définit l’image Gravatar par défaut pour les visiteurs laissant des commentaires (utilisée lorsque les utilisateurs n’ont pas défini d’image à http://www.gravatar.com)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarRating",
+          "Caption": "Évaluation Gravatar autorisée",
+          "Description": "Définit l’évaluation Gravatar acceptable pour les images Gravatar affichées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarSize",
+          "Caption": "Taille Gravatar",
+          "Description": "La largeur et la hauteur des images Gravatar affichées (en pixels)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShortName",
+          "Caption": "Nom abrégé",
+          "Description": "Le nom abrégé que vous avez attribué à votre site (sur Disqus) - S’il est omis, les commentaires Disqus ne sont pas disponibles",
+          "HelpLink": "https://disqus.com/admin/settings/general/",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres Disqus"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres Disqus"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres Disqus"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres Disqus"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres Disqus"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie les paramètres Disqus d’un site. Il est accessible en utilisant les paramètres de > d’administration > les paramètres Disqus (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres Disqus"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres Disqus sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres Disqus enregistrés"
+    }
+  ]
+}

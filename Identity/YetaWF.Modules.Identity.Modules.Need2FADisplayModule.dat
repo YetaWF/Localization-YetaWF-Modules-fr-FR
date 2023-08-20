@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Configuration de l’authentification en deux étapes requise"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un avertissement indiquant que l’utilisateur doit effectuer la configuration de l’authentification en deux étapes."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Configuration de l’authentification en deux étapes requise"
+    }
+  ]
+}

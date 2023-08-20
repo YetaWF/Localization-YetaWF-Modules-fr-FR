@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateTimeZoneModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Fuseau horaire",
+          "Description": "Fuseau horaire (facultatif)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZoneReq",
+          "Caption": "Fuseau horaire (obligatoire)",
+          "Description": "Fuseau horaire (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZoneReqSel",
+          "Caption": "Fuseau horaire (obligatoire avec sélection)",
+          "Description": "Fuseau horaire (obligatoire, avec (sélectionner))",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZoneRO",
+          "Caption": "Fuseau horaire (lecture/uniquement)",
+          "Description": "Fuseau horaire (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test des composants - Fuseau horaire"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant TimeZone. Une page de test pour ce module se trouve à Tests > Templates > TimeZone (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test de fuseau horaire"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

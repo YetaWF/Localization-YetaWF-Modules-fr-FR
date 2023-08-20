@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "delUser",
+      "Text": "Impossible de mettre à jour l’utilisateur {0}, car l’utilisateur a été supprimé."
+    },
+    {
+      "Name": "userDeleted",
+      "Text": "L’utilisateur {0} introuvable."
+    },
+    {
+      "Name": "userExists",
+      "Text": "Le {0} utilisateur existe déjà."
+    },
+    {
+      "Name": "userNotFound",
+      "Text": "L’utilisateur {0} introuvable."
+    }
+  ]
+}

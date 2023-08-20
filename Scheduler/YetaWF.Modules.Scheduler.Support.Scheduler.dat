@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "errItemDisabled",
+      "Text": "L’élément '{0}' du planificateur est actuellement désactivé et ne peut pas être planifié."
+    },
+    {
+      "Name": "errItemNotFound",
+      "Text": "L’élément '{0}' du planificateur n’existe pas."
+    },
+    {
+      "Name": "errItemUpdFail",
+      "Text": "L’élément '{0}' du planificateur n’a pas pu être mis à jour."
+    },
+    {
+      "Name": "errUpdateNext",
+      "Text": "Impossible de mettre à jour l’élément du planificateur {0} au démarrage à définir la prochaine fois ({1})"
+    }
+  ]
+}

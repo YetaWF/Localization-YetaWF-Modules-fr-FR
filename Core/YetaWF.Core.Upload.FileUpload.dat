@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantDownload",
+      "Text": "Impossible de télécharger {0} fichier : {1}"
+    },
+    {
+      "Name": "errDownloadPkgType",
+      "Text": "Téléchargement non autorisé - Le type de fichier '{0}' n’est pas un type de fichier autorisé"
+    },
+    {
+      "Name": "errPkgType",
+      "Text": "Téléchargement non autorisé - Le type de fichier '{0}' n’est pas un type de fichier autorisé"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.SummaryModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "Entries",
+          "Caption": "Nombre total d’inscriptions",
+          "Description": "Le nombre maximal d’entrées de blog affichées dans l’affichage récapitulatif",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.SummaryModule+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ViewAction",
+          "Caption": "Vue",
+          "Description": "Voir l’entrée de blog complète",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Résumé du blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un résumé des entrées de blog. Les entrées de blog les plus récentes pour toutes les catégories sont affichées. Ce module est généralement utilisé dans une barre latérale sur une page affichant des entrées de blog (à l’aide du module Entrées de blog)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Résumé du blog"
+    },
+    {
+      "Name": "viewTT",
+      "Text": "Publié {0} - {1}"
+    }
+  ]
+}

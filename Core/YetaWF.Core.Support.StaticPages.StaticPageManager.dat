@@ -1,0 +1,24 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Support.StaticPages.StaticPageManager+PageEntryEnum",
+      "Entries": [
+        {
+          "Name": "File",
+          "Value": "File",
+          "Caption": "Lime",
+          "Description": "Page statique mise en cache à l’aide d’un fichier local"
+        },
+        {
+          "Name": "Memory",
+          "Value": "Memory",
+          "Caption": "Mémoire",
+          "Description": "Page statique mise en cache en mémoire (non disponible avec la mise en cache distribuée - batterie de serveurs Web/jardin)"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

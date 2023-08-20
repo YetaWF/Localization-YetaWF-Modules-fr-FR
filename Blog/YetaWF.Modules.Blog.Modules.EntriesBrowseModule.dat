@@ -1,0 +1,206 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntriesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter une nouvelle entrée de blog - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "URL permettant de modifier une entrée de blog - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntriesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Author",
+          "Caption": "Auteur",
+          "Description": "Le nom de l’auteur du blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Category",
+          "Caption": "Catégorie",
+          "Description": "Le nom de la catégorie de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Comments",
+          "Caption": "Commentaires",
+          "Description": "Le nombre de commentaires",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CommentsUnapproved",
+          "Caption": "Commentaires à approuver",
+          "Description": "Le nombre de commentaires à approuver",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateCreated",
+          "Caption": "Date de création",
+          "Description": "La date de création de cette entrée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePublished",
+          "Caption": "Date de publication",
+          "Description": "La date de publication de cet article",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateUpdated",
+          "Caption": "Date de mise à jour",
+          "Description": "La date à laquelle cet article a été mis à jour",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Id",
+          "Description": "L’ID de cette entrée de blog - utilisé pour identifier de manière unique cette entrée de blog en interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpenForComments",
+          "Caption": "Autoriser les commentaires",
+          "Description": "Définit si des commentaires peuvent être entrés pour cette entrée de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Published",
+          "Caption": "Publié",
+          "Description": "Définit si cette entrée a été publiée et est visible par tout le monde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre de cet article de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les entrées de blog"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Entrées de blog"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Entrées de blog"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les entrées de blog"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrées de blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les entrées de blog. Il est accessible en utilisant Admin > Blog > Entries (site YetaWF standard). Il est utilisé pour ajouter, modifier, afficher et supprimer des entrées de blog."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrées de blog"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer cette entrée de blog ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime l’entrée de blog"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer une entrée de blog"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer une entrée de blog"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer l’entrée de blog"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des entrées de blog individuelles"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer des entrées de blog"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des entrées de blog individuelles"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer des entrées de blog"
+    }
+  ]
+}

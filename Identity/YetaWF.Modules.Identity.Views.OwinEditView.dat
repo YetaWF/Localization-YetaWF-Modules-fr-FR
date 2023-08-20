@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "restartOnSubmit",
+      "Text": "Lors de l’enregistrement de ces paramètres, le site (et toutes les instances) doit être redémarré pour que les nouveaux paramètres prennent effet."
+    }
+  ]
+}

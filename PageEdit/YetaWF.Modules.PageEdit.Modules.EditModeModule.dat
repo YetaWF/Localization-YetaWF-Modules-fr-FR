@@ -1,0 +1,48 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.EditModeModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "A des paramètres",
+          "Description": "Définit si le module possède des paramètres qui peuvent être modifiés et enregistrés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Afficher le menu du module",
+          "Description": "Indique si le menu du module est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Sélecteur de mode d’édition de page (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une icône qui permet de basculer entre le mode d’édition de site et le mode d’affichage de site. Ce module est généralement ajouté à chaque page (en tant que module d’habillage) afin que les utilisateurs autorisés puissent passer en mode d’édition de site et revenir en mode d’affichage de site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sélecteur de mode d’édition de page"
+    }
+  ]
+}

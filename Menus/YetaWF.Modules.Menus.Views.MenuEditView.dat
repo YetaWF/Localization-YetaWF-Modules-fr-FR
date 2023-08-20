@@ -1,0 +1,39 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnAdd",
+      "Text": "Ajouter une entrée"
+    },
+    {
+      "Name": "btnCollapseAll",
+      "Text": "Tout réduire"
+    },
+    {
+      "Name": "btnDelete",
+      "Text": "Supprimer"
+    },
+    {
+      "Name": "btnExpandAll",
+      "Text": "Développer tout"
+    },
+    {
+      "Name": "btnInsert",
+      "Text": "Insérer une entrée"
+    },
+    {
+      "Name": "btnReset",
+      "Text": "Réinitialisation"
+    },
+    {
+      "Name": "btnReturn",
+      "Text": "Rendre"
+    },
+    {
+      "Name": "btnSave",
+      "Text": "Sauvegarder"
+    }
+  ]
+}

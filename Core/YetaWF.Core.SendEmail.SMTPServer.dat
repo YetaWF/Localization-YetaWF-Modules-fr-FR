@@ -1,0 +1,108 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.SendEmail.SMTPServer",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Authentication",
+          "Caption": "Authentification",
+          "Description": "Définit le mode d’accès au serveur de messagerie pour envoyer des e-mails. La plupart des serveurs de messagerie nécessitent une authentification à l’aide d’un nom d’utilisateur et d’un mot de passe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Mot de passe",
+          "Description": "Le mot de passe utilisé pour se connecter au serveur de messagerie lorsque l’authentification est requise par le serveur de messagerie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Port",
+          "Caption": "Port",
+          "Description": "Le port du serveur de messagerie SMTP utilisé (25 est généralement la valeur par défaut)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SendTestEmail",
+          "Caption": "Envoyer un e-mail de test",
+          "Description": "Cliquez pour envoyer un e-mail de test à l’aide des informations du serveur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Server",
+          "Caption": "Serveur",
+          "Description": "Le serveur de messagerie SMTP utilisé pour tous les e-mails provenant de ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SSL",
+          "Caption": "Sûr",
+          "Description": "Définit si SSL est utilisé lors de l’envoi d’e-mails",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Nom d’utilisateur",
+          "Description": "Nom d’utilisateur utilisé pour se connecter au serveur de messagerie lorsque l’authentification est requise par le serveur de messagerie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.SendEmail.SMTPServer+AuthEnum",
+      "Entries": [
+        {
+          "Name": "Anonymous",
+          "Value": "Anonymous",
+          "Caption": "Anonyme",
+          "Description": "Connexion anonyme au serveur de messagerie (non recommandé)"
+        },
+        {
+          "Name": "Signon",
+          "Value": "Signon",
+          "Caption": "Signer",
+          "Description": "Connectez-vous au serveur de messagerie avec le nom d’utilisateur et le mot de passe"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "confirmSend",
+      "Text": "Voulez-vous vraiment envoyer un e-mail de test à {0} en utilisant les informations de serveur fournies ?"
+    },
+    {
+      "Name": "send",
+      "Text": "Envoyer"
+    },
+    {
+      "Name": "sendTT",
+      "Text": "Cliquez pour envoyer un e-mail de test"
+    },
+    {
+      "Name": "serverInvalid",
+      "Text": "Le serveur de messagerie n’a pas été configuré."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateMarkdownModule+MarkdownOptional",
+      "BaseTypeName": "YetaWF.Modules.ComponentsHTML.Components.MarkdownStringBase",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Text",
+          "Caption": "Texte de démarque",
+          "Description": null,
+          "HelpLink": "https://www.markdownguide.org/cheat-sheet/",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateMarkdownModule+MarkdownRequired",
+      "BaseTypeName": "YetaWF.Modules.ComponentsHTML.Components.MarkdownStringBase",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Text",
+          "Caption": "Texte de démarque",
+          "Description": null,
+          "HelpLink": "https://www.markdownguide.org/cheat-sheet/",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateMarkdownModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "Markdown",
+          "Description": "Markdown",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "Markdown (obligatoire)",
+          "Description": "Markdown (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "Markdown (Lecture/Seul)",
+          "Description": "Markdown (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test de modèle - Markdown"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant MarkDown. Une page de test pour ce module se trouve à Tests > Templates > MarkDown (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modèle de test Markdown"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

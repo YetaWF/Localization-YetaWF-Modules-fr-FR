@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.ConfirmRemovalModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Êtes-vous absolument sûr de vouloir supprimer ce site? Cela supprimera toutes les données de ce site!! S’il vous plaît assurez-vous d’avoir une sauvegarde (juste au cas où...).",
+      "Footer": "Cliquez sur Confirmer pour supprimer ce site et toutes les données spécifiques au site.",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteDomainDisplay",
+          "Caption": "Site",
+          "Description": "Le nom de domaine du site à supprimer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Supprimer la définition de site - Confirmation"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une confirmation avant la suppression du site. Il est utilisé par le module Sites lorsqu’un site est supprimé."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Supprimer le site"
+    },
+    {
+      "Name": "okRemoved",
+      "Text": "Le site « {0} » a été supprimé(+nl)(+nl)Le site redémarre maintenant"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime le site « {0} »"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer le site"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer le site"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer le site « {0} »"
+    }
+  ]
+}

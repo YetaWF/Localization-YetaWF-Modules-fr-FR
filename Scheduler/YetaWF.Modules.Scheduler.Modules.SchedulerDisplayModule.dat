@@ -1,0 +1,158 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerDisplayModule+SchedulerDisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Description de cet élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Activé",
+          "Description": "Définit si l’élément du planificateur est activé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnableOnStartup",
+          "Caption": "Activer au démarrage",
+          "Description": "Définit si l’élément du planificateur est activé chaque fois que le site Web est redémarré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Errors",
+          "Caption": "Erreurs",
+          "Description": "Les erreurs qui se sont produites lors de la dernière exécution de l’élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Event",
+          "Caption": "Événement",
+          "Description": "L’événement exécuté à l’heure planifiée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Frequency",
+          "Caption": "Intervalle",
+          "Description": "Fréquence de l’élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Last",
+          "Caption": "Dernier",
+          "Description": "La dernière fois que cet objet a été exécuté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom de cet élément du planificateur : le nom est utilisé pour identifier un élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Next",
+          "Caption": "Prochain",
+          "Description": "L’heure à laquelle l’exécution de cet élément est planifiée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunOnce",
+          "Caption": "Exécuter une fois",
+          "Description": "Définit si l’élément du planificateur n’est exécuté qu’une seule fois : une fois terminé, il est désactivé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunTime",
+          "Caption": "Duree",
+          "Description": "Durée de la dernière occurrence de cet élément du planificateur (hh:mm:ss)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSpecific",
+          "Caption": "Spécifique au site",
+          "Description": "Définit si l’élément du planificateur s’exécute pour chaque site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Startup",
+          "Caption": "Démarrage",
+          "Description": "Définit si l’élément du planificateur s’exécute au démarrage du site Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche un élément de planificateur existant"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher un élément de planificateur existant"
+    },
+    {
+      "Name": "modName",
+      "Text": "Afficher l’élément du planificateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les détails d’un élément de planificateur existant. Utilisé par le module Planificateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Élément Planificateur"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’élément du planificateur « {0} » introuvable."
+    },
+    {
+      "Name": "title",
+      "Text": "Élément du planificateur « {0} »"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Models.PanelInfo",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Panels": "Panneaux"
+      },
+      "Properties": [
+        {
+          "Name": "Style",
+          "Caption": "Style",
+          "Description": "Définit le style visuel des panneaux utilisés en mode d’affichage de site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Panels.Models.PanelInfo+PanelEntry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caption",
+          "Caption": "Légende",
+          "Description": "La légende de ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Module",
+          "Caption": "Module",
+          "Description": "Le module rendu dans cet emplacement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ToolTip",
+          "Caption": "Info-bulle",
+          "Description": "L’info-bulle facultative pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Panels.Models.PanelInfo+PanelStyleEnum",
+      "Entries": [
+        {
+          "Name": "Tabs",
+          "Value": "Tabs",
+          "Caption": "Onglets",
+          "Description": "Les onglets sont utilisés pour basculer entre les panneaux"
+        },
+        {
+          "Name": "Accordion",
+          "Value": "Accordion",
+          "Caption": "Accordéon",
+          "Description": "Un écran de style accordéon est utilisé pour basculer entre les panneaux"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "dfltCaption",
+      "Text": "(Légende)"
+    },
+    {
+      "Name": "dfltTT",
+      "Text": "(Info-bulle)"
+    }
+  ]
+}

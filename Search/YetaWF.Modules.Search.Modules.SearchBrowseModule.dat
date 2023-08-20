@@ -1,0 +1,286 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter un nouveau mot-clé de recherche - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "L’URL pour afficher un mot-clé de recherche - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "URL permettant de modifier un mot-clé de recherche - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AllowAnonymous",
+          "Caption": "Utilisateurs anonymes",
+          "Description": "Si les utilisateurs anonymes peuvent afficher la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowAnyUser",
+          "Caption": "Tous les utilisateurs",
+          "Description": "Si un utilisateur connecté peut afficher la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Count",
+          "Caption": "Compter",
+          "Description": "Le nombre de fois que ce mot-clé a été trouvé sur la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateAdded",
+          "Caption": "Supplémentaire",
+          "Description": "La date/heure à laquelle ce mot-clé a été ajouté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePageCreated",
+          "Caption": "Créé",
+          "Description": "La date/heure de création de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePageUpdated",
+          "Caption": "Actualisé",
+          "Description": "La date/heure de la dernière mise à jour de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Language",
+          "Caption": "Langue",
+          "Description": "La langue de la page où ce mot-clé a été trouvé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSummary",
+          "Caption": "Résumé",
+          "Description": "Le résumé de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageTitle",
+          "Caption": "Titre",
+          "Description": "Le titre de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageUrl",
+          "Caption": "URL",
+          "Description": "La page où ce mot-clé a été trouvé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchDataId",
+          "Caption": "Id",
+          "Description": "L’ID interne de ce mot-clé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchTerm",
+          "Caption": "Mot-clé de recherche",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les mots-clés de recherche"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Mots-clés de recherche"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Mots-clés de recherche"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les mots-clés de recherche"
+    },
+    {
+      "Name": "collectConfirm",
+      "Text": "Êtes-vous sûr de vouloir collecter tous les mots-clés de ce site ?"
+    },
+    {
+      "Name": "collectLegend",
+      "Text": "Collecte les mots-clés de recherche d’un site en examinant toutes les pages - Ne prend en compte que les pages modifiées depuis la dernière recherche"
+    },
+    {
+      "Name": "collectLink",
+      "Text": "Collecter des mots-clés"
+    },
+    {
+      "Name": "collectMenu",
+      "Text": "Collecter des mots-clés"
+    },
+    {
+      "Name": "collectPlsWait",
+      "Text": "Des mots-clés sont collectés..."
+    },
+    {
+      "Name": "collectTT",
+      "Text": "Collecter les mots-clés de recherche du site en examinant toutes les pages - Ne prend en compte que les pages modifiées depuis la dernière recherche"
+    },
+    {
+      "Name": "modName",
+      "Text": "Mots-clés de recherche"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les mots-clés de recherche trouvés dans les pages du site. Il est accessible à l’aide du panneau d’administration > > mots-clés de recherche (site YetaWF standard). Ce module propose une action Collecter les mots-clés, qui peut être utilisée pour extraire tous les mots-clés de la page immédiatement (au lieu de par le Planificateur à intervalles réguliers). Cette tâche peut s’exécuter pendant une longue période. La modification et la suppression d’un mot-clé de recherche sont disponibles dans la grille Mots-clés de recherche affichée par le module Mots-clés de recherche."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Mots-clés de recherche"
+    },
+    {
+      "Name": "removeAllConfirm",
+      "Text": "Êtes-vous sûr de vouloir supprimer TOUS les mots-clés ?"
+    },
+    {
+      "Name": "removeAllLegend",
+      "Text": "Supprimer tous les mots-clés de recherche"
+    },
+    {
+      "Name": "removeAllLink",
+      "Text": "Supprimer tout"
+    },
+    {
+      "Name": "removeAllMenu",
+      "Text": "Supprimer tout"
+    },
+    {
+      "Name": "removeAllPlsWait",
+      "Text": "Les mots-clés sont supprimés..."
+    },
+    {
+      "Name": "removeAllTT",
+      "Text": "Supprimer tous les mots-clés de recherche"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer ce mot-clé ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime le mot-clé de recherche"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer le mot-clé de recherche"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer le mot-clé de recherche"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer le mot-clé de recherche"
+    },
+    {
+      "Name": "roleCollect",
+      "Text": "Le rôle a l’autorisation de collecter les mots-clés de recherche d’un site"
+    },
+    {
+      "Name": "roleCollectC",
+      "Text": "Collecter des mots-clés"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des mots-clés de recherche individuels"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer des éléments de recherche"
+    },
+    {
+      "Name": "userCollect",
+      "Text": "L’utilisateur a l’autorisation de collecter les mots-clés de recherche d’un site"
+    },
+    {
+      "Name": "userCollectC",
+      "Text": "Collecter des mots-clés"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur a l’autorisation de supprimer des mots-clés de recherche individuels"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer des éléments de recherche"
+    }
+  ]
+}

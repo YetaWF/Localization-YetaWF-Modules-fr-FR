@@ -1,0 +1,134 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CommentEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Approved",
+          "Caption": "Approuvé",
+          "Description": "Définit si le commentaire a été approuvé pour l’affichage public",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Comment",
+          "Caption": "Commentaire",
+          "Description": "Le commentaire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateCreated",
+          "Caption": "Date de création",
+          "Description": "La date à laquelle le commentaire a été créé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Deleted",
+          "Caption": "Supprimé",
+          "Description": "Définit si le commentaire a été supprimé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "L’adresse e-mail de l’auteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom de l’auteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowGravatar",
+          "Caption": "Afficher Gravatar",
+          "Description": "Définit si le Gravatar facultatif est affiché",
+          "HelpLink": "http://www.gravatar.com",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre du commentaire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Website",
+          "Caption": "Site internet",
+          "Description": "Site web optionnel de l’auteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "L’entrée de commentaire avec id {0} a été supprimée et ne peut plus être mise à jour"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un commentaire avec id {0} existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie un commentaire existant"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier le commentaire"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier le commentaire"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie une entrée de commentaire existante. Il est utilisé par le module de navigation des entrées et n’est pas accessible aux visiteurs du site. Il est généralement utilisé par un administrateur de site pour modifier les commentaires des utilisateurs."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Commentaire"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’entrée de commentaire avec ID {0} introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Commentaire enregistré"
+    }
+  ]
+}

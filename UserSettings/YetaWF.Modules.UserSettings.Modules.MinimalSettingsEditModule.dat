@@ -1,0 +1,82 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.UserSettings.Modules.MinimalSettingsEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "DateFormat",
+          "Caption": "Date Format",
+          "Description": "Le format de date souhaité lorsque les dates sont affichées sur ce site Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thème",
+          "Description": "Le thème utilisé pour toutes les pages du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeFormat",
+          "Caption": "Format de l’heure",
+          "Description": "Le format d’heure souhaité lorsque les heures sont affichées sur ce site Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Fuseau horaire",
+          "Description": "Votre fuseau horaire - toutes les dates/heures de ce site Web seront ajustées pour le fuseau horaire spécifié",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie vos paramètres utilisateur (formats de date/heure)"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Modifier les paramètres"
+    },
+    {
+      "Name": "editText",
+      "Text": "Modifier les paramètres"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier vos paramètres utilisateur (formats date/heure)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres utilisateur (minimes)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie les paramètres de l’utilisateur connecté, tels que les formats de date / heure souhaités, le fuseau horaire."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres utilisateur"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Vos paramètres ont été enregistrés avec succès"
+    }
+  ]
+}

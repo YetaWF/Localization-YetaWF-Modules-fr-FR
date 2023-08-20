@@ -1,0 +1,154 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Logging.Modules.DisplayLogModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Class",
+          "Caption": "Classe",
+          "Description": "La classe enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Info",
+          "Caption": "Info",
+          "Description": "Les informations consignées dans cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP associée à cette entrée de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Level",
+          "Caption": "Niveau",
+          "Description": "Niveau d’erreur de cet enregistrement de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Method",
+          "Caption": "Méthode",
+          "Description": "La méthode enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleName",
+          "Caption": "Nom du module",
+          "Description": "Le module enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Namespace",
+          "Caption": "Espace de noms",
+          "Description": "L’espace de noms enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferrerUrl",
+          "Caption": "Referrer",
+          "Description": "URL de référence associée à cette entrée de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequestedUrl",
+          "Caption": "URL",
+          "Description": "L’URL demandée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SessionId",
+          "Caption": "Session Id",
+          "Description": "L’ID de session utilisé pour identifier le visiteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site Id",
+          "Description": "Le site qui a enregistré cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeStamp",
+          "Caption": "Date/Heure",
+          "Description": "L’heure à laquelle cet enregistrement a été enregistré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur",
+          "Description": "Le nom/adresse e-mail de l’utilisateur (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche l’enregistrement du journal"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher l’enregistrement du journal"
+    },
+    {
+      "Name": "modName",
+      "Text": "Afficher l’enregistrement du journal"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une entrée de journal individuelle. Il est utilisé par le module de journal pour afficher une entrée de journal et n’est disponible que si le fichier journal est hébergé par PostgreSQL/SQL Server."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Enregistrement du journal"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Enregistrez « {0} » introuvable."
+    }
+  ]
+}

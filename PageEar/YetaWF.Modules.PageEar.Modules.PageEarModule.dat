@@ -1,0 +1,68 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEar.Modules.PageEarModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AdImage",
+          "Caption": "Image de l’annonce",
+          "Description": "L’image utilisée pour l’oreille de la page (la publicité) - elle doit être de la même taille que l’image CoverImage",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Animate",
+          "Caption": "Animer",
+          "Description": "Définit si l’ouverture/fermeture de l’oreille de la page est animée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ClickUrl",
+          "Caption": "URL",
+          "Description": "L’URL où l’utilisateur est dirigé lorsqu’il clique sur l’oreille de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CoverImage",
+          "Caption": "Image de couverture",
+          "Description": "L’image utilisée pour couvrir le coin inférieur gauche de l’image de l’annonce (lorsque l’année de la page est développée) - elle doit avoir la même taille que l’image AdImage",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SmallSize",
+          "Caption": "Petite taille",
+          "Description": "La largeur et la hauteur (carré) de l’image lorsque l’oreille de la page est réduite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Oreille de page"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute une oreille de page configurable à chaque page où se trouve ce module. Le module peut être ajouté n’importe où sur la page (dans un volet) et n’est visible qu’en mode d’édition du site. L’oreille de la page elle-même (dans le coin supérieur droit) n’est affichée en mode d’affichage du site qu’une fois que tous les paramètres de module requis ont été définis (comme les images et l’URL)."
+    }
+  ]
+}

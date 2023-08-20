@@ -1,0 +1,72 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.CurrencyConverter.Modules.CurrencyConverterModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DefaultAmount",
+          "Caption": "Montant par défaut",
+          "Description": "Montant par défaut à convertir",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FromCountry",
+          "Caption": "De la devise",
+          "Description": "Devise pour laquelle le montant est saisi",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ToCountry",
+          "Caption": "Vers la devise",
+          "Description": "Devise pour laquelle le montant converti doit être calculé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Fournit des informations sur la conversion des devises"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Convertisseur de devises"
+    },
+    {
+      "Name": "editText",
+      "Text": "Convertisseur de devises"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Obtenir des informations sur la conversion des devises"
+    },
+    {
+      "Name": "modName",
+      "Text": "Conversion de devises"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Conversion de devise pour les visiteurs du site. Une page de test pour le module de conversion de devises est accessible à l’aide de Tests > Currency Converter (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Conversion de devises"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "invQueryCloseParen",
+      "Text": "Requête non valide - trop de ')'"
+    },
+    {
+      "Name": "invQueryOpenParen",
+      "Text": "Requête non valide - sans correspondance '('"
+    },
+    {
+      "Name": "keyWordAnd",
+      "Text": "ET"
+    },
+    {
+      "Name": "keyWordOR",
+      "Text": "OU"
+    }
+  ]
+}

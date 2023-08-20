@@ -1,0 +1,122 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.SitesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "URL permettant d’ajouter un nouveau site Web - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.SitesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Site Id",
+          "Description": "L’identifiant associé à votre site, généré par YetaWF lors de la création du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IsDefaultSite",
+          "Caption": "Site par défaut",
+          "Description": "Indique si le site est le site par défaut pour cette instance de YetaWF - le site par défaut ne peut pas être supprimé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteDomain",
+          "Caption": "Domaine du site",
+          "Description": "Le nom de domaine du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteName",
+          "Caption": "Nom du site",
+          "Description": "Le nom associé à votre site, généralement le nom de votre entreprise ou votre nom",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les sites"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Sites"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Sites"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les sites"
+    },
+    {
+      "Name": "dispLegend",
+      "Text": "Affiche le site « {0} »"
+    },
+    {
+      "Name": "dispLink",
+      "Text": "Site d’affichage « {0} »"
+    },
+    {
+      "Name": "dispText",
+      "Text": "Site d’affichage « {0} »"
+    },
+    {
+      "Name": "dispTooltip",
+      "Text": "Afficher le site « {0} »"
+    },
+    {
+      "Name": "modName",
+      "Text": "Sites"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les sites. Les sites sont accessibles sur Admin > Panel > Sites (site YeatWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sites"
+    }
+  ]
+}

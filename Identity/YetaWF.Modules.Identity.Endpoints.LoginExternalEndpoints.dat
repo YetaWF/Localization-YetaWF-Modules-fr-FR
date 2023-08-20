@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "extErr",
+      "Text": "Le fournisseur de connexion externe a signalé cette erreur : {0}"
+    },
+    {
+      "Name": "notApproved",
+      "Text": "Votre compte n’a pas encore été approuvé par l’administrateur du site. Vous recevrez un e-mail de confirmation dès que votre compte sera actif."
+    },
+    {
+      "Name": "notValidated",
+      "Text": "Votre compte n’a pas encore été vérifié. Vous recevrez un e-mail avec les informations de vérification. Une fois reçu, veuillez utiliser les informations contenues dans l’e-mail pour terminer l’inscription."
+    }
+  ]
+}

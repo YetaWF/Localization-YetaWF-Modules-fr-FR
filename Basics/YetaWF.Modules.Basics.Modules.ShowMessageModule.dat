@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Message (Page)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un message d’erreur (utilisé lorsqu’aucun contexte de page/module n’est disponible)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Une erreur s’est produite"
+    }
+  ]
+}

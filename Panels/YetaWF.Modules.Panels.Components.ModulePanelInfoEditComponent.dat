@@ -1,0 +1,63 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnAdd",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "btnApply",
+      "Text": "Appliquer"
+    },
+    {
+      "Name": "btnDelete",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "btnDown",
+      "Text": ">>"
+    },
+    {
+      "Name": "btnIns",
+      "Text": "Insérer"
+    },
+    {
+      "Name": "btnUp",
+      "Text": "<<"
+    },
+    {
+      "Name": "noCaption",
+      "Text": "(pas de légende)"
+    },
+    {
+      "Name": "noModule",
+      "Text": "(aucun module défini)"
+    },
+    {
+      "Name": "txtAdd",
+      "Text": "Cliquez pour ajouter un nouveau panneau après le panneau actuel"
+    },
+    {
+      "Name": "txtApply",
+      "Text": "Cliquez pour appliquer les modifications actuelles"
+    },
+    {
+      "Name": "txtDelete",
+      "Text": "Cliquez pour supprimer le panneau actif"
+    },
+    {
+      "Name": "txtDown",
+      "Text": "Cliquez pour déplacer le panneau actif"
+    },
+    {
+      "Name": "txtIns",
+      "Text": "Cliquez pour insérer un nouveau panneau avant le panneau actif"
+    },
+    {
+      "Name": "txtUp",
+      "Text": "Cliquez pour déplacer le panneau actif"
+    }
+  ]
+}

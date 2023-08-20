@@ -1,0 +1,187 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.BlogConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Blog": "Blog",
+        "Comments": "Commentaires",
+        "Notifications": "Notifications",
+        "Rss": "RSS"
+      },
+      "Properties": [
+        {
+          "Name": "BlogEntryUrl",
+          "Caption": "URL de l’entrée de blog",
+          "Description": "URL pour afficher une entrée de blog avec des commentaires",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BlogUrl",
+          "Caption": "URL principale du blog",
+          "Description": "Point d’entrée principal pour le blog du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultCategory",
+          "Caption": "Catégorie de blog par défaut",
+          "Description": "La catégorie de blog par défaut s’affiche lorsqu’aucune catégorie de blog n’est sélectionnée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Entries",
+          "Caption": "Nombre total d’inscriptions",
+          "Description": "Nombre maximal d’entrées de blog affichées sur la page principale du blog lorsqu’aucune catégorie n’est sélectionnée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Feed",
+          "Caption": "Nourrir",
+          "Description": "Publier le contenu de ce blog sous forme de flux RSS",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedDetailUrl",
+          "Caption": "URL détaillée du flux",
+          "Description": "Page de détails du flux RSS facultatif pour une entrée de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedImage",
+          "Caption": "Image de flux",
+          "Description": "L’image utilisée pour ce flux Rss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedMainUrl",
+          "Caption": "URL principale du flux",
+          "Description": "URL principale du flux RSS optionnel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedSummary",
+          "Caption": "Résumé du flux",
+          "Description": "Description sommaire du flux Rss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedTitle",
+          "Caption": "Titre du flux",
+          "Description": "Titre du flux Rss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarDefault",
+          "Caption": "Gravatar par défaut",
+          "Description": "Définit l’image Gravatar par défaut pour les visiteurs laissant des commentaires (utilisée lorsque les utilisateurs n’ont pas défini d’image à http://www.gravatar.com)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarRating",
+          "Caption": "Évaluation Gravatar autorisée",
+          "Description": "Définit l’évaluation Gravatar acceptable pour les images Gravatar affichées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarSize",
+          "Caption": "Taille Gravatar",
+          "Description": "La largeur et la hauteur des images Gravatar affichées (en pixels)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotifyEmail",
+          "Caption": "Adresse courriel",
+          "Description": "L’adresse e-mail où toutes les notifications pour les événements de blog sont envoyées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotifyNewComment",
+          "Caption": "Notifier - Nouveau commentaire",
+          "Description": "Définit si l’administrateur reçoit une notification par courrier électronique lorsqu’un nouveau commentaire a été ajouté à une entrée de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowGravatar",
+          "Caption": "Afficher Gravatar",
+          "Description": "Définit si les images Gravatar sont affichées pour les visiteurs laissant des commentaires",
+          "HelpLink": "http://www.gravatar.com",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du blog"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres du blog"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres du blog"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du blog"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres du blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de configuration principal pour le blog et définit les paramètres globaux du blog. Il est accessible à l’aide des paramètres de > d’administration > des paramètres du blog (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres du blog"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres du blog sont introuvables."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de blog enregistrés"
+    }
+  ]
+}

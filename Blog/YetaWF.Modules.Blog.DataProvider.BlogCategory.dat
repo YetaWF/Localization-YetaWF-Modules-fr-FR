@@ -1,0 +1,30 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Blog.DataProvider.BlogCategory+ApprovalType",
+      "Entries": [
+        {
+          "Name": "None",
+          "Value": "None",
+          "Caption": "Aucun",
+          "Description": "Les commentaires ne nécessitent pas d’approbation et sont immédiatement visibles"
+        },
+        {
+          "Name": "AnonymousUsers",
+          "Value": "AnonymousUsers",
+          "Caption": "Approuver les utilisateurs anonymes",
+          "Description": "Les commentaires d’utilisateurs anonymes nécessitent une approbation"
+        },
+        {
+          "Name": "All",
+          "Value": "All",
+          "Caption": "Tout approuver",
+          "Description": "Tous les commentaires doivent être approuvés"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

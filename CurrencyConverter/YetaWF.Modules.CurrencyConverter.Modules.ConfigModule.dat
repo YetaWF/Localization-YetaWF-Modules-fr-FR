@@ -1,0 +1,92 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.CurrencyConverter.Modules.ConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AppID",
+          "Caption": "ID d’application",
+          "Description": "ID d’application utilisé par openexchangerates.org pour identifier votre compte - un compte est nécessaire pour récupérer les taux de change - Ce compte est utilisé pour tous les sites de cette instance YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpenExchangeRatesUrl",
+          "Caption": "openexchangerates.org",
+          "Description": "Fournit un lien vers openexchangerates.org pour configurer un compte pour tous vos sites dans cette instance YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RefreshInterval",
+          "Caption": "Intervalle d’actualisation",
+          "Description": "Définit à quel intervalle les nouveaux taux de change sont récupérés - Vérifiez le maximum autorisé dans votre plan tarifaire à openexchangerates.org",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseHttps",
+          "Caption": "Utiliser https",
+          "Description": "Utiliser https pour accéder à openexchangerates.org (nécessite un compte payant) - Ce paramètre est utilisé pour tous les sites de cette instance YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "La configuration du convertisseur de devises a été supprimée et ne peut plus être mise à jour."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du convertisseur de devises"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres du convertisseur de devises"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres du convertisseur de devises"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du convertisseur de devises"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres du convertisseur de devises"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les paramètres du convertisseur de devises. Il est accessible en utilisant les paramètres de > d’administration > les paramètres du convertisseur de devises (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres du convertisseur de devises"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Configuration du convertisseur de devises introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Configuration du convertisseur de devises enregistrée"
+    }
+  ]
+}

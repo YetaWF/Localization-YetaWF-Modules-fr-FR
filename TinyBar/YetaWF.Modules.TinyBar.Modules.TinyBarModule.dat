@@ -1,0 +1,172 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TinyBar.Modules.TinyBarModule",
+      "BaseTypeName": "YetaWF.Modules.Menus.Modules.MenuModule",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AllowUserRegistration",
+          "Caption": "Autoriser les nouveaux utilisateurs",
+          "Description": "Autoriser l’enregistrement de nouveaux utilisateurs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HoverDelay",
+          "Caption": "Délai de survol",
+          "Description": "Spécifie le délai (en millisecondes) avant la fermeture du menu - Utilisé pour éviter la fermeture accidentelle en partant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogoffUrl",
+          "Caption": "URL de déconnexion",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le lien de fermeture de session",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogonUrl",
+          "Caption": "URL de connexion",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le lien de connexion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpenOnHover",
+          "Caption": "Ouvrir au survol",
+          "Description": "Définit si la liste déroulante s’ouvre automatiquement lorsque vous survolez le menu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegisterUrl",
+          "Caption": "URL d’enregistrement",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le lien du registre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchUrl",
+          "Caption": "URL de recherche",
+          "Description": "L’URL où l’utilisateur est redirigé lorsque l’utilisateur clique sur l’icône de recherche - Si l’URL de recherche est omise, l’icône de recherche n’est pas disponible",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UsePopup",
+          "Caption": "Utiliser les fenêtres contextuelles",
+          "Description": "Utilisez des fenêtres contextuelles pour vous connecter et vous inscrire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserTooltip",
+          "Caption": "Info-bulle utilisateur",
+          "Description": "L’info-bulle affichée pour le lien du nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserUrl",
+          "Caption": "URL de l’utilisateur",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "default",
+      "Text": "(Site par défaut)"
+    },
+    {
+      "Name": "defaultTT",
+      "Text": "Utiliser la langue par défaut définie par le site"
+    },
+    {
+      "Name": "langSel",
+      "Text": "Cliquez pour sélectionner l’une des langues disponibles prises en charge par ce site Web"
+    },
+    {
+      "Name": "loginLegend",
+      "Text": "Connectez-vous à ce site à l’aide de votre compte existant"
+    },
+    {
+      "Name": "loginLink",
+      "Text": "Connectez-vous"
+    },
+    {
+      "Name": "loginText",
+      "Text": "Connectez-vous"
+    },
+    {
+      "Name": "loginTooltip",
+      "Text": "Cliquez pour vous connecter à ce site en utilisant votre compte existant"
+    },
+    {
+      "Name": "logoffLegend",
+      "Text": "Vous déconnecte de ce site"
+    },
+    {
+      "Name": "logoffLink",
+      "Text": "Déconnexion"
+    },
+    {
+      "Name": "logoffText",
+      "Text": "Déconnexion"
+    },
+    {
+      "Name": "logoffTooltip",
+      "Text": "Cliquez pour vous déconnecter de ce site"
+    },
+    {
+      "Name": "modName",
+      "Text": "Petit bar"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fournit des informations sur le compte utilisateur, la recherche et la sélection de la langue. Ce module est généralement ajouté à chaque page (en tant que module d’habillage) afin que les utilisateurs puissent sélectionner la langue et accéder aux informations utilisateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Petit bar"
+    },
+    {
+      "Name": "registerLegend",
+      "Text": "Inscrivez-vous pour accéder à ce site avec un nouveau compte"
+    },
+    {
+      "Name": "registerLink",
+      "Text": "Registre"
+    },
+    {
+      "Name": "registerText",
+      "Text": "Registre"
+    },
+    {
+      "Name": "registerTooltip",
+      "Text": "Cliquez pour créer un nouveau compte pour accéder à ce site"
+    }
+  ]
+}

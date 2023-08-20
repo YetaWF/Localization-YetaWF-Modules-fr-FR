@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "En-tête de catégorie de blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un en-tête de catégorie de blog. Ajoutez ceci à une page avec un module de blog ou un module d’affichage d’entrée pour afficher les informations de catégorie pour la catégorie de blog actuelle."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "En-tête de catégorie de blog"
+    }
+  ]
+}

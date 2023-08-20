@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDescDaily",
+      "Text": "Crée une sauvegarde de site et la stocke dans le dossier Backup du site"
+    },
+    {
+      "Name": "eventDescRemove",
+      "Text": "Supprime les sauvegardes de site trop anciennes (définies à l’aide des paramètres de sauvegarde)"
+    },
+    {
+      "Name": "eventNameDaily",
+      "Text": "Créer une sauvegarde quotidienne du site"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Événement de planificateur inconnu {0}"
+    },
+    {
+      "Name": "eventNameRemove",
+      "Text": "Supprimer l’ancienne sauvegarde de site"
+    }
+  ]
+}

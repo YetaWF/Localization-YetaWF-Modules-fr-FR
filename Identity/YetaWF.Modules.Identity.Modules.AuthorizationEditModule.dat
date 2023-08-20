@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.AuthorizationEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AllowedRoles",
+          "Caption": "Rôles autorisés",
+          "Description": "Les rôles autorisés à accéder à cette ressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowedUsers",
+          "Caption": "Utilisateurs autorisés",
+          "Description": "Les utilisateurs autorisés à accéder à cette ressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResourceDescription",
+          "Caption": "Description de la ressource",
+          "Description": "Les autorisations accordées si un utilisateur ou un rôle a accès à cette ressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResourceName",
+          "Caption": "Nom de la ressource",
+          "Description": "Le nom de cette ressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "La ressource nommée « {0} » a été supprimée et ne peut plus être mise à jour."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Une ressource nommée « {0} » existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie une ressource existante"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTitle",
+      "Text": "Ressource « {0} »"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier une ressource existante"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier la ressource"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier une ressource. Ce module est utilisé par le module Ressources"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modifier la ressource"
+    },
+    {
+      "Name": "notFound",
+      "Text": "La ressource « {0} » introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Ressource « {0} » sauvegardée"
+    }
+  ]
+}

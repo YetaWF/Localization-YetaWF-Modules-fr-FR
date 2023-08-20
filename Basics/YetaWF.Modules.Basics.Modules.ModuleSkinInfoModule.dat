@@ -1,0 +1,94 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Basics.Modules.ModuleSkinInfoModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Characters",
+          "Caption": "Lettres",
+          "Description": "Les lettres utilisées pour calculer la largeur et la hauteur moyennes des caractères",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Height",
+          "Caption": "Char. Hauteur",
+          "Description": "Hauteur du caractère, calculée à l’aide de l’enveloppe actuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LettersHeight",
+          "Caption": "Hauteur des lettres",
+          "Description": "La hauteur totale des lettres affichées, calculée à l’aide de l’enveloppe actuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LettersWidth",
+          "Caption": "Largeur des lettres",
+          "Description": "La largeur totale des lettres affichées, calculée à l’aide de l’enveloppe actuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSelectedSkin",
+          "Caption": "Skin défini par le site",
+          "Description": "L’habillage utilisé pour toutes les pages/popups",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Width",
+          "Caption": "Largeur moyenne du caractère",
+          "Description": "Largeur moyenne des caractères, calculée à l’aide de l’enveloppe actuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche les informations d’habillage du module"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Informations sur l’habillage du module"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Informations sur l’habillage du module"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher les informations d’habillage du module"
+    },
+    {
+      "Name": "modName",
+      "Text": "Informations sur l’habillage du module"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un exemple de test avec la plupart des éléments HTML et des balises couramment utilisés. Il peut être utilisé pour vérifier une peau. Il affiche également la hauteur/largeur moyenne des caractères, qui est utilisée lors de la création de nouveaux habillages (dans le fichier Skin d’un skin.txt). Module Skin Info est accessible en utilisant Tests > Module Skin Info (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Informations sur l’habillage du module"
+    }
+  ]
+}

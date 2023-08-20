@@ -1,0 +1,80 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchControlModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "A des paramètres",
+          "Description": "Définit si le module possède des paramètres qui peuvent être modifiés et enregistrés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Afficher le menu du module",
+          "Description": "Indique si le menu du module est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Surligneur des résultats de la recherche (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Met en surbrillance tous les termes de recherche trouvés sur la page active affichée. Il peut être inclus en tant que module d’habillage ou référencé par un site, une page ou un module (voir l’onglet Références dans Paramètres de la page, du module ou du site). Voir Modules d’habillage pour plus d’informations."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Surligneur des résultats de recherche d’habillage"
+    },
+    {
+      "Name": "offLegend",
+      "Text": "Désactive la mise en surbrillance des résultats de recherche pour une page"
+    },
+    {
+      "Name": "offLink",
+      "Text": "De"
+    },
+    {
+      "Name": "offText",
+      "Text": "De"
+    },
+    {
+      "Name": "offTooltip",
+      "Text": "Désactiver la mise en surbrillance des résultats de recherche pour cette page"
+    },
+    {
+      "Name": "onLegend",
+      "Text": "Active la mise en surbrillance des résultats de recherche pour une page"
+    },
+    {
+      "Name": "onLink",
+      "Text": "Sur"
+    },
+    {
+      "Name": "onText",
+      "Text": "Sur"
+    },
+    {
+      "Name": "onTooltip",
+      "Text": "Activer la mise en surbrillance des résultats de recherche pour cette page"
+    }
+  ]
+}

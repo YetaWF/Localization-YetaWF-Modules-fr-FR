@@ -1,0 +1,35 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "approvalSent",
+      "Text": "E-mail d’approbation envoyé à l’utilisateur {0}."
+    },
+    {
+      "Name": "noItem",
+      "Text": "Aucun nom d’utilisateur spécifié"
+    },
+    {
+      "Name": "notFoundUser",
+      "Text": "L’utilisateur {0} introuvable."
+    },
+    {
+      "Name": "rehashDone",
+      "Text": "Tous les mots de passe des utilisateurs ont été rabâchés"
+    },
+    {
+      "Name": "rejectionSent",
+      "Text": "E-mail de rejet envoyé à l’utilisateur {0}."
+    },
+    {
+      "Name": "suspendedSent",
+      "Text": "E-mail de suspension envoyé à l’utilisateur {0}."
+    },
+    {
+      "Name": "verificationSent",
+      "Text": "E-mail de vérification envoyé à l’utilisateur {0}."
+    }
+  ]
+}

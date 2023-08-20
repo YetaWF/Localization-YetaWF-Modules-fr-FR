@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "clearImage",
+      "Text": "Clair"
+    },
+    {
+      "Name": "clearImageTT",
+      "Text": "Efface l’image actuellement sélectionnée (l’image elle-même n’est PAS supprimée du serveur)"
+    },
+    {
+      "Name": "removeImage",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "removeImageTT",
+      "Text": "Supprime l’image actuellement sélectionnée du serveur"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateProgressBarModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Bar",
+          "Caption": "Barre de progression",
+          "Description": "Barre de progression",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Value",
+          "Caption": "Valeur",
+          "Description": "Valeur de la barre de progression",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test de modèle - ProgressBar"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modèle de test ProgressBar"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modèle de test ProgressBar"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

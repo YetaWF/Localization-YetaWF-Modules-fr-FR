@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "pageDeleted",
+      "Text": "La page '{0}' a été supprimée et ne peut plus être mise à jour."
+    },
+    {
+      "Name": "pageGuidErr",
+      "Text": "Une page avec Guid {0} existe déjà."
+    },
+    {
+      "Name": "pageRename",
+      "Text": "Une page avec l’URL '{0}' existe déjà."
+    },
+    {
+      "Name": "pageUrlErr",
+      "Text": "Une page avec Url {0} existe déjà."
+    }
+  ]
+}

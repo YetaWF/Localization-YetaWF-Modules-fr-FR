@@ -1,0 +1,43 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le test Scroller"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Défilement"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Défilement"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le test Scroller"
+    },
+    {
+      "Name": "itemSummary",
+      "Text": "Résumé pour le point {0} - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "Name": "itemTitle",
+      "Text": "Point {0} de l’ordre du jour"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test des composants - Scroller"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant Scroller. Une page de test pour ce module peut être trouvée à Tests > Templates > Scroller (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test de défilement"
+    }
+  ]
+}

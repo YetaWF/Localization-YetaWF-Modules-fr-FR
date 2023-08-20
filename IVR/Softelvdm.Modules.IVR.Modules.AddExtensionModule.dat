@@ -1,0 +1,86 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.AddExtensionModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Décrit l’extension",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Extension",
+          "Description": "Définit l’extension (chiffres)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PhoneNumbers",
+          "Caption": "Numéros de téléphone",
+          "Description": "Définit les numéros de téléphone à appeler lorsque cette extension est entrée - Au moins un numéro de téléphone est requis",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Utilisateurs",
+          "Description": "Définit les utilisateurs qui peuvent accéder aux messages vocaux pour cette extension",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute une nouvelle extension"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter une nouvelle extension"
+    },
+    {
+      "Name": "dup",
+      "Text": "Une entrée pour l’extension {0} existe déjà"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter une nouvelle extension"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute une nouvelle extension."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter une nouvelle extension"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouvelle extension enregistrée"
+    }
+  ]
+}

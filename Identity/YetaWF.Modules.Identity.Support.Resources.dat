@@ -1,0 +1,43 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valResourceName",
+      "Text": "Le nom de la ressource doit respecter la convention d’affectation de noms suivante : AreaName-ResourceName - Un exemple de nom de ressource valide est « YetaWF_Identity-Authorization Admin (Display) »"
+    },
+    {
+      "Name": "valResourceName2",
+      "Text": "Le nom de la ressource n’est pas valide (propriété '{0}') - Il doit suivre cette convention d’affectation de noms : AreaName-ResourceName - Un exemple de nom de ressource valide est « YetaWF_Identity-Authorization Admin (Display) »"
+    },
+    {
+      "Name": "valResourceName3",
+      "Text": "Le nom de ressource '{0}' n’est pas valide - Il doit suivre cette convention d’affectation de noms : AreaName-ResourceName - Un exemple de nom de ressource valide est « YetaWF_Identity-Authorization Admin (Display) »"
+    },
+    {
+      "Name": "valRoleName",
+      "Text": "Le nom du rôle doit être composé d’un mot contenant des lettres et des chiffres, des traits de soulignement et des points, sans espaces."
+    },
+    {
+      "Name": "valRoleName2",
+      "Text": "Le nom du rôle n’est pas valide (propriété '{0}') - Il doit être composé d’un mot contenant des lettres et des chiffres, des traits de soulignement et des points, sans espaces"
+    },
+    {
+      "Name": "valRoleName3",
+      "Text": "Le nom du rôle '{0}' n’est pas valide - Il doit être composé d’un mot contenant des lettres et des chiffres, des traits de soulignement et des points, sans espaces."
+    },
+    {
+      "Name": "valuserName",
+      "Text": "Le nom d’utilisateur ne peut pas commencer par des caractères tels qu’un tabulation ou un espace"
+    },
+    {
+      "Name": "valuserName2",
+      "Text": "Le nom d’utilisateur n’est pas valide (champ '{0}') - Le nom d’utilisateur ne peut pas commencer par des caractères tels qu’un onglet ou un espace"
+    },
+    {
+      "Name": "valuserName3",
+      "Text": "Le nom d’utilisateur '{0}' n’est pas valide - Le nom d’utilisateur ne peut pas commencer par des caractères tels qu’un tabulation ou un espace"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ImageRepository.Modules.TemplateTestModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ImageName",
+          "Caption": "Sélection d’images",
+          "Description": "Description de la sélection d’images",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test du composant du référentiel d’images"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Test du composant du référentiel d’images"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Test du composant du référentiel d’images"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Image enregistrée"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.LogBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "URL d’affichage d’une entrée de journal - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.LogBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Info",
+          "Caption": "Message",
+          "Description": "Le message",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Level",
+          "Caption": "Niveau",
+          "Description": "Niveau du message",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Nom de l’élément du planificateur en cours d’exécution",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunId",
+          "Caption": "Id",
+          "Description": "ID de l’élément du planificateur exécuté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site Id",
+          "Description": "Site affecté par l’élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeStamp",
+          "Caption": "Créé",
+          "Description": "La date/heure de création de cet enregistrement de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère le journal du planificateur"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Rapport"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Rapport"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer le journal du planificateur"
+    },
+    {
+      "Name": "dlZipLegend",
+      "Text": "Télécharge le fichier journal du planificateur en tant que fichier ZIP"
+    },
+    {
+      "Name": "dlZipLink",
+      "Text": "Télécharger le journal (zippé)"
+    },
+    {
+      "Name": "dlZipMenu",
+      "Text": "Télécharger le journal (zippé)"
+    },
+    {
+      "Name": "dlZipTT",
+      "Text": "Télécharger le fichier journal du planificateur en tant que fichier ZIP"
+    },
+    {
+      "Name": "downloadLegend",
+      "Text": "Télécharge le fichier journal du planificateur"
+    },
+    {
+      "Name": "downloadLink",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "downloadMenu",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "downloadTT",
+      "Text": "Télécharger le fichier journal du planificateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Journal du planificateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère le journal du planificateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Journal du planificateur"
+    },
+    {
+      "Name": "removeAllLegend",
+      "Text": "Supprime tous les enregistrements du journal du planificateur"
+    },
+    {
+      "Name": "removeAllLink",
+      "Text": "Supprimer tout"
+    },
+    {
+      "Name": "removeAllMenu",
+      "Text": "Supprimer tout"
+    },
+    {
+      "Name": "removeAllTT",
+      "Text": "Supprimer tous les enregistrements du journal du planificateur"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer TOUS les enregistrements du journal du planificateur ?"
+    },
+    {
+      "Name": "roleDownload",
+      "Text": "Le rôle est autorisé à télécharger le fichier journal du planificateur"
+    },
+    {
+      "Name": "roleDownloadC",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "roleRemLog",
+      "Text": "Le rôle a l’autorisation d’effacer le journal du planificateur"
+    },
+    {
+      "Name": "roleRemLogC",
+      "Text": "Supprimer le journal"
+    },
+    {
+      "Name": "userDownload",
+      "Text": "L’utilisateur est autorisé à télécharger le fichier journal du planificateur"
+    },
+    {
+      "Name": "userDownloadC",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "userRemLog",
+      "Text": "L’utilisateur est autorisé à effacer le journal du planificateur"
+    },
+    {
+      "Name": "userRemLogC",
+      "Text": "Supprimer le journal"
+    }
+  ]
+}

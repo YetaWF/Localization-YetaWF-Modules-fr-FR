@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDesc",
+      "Text": "Supprime les fichiers temporaires trop anciens (fichiers créés au plus tard lors de la dernière exécution de cet événement, en fonction de la définition de fréquence)"
+    },
+    {
+      "Name": "eventName",
+      "Text": "Supprimer les fichiers temporaires (fichiers téléchargés)"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Événement de planificateur inconnu {0}."
+    }
+  ]
+}

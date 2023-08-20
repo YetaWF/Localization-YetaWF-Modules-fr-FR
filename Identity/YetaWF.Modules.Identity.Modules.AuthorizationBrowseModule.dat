@@ -1,0 +1,142 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.AuthorizationBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter une nouvelle ressource - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "L’URL pour afficher les informations sur les ressources - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "URL permettant de modifier une ressource - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.AuthorizationBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResourceDescription",
+          "Caption": "Description de la ressource",
+          "Description": "Les autorisations accordées si un utilisateur ou un rôle a accès à cette ressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResourceName",
+          "Caption": "Nom de la ressource",
+          "Description": "Le nom de cette ressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "authLegend",
+      "Text": "Affiche et gère les ressources"
+    },
+    {
+      "Name": "authLink",
+      "Text": "Ressources"
+    },
+    {
+      "Name": "authText",
+      "Text": "Ressources"
+    },
+    {
+      "Name": "authTooltip",
+      "Text": "Afficher et gérer les ressources"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ressources"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet d’afficher et de gérer les ressources utilisées pour les autorisations. Il est accessible à l’aide des paramètres > des ressources d’identité de l’administrateur > (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ressources"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer la ressource « {0} » ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime la ressource"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer la ressource"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer la ressource"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprime la ressource"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des ressources individuelles"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer des ressources"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des ressources individuelles"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer des ressources"
+    }
+  ]
+}

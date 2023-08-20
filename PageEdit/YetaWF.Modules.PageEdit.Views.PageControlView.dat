@@ -1,0 +1,67 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "pageControlTT",
+      "Text": "Panneau de configuration - Ajouter des modules nouveaux ou existants, ajouter de nouvelles pages, passer en mode édition, accéder aux paramètres de page et à d’autres tâches de gestion de site"
+    },
+    {
+      "Name": "tabImportModule",
+      "Text": "Module d’importation"
+    },
+    {
+      "Name": "tabImportModuleTT",
+      "Text": "Importer des données de module dans cette page (crée un nouveau module)"
+    },
+    {
+      "Name": "tabImportPage",
+      "Text": "Page d’importation"
+    },
+    {
+      "Name": "tabImportPageTT",
+      "Text": "Importer une page (crée une nouvelle page)"
+    },
+    {
+      "Name": "tabLogin",
+      "Text": "Connectez-vous"
+    },
+    {
+      "Name": "tabLoginTT",
+      "Text": "Modifier le site ou se connecter en tant qu’autre utilisateur"
+    },
+    {
+      "Name": "tabNew",
+      "Text": "Nouveau module"
+    },
+    {
+      "Name": "tabNewPage",
+      "Text": "Nouvelle page"
+    },
+    {
+      "Name": "tabNewPageTT",
+      "Text": "Ajouter une nouvelle page au site"
+    },
+    {
+      "Name": "tabNewTT",
+      "Text": "Ajouter un nouveau module à cette page (crée un nouveau module)"
+    },
+    {
+      "Name": "tabOld",
+      "Text": "Module existant"
+    },
+    {
+      "Name": "tabOldTT",
+      "Text": "Ajouter un module existant à cette page (cela ne copie pas le module)"
+    },
+    {
+      "Name": "tabSkins",
+      "Text": "Peaux"
+    },
+    {
+      "Name": "tabSkinsTT",
+      "Text": "Modifier les habillages par défaut utilisés à l’échelle du site"
+    }
+  ]
+}

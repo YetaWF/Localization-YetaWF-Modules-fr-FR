@@ -1,0 +1,85 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.BootstrapCarousel.Models.CarouselInfo",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Slide Show": "Diaporama"
+      },
+      "Properties": [
+        {
+          "Name": "Interval",
+          "Caption": "Intervalle",
+          "Description": "Intervalle (en millisecondes) avant l’affichage de la diapositive suivante lorsque les images changent automatiquement - 0 pour désactiver",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Keyboard",
+          "Caption": "Clavier",
+          "Description": "Définit si le carrousel doit réagir aux événements du clavier",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Pause",
+          "Caption": "PauseOnHover",
+          "Description": "Définit si le carrousel interrompt le cycle lorsque le curseur de la souris entre dans le carrousel et reprend le cycle lorsque le curseur de la souris quitte le carrousel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Wrap",
+          "Caption": "Boucle",
+          "Description": "Définit si les images sont bouclées (s’enroulent lorsque la dernière image est affichée)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.BootstrapCarousel.Models.CarouselInfo+CarouselItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caption",
+          "Caption": "Légende",
+          "Description": "La légende facultative de cette image",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Image",
+          "Caption": "Image",
+          "Description": "L’image de cette entrée carrousel - Toutes les images doivent avoir la même taille que le carrousel sera redimensionné pour afficher chaque image",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL facultative visitée lorsque l’on clique sur l’image",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

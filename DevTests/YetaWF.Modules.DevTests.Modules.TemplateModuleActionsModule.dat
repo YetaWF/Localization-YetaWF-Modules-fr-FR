@@ -1,0 +1,146 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateModuleActionsModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "PropButton",
+          "Caption": "Bouton",
+          "Description": "ModuleActions (bouton)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropButtonBar",
+          "Caption": "Barre de boutons",
+          "Description": "ModuleActions (ButtonBar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropButtonDropDown",
+          "Caption": "BoutonMenu déroulant",
+          "Description": "ModuleActions (ButtonDropDown)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropButtonIcon",
+          "Caption": "ButtonIcon",
+          "Description": "ModuleActions (ButtonIcon)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropButtonMiniDropDown",
+          "Caption": "ButtonMiniDropDown",
+          "Description": "ModuleActions (ButtonMiniDropDown)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropButtonOnly",
+          "Caption": "BoutonUniquement",
+          "Description": "ModuleActions (ButtonOnly)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropIconsOnly",
+          "Caption": "icônesUniquement",
+          "Description": "ModuleActions (IconsOnly)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropLinksOnly",
+          "Caption": "LiensUniquement",
+          "Description": "ModuleActions (LinksOnly)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropNormalLinks",
+          "Caption": "Liens normaux",
+          "Description": "ModuleActions (NormalLinks)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropNormalMenu",
+          "Caption": "NormalMenu",
+          "Description": "ModuleActions (NormalMenu)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "dashboardLegend",
+      "Text": "Affiche la page du tableau de bord de l’administrateur"
+    },
+    {
+      "Name": "dashboardLink",
+      "Text": "Tableau de bord"
+    },
+    {
+      "Name": "dashboardText",
+      "Text": "Tableau de bord"
+    },
+    {
+      "Name": "dashboardTooltip",
+      "Text": "Page du tableau de bord de l’administrateur d’affichage"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test de modèle - ModuleActions"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modèle de test ModuleActions"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modèle de test ModuleActions"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    },
+    {
+      "Name": "userLegend",
+      "Text": "Affiche la page du compte d’utilisateur"
+    },
+    {
+      "Name": "userLink",
+      "Text": "Utilisateur"
+    },
+    {
+      "Name": "userText",
+      "Text": "Utilisateur"
+    },
+    {
+      "Name": "userTooltip",
+      "Text": "Afficher la page du compte d’utilisateur"
+    }
+  ]
+}

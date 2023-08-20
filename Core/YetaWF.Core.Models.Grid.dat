@@ -1,0 +1,53 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Models.Grid+GridActionsEnum",
+      "Entries": [
+        {
+          "Name": "Icons",
+          "Value": "Icons",
+          "Caption": "Icônes",
+          "Description": "Les actions dans les grilles sont affichées sous forme d’icônes"
+        },
+        {
+          "Name": "DropdownMenu",
+          "Value": "DropdownMenu",
+          "Caption": "Menu déroulant",
+          "Description": "Si plus d’une action est disponible, elles sont affichées sous la forme d’un menu déroulant, accessible via un bouton, sinon une seule icône est affichée"
+        },
+        {
+          "Name": "Mini",
+          "Value": "Mini",
+          "Caption": "Mini menu déroulant",
+          "Description": "Affiché sous forme de menu déroulant, accessible via un petit bouton sans texte"
+        },
+        {
+          "Name": "ButtonBar",
+          "Value": "ButtonBar",
+          "Caption": "Barre de boutons",
+          "Description": "Les actions sont affichées sous forme de barre de boutons"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Models.Grid+GridActionsUserEnum",
+      "Entries": [
+        {
+          "Name": "Icons",
+          "Value": "Icons",
+          "Caption": "Icônes",
+          "Description": "Les actions dans les grilles sont affichées sous forme d’icônes"
+        },
+        {
+          "Name": "DropdownMenu",
+          "Value": "DropdownMenu",
+          "Caption": "Menu déroulant",
+          "Description": "Si plus d’une action est disponible, elles sont affichées sous la forme d’un menu déroulant, accessible via un bouton, sinon une seule icône est affichée"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

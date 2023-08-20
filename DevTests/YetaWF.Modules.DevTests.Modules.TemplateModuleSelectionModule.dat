@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateModuleSelectionModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Module",
+          "Caption": "Sélection des modules",
+          "Description": "Module existant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleNew",
+          "Caption": "Sélection des modules (nouveau)",
+          "Description": "Nouveau module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ROModule",
+          "Caption": "Sélection des modules (R/O)",
+          "Description": "Module existant, en lecture/seule",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ROModuleNew",
+          "Caption": "Sélection de modules (nouveau, R/O)",
+          "Description": "Nouveau module, en lecture/seule",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test des composants - ModuleSelection"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant ModuleSelection. Une page de test pour ce module peut être trouvée à Tests > Templates > ModuleSelection (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "ModuleSelection Test Component"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

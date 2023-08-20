@@ -1,0 +1,94 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.SetupExternalAccountModule+SetupExternalAccountModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "Entrez votre adresse e-mail pour vous inscrire - Il s’agit de l’adresse e-mail utilisée par ce site pour communiquer avec vous",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EmailDisplay",
+          "Caption": "Adresse courriel",
+          "Description": "Affiche votre adresse e-mail - Vous pouvez modifier votre adresse e-mail une fois l’inscription terminée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InvitationCode",
+          "Caption": "Code d’invitation",
+          "Description": "Entrez le code d’invitation que vous avez reçu pour vous inscrire à ce site - Si vous n’avez pas reçu de code d’invitation, veuillez contacter l’administrateur de votre site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Nom",
+          "Description": "Entrez votre nom d’utilisateur - Il s’agit du nom utilisé pour vous inscrire sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserNameDisplay",
+          "Caption": "Nom",
+          "Description": "Affiche votre nom d’utilisateur - Il s’agit du nom utilisé pour vous inscrire sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "badInvite",
+      "Text": "Le code d’invitation n’est pas valide"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiché après la connexion à l’aide d’un fournisseur de connexion externe, afin que l’utilisateur puisse configurer un compte local."
+    },
+    {
+      "Name": "noExtLogin",
+      "Text": "Aucun login externe n’a été traité"
+    },
+    {
+      "Name": "noInvite",
+      "Text": "Ce site autorise les nouveaux comptes sur invitation uniquement - Selon nos dossiers, il n’y a pas de compte sur ce site pour vos informations d’identification {0}"
+    },
+    {
+      "Name": "okAwaitApproval",
+      "Text": "Un e-mail vient d’être envoyé à l’administrateur du site pour approbation de votre nouveau compte. Une fois traité et approuvé, vous recevrez un courriel confirmant votre approbation."
+    },
+    {
+      "Name": "okAwaitRegistration",
+      "Text": "Un email vient d’être envoyé à votre adresse email « {0} » pour compléter l’inscription. Prévoyez quelques minutes pour la livraison. Une fois reçu, veuillez utiliser les informations contenues dans l’e-mail pour terminer l’inscription."
+    },
+    {
+      "Name": "okRegText",
+      "Text": "Votre nouveau compte a été enregistré avec succès."
+    },
+    {
+      "Name": "okRegTitle",
+      "Text": "Bienvenue!"
+    },
+    {
+      "Name": "title",
+      "Text": "Configuration du compte externe"
+    }
+  ]
+}

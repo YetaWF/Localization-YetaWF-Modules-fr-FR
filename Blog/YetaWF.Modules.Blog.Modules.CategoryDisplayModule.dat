@@ -1,0 +1,126 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoryDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Category",
+          "Caption": "Catégorie",
+          "Description": "Le nom de cette catégorie de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CommentApproval",
+          "Caption": "Approbation des commentaires",
+          "Description": "Définit si les commentaires soumis doivent être approuvés avant d’être visibles publiquement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateCreated",
+          "Caption": "Date de création",
+          "Description": "La date de création de la catégorie blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description de la catégorie de blog - la description de la catégorie est affichée en haut de chaque entrée de blog pour décrire votre blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Id",
+          "Description": "L’identifiant de cette catégorie de blog - utilisé pour identifier de manière unique cette catégorie de blog en interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Syndicated",
+          "Caption": "Syndiqué",
+          "Description": "Définit si la catégorie de blog peut être souscrite par les lecteurs de nouvelles (les entrées doivent être publiées avant de pouvoir être syndiquées)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationCopyright",
+          "Caption": "Droits d’auteur de syndication",
+          "Description": "Les informations facultatives sur les droits d’auteur affichées lorsque les lecteurs de nouvelles accèdent au blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationEmail",
+          "Caption": "Adresse courriel",
+          "Description": "L’adresse e-mail utilisée comme adresse e-mail responsable de la catégorie blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCaptcha",
+          "Caption": "Utiliser Captcha",
+          "Description": "Définit si les utilisateurs anonymes saisissant des commentaires reçoivent un Captcha pour s’assurer qu’il ne s’agit pas de scripts de spam automatisés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche une catégorie de blog existante"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher la catégorie de blog"
+    },
+    {
+      "Name": "modName",
+      "Text": "Afficher la catégorie de blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les détails d’une catégorie de blog existante. Utilisé par le module Catégories de blogs."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Catégorie de blog"
+    },
+    {
+      "Name": "notFound",
+      "Text": "La catégorie de blog avec ID {0} introuvable."
+    },
+    {
+      "Name": "title",
+      "Text": "Catégorie de blog « {0} »"
+    }
+  ]
+}

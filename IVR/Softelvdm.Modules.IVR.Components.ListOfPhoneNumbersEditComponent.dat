@@ -1,0 +1,67 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Components.ListOfPhoneNumbersEditComponent+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Delete",
+          "Caption": "Supprimer",
+          "Description": "Cliquez pour supprimer ce numéro de téléphone de la liste",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PhoneNumberDisplay",
+          "Caption": "Numéro de téléphone",
+          "Description": "Affiche tous les numéros de téléphone définis",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SendSMS",
+          "Caption": "SMS",
+          "Description": "Indique si un message texte est envoyé au numéro de téléphone lorsqu’un message vocal est reçu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Components.ListOfPhoneNumbersEditComponent+NewModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "NewPhoneNumber",
+          "Caption": "Numéro de téléphone",
+          "Description": "Entrez un nouveau numéro de téléphone et cliquez sur Ajouter",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SendSMS",
+          "Caption": "SMS",
+          "Description": "Indique si un message texte est envoyé au numéro de téléphone lorsqu’un message vocal est reçu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

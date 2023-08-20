@@ -1,0 +1,670 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.Modules.ModuleDefinition",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "About": "Environ",
+        "Authorization": "Autorisation",
+        "General": "Généralités",
+        "Pages": "Pages",
+        "References": "Références",
+        "Skin": "Peau",
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "AllowedRoles",
+          "Caption": "Rôles autorisés",
+          "Description": "Rôles autorisés à utiliser ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowedUsers",
+          "Caption": "Utilisateurs autorisés",
+          "Description": "Utilisateurs autorisés à utiliser ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AnchorId",
+          "Caption": "ID d’ancrage",
+          "Description": "L’identifiant facultatif utilisé comme balise d’ancrage pour ce module - si un id est entré, une balise d’ancrage est générée afin que le module puisse être directement situé sur la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AreaName",
+          "Caption": "Aire",
+          "Description": "Nom de la zone MVC du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanMinimize",
+          "Caption": "Peut minimiser",
+          "Description": "Définit si le module peut être réduit - S’applique uniquement à l’habillage modPanel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ClassName",
+          "Caption": "Nom de la classe",
+          "Description": "Nom de la classe du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompanyDisplayName",
+          "Caption": "Nom complet de l’entreprise",
+          "Description": "Le nom de la société affichable de l’éditeur du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompanyName",
+          "Caption": "Nom de l’entreprise",
+          "Description": "Le nom interne de l’éditeur du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": "Classe CSS",
+          "Description": "Les classes CSS optionnelles à ajouter à la <div> balise du module pour une personnalisation ultérieure via des feuilles de style",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateCreated",
+          "Caption": "Date de création",
+          "Description": "La date/heure de création de ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateUpdated",
+          "Caption": "Date de mise à jour",
+          "Description": "La date/heure de la dernière mise à jour de ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Résumé",
+          "Description": "La description du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domaine",
+          "Description": "Le nom de domaine du produit ou de l’entreprise qui publie le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FormAutoComplete",
+          "Caption": "Saisie semi-automatique",
+          "Description": "Définit si la saisie semi-automatique est utilisée pour les champs de saisie du formulaire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FullClassName",
+          "Caption": "Nom de la classe (complet)",
+          "Description": "Nom complet de la classe du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HelpURL",
+          "Caption": "URL de l’aide",
+          "Description": "Définit l’URL utilisée pour afficher l’aide de ce module : s’il est omis, le lien d’aide du package est utilisé à la place.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Invokable",
+          "Caption": "Invocable",
+          "Description": "Définit si ce module peut être référencé par d’autres modules ou pages afin qu’il soit injecté dans la page - Généralement utilisé pour les modules d’habillage - Seuls les modules uniques prennent en charge l’appel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InvokeInAjax",
+          "Caption": "Utilisation dans Ajax",
+          "Description": "Définit si ce module peut être injecté dans une requête/vue partielle Ajax",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InvokeInPopup",
+          "Caption": "Utiliser dans Popup",
+          "Description": "Définit si ce module peut être injecté dans une fenêtre contextuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InvokingCss",
+          "Caption": "Appel de CSS",
+          "Description": "Définit le CSS qui provoque l’injection de ce module dans la page, lorsque le CSS est utilisé par un modèle - uniquement pris en charge pour les modules uniques",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IsModuleUnique",
+          "Caption": "IsModuleUnique",
+          "Description": "Indique si le module est un module unique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Minimized",
+          "Caption": "Début réduit",
+          "Description": "Définit si le module est initialement réduit - S’applique uniquement à l’habillage modPanel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleDataFolder",
+          "Caption": "Dossier de données",
+          "Description": "Le dossier de données du module utilisé pour stocker des données supplémentaires",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleDisplayName",
+          "Caption": "Nom complet du module",
+          "Description": "Nom du module affichable",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleGuid",
+          "Caption": "Module Guid",
+          "Description": "Affiche un identificateur unique pour cette instance d’un module. Ceci est généralement utilisé à des fins de développement uniquement et peut être utilisé pour identifier ce module de manière unique. Cet id ne change jamais, même si le module est renommé ultérieurement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "A des paramètres",
+          "Description": "Définit si le module possède des paramètres qui peuvent être modifiés et enregistrés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleName",
+          "Caption": "Nom du module",
+          "Description": "Le nom du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModulePermanentUrl",
+          "Caption": "URL permanente",
+          "Description": "L’URL utilisée pour identifier de manière unique et permanente ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleSecurity",
+          "Caption": "Sécurité",
+          "Description": "Définit la sécurité de page nécessaire pour que le module soit affiché",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleSkin",
+          "Caption": "Module Skin",
+          "Description": "L’enveloppe du module utilisée pour le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom du module, qui est utilisé pour identifier le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Pages",
+          "Caption": "Pages",
+          "Description": "Les pages où ce module est utilisé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PermanentGuid",
+          "Caption": "Permanent Guid",
+          "Description": "Affiche un identificateur unique pour ce type de module. Ceci est généralement utilisé à des fins de développement uniquement et peut être utilisé pour identifier de manière unique ce type de module. Cet identifiant ne change jamais",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PermanentModuleName",
+          "Caption": "Nom permanent du module",
+          "Description": "Nom du module interne permanent",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupPage",
+          "Caption": "Page contextuelle",
+          "Description": "La page contextuelle utilisée pour la fenêtre contextuelle lorsque ce module est affiché dans une fenêtre contextuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Print",
+          "Caption": "Support d’impression",
+          "Description": "Définit si le module est imprimé lors de l’impression d’une page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Product",
+          "Caption": "Produit",
+          "Description": "Le nom du produit du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferencedModules",
+          "Caption": "Autres modules",
+          "Description": "Définit d’autres modules qui doivent être injectés dans la page lorsque ce module est utilisé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowActionMenu",
+          "Caption": "Afficher le menu Action",
+          "Description": "Indique si le menu d’action est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowFormButtons",
+          "Caption": "Afficher les boutons de formulaire",
+          "Description": "Si le module a un formulaire avec des boutons (Enregistrer, Fermer, Retour, etc.), ceux-ci sont affichés / masqués en fonction de ce paramètre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowHelp",
+          "Caption": "Afficher l’aide",
+          "Description": "Définit si le lien d’aide du module est affiché en mode d’affichage - Le lien d’aide est toujours affiché en mode édition",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Afficher le menu du module",
+          "Description": "Indique si le menu du module est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowTitle",
+          "Caption": "Afficher le titre",
+          "Description": "Définit si le titre du module est affiché - S’applique uniquement à l’habillage modStandard",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowTitleActions",
+          "Caption": "Afficher les actions (titre)",
+          "Description": "Définit si les liens d’action du module sont également affichés à côté du titre du module - Seules les icônes sont affichées si elles sont sélectionnées - S’applique uniquement à l’habillage modStandard",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Temporary",
+          "Caption": "Temporaire",
+          "Description": "Définit si le module est un module temporaire (généré)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TempPageCssClass",
+          "Caption": "Classe CSS Temp. Page",
+          "Description": "Les classes CSS facultatives à ajouter à la balise d’une page temporaire <body> lorsque ce module est utilisé sur une page temporaire - Les pages temporaires sont utilisées lorsqu’un module est affiché sans page permanente conçue",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre du module, qui apparaît en haut du module comme titre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UsePartialFormCss",
+          "Caption": "Forme partielle CSS",
+          "Description": "Définit si la forme CSS partielle de l’habillage est ajoutée aux formes partielles dans ce module - Le CSS de forme partielle n’est jamais utilisé dans les fenêtres contextuelles ou sur les appareils mobiles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Version",
+          "Caption": "Version",
+          "Description": "La version du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Visible",
+          "Caption": "Visible",
+          "Description": "Définit si le module est visible",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantFocus",
+          "Caption": "Veut se concentrer sur les entrées",
+          "Description": "Définit si les champs d’entrée de ce module doivent recevoir le focus d’entrée s’ils sont les premiers sur la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantSearch",
+          "Caption": "Mots-clés de recherche",
+          "Description": "Définit si le contenu de ce module doit être ajouté aux mots-clés de recherche du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Modules.ModuleDefinition+GridAllowedRole",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Edit",
+          "Caption": "Éditer",
+          "Description": "Le rôle a l’autorisation de modifier le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Remove",
+          "Caption": "Enlever",
+          "Description": "Le rôle a l’autorisation de supprimer le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RoleName",
+          "Caption": "Rôle",
+          "Description": "Description du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "View",
+          "Caption": "Vue",
+          "Description": "Le rôle a l’autorisation d’afficher le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Modules.ModuleDefinition+GridAllowedUser",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Delete",
+          "Caption": "Supprimer",
+          "Description": "Cliquez pour supprimer un utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUserId",
+          "Caption": "Utilisateur",
+          "Description": "Nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Edit",
+          "Caption": "Éditer",
+          "Description": "L’utilisateur est autorisé à modifier le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Remove",
+          "Caption": "Enlever",
+          "Description": "L’utilisateur est autorisé à supprimer le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "View",
+          "Caption": "Vue",
+          "Description": "L’utilisateur est autorisé à afficher le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Modules.ModuleDefinition+AllowedEnum",
+      "Entries": [
+        {
+          "Name": "NotDefined",
+          "Value": "NotDefined",
+          "Caption": " ",
+          "Description": "Non spécifié"
+        },
+        {
+          "Name": "Yes",
+          "Value": "Yes",
+          "Caption": "Oui",
+          "Description": "Autorisé"
+        },
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Non",
+          "Description": "Interdit"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "completeTitle",
+      "Text": "Succès"
+    },
+    {
+      "Name": "desc",
+      "Text": "(non spécifié)"
+    },
+    {
+      "Name": "errCantImport",
+      "Text": "Les données de module {0}({1}) ne peuvent pas être importées - {2}"
+    },
+    {
+      "Name": "invCore",
+      "Text": "Ce module nécessite YetaWF version {0} - La version actuelle trouvée est {1}"
+    },
+    {
+      "Name": "invFormat",
+      "Text": "{0} n’est pas valide données de module"
+    },
+    {
+      "Name": "mmMove",
+      "Text": "Bouger"
+    },
+    {
+      "Name": "mmMoveTo",
+      "Text": "Déplacer vers"
+    },
+    {
+      "Name": "modErr",
+      "Text": "Une erreur s’est produite dans le module {0} :<br/>"
+    },
+    {
+      "Name": "moduleFmt",
+      "Text": "Données du module - {0}. {1}.zip"
+    },
+    {
+      "Name": "name",
+      "Text": "(sans nom)"
+    },
+    {
+      "Name": "nonSite",
+      "Text": "Les données de module {0} ne peuvent pas être importées - Il contient des données inattendues non spécifiques au site"
+    },
+    {
+      "Name": "notAuth",
+      "Text": "Non autorisé"
+    },
+    {
+      "Name": "pageNotFound",
+      "Text": "La page avec id {0} n’existe pas"
+    },
+    {
+      "Name": "roleEdit",
+      "Text": "Le rôle a l’autorisation de modifier le module"
+    },
+    {
+      "Name": "roleEditC",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "roleRemove",
+      "Text": "Le rôle a l’autorisation de supprimer le module"
+    },
+    {
+      "Name": "roleRemoveC",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "roleView",
+      "Text": "Le rôle a l’autorisation d’afficher le module"
+    },
+    {
+      "Name": "roleViewC",
+      "Text": "Vue"
+    },
+    {
+      "Name": "title",
+      "Text": "(sans titre)"
+    },
+    {
+      "Name": "unique",
+      "Text": "Le module {0} est un module unique et ne peut pas être importé en tant que nouveau module"
+    },
+    {
+      "Name": "uploadedFile",
+      "Text": "Fichier téléchargé"
+    },
+    {
+      "Name": "userEdit",
+      "Text": "L’utilisateur est autorisé à modifier le module"
+    },
+    {
+      "Name": "userEditC",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "userRemove",
+      "Text": "L’utilisateur est autorisé à supprimer le module"
+    },
+    {
+      "Name": "userRemoveC",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "userView",
+      "Text": "L’utilisateur est autorisé à afficher le module"
+    },
+    {
+      "Name": "userViewC",
+      "Text": "Vue"
+    }
+  ]
+}

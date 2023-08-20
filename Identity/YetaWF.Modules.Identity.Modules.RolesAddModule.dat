@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "L’utilisation prévue du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "URL de connexion après la publication",
+          "Description": "URL où un utilisateur avec ce rôle est redirigé après s’être connecté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Crée un nouveau rôle"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Créer un nouveau rôle"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un rôle nommé « {0} » existe déjà."
+    },
+    {
+      "Name": "modName",
+      "Text": "Nouveau rôle"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute un nouveau rôle. Ceci est utilisé par le module Rôles (Admin > Identity Settings > Roles, site YetaWF standard) pour ajouter un nouveau rôle."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Nouveau rôle"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouveau rôle « {0} » sauvegardé"
+    }
+  ]
+}

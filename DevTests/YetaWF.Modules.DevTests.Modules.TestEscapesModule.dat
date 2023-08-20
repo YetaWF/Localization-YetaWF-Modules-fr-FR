@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TestEscapesModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Cette page de test est utilisée pour tester l’encodage correct des caractères - en-tête (HeaderAttribute) <A> &amp; &amp; @ {0}",
+      "Footer": "Caractères spéciaux dans le pied de page (FooterAttribute) <A> &amp; &amp; @ {0}",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "String1",
+          "Caption": "Légende &amp; <A> &amp; @ {0}",
+          "Description": "Une description <A> &amp; &amp; @ {0}",
+          "HelpLink": null,
+          "TextAbove": "Caractères spéciaux dans le texte au-dessus du champ (TextAboveAttribute) <A> &amp; &amp; @ {0}",
+          "TextBelow": "Caractères spéciaux dans le texte sous le champ (TextBelowAttribute) <A> &amp; &amp; @ {0}"
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Teste diverses traductions/échappements de caractères côté client et côté serveur"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Échappe"
+    },
+    {
+      "Name": "editText",
+      "Text": "Échappe"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Testez diverses traductions/échappements de caractères côté client et côté serveur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Échappements de test (HTML, attributs)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Teste diverses traductions/échappements de caractères côté client et côté serveur. Une page de test pour ce module peut être trouvée à Tests > Modules > Escapes (site standard YetaWF)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Échappements d’essai"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Test terminé - Voici quelques caractères spéciaux dans un message: <A> &amp; &amp; @ {0}"
+    }
+  ]
+}

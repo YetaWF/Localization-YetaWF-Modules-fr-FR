@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.DisposableTrackerBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "URL permettant d’afficher un objet jetable - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.DisposableTrackerBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "CallStack",
+          "Caption": "Pile d’appels",
+          "Description": "La pile d’appels au moment de la création de l’objet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Heure",
+          "Description": "L’heure à laquelle l’objet a été créé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisposableObject",
+          "Caption": "Type",
+          "Description": "Le type d’objet de l’objet jetable actuellement utilisé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les objets jetables"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Objets jetables"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Objets jetables"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer des objets jetables"
+    },
+    {
+      "Name": "modName",
+      "Text": "Objets jetables"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche (déboguer) des informations sur les objets jetables. Utilisé pour trouver des fuites là où les objets ne sont pas correctement Éliminez()d. Les informations sur les objets jetables sont accessibles à l’aide du tableau de bord Admin > > des objets jetables (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Objets jetables"
+    }
+  ]
+}

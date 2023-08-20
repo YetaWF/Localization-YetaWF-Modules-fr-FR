@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "acct1",
+      "Text": "Connectez-vous à l’aide de ce compte :"
+    },
+    {
+      "Name": "accts",
+      "Text": "Connectez-vous à l’aide de l’un des comptes suivants :"
+    },
+    {
+      "Name": "btnSave",
+      "Text": "Registre"
+    },
+    {
+      "Name": "extProviders",
+      "Text": "Fournisseurs de connexion externes"
+    },
+    {
+      "Name": "localOnly",
+      "Text": "Les fournisseurs de connexion externes peuvent ne pas fonctionner lorsque votre site utilise Localhost."
+    }
+  ]
+}

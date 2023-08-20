@@ -1,0 +1,40 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Menus.Modules.MenuToggleModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "Target",
+          "Caption": "Élément cible",
+          "Description": "Définit l’élément contenant le menu contrôlé par ce bouton bascule à l’aide de sélecteurs CSS.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Menu Toggle"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet d’afficher un bouton bascule de menu sur de petits écrans."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Menu Toggle"
+    }
+  ]
+}

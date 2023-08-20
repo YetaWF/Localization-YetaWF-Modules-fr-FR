@@ -1,0 +1,93 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Components.AllowedUsersEditComponent+AllEntry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "UserName",
+          "Caption": "Utilisateur",
+          "Description": "Nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Components.AllowedUsersEditComponent+GridAllowedUser",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Delete",
+          "Caption": "Supprimer",
+          "Description": "Cliquez pour supprimer un utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUserId",
+          "Caption": "Utilisateur",
+          "Description": "Description de l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Edit",
+          "Caption": "Éditer",
+          "Description": "L’utilisateur a l’autorisation de modifier la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Remove",
+          "Caption": "Enlever",
+          "Description": "L’utilisateur est autorisé à supprimer la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "View",
+          "Caption": "Vue",
+          "Description": "L’utilisateur est autorisé à afficher la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Components.AllowedUsersEditComponent+NewModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "NewValue",
+          "Caption": "Nouvel utilisateur",
+          "Description": "Entrez un nouveau nom d’utilisateur et cliquez sur Ajouter",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

@@ -1,0 +1,72 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ModuleEdit.Modules.ModuleEditModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "A des paramètres",
+          "Description": "Définit si le module possède des paramètres qui peuvent être modifiés et enregistrés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Afficher le menu du module",
+          "Description": "Indique si le menu du module est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du module"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du module"
+    },
+    {
+      "Name": "modEditTitle",
+      "Text": "Module « {0} »"
+    },
+    {
+      "Name": "modName",
+      "Text": "Module Modifier"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente les fonctionnalités d’édition utilisées en mode d’édition du site pour modifier les paramètres du module."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Fonctionnalités d’édition de module"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres du module enregistrés"
+    }
+  ]
+}

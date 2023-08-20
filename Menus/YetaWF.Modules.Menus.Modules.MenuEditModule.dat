@@ -1,0 +1,230 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Menus.Modules.MenuEditModule+MenuEntry",
+      "BaseTypeName": "YetaWF.Core.Models.TreeEntry",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AuthorizationIgnore",
+          "Caption": "Ignorer l’autorisation",
+          "Description": "Définit si l’autorisation de la page cible est ignorée - Les actions ne sont visibles que si l’utilisateur dispose d’une autorisation suffisante pour effectuer l’action - Cela peut être utilisé pour forcer l’affichage des actions même lorsque l’autorisation est insuffisante - Pour les utilisateurs anonymes, cela oblige l’utilisateur à se connecter en premier - Ce paramètre est ignoré pour les liens vers d’autres sites",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Category",
+          "Caption": "Catégorie",
+          "Description": "Le type d’action de cette entrée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ConfirmationText",
+          "Caption": "Texte de confirmation",
+          "Description": "Le texte de confirmation affiché avant l’action",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CopyActions",
+          "Caption": " ",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": "Classe CSS",
+          "Description": "Classe CSS facultative ajoutée à l’action",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DontFollow",
+          "Caption": "Ne suivez pas",
+          "Description": "Définit si les moteurs de recherche et les bots suivent ce lien (sélectionnez pour désactiver)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Activé",
+          "Description": "Définit si cette entrée est activée - Les entrées désactivées sont automatiquement masquées dans les menus",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EntryType",
+          "Caption": "Type d’entrée",
+          "Description": "Le type de l’entrée de menu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ImageSVG",
+          "Caption": "Image SVG",
+          "Description": "SVG de l’image affichée pour cette entrée : si le SVG Image est défini, la propriété Image Url est ignorée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ImageUrlFinal",
+          "Caption": "URL de l’image",
+          "Description": "L’URL de l’image affichée pour cette entrée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Legend",
+          "Caption": "Légende",
+          "Description": "La légende de cet article",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LimitToRole",
+          "Caption": "Limiter au rôle",
+          "Description": "Définit le rôle qui doit être présent pour que cette action soit affichée - Ceci n’est normalement utilisé que pour les entrées spécialisées qui ne doivent être affichées que dans certains cas, mais qui sont également disponibles (par URL) pour d’autres rôles - Ce paramètre est ignoré pour les superutilisateurs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LinkText",
+          "Caption": "Texte du lien",
+          "Description": "Le texte affiché pour cette entrée de menu lorsqu’il est utilisé comme lien",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MenuText",
+          "Caption": "Texte du menu",
+          "Description": "Texte affiché pour cette entrée de menu lorsqu’il est utilisé comme entrée de menu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Mode",
+          "Caption": "Mode",
+          "Description": "Définit où cette entrée est disponible",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PleaseWaitText",
+          "Caption": "Veuillez patienter",
+          "Description": "Si elle est spécifiée, la boîte de dialogue « Veuillez patienter » s’affiche lorsque l’action est sélectionnée - Disponible uniquement pour les actions avec Style=Normal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Style",
+          "Description": "Définit comment cette action affecte la fenêtre active",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SubModule",
+          "Caption": "Sous-module",
+          "Description": "Le sous-module est affiché comme un sous-menu complet - Si un sous-module est défini, il remplace l’ensemble du sous-menu. Les sous-modules ne doivent pas afficher les formulaires, car tout message contextuel dû à une entrée non valide fermerait le sous-menu. Ceci est mieux utilisé pour afficher des liens ou des images formatés, etc. avec un module Texte.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Tooltip",
+          "Caption": "Info-bulle",
+          "Description": "Info-bulle de cette entrée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du menu"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres du menu"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres du menu"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du menu"
+    },
+    {
+      "Name": "linkConfirmTT",
+      "Text": "Êtes-vous sûr de vouloir enregistrer les informations sur la page conçue (Image SVG et Tooltip) ?"
+    },
+    {
+      "Name": "linkCopy",
+      "Text": "Copier à partir d’une page conçue"
+    },
+    {
+      "Name": "linkCopyTT",
+      "Text": "Copie les informations de la page conçue - Les propriétés copiées sont Menu/Link Text, Image SVG et Tooltip"
+    },
+    {
+      "Name": "linkSave",
+      "Text": "Enregistrer dans la page conçue"
+    },
+    {
+      "Name": "linkSaveTT",
+      "Text": "Enregistre les informations dans la page conçue - Les propriétés copiées sont Texte de menu, Image SVG et Info-bulle"
+    },
+    {
+      "Name": "menuChanged",
+      "Text": "Le menu a été modifié par quelqu’un d’autre - Vos modifications ne peuvent pas être enregistrées - Veuillez actualiser la page actuelle avant de continuer"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier le menu"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente l’édition de menu. Ceci est utilisé dans le cadre du module de menu principal et du module de menu pour modifier les paramètres de menu en mode d’édition de site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Menu"
+    }
+  ]
+}

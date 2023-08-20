@@ -1,0 +1,214 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.VisitorsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL à afficher",
+          "Description": "L’URL pour afficher une entrée visiteur - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.VisitorsModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AccessDateTime",
+          "Caption": "Consultée",
+          "Description": "La date et l’heure auxquelles le visiteur a visité le site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "City",
+          "Caption": "Ville",
+          "Description": "La ville où se trouve le visiteur, en fonction de l’adresse IP (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ContinentCode",
+          "Caption": "Continent",
+          "Description": "Le continent où se trouve le visiteur, en fonction de l’adresse IP (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CountryCode",
+          "Caption": "Pays",
+          "Description": "Le pays où se trouve le visiteur, en fonction de l’adresse IP (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Error",
+          "Caption": "Erreur",
+          "Description": "Affiche toute erreur qui a pu se produire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP du visiteur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Referrer",
+          "Caption": "Referrer",
+          "Description": "L’URL d’où vient le visiteur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegionCode",
+          "Caption": "Région",
+          "Description": "La région où se trouve le visiteur, en fonction de l’adresse IP (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SessionId",
+          "Caption": "Session Id",
+          "Description": "L’ID de session utilisé pour identifier le visiteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL consultée par le visiteur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserAgent",
+          "Caption": "Agent utilisateur",
+          "Description": "L’agent utilisateur du navigateur Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur",
+          "Description": "L’adresse e-mail de l’utilisateur (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche l’activité des visiteurs"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Activité des visiteurs"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Activité des visiteurs"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher l’activité des visiteurs"
+    },
+    {
+      "Name": "confUpdateGeoLocation",
+      "Text": "Mise à jour des données de géolocalisation..."
+    },
+    {
+      "Name": "modName",
+      "Text": "Activité des visiteurs"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche l’activité des visiteurs. Il est accessible à l’aide du tableau de bord Admin > > de l’activité des visiteurs (site YetaWF standard). L’affichage des informations détaillées d’un enregistrement est disponible dans la grille Activité des visiteurs affichée par le module Visiteurs. Les enregistrements ne peuvent pas être supprimés."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Activité des visiteurs"
+    },
+    {
+      "Name": "noInfo",
+      "Text": "Les informations sur les visiteurs ne sont pas disponibles - Voir https://yetawf.com/Documentation/YetaWF/Visitors"
+    },
+    {
+      "Name": "roleUpdateGeoLocationC",
+      "Text": "Mettre à jour les données de géolocalisation"
+    },
+    {
+      "Name": "roleUpdateGeoLocations",
+      "Text": "Le rôle a l’autorisation de mettre à jour les données de géolocalisation"
+    },
+    {
+      "Name": "updgAuthLegend",
+      "Text": "Met à jour les données de géolocalisation"
+    },
+    {
+      "Name": "updgAuthLink",
+      "Text": "Données de géolocalisation"
+    },
+    {
+      "Name": "updgAuthMenu",
+      "Text": "Données de géolocalisation"
+    },
+    {
+      "Name": "updgAuthTT",
+      "Text": "Mettre à jour les données de géolocalisation"
+    },
+    {
+      "Name": "updgUpdateGeoLocation",
+      "Text": "Voulez-vous vraiment mettre à jour les données de géolocalisation ?"
+    },
+    {
+      "Name": "userUpdateGeoLocationC",
+      "Text": "Mettre à jour les données de géolocalisation"
+    },
+    {
+      "Name": "userUpdateGeoLocations",
+      "Text": "L’utilisateur a l’autorisation de mettre à jour les données de géolocalisation"
+    }
+  ]
+}

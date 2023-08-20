@@ -1,0 +1,63 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnAdd",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "btnApply",
+      "Text": "Appliquer"
+    },
+    {
+      "Name": "btnDelete",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "btnDown",
+      "Text": ">>"
+    },
+    {
+      "Name": "btnIns",
+      "Text": "Insérer"
+    },
+    {
+      "Name": "btnUp",
+      "Text": "<<"
+    },
+    {
+      "Name": "noCaption",
+      "Text": "(pas de légende)"
+    },
+    {
+      "Name": "noDesc",
+      "Text": "(pas de description)"
+    },
+    {
+      "Name": "txtAdd",
+      "Text": "Cliquez pour ajouter une nouvelle étape après l’étape en cours"
+    },
+    {
+      "Name": "txtApply",
+      "Text": "Cliquez pour appliquer les modifications actuelles"
+    },
+    {
+      "Name": "txtDelete",
+      "Text": "Cliquez pour supprimer l’étape en cours"
+    },
+    {
+      "Name": "txtDown",
+      "Text": "Cliquez pour déplacer l’étape en cours"
+    },
+    {
+      "Name": "txtIns",
+      "Text": "Cliquez pour insérer une nouvelle étape avant l’étape en cours"
+    },
+    {
+      "Name": "txtUp",
+      "Text": "Cliquez pour déplacer l’étape en cours"
+    }
+  ]
+}

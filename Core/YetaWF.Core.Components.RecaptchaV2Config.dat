@@ -1,0 +1,41 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Components.RecaptchaV2Config+SizeEnum",
+      "Entries": [
+        {
+          "Name": "Normal",
+          "Value": "Normal",
+          "Caption": "Normal",
+          "Description": null
+        },
+        {
+          "Name": "Compact",
+          "Value": "Compact",
+          "Caption": "Compact",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Components.RecaptchaV2Config+ThemeEnum",
+      "Entries": [
+        {
+          "Name": "Light",
+          "Value": "Light",
+          "Caption": "Lumière",
+          "Description": null
+        },
+        {
+          "Name": "Dark",
+          "Value": "Dark",
+          "Caption": "Sombre",
+          "Description": null
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

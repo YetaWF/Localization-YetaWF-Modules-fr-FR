@@ -1,0 +1,94 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "BccEmails",
+          "Caption": "Copier les e-mails de commentaires",
+          "Description": "Définit si l’administrateur du site reçoit une copie de tous les messages de commentaires",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Captcha",
+          "Caption": "Utiliser Captcha",
+          "Description": "L’utilisateur doit passer un test « humain »",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "L’adresse e-mail où tous les messages de commentaires sont envoyés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireEmail",
+          "Caption": "Adresse e-mail requise",
+          "Description": "Définit si l’utilisateur doit entrer son adresse e-mail pour pouvoir envoyer des commentaires",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireName",
+          "Caption": "Nom requis",
+          "Description": "Définit si l’utilisateur doit entrer son nom pour pouvoir envoyer des commentaires",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres de rétroaction"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres de rétroaction"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres de rétroaction"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres de commentaires"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres de rétroaction"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Le module de configuration pour les modules de rétroaction et définit les paramètres globaux. Il est accessible à l’aide des paramètres de > d’administration > des paramètres de rétroaction (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres de rétroaction"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres de rétroaction sont introuvables."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres d’évaluation enregistrés"
+    }
+  ]
+}

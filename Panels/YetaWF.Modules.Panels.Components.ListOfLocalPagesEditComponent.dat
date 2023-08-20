@@ -1,0 +1,93 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Components.ListOfLocalPagesEditComponent+AllEntry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Popup",
+          "Caption": "Fenêtre contextuelle",
+          "Description": "Définit si la page est affichée dans une fenêtre contextuelle (ignorée lorsqu’elle est utilisée dans un module de barre de page)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre de la page qui apparaîtra comme titre dans la fenêtre du navigateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "Page",
+          "Description": "Définit le nom de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Panels.Components.ListOfLocalPagesEditComponent+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Delete",
+          "Caption": "Supprimer",
+          "Description": "Cliquez pour supprimer cette page de la liste",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Popup",
+          "Caption": "Fenêtre contextuelle",
+          "Description": "Définit si la page est affichée dans une fenêtre contextuelle (ignorée lorsqu’elle est utilisée dans un module de barre de page)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UrlDisplay",
+          "Caption": "Page",
+          "Description": "Affiche toutes les pages",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Panels.Components.ListOfLocalPagesEditComponent+NewModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "NewValue",
+          "Caption": "Page",
+          "Description": "Sélectionnez une page et cliquez sur Ajouter pour l’ajouter à la liste des pages",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

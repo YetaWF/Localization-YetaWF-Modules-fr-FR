@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "multiMode",
+      "Text": "Il y a plusieurs processeurs SMS actifs - il ne devrait y en avoir qu’un."
+    },
+    {
+      "Name": "noMode",
+      "Text": "Il n’y a pas de processeur SMS actif - Il est toujours possible d’envoyer un message à une adresse e-mail, au lieu d’un numéro de téléphone."
+    },
+    {
+      "Name": "testMode",
+      "Text": "Le processeur SMS {0} est en mode TEST/Sandbox."
+    }
+  ]
+}

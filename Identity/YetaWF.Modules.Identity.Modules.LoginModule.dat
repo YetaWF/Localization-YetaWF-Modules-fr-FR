@@ -1,0 +1,226 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.LoginModule+LoginModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": "Informations sur le compte",
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Actions",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha",
+          "Description": "Veuillez vérifier que vous êtes un humain et non un robot spammeur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "Entrez votre adresse e-mail pour vous inscrire - Il s’agit de l’adresse e-mail utilisée par ce site pour communiquer avec vous",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HeaderEmail",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HeaderEmailNewUser",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HeaderNameAndEmail",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HeaderNameAndEmailNewUser",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Mot de passe",
+          "Description": "Entrez votre mot de passe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RememberMe",
+          "Caption": "Souvenez-vous de moi",
+          "Description": "Sélectionnez cette option pour que vos informations soient sauvegardées et que vous n’ayez pas besoin de vous reconnecter lorsque vous revenez sur ce site (lorsque vous utilisez le même navigateur)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResendVerificationCode",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Nom",
+          "Description": "Entrez votre nom d’utilisateur - Il s’agit du nom que vous avez utilisé lors de votre inscription sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerificationCode",
+          "Caption": "Code de vérification",
+          "Description": "Veuillez saisir le code de vérification que vous avez reçu par e-mail pour valider votre compte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "accountRejected",
+      "Text": "Votre compte a été rejeté par l’administrateur du site."
+    },
+    {
+      "Name": "accountSuspended",
+      "Text": "Votre compte a été suspendu."
+    },
+    {
+      "Name": "extUser",
+      "Text": "Ce compte n’est accessible qu’à l’aide d’un fournisseur de connexion externe"
+    },
+    {
+      "Name": "headerEmailNew",
+      "Text": "<p>Vous accédez à une zone de notre site Web, pour laquelle vous devez vous inscrire en utilisant votre adresse e-mail et votre mot de passe. Si vous êtes un nouvel utilisateur, veuillez créer un nouveau compte maintenant. Si vous avez déjà créé un compte plus tôt, veuillez entrer les informations du compte ici et cliquer sur « Connexion ».</p>"
+    },
+    {
+      "Name": "headerName",
+      "Text": "<p>Si vous avez un compte, veuillez entrer les informations du compte ici et cliquer sur « Connexion ». Ce site n’accepte pas les inscriptions de nouveaux utilisateurs.</p>"
+    },
+    {
+      "Name": "headerNameEmail",
+      "Text": "<p>Si vous avez un compte, veuillez entrer les informations du compte ici et cliquer sur « Connexion ». Ce site n’accepte pas les inscriptions de nouveaux utilisateurs.</p>"
+    },
+    {
+      "Name": "headerNameEmailNew",
+      "Text": "<p>Vous accédez à une zone de notre site Web, pour laquelle vous devez vous inscrire en utilisant votre nom et votre mot de passe. Si vous êtes un nouvel utilisateur, veuillez créer un nouveau compte maintenant. Si vous avez déjà créé un compte plus tôt, veuillez entrer les informations du compte ici et cliquer sur « Connexion ».</p>"
+    },
+    {
+      "Name": "invLogin",
+      "Text": "Nom d’utilisateur ou mot de passe non valide"
+    },
+    {
+      "Name": "invVerification",
+      "Text": "Le code de vérification n’est pas valide. Assurez-vous de le copier/coller à partir de l’e-mail pour éviter toute faute de frappe."
+    },
+    {
+      "Name": "logAccountTitle",
+      "Text": "Connectez-vous à l’aide de votre compte {0}"
+    },
+    {
+      "Name": "loginAsLegend",
+      "Text": "Se connecte en tant qu’autre utilisateur"
+    },
+    {
+      "Name": "loginAsLink",
+      "Text": "Connecter un utilisateur {0}"
+    },
+    {
+      "Name": "loginAsText",
+      "Text": "non utilisé"
+    },
+    {
+      "Name": "loginAsTooltip",
+      "Text": "Connectez-vous en tant qu’utilisateur {0}"
+    },
+    {
+      "Name": "loginLegend",
+      "Text": "Se connecte au site"
+    },
+    {
+      "Name": "loginLink",
+      "Text": "Connectez-vous à l’aide de votre compte existant"
+    },
+    {
+      "Name": "loginText",
+      "Text": "Connectez-vous"
+    },
+    {
+      "Name": "loginTooltip",
+      "Text": "Si vous avez un compte sur ce site, cliquez pour vous connecter"
+    },
+    {
+      "Name": "maxAttemps",
+      "Text": "Le nombre maximum de tentatives de connexion a été dépassé - Votre compte a été suspendu"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet à un utilisateur d’entrer des informations de compte pour se connecter au site. Le module de connexion est accessible à l’aide de User > Login (site YetaWF standard)."
+    },
+    {
+      "Name": "notApproved",
+      "Text": "Vous venez de vérifier votre compte. Maintenant, votre compte doit être approuvé par l’administrateur du site. Vous recevrez un e-mail de confirmation dès que votre compte sera actif."
+    },
+    {
+      "Name": "notApproved2",
+      "Text": "Votre compte n’a pas encore été approuvé par l’administrateur du site. Vous recevrez un e-mail de confirmation dès que votre compte sera actif."
+    },
+    {
+      "Name": "notValidated",
+      "Text": "Votre compte n’a pas encore été vérifié. Vous recevrez un e-mail avec les informations de vérification. Veuillez copier et entrer le code de vérification ici."
+    },
+    {
+      "Name": "sendVerificationLegend",
+      "Text": "Envoie un e-mail de vérification à l’utilisateur"
+    },
+    {
+      "Name": "sendVerificationLink",
+      "Text": "Renvoyer l’e-mail de vérification"
+    },
+    {
+      "Name": "sendVerificationMenu",
+      "Text": "Renvoyer l’e-mail de vérification"
+    },
+    {
+      "Name": "sendVerificationTT",
+      "Text": "Vous envoie un e-mail de vérification"
+    },
+    {
+      "Name": "title",
+      "Text": "Connectez-vous"
+    }
+  ]
+}

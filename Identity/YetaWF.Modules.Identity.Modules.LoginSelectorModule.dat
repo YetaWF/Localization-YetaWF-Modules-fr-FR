@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.LoginSelectorModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "Users",
+          "Caption": "Liste des utilisateurs",
+          "Description": "Liste des comptes d’utilisateurs pouvant être utilisés pour se connecter rapidement au site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.LoginSelectorModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SuperuserCurrent",
+          "Caption": "Super-utilisateur",
+          "Description": "L’utilisateur actuellement connecté est un superutilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuperuserStillActive",
+          "Caption": "Super-utilisateur",
+          "Description": "Si un superutilisateur a déjà été connecté au cours de cette session, l’état du superutilisateur reste même s’il est connecté en tant qu’autre utilisateur - Décochez la case pour désactiver le mode superutilisateur pour cette session",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur actif",
+          "Description": "Liste des comptes d’utilisateurs qui peuvent être utilisés pour se connecter rapidement au site - sélectionnez une entrée pour se connecter en tant qu’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Sélecteur de connexion utilisateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Utilisé pendant le développement du site pour basculer rapidement entre les comptes utilisateur prédéfinis. Il est normalement ajouté à une peau en tant que module de peau. Utilisez les paramètres du module pour ajouter des comptes utilisateur prédéfinis à la liste des comptes proposés par ce module. Dans les versions de débogage, ce module est toujours affiché pour faciliter la commutation entre les utilisateurs pendant le développement. Dans les versions release, ce module n’est affiché qu’à un superutilisateur connecté."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sélecteur de connexion utilisateur"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du site « {0} »"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres du site"
+    },
+    {
+      "Name": "editSiteLegend",
+      "Text": "Modifie les paramètres du site actuel"
+    },
+    {
+      "Name": "editSiteLink",
+      "Text": "Paramètres du site"
+    },
+    {
+      "Name": "editSiteText",
+      "Text": "Paramètres du site"
+    },
+    {
+      "Name": "editSiteTooltip",
+      "Text": "Modifier les paramètres du site actuel"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres du site"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du site « {0} »"
+    },
+    {
+      "Name": "errNoSite",
+      "Text": "Site « {0} » introuvable"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres du site"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les propriétés d’un site. Ce module est utilisé par le module Sites pour modifier les propriétés du site. Il est accessible à l’aide des paramètres d’administration > > des paramètres du site (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres du site"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres du site mis à jour"
+    },
+    {
+      "Name": "okSavedRestart",
+      "Text": "Paramètres du site mis à jour : ces paramètres ne prendront effet qu’après le redémarrage du site."
+    }
+  ]
+}

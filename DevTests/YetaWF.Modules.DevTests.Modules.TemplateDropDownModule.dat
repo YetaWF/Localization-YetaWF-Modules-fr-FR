@@ -1,0 +1,100 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateDropDownModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Core": "Noyau"
+      },
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DropDownList",
+          "Caption": "Liste déroulante",
+          "Description": "DropDownList (SelectionRequired)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DropDownListInt",
+          "Caption": "DropDownListInt",
+          "Description": "DropDownListInt (SelectionRequired)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DropDownSearch",
+          "Caption": "DropDownSearch",
+          "Description": "DropDownSearch (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enum",
+          "Caption": "Enum",
+          "Description": "Enum (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateDropDownModule+Model+SampleEnum",
+      "Entries": [
+        {
+          "Name": "Value1",
+          "Value": "Value1",
+          "Caption": "Enum 1",
+          "Description": "Info-bulle pour Enum 1"
+        },
+        {
+          "Name": "Value2",
+          "Value": "Value2",
+          "Caption": "Enum 2",
+          "Description": "Info-bulle pour Enum 2"
+        },
+        {
+          "Name": "Value3",
+          "Value": "Value3",
+          "Caption": "Énumération 3",
+          "Description": "Info-bulle pour Enum 3"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test des composants - Liste déroulante"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant DropDown. Une page de test pour ce module se trouve à Tests > Templates > DropDown (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test déroulant"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

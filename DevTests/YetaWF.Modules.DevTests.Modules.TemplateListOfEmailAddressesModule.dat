@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateListOfEmailAddressesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "Adresses e-mail",
+          "Description": "Liste des adresses e-mail",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "Adresses e-mail (obligatoire)",
+          "Description": "Liste des adresses e-mail (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "Adresses e-mail (en lecture/uniquement)",
+          "Description": "Liste des adresses e-mail (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le composant de test ListOfEmailAddresses"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "ListOfEmailAddresses"
+    },
+    {
+      "Name": "displayText",
+      "Text": "ListOfEmailAddresses"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le composant de test ListOfEmailAddresses"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test de composant - ListOfEmailAddresses"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant ListOfEmailAddresses. Une page de test pour ce module se trouve à Tests > Templates > ListOfEmailAddresses (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test ListOfEmailAddresses"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

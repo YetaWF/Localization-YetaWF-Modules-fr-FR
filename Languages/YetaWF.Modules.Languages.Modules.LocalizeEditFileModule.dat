@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeEditFileModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Classes",
+          "Caption": "Classes",
+          "Description": "Affiche tous les fragments de chaîne localisables trouvés dans les propriétés de classe et les attributs Header, Footer et Legend de la classe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Comment",
+          "Caption": "Commentaire",
+          "Description": "Un commentaire facultatif",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CurrentLanguage",
+          "Caption": "Langue actuelle",
+          "Description": "Affiche la langue actuelle utilisée - Utiliser les paramètres utilisateur pour modifier la langue actuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Custom",
+          "Caption": "Coutume",
+          "Description": "Définit si les chaînes de localisation sont enregistrées en tant que personnalisations (dans ./LocalizationCustom) ou en tant que ressources installées par package (./Localization) - Seules les ressources non anglaises peuvent être enregistrées en tant que ressources installées par package",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CustomRO",
+          "Caption": "Coutume",
+          "Description": "Définit si les chaînes de localisation sont enregistrées en tant que personnalisations (dans ./LocalizationCustom) ou en tant que ressources installées par package (./Localization) - Seules les ressources non anglaises peuvent être enregistrées en tant que ressources installées par package",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enums",
+          "Caption": "Énumérations",
+          "Description": "Affiche tous les fragments de chaîne localisables trouvés dans les attributs EnumDescription",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Strings",
+          "Caption": "Cordes",
+          "Description": "Affiche tous les fragments de chaîne localisables trouvés dans les appels __ResStr()",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie une ressource de localisation existante"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier la ressource de localisation"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier la ressource de localisation"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier une ressource de localisation existante. Ceci est utilisé par le module Langues."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ressource de localisation"
+    },
+    {
+      "Name": "okReset",
+      "Text": "Ressource de localisation restaurée par défaut - Le fichier de localisation a été supprimé - Si vous cliquez sur Enregistrer ou Appliquer, un nouveau fichier complémentaire personnalisé/installé sera créé. Pour conserver uniquement les valeurs par défaut, fermez simplement ce formulaire"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Ressource de localisation enregistrée"
+    },
+    {
+      "Name": "title",
+      "Text": "Ressource de localisation « {0} »"
+    }
+  ]
+}

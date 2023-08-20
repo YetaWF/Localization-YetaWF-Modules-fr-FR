@@ -1,0 +1,307 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "badStringLengthMax",
+      "Text": "La longueur de '{0}' ne peut pas dépasser {1} caractères"
+    },
+    {
+      "Name": "badStringLengthMinMax",
+      "Text": "La longueur de '{0}' doit être comprise entre {1} et {2} caractères"
+    },
+    {
+      "Name": "badTimeSpan",
+      "Text": "La plage valide va de {0} à {1}"
+    },
+    {
+      "Name": "dup",
+      "Text": "Entrée en double trouvée - {0}"
+    },
+    {
+      "Name": "dupClient2",
+      "Text": "Entrée en double trouvée dans le champ intitulé '{0}'"
+    },
+    {
+      "Name": "errInvMeta",
+      "Text": "La balise meta n’est pas valide - Elle doit être au format <meta name=\"google-site-verification » content= »....votre-code....\">"
+    },
+    {
+      "Name": "errInvMeta2",
+      "Text": "La balise meta n’est pas valide (champ '{0}') - Il doit être au format <meta name=\"google-site-verification » content= »....votre-code....\">"
+    },
+    {
+      "Name": "errInvMeta3",
+      "Text": "La balise meta '{0}' n’est pas valide - Elle doit être au format <meta name=\"google-site-verification » content= »....votre-code....\">"
+    },
+    {
+      "Name": "errInvSite",
+      "Text": "Le nom de domaine du site n’est pas valide - Il ne peut pas utiliser http:// ou https:// et il ne peut contenir que des lettres, des chiffres et les caractères suivants: - ."
+    },
+    {
+      "Name": "errInvSite2",
+      "Text": "Le nom de domaine du site n’est pas valide (champ '{0}') - Il ne peut pas utiliser http:// ou https:// et il ne peut contenir que des lettres, des chiffres et ces caractères: - ."
+    },
+    {
+      "Name": "errInvSite3",
+      "Text": "Le nom de domaine du site '{0}' n’est pas valide - Il ne peut pas utiliser http:// ou https:// et il ne peut contenir que des lettres, des chiffres et ces caractères: - ."
+    },
+    {
+      "Name": "errPrivateKey",
+      "Text": "Les paramètres de configuration RecaptchaV2 sont manquants - aucune clé publique/privée trouvée"
+    },
+    {
+      "Name": "range",
+      "Text": "La valeur '{0}' doit être comprise entre {1} et {2}"
+    },
+    {
+      "Name": "requiredExpr",
+      "Text": "Le champ '{0}' est obligatoire"
+    },
+    {
+      "Name": "requiredSelExpr",
+      "Text": "Le champ '{0}' nécessite une sélection"
+    },
+    {
+      "Name": "sameas",
+      "Text": "Le champ {0} ne correspond pas"
+    },
+    {
+      "Name": "valAnchor",
+      "Text": "L’ID d’ancrage n’est pas valide - utilisez uniquement les lettres a-z, A-Z, _, - et 0-9 pour les ID"
+    },
+    {
+      "Name": "valAnchor2",
+      "Text": "L’ID d’ancrage n’est pas valide (champ '{0}') - utilisez uniquement les lettres a-z, A-Z, _, - et 0-9 pour les identifiants"
+    },
+    {
+      "Name": "valAnchor3",
+      "Text": "L’ID d’ancrage '{0}' n’est pas valide - utilisez uniquement les lettres a-z, A-Z, _, - et 0-9 pour les identifiants"
+    },
+    {
+      "Name": "valArea",
+      "Text": "La zone spécifiée n’est pas valide - Veuillez utiliser uniquement des lettres et des chiffres au format domain_product"
+    },
+    {
+      "Name": "valArea2",
+      "Text": "La zone spécifiée n’est pas valide (champ '{0}') - Veuillez utiliser uniquement des lettres et des chiffres au format domain_product"
+    },
+    {
+      "Name": "valArea3",
+      "Text": "La zone '{0}' n’est pas valide - Veuillez utiliser uniquement des lettres et des chiffres au format domain_product"
+    },
+    {
+      "Name": "valCCNum",
+      "Text": "Le numéro de carte de crédit n’est pas valide"
+    },
+    {
+      "Name": "valCCNum2",
+      "Text": "Le numéro de carte de crédit n’est pas valide (champ '{0}')"
+    },
+    {
+      "Name": "valCCNum3",
+      "Text": "Le numéro de carte de crédit '{0}' n’est pas valide"
+    },
+    {
+      "Name": "valCCV",
+      "Text": "Le CVV (Card Verification Value) n’est pas valide - Le CVV est imprimé au dos de votre carte de crédit - Habituellement, les 4 derniers chiffres de votre numéro de carte, suivis du CVV (3-4 chiffres) sont affichés. Si votre carte de crédit a un tel code de sécurité, veuillez le saisir ici (si vous ne le saisissez pas, votre commande peut être retardée ou rejetée) - Si votre carte n’a pas un tel code, laissez simplement ce champ vide"
+    },
+    {
+      "Name": "valCCV2",
+      "Text": "Le CVC (Card Verification Value) n’est pas valide (champ '{0}') - Le CVV est imprimé au dos de votre carte de crédit - Habituellement, les 4 derniers chiffres de votre numéro de carte, suivis du CVV (3-4 chiffres) sont affichés. Si votre carte de crédit a un tel code de sécurité, veuillez le saisir ici (si vous ne le saisissez pas, votre commande peut être retardée ou rejetée) - Si votre carte n’a pas un tel code, laissez simplement ce champ vide"
+    },
+    {
+      "Name": "valCCV3",
+      "Text": "Le CVC (Card Verification Value) '{0}' n’est pas valide - Le CVV est imprimé au dos de votre carte de crédit - Habituellement, les 4 derniers chiffres de votre numéro de carte, suivis du CVV (3-4 chiffres) sont affichés. Si votre carte de crédit a un tel code de sécurité, veuillez le saisir ici (si vous ne le saisissez pas, votre commande peut être retardée ou rejetée) - Si votre carte n’a pas un tel code, laissez simplement ce champ vide"
+    },
+    {
+      "Name": "valCssClass",
+      "Text": "La classe répertoriée n’est pas valide - Utilisez uniquement les lettres a-z, A-Z, _ et 0-9 pour un nom de classe - Le nom de classe ne peut pas commencer par un chiffre"
+    },
+    {
+      "Name": "valCssClass2",
+      "Text": "La classe répertoriée n’est pas valide (champ '{0}') - Utilisez uniquement les lettres a-z, A-Z, _ et 0-9 pour un nom de classe - Le nom de la classe ne peut pas commencer par un chiffre"
+    },
+    {
+      "Name": "valCssClass3",
+      "Text": "La classe '{0}' n’est pas valide - Utilisez uniquement les lettres a-z, A-Z, _ et 0-9 pour un nom de classe - Le nom de la classe ne peut pas commencer par un chiffre"
+    },
+    {
+      "Name": "valCssClasses",
+      "Text": "Les classes répertoriées ne sont pas valides - Veuillez séparer les classes en utilisant des espaces (pas des virgules) et utiliser uniquement les lettres a-z, A-Z, _ et 0-9 pour les noms de classe - Les noms de classe ne peuvent pas commencer par un chiffre"
+    },
+    {
+      "Name": "valCssClasses2",
+      "Text": "Les classes répertoriées ne sont pas valides (champ '{0}') - Veuillez séparer les classes en utilisant des espaces (pas des virgules) et utiliser uniquement les lettres a-z, A-Z, _ et 0-9 pour les noms de classe - Les noms de classe ne peuvent pas commencer par un chiffre"
+    },
+    {
+      "Name": "valCssClasses3",
+      "Text": "Les classes '{0}' ne sont pas valides - Veuillez séparer les classes en utilisant des espaces (pas des virgules) et utiliser uniquement les lettres a-z, A-Z, _ et 0-9 pour les noms de classe - Les noms de classe ne peuvent pas commencer par un chiffre"
+    },
+    {
+      "Name": "valDateMax",
+      "Text": "La date n’est pas valide - elle est postérieure à la date de fin autorisée de {0}"
+    },
+    {
+      "Name": "valDateMin",
+      "Text": "La date n’est pas valide - elle est antérieure à la date de début autorisée de {0}"
+    },
+    {
+      "Name": "valDomain",
+      "Text": "Le domaine n’est pas valide"
+    },
+    {
+      "Name": "valDomain2",
+      "Text": "Le domaine (champ '{0}') n’est pas valide"
+    },
+    {
+      "Name": "valDomain3",
+      "Text": "Le domaine '{0}' n’est pas valide"
+    },
+    {
+      "Name": "valEmail",
+      "Text": "L’adresse e-mail n’est pas valide - elle doit être au format 'user@domain' où le domaine peut être n’importe quel domaine comme domain.com, domain.net, domain.io, etc."
+    },
+    {
+      "Name": "valEmail2",
+      "Text": "L’adresse e-mail du champ intitulé « {0} » n’est pas valide - elle doit être au format « user@domain » où le domaine peut être n’importe quel domaine comme domain.com, domain.net, domain.io, etc."
+    },
+    {
+      "Name": "valEmail3",
+      "Text": "L’adresse e-mail {0} n’est pas valide - elle doit être au format 'user@domain' où le domaine peut être n’importe quel domaine comme domain.com, domain.net, domain.io, etc."
+    },
+    {
+      "Name": "valGuid",
+      "Text": "Le GUID n’est pas valide - il doit être au format '00000000-0000-0000-0000-0000000000000000'"
+    },
+    {
+      "Name": "valGuid2",
+      "Text": "Le guid (champ '{0}') n’est pas valide - il doit être au format '00000000-0000-0000-0000-0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "Name": "valGuid3",
+      "Text": "Le guid '{0}' n’est pas valide - il doit être au format '00000000-0000-0000-0000-000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "Name": "valPkgDomain",
+      "Text": "Le domaine spécifié n’est pas valide - Veuillez utiliser uniquement des lettres et des chiffres"
+    },
+    {
+      "Name": "valPkgDomain2",
+      "Text": "Le domaine spécifié n’est pas valide ({0}) - Veuillez utiliser uniquement des lettres et des chiffres"
+    },
+    {
+      "Name": "valPkgDomain3",
+      "Text": "Le domaine '{0}' n’est pas valide - Veuillez n’utiliser que des lettres et des chiffres"
+    },
+    {
+      "Name": "valSSN",
+      "Text": "Le numéro de sécurité sociale n’est pas valide"
+    },
+    {
+      "Name": "valSSN2",
+      "Text": "Le numéro de sécurité sociale n’est pas valide (champ '{0}')"
+    },
+    {
+      "Name": "valSSN3",
+      "Text": "Le numéro de sécurité sociale '{0}' n’est pas valide"
+    },
+    {
+      "Name": "valUrl1",
+      "Text": "L’URL n’est pas valide - Elle doit être au format '/someLocalPage', '//somedomain.com/page', 'http://somedomain.com/page' ou 'https://somedomain.com/page'"
+    },
+    {
+      "Name": "valUrl2",
+      "Text": "L’URL n’est pas valide - Elle doit être au format '/someLocalPage' ou 'http://somedomain.com/page' - https n’est pas autorisé"
+    },
+    {
+      "Name": "valUrl3",
+      "Text": "L’URL n’est pas valide - Elle doit être au format '/someLocalPage' ou 'https://somedomain.com/page' - Il doit être sécurisé - http n’est pas autorisé"
+    },
+    {
+      "Name": "valUrl4",
+      "Text": "L’URL n’est pas valide - Elle doit être au format '//somedomain.com/page', 'http://somedomain.com/page' ou 'https://somedomain.com/page'"
+    },
+    {
+      "Name": "valUrl5",
+      "Text": "L’URL n’est pas valide - Elle doit être au format 'http://somedomain.com/page' - https n’est pas autorisé"
+    },
+    {
+      "Name": "valUrl6",
+      "Text": "L’URL n’est pas valide - Elle doit être au format 'https://somedomain.com/page' - Elle doit être sécurisée - http n’est pas autorisée"
+    },
+    {
+      "Name": "valUrl7",
+      "Text": "L’URL n’est pas valide - Elle doit être au format '/someLocalPage' définissant une URL locale sur le site actuel"
+    },
+    {
+      "Name": "valUrl8",
+      "Text": "L’URL n’est pas valide - Elle doit être au format '/someLocalPage' définissant une nouvelle page locale - les pages locales doivent commencer par '/' et ne peuvent pas utiliser certains caractères spéciaux comme . , * ? & etc."
+    },
+    {
+      "Name": "valUrlD1",
+      "Text": "L’URL '{0}' n’est pas valide - Elle doit être au format '/someLocalPage', '//somedomain.com/page', 'http://somedomain.com/page' ou 'https://somedomain.com/page'"
+    },
+    {
+      "Name": "valUrlD2",
+      "Text": "L’URL '{0}' n’est pas valide - Elle doit être au format '/someLocalPage' ou 'http://somedomain.com/page' - https n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlD3",
+      "Text": "L’URL '{0}' n’est pas valide - Il doit être au format '/someLocalPage' ou 'https://somedomain.com/page' - Il doit être sécurisé - http n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlD4",
+      "Text": "L’URL '{0}' n’est pas valide - Elle doit être au format '//somedomain.com/page', 'http://somedomain.com/page' ou 'https://somedomain.com/page'"
+    },
+    {
+      "Name": "valUrlD5",
+      "Text": "L’URL '{0}' n’est pas valide - Elle doit être au format 'http://somedomain.com/page' - https n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlD6",
+      "Text": "L’URL '{0}' n’est pas valide - Il doit être au format 'https://somedomain.com/page' - Il doit être sécurisé - http n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlD7",
+      "Text": "L’URL '{0}' n’est pas valide - Elle doit être au format '/someLocalPage' définissant une URL locale sur le site actuel"
+    },
+    {
+      "Name": "valUrlD8",
+      "Text": "L’URL '{0}' n’est pas valide - Elle doit être au format '/someLocalPage' définissant une nouvelle page locale - les pages locales doivent commencer par '/' et ne peuvent pas utiliser certains caractères spéciaux comme . , * ? & etc."
+    },
+    {
+      "Name": "valUrlF1",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Il doit être au format '/someLocalPage', '//somedomain.com/page', 'http://somedomain.com/page' ou 'https://somedomain.com/page'"
+    },
+    {
+      "Name": "valUrlF2",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Il doit être au format '/someLocalPage' ou 'http://somedomain.com/page' - https n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlF3",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Il doit être au format '/someLocalPage' ou 'https://somedomain.com/page' - Il doit être sécurisé - http n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlF4",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Elle doit être au format '//somedomain.com/page', 'http://somedomain.com/page' ou 'https://somedomain.com/page'"
+    },
+    {
+      "Name": "valUrlF5",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Il doit être au format 'http://somedomain.com/page' - https n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlF6",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Il doit être au format 'https://somedomain.com/page' - Il doit être sécurisé - http n’est pas autorisé"
+    },
+    {
+      "Name": "valUrlF7",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Il doit être au format '/someLocalPage' définissant une URL locale sur le site actuel"
+    },
+    {
+      "Name": "valUrlF8",
+      "Text": "L’URL n’est pas valide (champ '{0}') - Il doit être au format '/someLocalPage' définissant une nouvelle page locale - les pages locales doivent commencer par '/' et ne peuvent pas utiliser certains caractères spéciaux comme . , * ? & etc."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "noPage",
+      "Text": "Page « {0} » introuvable"
+    },
+    {
+      "Name": "screDone",
+      "Text": "Le plan du site a été créé avec succès"
+    },
+    {
+      "Name": "sitemapNotFound",
+      "Text": "Plan du site introuvable - Impossible de localiser le fichier '{0}'"
+    },
+    {
+      "Name": "sremDone",
+      "Text": "Le plan du site a été supprimé"
+    }
+  ]
+}

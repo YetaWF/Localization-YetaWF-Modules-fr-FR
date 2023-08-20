@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Basics.Modules.AlertConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Enabled",
+          "Caption": "Activé",
+          "Description": "Définit si l’affichage des messages est activé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Message",
+          "Description": "Définit le message à afficher",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MessageHandling",
+          "Caption": "Gestion des messages",
+          "Description": "Définit la durée d’affichage du message",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres d’alerte du site"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres d’alerte"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres d’alerte"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres d’alerte du site"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres d’alerte"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Le module Paramètres d’alerte permet de configurer l’alerte affichée aux visiteurs du site et est accessible à l’aide des paramètres de > d’administration > des paramètres d’alerte (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres d’alerte"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres d’alerte sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres d’alerte enregistrés"
+    }
+  ]
+}

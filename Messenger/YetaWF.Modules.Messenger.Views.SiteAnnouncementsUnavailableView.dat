@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "unavailable",
+      "Text": "Le journal des annonces du site n’est pas disponible - Voir <a href='https://yetawf.com/Documentation/YetaWF/Messenger' target='_blank' rel='noopener noreferrer'>https://yetawf.com/Documentation/YetaWF/Messenger pour plus d’informations</a>."
+    }
+  ]
+}

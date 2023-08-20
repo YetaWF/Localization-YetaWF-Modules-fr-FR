@@ -1,0 +1,38 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ImageRepository.Modules.CKEBrowsePageModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "PageUrl",
+          "Caption": "URL locale",
+          "Description": "URL locale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Sélectionner une page (CKEditor)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un formulaire pour sélectionner une URL de page locale."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sélectionner une page"
+    }
+  ]
+}

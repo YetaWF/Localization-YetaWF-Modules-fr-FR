@@ -1,0 +1,158 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PageBarModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "ContentPane",
+          "Caption": "Volet de contenu",
+          "Description": "Définit le volet utilisé pour extraire le contenu de la page - laissez vide pour utiliser le volet principal comme contenu de page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultImage",
+          "Caption": "Image par défaut",
+          "Description": "Image par défaut utilisée lorsqu’une page ne définit pas son propre FavIcon",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageList",
+          "Caption": "Liste des pages",
+          "Description": "Définit les pages et leur ordre tel qu’elles sont affichées dans la barre de page à l’aide de leurs FavIcons et de la description de la page - Les pages ajoutées à la liste des pages sont affichées avant les pages découvertes à l’aide du modèle de page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PagePattern",
+          "Caption": "Modèle de page",
+          "Description": "Définit un modèle Regex - Toutes les pages correspondant à ce modèle seront incluses dans la barre de page - par exemple, ^/Admin/Config/[^/]*$ inclurait toutes les pages commençant par /Admin/Config/, mais n’inclurait pas leurs pages enfants - Les pages ajoutées à la liste des pages sont affichées avant les pages découvertes à l’aide du modèle de page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Style",
+          "Description": "Définit l’apparence des entrées de page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PageBarModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "ContentPane",
+          "Caption": "Volet de contenu",
+          "Description": "Définit le volet utilisé pour extraire le contenu de la page - laissez vide pour utiliser le volet principal comme contenu de page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultImage",
+          "Caption": "Image par défaut",
+          "Description": "Image par défaut utilisée lorsqu’une page ne définit pas son propre FavIcon",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageList",
+          "Caption": "Pages",
+          "Description": "Définit les pages et leur ordre tels qu’ils sont affichés dans le panneau Page à l’aide de leurs FavIcons et de leur description de page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PagePattern",
+          "Caption": "Modèle de page",
+          "Description": "Définit un modèle Regex - toutes les pages correspondant à ce modèle seront incluses dans le panneau Page - par exemple, ^/Admin/Config/[^/]*$ inclurait toutes les pages commençant par /Admin/Config/, mais n’inclurait pas leurs pages enfants",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Style",
+          "Description": "Définit l’apparence des entrées de page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PageBarModule+PanelStyleEnum",
+      "Entries": [
+        {
+          "Name": "Vertical",
+          "Value": "Vertical",
+          "Caption": "Vertical",
+          "Description": "Affiche la page FavIcon et le titre de la page disposés verticalement"
+        },
+        {
+          "Name": "Horizontal",
+          "Value": "Horizontal",
+          "Caption": "Horizontal",
+          "Description": "Affiche la page FavIcon, titre de la page disposé horizontalement"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche la barre de page"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Barre de page"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Barre de page"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher la barre de page"
+    },
+    {
+      "Name": "modName",
+      "Text": "Barre de page"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Utilisé pour afficher plusieurs liens vers des pages à l’aide de FavIcon des pages, affichant le contenu de la page dans le module de barre de page. Un exemple de page est disponible dans Paramètres de > d’administration (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Barre de page"
+    }
+  ]
+}

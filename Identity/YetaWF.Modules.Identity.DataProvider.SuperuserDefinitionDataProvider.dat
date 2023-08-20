@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantAddSuper",
+      "Text": "ID utilisateur ou nom d’utilisateur incorrect - Impossible d’ajouter en tant que superutilisateur"
+    },
+    {
+      "Name": "cantChangeStatusSuper",
+      "Text": "L’utilisateur « {0} » doit rester un utilisateur approuvé. C’est le seul qui peut vous renflouer lorsque tout le site est cassé"
+    },
+    {
+      "Name": "cantRemoveSuper",
+      "Text": "L’utilisateur avec le rôle « {0} » ne peut pas être supprimé. Qui d’autre va vous renflouer une fois que vous avez gâché votre site Web?"
+    },
+    {
+      "Name": "cantRenameSuper",
+      "Text": "L’utilisateur « {0} » ne peut pas être renommé"
+    },
+    {
+      "Name": "cantUpdateSuper",
+      "Text": "ID utilisateur ou nom d’utilisateur incorrect - Impossible de mettre à jour en tant que superutilisateur"
+    },
+    {
+      "Name": "super",
+      "Text": "Le superutilisateur pour tous les sites"
+    }
+  ]
+}

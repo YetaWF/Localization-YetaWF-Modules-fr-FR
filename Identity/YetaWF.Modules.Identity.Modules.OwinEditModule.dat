@@ -1,0 +1,270 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.OwinEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Built-In Login": "Connexion intégrée",
+        "Cookies": "Cookies",
+        "External Login": "Connexion externe"
+      },
+      "Properties": [
+        {
+          "Name": "ExpireTimeSpan",
+          "Caption": "Expiration",
+          "Description": "La durée pendant laquelle un cookie restera valide à partir du moment où il est créé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FacebookPrivate",
+          "Caption": "Secret de l’application Facebook",
+          "Description": "Le secret d’application pour l’authentification à l’aide de Facebook (défini dans Facebook)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FacebookPublic",
+          "Caption": "ID de l’application Facebook",
+          "Description": "L’ID d’application pour l’authentification à l’aide de Facebook (défini dans Facebook)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FacebookUrl",
+          "Caption": "Facebook (en anglais)",
+          "Description": "Fournit un lien vers Facebook pour configurer l’authentification pour vos sites",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GooglePrivate",
+          "Caption": "Clé secrète client Google",
+          "Description": "La clé secrète client pour l’authentification à l’aide de Google (définie à l’aide de Google)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GooglePublic",
+          "Caption": "Google Client ID",
+          "Description": "L’ID client pour l’authentification à l’aide de Google (défini à l’aide de Google)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GoogleUrl",
+          "Caption": "Google (en anglais)",
+          "Description": "Fournit un lien vers Google pour configurer l’authentification pour vos sites",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MicrosoftPrivate",
+          "Caption": "Clé secrète client Microsoft",
+          "Description": "La clé secrète client pour l’authentification à l’aide de Microsoft",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MicrosoftPublic",
+          "Caption": "ID d’application Microsoft",
+          "Description": "L’ID d’application (client) pour l’authentification à l’aide de Microsoft",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MicrosoftUrl",
+          "Caption": "Microsoft",
+          "Description": "Fournit un lien vers Microsoft pour configurer l’authentification pour vos sites",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Nothing",
+          "Caption": "Paramètres du mot de passe :",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordRenewal",
+          "Caption": "Renouvellement du mot de passe",
+          "Description": "Heure après laquelle un utilisateur doit modifier le mot de passe - Définissez sur 0 pour permettre aux mots de passe de rester valides indéfiniment",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireDigit",
+          "Caption": "Nécessite un chiffre",
+          "Description": "Définit si un mot de passe nécessite au moins un chiffre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequiredLength",
+          "Caption": "Longueur minimale",
+          "Description": "Définit la longueur minimale d’un mot de passe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireLowercase",
+          "Caption": "Nécessite des minuscules",
+          "Description": "Définit si un mot de passe requiert au moins un caractère minuscule",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireNonAlphanumeric",
+          "Caption": "Nécessite un système non alphanumérique",
+          "Description": "Définit si un mot de passe requiert au moins un caractère non alphanumérique (spécial)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireUppercase",
+          "Caption": "Nécessite des majuscules",
+          "Description": "Définit si un mot de passe requiert au moins un caractère majuscule",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SecurityStampValidationInterval",
+          "Caption": "Intervalle de sécurité",
+          "Description": "L’heure après laquelle un utilisateur connecté est revalidé (en cas de changement de mot de passe) pour s’assurer que l’utilisateur authentifié est toujours valide",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SlidingExpiration",
+          "Caption": "Expiration glissante",
+          "Description": "Les cookies sont réémis avec un nouveau délai d’expiration chaque fois qu’une demande est traitée dont le cookie est à plus de la moitié de la fenêtre d’expiration",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwitterPrivate",
+          "Caption": "Clé secrète de l’API Twitter",
+          "Description": "La clé secrète API pour l’authentification à l’aide de Twitter (définie à l’aide de Twitter)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwitterPublic",
+          "Caption": "Clé API Twitter",
+          "Description": "La clé API pour l’authentification à l’aide de Twitter (définie à l’aide de Twitter)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwitterUrl",
+          "Caption": "Gazouiller",
+          "Description": "Fournit un lien vers Twitter pour configurer l’authentification pour vos sites",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseFacebook",
+          "Caption": "Utiliser Facebook",
+          "Description": "Définit si les connexions Facebook sont autorisées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseGoogle",
+          "Caption": "Utiliser Google",
+          "Description": "Définit si les connexions Google sont autorisées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseMicrosoft",
+          "Caption": "Utiliser Microsoft",
+          "Description": "Définit si les connexions Microsoft sont autorisées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseTwitter",
+          "Caption": "Utiliser Twitter",
+          "Description": "Définit si les connexions Twitter sont autorisées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du fournisseur de connexion"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Fournisseurs de connexion"
+    },
+    {
+      "Name": "editText",
+      "Text": "Fournisseurs de connexion"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du fournisseur de connexion"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres du fournisseur de connexion"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Utilisé pour modifier les paramètres du fournisseur de connexion local et externe tels que Google, Facebook, etc. Le module Paramètres du fournisseur de connexion est accessible à l’aide des paramètres d’identité Admin > > des fournisseurs de connexion (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres du fournisseur de connexion"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres du fournisseur de connexion enregistrés avec succès : ces paramètres ne prendront effet qu’après le redémarrage du site (y compris toutes les instances)."
+    },
+    {
+      "Name": "securityInterval",
+      "Text": "L’intervalle de validation minimum doit être d’au moins 1 minute"
+    },
+    {
+      "Name": "timeSpan",
+      "Text": "Le délai d’expiration minimum doit être d’au moins 10 minutes"
+    }
+  ]
+}

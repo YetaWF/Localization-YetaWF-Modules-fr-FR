@@ -1,0 +1,72 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateTreeModule+EntryElement",
+      "BaseTypeName": "YetaWF.Core.Models.TreeEntry",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Text",
+          "Caption": "SMS",
+          "Description": "Entrées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateTreeModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Entries",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche un exemple d’arborescence"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Arbre"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Arbre"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher un exemple d’arborescence"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test des composants - Arborescence"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant Arborescence. Une page de test pour ce module se trouve sur Tests > Templates > Tree (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test d’arborescence (statique)"
+    }
+  ]
+}

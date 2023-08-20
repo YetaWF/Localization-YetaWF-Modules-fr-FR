@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchInputModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "ResultsUrl",
+          "Caption": "URL des résultats",
+          "Description": "L’URL où les résultats de la recherche sont affichés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchButtonText",
+          "Caption": "Bouton de recherche",
+          "Description": "Le texte affiché sur le bouton de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchButtonTT",
+          "Caption": "Info-bulle du bouton de recherche",
+          "Description": "L’info-bulle affichée pour le bouton de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchInputModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SearchTerms",
+          "Caption": "Termes de recherche",
+          "Description": "Entrez le(s) terme(s) de recherche - Utiliser ET ou OU pour créer des requêtes de recherche - Lorsque plusieurs termes (sans ET ou OR) sont utilisés, tous les termes doivent être trouvés dans une page pour être répertoriés dans les résultats de recherche - Utilisez * à la fin d’un terme de recherche pour rechercher toutes les occurrences qui commencent par le terme spécifié (recherche générique)",
+          "HelpLink": null,
+          "TextAbove": "Entrez le(s) terme(s) de recherche. Utilisez ET/ou OU pour créer des requêtes de recherche. Lorsque plusieurs termes (sans AND ou OR) sont utilisés, tous les termes doivent être trouvés dans une page pour être répertoriés dans les résultats de recherche. Utilisez * à la fin d’un terme de recherche pour rechercher toutes les occurrences qui commencent par le terme spécifié (recherche générique).",
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Vous permet de rechercher des mots-clés sur ce site"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Rechercher"
+    },
+    {
+      "Name": "editText",
+      "Text": "Rechercher"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Rechercher des mots-clés sur ce site"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrée de recherche"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Autoriser la saisie de termes de recherche."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Rechercher"
+    },
+    {
+      "Name": "searchButton",
+      "Text": "Rechercher"
+    },
+    {
+      "Name": "searchButtonTT",
+      "Text": "Entrez les mots-clés de recherche et cliquez sur le bouton Rechercher pour rechercher ce site - Vous pouvez utiliser ET et OU pour combiner plusieurs termes"
+    }
+  ]
+}

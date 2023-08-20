@@ -1,0 +1,462 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "A des paramètres",
+          "Description": "Définit si le module possède des paramètres qui peuvent être modifiés et enregistrés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Afficher le menu du module",
+          "Description": "Indique si le menu du module est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+AddExistingModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ExistingModule",
+          "Caption": "Module existant",
+          "Description": "Le nom du module existant à ajouter",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExistingModulePane",
+          "Caption": "Vitre",
+          "Description": "Le volet où le module existant est ajouté - en mode édition, tous les volets sont visibles, même les volets vides",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleLocation",
+          "Caption": "Emplacement",
+          "Description": "L’emplacement dans le volet sélectionné où le module est ajouté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+AddNewModuleModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ModuleLocation",
+          "Caption": "Emplacement",
+          "Description": "L’emplacement dans le volet sélectionné où le nouveau module est ajouté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleName",
+          "Caption": "Nom",
+          "Description": "Le nom du nouveau module à ajouter - le nom du module identifie de manière unique un module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleTitle",
+          "Caption": "Titre",
+          "Description": "Le titre du module, qui apparaît en haut du module comme titre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SelectedModule",
+          "Caption": "Nouveau module",
+          "Description": "Le nouveau module à ajouter",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SelectedPane",
+          "Caption": "Vitre",
+          "Description": "Le volet où le nouveau module est ajouté - en mode édition, tous les volets sont visibles, même les volets vides",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+AddNewPageModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "CopyModules",
+          "Caption": "Copier tous les modules",
+          "Description": "Si cette option est sélectionnée, copie tous les modules de la page active et les ajoute à la nouvelle page - Les modules sont copiés par référence, ce qui signifie que tous les modules de la nouvelle page sont les mêmes que ceux utilisés sur la page d’origine et partagent le même contenu - Les modules de la partie page modèle de la page actuelle ne sont jamais copiés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CopyPage",
+          "Caption": "Copier la page actuelle",
+          "Description": "Utiliser les paramètres de la page actuelle pour la nouvelle page - Laissez les champs Titre et Description vides pour copier ces paramètres à partir de la page active",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description de la page - cette description est utilisée pour documenter l’objectif de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre de la nouvelle page - le titre de la page est affiché par le navigateur Web dans son en-tête",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL de la nouvelle page - les URL locales commencent par / et n’incluent pas http:// ou https://",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+ImportModuleModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ModuleLocation",
+          "Caption": "Emplacement",
+          "Description": "L’emplacement dans le volet sélectionné où le module est ajouté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModulePane",
+          "Caption": "Vitre",
+          "Description": "Le volet où le nouveau module est ajouté - en mode édition, tous les volets sont visibles, même les volets vides",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UploadFile",
+          "Caption": "Fichier ZIP",
+          "Description": "Le fichier ZIP contenant les données du module à importer (crée un nouveau module) ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+ImportPageModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "UploadFile",
+          "Caption": "Fichier ZIP",
+          "Description": "Le fichier ZIP contenant les données de page à importer - La page ne peut pas déjà exister - Les modules déjà présents ne sont pas mis à jour lors de l’importation de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+LoginSiteSelectionModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteDomain",
+          "Caption": "Site actif",
+          "Description": "Liste des sites accessibles - sélectionnez une entrée pour visiter le site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuperuserCurrent",
+          "Caption": "Super-utilisateur",
+          "Description": "L’utilisateur actuellement connecté est un superutilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuperuserStillActive",
+          "Caption": "Super-utilisateur",
+          "Description": "Si un superutilisateur a déjà été connecté au cours de cette session, l’état du superutilisateur reste même s’il est connecté en tant qu’autre utilisateur - Décochez la case pour désactiver le mode superutilisateur pour cette session",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur actif",
+          "Description": "Liste des comptes d’utilisateurs qui peuvent être utilisés pour se connecter rapidement au site - sélectionnez une entrée pour se connecter en tant qu’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+SkinSelectionModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Skin": "Peau"
+      },
+      "Properties": [
+        {
+          "Name": "Theme",
+          "Caption": "Thème",
+          "Description": "Le thème utilisé pour toutes les pages du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageControlModule+Location",
+      "Entries": [
+        {
+          "Name": "Top",
+          "Value": "Top",
+          "Caption": "Retour au début",
+          "Description": "Le nouveau module est ajouté au début du volet"
+        },
+        {
+          "Name": "Bottom",
+          "Value": "Bottom",
+          "Caption": "Fond",
+          "Description": "Le nouveau module est ajouté à la fin du volet"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "addNewModCant:",
+      "Text": "Impossible de modifier cette page"
+    },
+    {
+      "Name": "btnImport",
+      "Text": "Importer des données de module..."
+    },
+    {
+      "Name": "btnImportPage",
+      "Text": "Importer des données de page..."
+    },
+    {
+      "Name": "clrCacheConfirm",
+      "Text": "Voulez-vous vraiment effacer les bundles JavaScript/CSS et les petits objets statiques mis en cache ?"
+    },
+    {
+      "Name": "clrCacheLegend",
+      "Text": "Efface les bundles JavaScript/CSS mis en cache et les petits objets statiques mis en cache"
+    },
+    {
+      "Name": "clrCacheLink",
+      "Text": "Vider le cache JS/CSS/Statics"
+    },
+    {
+      "Name": "clrCacheText",
+      "Text": "Vider le cache JS/CSS/Statics"
+    },
+    {
+      "Name": "clrCacheTooltip",
+      "Text": "Effacer les bundles JavaScript/CSS mis en cache et les petits objets statiques mis en cache"
+    },
+    {
+      "Name": "modExportLegend",
+      "Text": "Exporte la page et les modules en créant un fichier ZIP importable (à l’aide du Panneau de configuration, de la page d’importation)"
+    },
+    {
+      "Name": "modExportLink",
+      "Text": "Exportation"
+    },
+    {
+      "Name": "modExportMenu",
+      "Text": "Page d’exportation"
+    },
+    {
+      "Name": "modExportTT",
+      "Text": "Exporter la page et les modules en créant un fichier ZIP importable (à l’aide du Panneau de configuration, de la page d’importation)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Panneau de configuration (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une icône d’ouverture/fermeture du Panneau de configuration qui prend en charge l’ajout de modules nouveaux et existants à une page, prend en charge l’importation d’un module et est utilisée pour créer de nouvelles pages, modifier les paramètres de page et supprimer la page actuelle."
+    },
+    {
+      "Name": "modSwitchToEditLegend",
+      "Text": "Passe en mode d’édition de site"
+    },
+    {
+      "Name": "modSwitchToEditLink",
+      "Text": "Passer en mode d’édition de site"
+    },
+    {
+      "Name": "modSwitchToEditText",
+      "Text": "Passer en mode d’édition de site"
+    },
+    {
+      "Name": "modSwitchToEditTooltip",
+      "Text": "Passer en mode d’édition de site"
+    },
+    {
+      "Name": "modSwitchToViewLegend",
+      "Text": "Bascule en mode d’affichage de site"
+    },
+    {
+      "Name": "modSwitchToViewLink",
+      "Text": "Passer en mode d’affichage de site"
+    },
+    {
+      "Name": "modSwitchToViewText",
+      "Text": "Passer en mode d’affichage de site"
+    },
+    {
+      "Name": "modSwitchToViewTooltip",
+      "Text": "Passer en mode d’affichage du site"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Panneau de configuration"
+    },
+    {
+      "Name": "modW3CValLegend",
+      "Text": "Utilise le service de validation W3C défini pour valider une page : la page doit être accessible au service distant en tant qu’utilisateur anonyme."
+    },
+    {
+      "Name": "modW3CValLink",
+      "Text": "W3C Validation"
+    },
+    {
+      "Name": "modW3CValText",
+      "Text": "W3C Validation"
+    },
+    {
+      "Name": "modW3CValTooltip",
+      "Text": "Utiliser le service de validation W3C pour valider la page actuelle : la page doit être accessible au service distant en tant qu’utilisateur anonyme."
+    },
+    {
+      "Name": "okExisting",
+      "Text": "Module ajouté"
+    },
+    {
+      "Name": "okNew",
+      "Text": "Ajout d’un nouveau module"
+    },
+    {
+      "Name": "okNewPage",
+      "Text": "Nouvelle page créée"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Mise à jour du paramètre de thème"
+    },
+    {
+      "Name": "pageControlLeg",
+      "Text": "Panneau de configuration - Ajoute des modules nouveaux ou existants, ajoute de nouvelles pages, passe en mode édition, accède aux paramètres de page et à d’autres tâches de gestion de site"
+    },
+    {
+      "Name": "pageControlLink",
+      "Text": "Panneau de configuration"
+    },
+    {
+      "Name": "pageControlMenu",
+      "Text": "Panneau de configuration"
+    },
+    {
+      "Name": "pageControlTT",
+      "Text": "Panneau de configuration - Ajouter des modules nouveaux ou existants, ajouter de nouvelles pages, passer en mode édition, accéder aux paramètres de page et à d’autres tâches de gestion de site"
+    },
+    {
+      "Name": "restartLegend",
+      "Text": "Redémarre le site immédiatement (redémarrage IIS)"
+    },
+    {
+      "Name": "restartLink",
+      "Text": "Redémarrer le site"
+    },
+    {
+      "Name": "restartText",
+      "Text": "Redémarrer le site"
+    },
+    {
+      "Name": "restartTooltip",
+      "Text": "Redémarrez le site immédiatement (redémarrage IIS)"
+    },
+    {
+      "Name": "switchSite",
+      "Text": "Basculer vers le site « {0} »"
+    }
+  ]
+}

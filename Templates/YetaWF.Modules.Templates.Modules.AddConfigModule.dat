@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": "Ajoutez un module de configuration à votre projet pour définir les paramètres de configuration d’un package entier, qui peuvent être référencés par tous les modules de votre package.\r(+nl)\r(+nl) Une fois les modules créés, vous pouvez personnaliser entièrement le modèle de données utilisé et ajouter du code pour accéder aux données externes (tables SQL, fichiers, etc.).\r(+nl)\r(+nl) Les modules générés prennent en charge les fenêtres contextuelles et les modules basés sur des pages, incluent des pages de propriétés et sont localisables, avec une prise en charge complète des annotations de données.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Company",
+          "Caption": "Compagnie",
+          "Description": "Entrez le nom de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Nom de mon entreprise - Il est utilisé pour afficher le nom de votre entreprise sous une forme affichable."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "URL de l’entreprise",
+          "Description": "Entrez l’URL du domaine de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MyCompany.com - URL du domaine de votre entreprise."
+        },
+        {
+          "Name": "ConfigModelName",
+          "Caption": "Nom du modèle de données",
+          "Description": "Entrez le nom du modèle de données souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : ConfigData, RegistrationData"
+        },
+        {
+          "Name": "ConfigModuleName",
+          "Caption": "Nom du module",
+          "Description": "Entrez le nom du module de configuration souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Paramètres"
+        },
+        {
+          "Name": "ConfigObjectName",
+          "Caption": "Nom de l’objet",
+          "Description": "Entrez le nom d’objet affichable par l’utilisateur souhaité pour le nom du modèle de données",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Paramètres de configuration"
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domaine",
+          "Description": "Entrez le nom de domaine de votre entreprise sans .com",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MaEntreprise - Un projet doit déjà exister qui utilise le domaine et le nom de projet saisis. Il est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        },
+        {
+          "Name": "Project",
+          "Caption": "Nom du projet",
+          "Description": "Entrez le nom de projet souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : StoreFont ou Blog ou Forum - Un projet doit déjà exister et utiliser le domaine et le nom du projet saisis. Il est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute un module de configuration"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter un module de configuration"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter un module de configuration"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter un module de configuration"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Impossible d’enregistrer les paramètres par défaut du modèle"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter un module de configuration"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute un module de configuration"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter un module de configuration"
+    },
+    {
+      "Name": "notExists",
+      "Text": "Le projet n'{0} pas trouvé. Le dossier {1} n’existe pas. Les modules ne peuvent être ajoutés qu’à des projets existants."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Un nouveau module de configuration {0} ajouté au projet {1}/{2}."
+    }
+  ]
+}

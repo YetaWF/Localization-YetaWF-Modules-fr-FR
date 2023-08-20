@@ -1,0 +1,314 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter un nouvel élément du planificateur - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "URL d’affichage d’un élément du planificateur - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "URL permettant de modifier un élément du planificateur - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogUrl",
+          "Caption": "URL du journal",
+          "Description": "URL d’affichage du journal du planificateur - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerBrowseModule+SchedulerItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Description de cet élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Activé",
+          "Description": "État de l’élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnableOnStartup",
+          "Caption": "Activer au démarrage",
+          "Description": "Indique si l’élément du planificateur est activé chaque fois que le site Web est redémarré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Event",
+          "Caption": "Événement",
+          "Description": "Nom de l’événement exécuté à l’heure planifiée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Frequency",
+          "Caption": "Intervalle",
+          "Description": "Fréquence de l’élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IsRunning",
+          "Caption": "Course",
+          "Description": "Indique si l’élément du planificateur est en cours d’exécution",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Last",
+          "Caption": "Dernier",
+          "Description": "La dernière fois que cet objet a été exécuté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom de cet élément du planificateur : le nom est utilisé pour identifier un élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Next",
+          "Caption": "Prochain",
+          "Description": "L’heure à laquelle l’exécution de cet élément est planifiée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunOnce",
+          "Caption": "Exécuter une fois",
+          "Description": "Indique si l’élément du planificateur n’est exécuté qu’une seule fois : une fois terminé, il est désactivé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunTime",
+          "Caption": "Duree",
+          "Description": "Durée de la dernière exécution de cet élément du planificateur (hh:mm:ss)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSpecific",
+          "Caption": "Spécifique au site",
+          "Description": "Indique si l’élément du planificateur s’exécute pour chaque site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Startup",
+          "Caption": "Démarrage",
+          "Description": "Indique si l’élément du planificateur s’exécute au démarrage du site Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les éléments du planificateur"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Programmateur"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Programmateur"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les éléments du planificateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Programmateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche tous les éléments de planificateur définis et prend en charge l’affichage, la modification et la suppression d’éléments de planificateur. Le planificateur peut également être démarré et arrêté. Il est accessible sur Admin > Panel > Scheduler (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Programmateur"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer l’élément de planificateur « {0} » ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprimer l’élément du planificateur"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer l’élément"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer l’élément"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer l’élément du planificateur"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des éléments de planificateur individuels"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer des éléments du planificateur"
+    },
+    {
+      "Name": "roleRunItems",
+      "Text": "Le rôle est autorisé à exécuter des éléments de planificateur individuels"
+    },
+    {
+      "Name": "roleRunItemsC",
+      "Text": "Exécuter les éléments du planificateur"
+    },
+    {
+      "Name": "runConfirm",
+      "Text": "Voulez-vous vraiment exécuter l’élément du planificateur « {0} » ?"
+    },
+    {
+      "Name": "runLegend",
+      "Text": "Exécuter l’élément du planificateur"
+    },
+    {
+      "Name": "runLink",
+      "Text": "Exécuter l’élément"
+    },
+    {
+      "Name": "runMenu",
+      "Text": "Exécuter l’élément"
+    },
+    {
+      "Name": "runTT",
+      "Text": "Exécuter l’élément du planificateur"
+    },
+    {
+      "Name": "startLegend",
+      "Text": "Démarre le planificateur"
+    },
+    {
+      "Name": "startLink",
+      "Text": "Démarrer le planificateur"
+    },
+    {
+      "Name": "startMenu",
+      "Text": "Démarrer le planificateur"
+    },
+    {
+      "Name": "startTT",
+      "Text": "Démarrer le planificateur"
+    },
+    {
+      "Name": "stopLegend",
+      "Text": "Arrête le planificateur"
+    },
+    {
+      "Name": "stopLink",
+      "Text": "Planificateur d’arrêt"
+    },
+    {
+      "Name": "stopMenu",
+      "Text": "Planificateur d’arrêt"
+    },
+    {
+      "Name": "stopTT",
+      "Text": "Arrêter le planificateur"
+    },
+    {
+      "Name": "toggleConfirmStart",
+      "Text": "Voulez-vous vraiment arrêter le planificateur ?"
+    },
+    {
+      "Name": "toggleConfirmStop",
+      "Text": "Voulez-vous vraiment démarrer le planificateur ?"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des éléments de planificateur individuels"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer des éléments du planificateur"
+    },
+    {
+      "Name": "userRunItems",
+      "Text": "L’utilisateur est autorisé à exécuter des éléments de planificateur individuels"
+    },
+    {
+      "Name": "userRunItemsC",
+      "Text": "Exécuter les éléments du planificateur"
+    }
+  ]
+}

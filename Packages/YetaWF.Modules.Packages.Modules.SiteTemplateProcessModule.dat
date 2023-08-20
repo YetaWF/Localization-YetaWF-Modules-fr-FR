@@ -1,0 +1,54 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.SiteTemplateProcessModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": "Le modèle sélectionné est utilisé pour configurer le site actuel - Une fois terminé, la page doit être actualisée manuellement (délibérément pas automatique)",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteTemplate",
+          "Caption": "Nom",
+          "Description": "Liste des modèles de site (situés dans le dossier SiteTemplates)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Modèle de site de processus"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Traite un modèle de site et ajoute toutes les pages définies au site actuel. Le module de modèle de site de processus est accessible à l’aide de Admin > Panel > Packages (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modèle de site de processus"
+    },
+    {
+      "Name": "processLegend",
+      "Text": "Traite un modèle de site et ajoute toutes les pages définies au site actuel"
+    },
+    {
+      "Name": "processLink",
+      "Text": "Modèle de site"
+    },
+    {
+      "Name": "processText",
+      "Text": "Modèle de site"
+    },
+    {
+      "Name": "processTooltip",
+      "Text": "Traiter un modèle de site et ajouter toutes les pages définies au site actuel"
+    }
+  ]
+}

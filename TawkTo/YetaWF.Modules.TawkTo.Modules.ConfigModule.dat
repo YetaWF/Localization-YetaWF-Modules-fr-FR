@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TawkTo.Modules.ConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Account",
+          "Caption": "Site ID",
+          "Description": "Définit le compte utilisé pour la fenêtre de chat - L’ID du site peut être obtenu à partir de votre tableau de bord Tawk.to (Paramètres d’administration > de propriété)",
+          "HelpLink": "https://dashboard.tawk.to",
+          "TextAbove": null,
+          "TextBelow": "L’ID de site peut être obtenu à partir de votre tableau de bord Tawk.to (Paramètres d’administration > de propriété)"
+        },
+        {
+          "Name": "APIKey",
+          "Caption": "Clé API",
+          "Description": "Définit la clé API utilisée pour la fenêtre de chat - La clé API peut être obtenue à partir de votre tableau de bord Tawk.to (Administration > Paramètres de propriété)",
+          "HelpLink": "https://dashboard.tawk.to",
+          "TextAbove": null,
+          "TextBelow": "La clé API peut être obtenue à partir de votre tableau de bord Tawk.to (Administration > Paramètres de propriété)"
+        },
+        {
+          "Name": "Description",
+          "Caption": " ",
+          "Description": " ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExcludedPagesCss",
+          "Caption": "Page css (exclure)",
+          "Description": "Définit les classes Css (espace séparé) pour les pages où la fenêtre de discussion Tawk.to n’est pas affichée - Les pages peuvent être empêchées d’afficher l’invitation au chat en spécifiant leur classe Css trouvée sur la <body> balise - Si aucune classe Css n’est spécifiée, toutes les pages affichent l’invitation au chat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IncludedPagesCss",
+          "Caption": "Page css (inclure)",
+          "Description": "Définit les classes Css (espace séparé) pour les pages où la fenêtre de chat Tawk.to est affichée - Seules les pages avec l’une des classes Css définies afficheront l’invitation au chat - Si aucune classe Css n’est spécifiée, toutes les pages affichent l’invitation au chat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "desc",
+      "Text": "Le module Tawk.to (Skin) est référencé à l’échelle du site (dans Paramètres du site), auquel cas toutes les pages affichent l’invitation au chat. En utilisant les champs Page Css (Exclure et Inclure) ci-dessous, les pages où l’invitation au chat est affichée peuvent être limitées. Si un chat est déjà en cours, la fenêtre de chat n’est pas affectée et est toujours affichée."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres tawkto"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres TawkTo"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres TawkTo"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres tawkto"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres TawkTo"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente la configuration TawkTo. Il est accessible en utilisant les paramètres de > d’administration > les paramètres TawkTo (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres TawkTo"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres Tawk.to sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Tawk.To Paramètres enregistrés"
+    }
+  ]
+}

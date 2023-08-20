@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valShortName",
+      "Text": "Un nom abrégé doit être composé de lettres, de chiffres, de traits de soulignement ou de tirets, sans espaces"
+    },
+    {
+      "Name": "valShortName2",
+      "Text": "Le nom abrégé n’est pas valide (propriété '{0}') - il doit être composé de lettres, de chiffres, de traits de soulignement ou de tirets, sans espaces"
+    },
+    {
+      "Name": "valShortName3",
+      "Text": "Le nom abrégé « {0} » n’est pas valide - il doit être composé de lettres, de chiffres, de traits de soulignement ou de tirets, sans espaces"
+    }
+  ]
+}

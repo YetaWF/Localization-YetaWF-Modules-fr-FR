@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "noUser",
+      "Text": "(aucune)"
+    },
+    {
+      "Name": "selLogoff",
+      "Text": "Sélectionnez cette option pour vous déconnecter"
+    },
+    {
+      "Name": "selUser",
+      "Text": "Sélectionnez cette option pour vous connecter en tant que {0}"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeBrowsePackageModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "URL permettant de modifier une ressource de localisation : si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeBrowsePackageModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileName",
+          "Caption": "Nom de fichier",
+          "Description": "Nom de la ressource de localisation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les ressources de localisation pour les packages {0}"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Ressources de localisation"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Ressources de localisation"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Affichage et gestion des ressources de localisation pour les {0} de package"
+    },
+    {
+      "Name": "creAllConfirm",
+      "Text": "Voulez-vous vraiment créer TOUTES les ressources de localisation installées en utilisant la langue {0} - Les ressources de localisation installées sont enregistrées dans des dossiers ./Addons/...?"
+    },
+    {
+      "Name": "creAllInstLegend",
+      "Text": "Crée toutes les ressources de localisation installées à l’aide de la langue {0} - Enregistré dans le dossier ./Localizations/{0}/..."
+    },
+    {
+      "Name": "creAllInstLink",
+      "Text": "Créer toutes les ressources de localisation (Installé - {0})"
+    },
+    {
+      "Name": "creAllInstText",
+      "Text": "Créer toutes les ressources de localisation (Installé - {0})"
+    },
+    {
+      "Name": "creAllInstTooltip",
+      "Text": "Créez toutes les ressources de localisation installées à l’aide de la langue {0} - Enregistré dans les dossiers ./Localizations/{0}/..."
+    },
+    {
+      "Name": "creAllPlsWait",
+      "Text": "Création de ressources de localisation installées à l’aide de la langue {0}..."
+    },
+    {
+      "Name": "creCustConfirm",
+      "Text": "Voulez-vous vraiment créer des ressources de localisation personnalisées pour les {0} de package à l’aide de la {1} de langue - Les ressources de localisation personnalisées sont enregistrées dans le dossier ./LocalizationCustom/{0}/..."
+    },
+    {
+      "Name": "creCustLegend",
+      "Text": "Crée des ressources de localisation personnalisées pour les {0} de package à l’aide de la langue {1} - Enregistré dans le dossier ./LocalizationCustom/{0}/..."
+    },
+    {
+      "Name": "creCustLink",
+      "Text": "Créer des ressources de localisation (personnalisées - {0})"
+    },
+    {
+      "Name": "creCustText",
+      "Text": "Créer des ressources de localisation (personnalisées - {0})"
+    },
+    {
+      "Name": "creCustTooltip",
+      "Text": "Créer des ressources de localisation personnalisées pour les {0} de package à l’aide de la {1} de langue - Enregistré dans le dossier ./LocalizationCustom/{0}/..."
+    },
+    {
+      "Name": "creInstConfirm",
+      "Text": "Voulez-vous vraiment créer des ressources de localisation installées pour les {0} de paquets à l’aide de la {1} de langue - Les ressources de localisation installées sont enregistrées dans le dossier ./Addons/... ?"
+    },
+    {
+      "Name": "creInstLegend",
+      "Text": "Crée les ressources de localisation installées pour les {0} de package à l’aide de la langue {1} - Enregistré dans le dossier ./Localizations/{0}/..."
+    },
+    {
+      "Name": "creInstLink",
+      "Text": "Créer des ressources de localisation (installé - {0})"
+    },
+    {
+      "Name": "creInstText",
+      "Text": "Créer des ressources de localisation (installé - {0})"
+    },
+    {
+      "Name": "creInstTooltip",
+      "Text": "Créer des ressources de localisation installées pour le package {0} à l’aide de la langue {1} - Enregistré dans le dossier ./Localizations/{0}/..."
+    },
+    {
+      "Name": "locAllDataConfirm",
+      "Text": "Voulez-vous vraiment localiser toutes les données de tous les packages à l’aide de {0} linguistique ? Les propriétés pour lesquelles des données localisées ont déjà été définies ne sont pas mises à jour."
+    },
+    {
+      "Name": "locAllDataLegend",
+      "Text": "Localise les données pour tous les packages à l’aide de la {0} de langue - Les propriétés pour lesquelles des données localisées ont déjà été définies ne sont pas mises à jour"
+    },
+    {
+      "Name": "locAllDataLink",
+      "Text": "Localiser les données pour tous les packages ({0})"
+    },
+    {
+      "Name": "locAllDataText",
+      "Text": "Localiser les données pour tous les packages ({0})"
+    },
+    {
+      "Name": "locAllDataTooltip",
+      "Text": "Localiser les données pour tous les packages utilisant la langue {0} - Les propriétés pour lesquelles des données localisées ont déjà été définies ne sont pas mises à jour"
+    },
+    {
+      "Name": "locAllPlsWait",
+      "Text": "Localisation de toutes les données pour tous les packages à l’aide de la langue {0}..."
+    },
+    {
+      "Name": "locDataConfirm",
+      "Text": "Voulez-vous vraiment localiser toutes les données de package pour les {0} de package à l’aide de la {1} de langue ? Les propriétés pour lesquelles des données localisées ont déjà été définies ne sont pas mises à jour."
+    },
+    {
+      "Name": "locDataLegend",
+      "Text": "Localise toutes les données de package pour les {0} de package à l’aide de la {1} de langue - Les propriétés pour lesquelles des données localisées ont déjà été définies ne sont pas mises à jour"
+    },
+    {
+      "Name": "locDataLink",
+      "Text": "Localiser les données du package ({0})"
+    },
+    {
+      "Name": "locDataText",
+      "Text": "Localiser les données du package ({0})"
+    },
+    {
+      "Name": "locDataTooltip",
+      "Text": "Localiser toutes les données de package pour les {0} de package à l’aide de la {1} de langue - Les propriétés pour lesquelles des données localisées ont déjà été définies ne sont pas mises à jour"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ressources de localisation"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les ressources de localisation d’un package. Il est utilisé par le package YetaWF.Packages pour offrir un accès aux services de localisation. Ce module permet d’accéder à toutes les ressources localisables d’un package, telles que les chaînes utilisées dans les vues et dans le code. Consultez Prise en charge des langues nationales pour plus d’informations sur la localisation."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ressources de localisation"
+    },
+    {
+      "Name": "roleLocalize",
+      "Text": "Le rôle a l’autorisation de générer des ressources de localisation pour les packages"
+    },
+    {
+      "Name": "roleLocalizeC",
+      "Text": "Installer/désinstaller des packages"
+    },
+    {
+      "Name": "title",
+      "Text": "Ressources de localisation - Package {0}"
+    },
+    {
+      "Name": "userLocalize",
+      "Text": "L’utilisateur est autorisé à générer des ressources de localisation pour les packages"
+    },
+    {
+      "Name": "userLocalizeC",
+      "Text": "Installer/désinstaller des packages"
+    }
+  ]
+}

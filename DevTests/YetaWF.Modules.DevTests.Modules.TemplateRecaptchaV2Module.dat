@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateRecaptchaV2Module+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "Captcha",
+          "Description": "Veuillez vérifier que vous êtes un humain et non un robot spammeur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le composant de test RecaptchaV2"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "RecaptchaV2"
+    },
+    {
+      "Name": "displayText",
+      "Text": "RecaptchaV2"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le composant de test RecaptchaV2"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test des composants - RecaptchaV2"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant RecaptchaV2. Une page de test pour ce module se trouve sur Tests > Templates > RecaptchaV2 (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test RecaptchaV2"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

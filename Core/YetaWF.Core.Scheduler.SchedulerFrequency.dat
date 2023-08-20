@@ -1,0 +1,69 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.Scheduler.SchedulerFrequency",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "TimeUnits",
+          "Caption": "Unités",
+          "Description": "Valeur combinée à TimeUnits définit la fréquence à laquelle l’événement du planificateur est appelé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Value",
+          "Caption": "Valeur",
+          "Description": "Valeur combinée à TimeUnits définit la fréquence à laquelle l’événement du planificateur est appelé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Scheduler.SchedulerFrequency+TimeUnitEnum",
+      "Entries": [
+        {
+          "Name": "Seconds",
+          "Value": "Seconds",
+          "Caption": "Seconde(s)",
+          "Description": null
+        },
+        {
+          "Name": "Minutes",
+          "Value": "Minutes",
+          "Caption": "Minute(s)",
+          "Description": null
+        },
+        {
+          "Name": "Hours",
+          "Value": "Hours",
+          "Caption": "Heure(s)",
+          "Description": null
+        },
+        {
+          "Name": "Days",
+          "Value": "Days",
+          "Caption": "Jour(s)",
+          "Description": null
+        },
+        {
+          "Name": "Weeks",
+          "Value": "Weeks",
+          "Caption": "Semaine(s)",
+          "Description": null
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

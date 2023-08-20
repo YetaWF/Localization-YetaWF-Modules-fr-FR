@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Étapes d’affichage"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les étapes permettant d’effectuer une action, généralement une séquence de formulaires ou de pages. Un exemple de page est disponible sur Tests > Modules > Steps (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Escalier"
+    }
+  ]
+}

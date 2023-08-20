@@ -1,0 +1,189 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.IVRConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Accounts": "Comptes",
+        "Hours": "Heures",
+        "IVR": "IVR",
+        "Notifications": "Notifications",
+        "Security": "Sécurité",
+        "Voice Mail": "Messagerie vocale"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayVoiceMailUrl",
+          "Caption": "URL d’affichage",
+          "Description": "Définit la page facultative utilisée pour afficher un message vocal : si aucune page n’est définie, une URL est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenerateKeys",
+          "Caption": "Générer des clés",
+          "Description": "Sélectionnez cette option pour générer de nouvelles clés, qui remplacent les clés privées et publiques actuelles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LiveAccountSid",
+          "Caption": "Sid de compte réel",
+          "Description": "Le Sid de compte Live est obtenu à partir de votre compte Twilio, défini dans appsettings.json (s’applique à tous les sites de cette instance YetaWF) et est utilisé lorsque le mode Test est désactivé",
+          "HelpLink": "https://www.twilio.com/",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LiveAuthToken",
+          "Caption": "Jeton d’authentification en direct",
+          "Description": "Le jeton Live Auth est obtenu à partir de votre compte Twilio, défini dans appsettings.json (s’applique à tous les sites de cette instance YetaWF) et est utilisé lorsque le mode Test est désactivé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LiveVerificationProcessCallUrl",
+          "Caption": "URL du processus d’appel en direct",
+          "Description": "Définit l’URL de requête utilisée pour vérifier une demande d’appel Twilio en mode Live - Ceci est généralement utilisé pour les équilibreurs de charge et les cas où la demande est redirigée, ce qui modifie l’URL d’origine - Au lieu d’inspecter les différents en-têtes non standard, spécifiez l’URL attendue ici - Si elle n’est pas spécifiée, la valeur par défaut est http[s]://... votresite.com.../!api/Softelvdm_IVR/Call/Process",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MaxErrors",
+          "Caption": "Max. Erreurs",
+          "Description": "Nombre maximal d’entrées non valides par l’appelant avant de raccrocher - Définissez sur 0 pour ignorer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotificationNumbers",
+          "Caption": "Numéros SMS",
+          "Description": "Définit les numéros de téléphone qui reçoivent un message texte chaque fois qu’un appel est reçu",
+          "HelpLink": null,
+          "TextAbove": "Les numéros de téléphone ajoutés ici reçoivent un message texte lorsqu’un appel est reçu (avant que l’appelant puisse sélectionner un poste ou laisser un message vocal). Cela peut devenir ennuyeux rapidement si vous recevez de nombreux appels sur le numéro principal. Assurez-vous d’activer la case à cocher SMS pour chaque numéro de téléphone où vous souhaitez recevoir des messages texte.",
+          "TextBelow": null
+        },
+        {
+          "Name": "OpeningHours",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": "Entrez les heures d’ouverture de votre entreprise.",
+          "TextBelow": null
+        },
+        {
+          "Name": "PrivateKey",
+          "Caption": "Clé privée",
+          "Description": "La clé privée utilisée pour déchiffrer le jeton envoyé depuis le SIV - NE PARTAGEZ PAS CETTE CLÉ !",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PublicKey",
+          "Caption": "Clé publique",
+          "Description": "La clé publique utilisée pour chiffrer le jeton envoyé de l’IVR à Twilio avec des requêtes POST, à valider au retour",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestAccountSid",
+          "Caption": "Tester le numéro d’identification du compte",
+          "Description": "Le Sid de compte de test est obtenu à partir de votre compte Twilio, défini dans appsettings.json (s’applique à tous les sites de cette instance YetaWF) et est utilisé lorsque le mode Test est activé",
+          "HelpLink": "https://www.twilio.com/",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestAuthToken",
+          "Caption": "Tester le jeton d’authentification",
+          "Description": "Le jeton d’authentification de test est obtenu à partir de votre compte Twilio, défini dans appsettings.json (s’applique à tous les sites de cette instance YetaWF) et est utilisé lorsque le mode test est activé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestMode",
+          "Caption": "Test Mode",
+          "Description": "Définit si le mode test ou le mode live est utilisé - Pendant le développement, utilisez le mode test - Cela ne peut être défini qu’à l’aide de AppSettings.json",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestVerificationProcessCallUrl",
+          "Caption": "URL du processus d’appel de test",
+          "Description": "Définit l’URL de requête utilisée pour vérifier une requête Twilio Fax Sent en mode Test - Ceci est généralement utilisé pour les équilibreurs de charge et les cas où la demande est redirigée, ce qui modifie l’URL d’origine - Au lieu d’inspecter les différents en-têtes non standard, spécifiez l’URL attendue ici - Si elle n’est pas spécifiée, la valeur par défaut est http[s]://... votresite.com.../!api/Softelvdm_IVR/Call/Process",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Voice",
+          "Caption": "Voix",
+          "Description": "Définit la variable Voice, qui peut être utilisée pour remplacer la voix par défaut - Cette voix est utilisée pour tous les messages destinés aux utilisateurs externes - Si elle n’est pas spécifiée, la voix par défaut est utilisée",
+          "HelpLink": "https://www.twilio.com/console/voice/twiml/text-to-speech",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VoiceInternal",
+          "Caption": "Voix (interne)",
+          "Description": "Définit la variable Voice, qui peut être utilisée pour remplacer la voix par défaut - Cette voix est utilisée pour tous les messages destinés aux utilisateurs internes - Si elle n’est pas spécifiée, la voix par défaut est utilisée",
+          "HelpLink": "https://www.twilio.com/console/voice/twiml/text-to-speech",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres IVR"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres IVR"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres IVR"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres IVR"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres IVR"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie les paramètres IVR d’un site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres IVR"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres IVR sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres IVR enregistrés"
+    }
+  ]
+}

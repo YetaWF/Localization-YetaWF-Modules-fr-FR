@@ -1,0 +1,126 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": "Les sites Web individuels peuvent activer/désactiver la prise en charge de la localisation (Paramètres du site). Mais la localisation n’est disponible que pour les sites individuels exécutés par cette instance de YetaWF si « Utiliser les ressources de localisation » est activé, ce qui s’applique à tous les sites.",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AbortOnFailure",
+          "Caption": "Mode de défaillance",
+          "Description": "Définit si une chaîne de ressource de localisation manquante provoque une exception (échec) ou si la chaîne intégrée est utilisée à la place",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Cette propriété n’est utilisée que si l’option « Utiliser les ressources de localisation » est sélectionnée. Il est généralement activé pour le développement/test et désactivé pour les systèmes de production."
+        },
+        {
+          "Name": "GoogleTranslateAPIKey",
+          "Caption": "Traduire la clé API",
+          "Description": "Définit la clé API Google Cloud Platform / Google Translate, qui est utilisée lors de la traduction des ressources de localisation dans d’autres langues - Vous pouvez obtenir une clé API auprès du service Google Cloud Platform - Ce n’est pas un service gratuit",
+          "HelpLink": "https://cloud.google.com/translate/docs/setup",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GoogleTranslateAppName",
+          "Caption": "Traduire le nom de l’application",
+          "Description": "Définit le nom de votre application effectuant des traductions - Ce n’est pas un service gratuit",
+          "HelpLink": "https://cloud.google.com/translate/docs/setup",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MSClientKey",
+          "Caption": "Me?",
+          "Description": "Définit la clé API de votre application effectuant des traductions - Fourni par Microsoft lors de l’enregistrement de votre application - Ce n’est pas un service gratuit, bien qu’il existe des comptes gratuits limités",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MSRequestLimit",
+          "Caption": "Limite de demande",
+          "Description": "Définit le quota horaire qui peut être consommé uniformément tout au long de l’heure, exprimé en Millions de caractères par heure - Fourni par Microsoft lors de l’enregistrement de votre application - Ce n’est pas un service gratuit, bien qu’il existe des comptes gratuits limités",
+          "HelpLink": "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits",
+          "TextAbove": null,
+          "TextBelow": "Des millions de caractères par heure"
+        },
+        {
+          "Name": "MSTextTranslationRegion",
+          "Caption": "Lieu/Région",
+          "Description": "Définit l’emplacement (ou la région) de votre ressource. Vous devrez peut-être utiliser ce champ lorsque vous effectuez des appels à cette API. - Fourni par Microsoft lors de l’enregistrement de votre application - Ce n’est pas un service gratuit, bien qu’il existe des comptes gratuits limités",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MSTextTranslationUrl",
+          "Caption": "Extrémité",
+          "Description": "Définit le point de terminaison utilisé pour la traduction de texte - Fourni par Microsoft lors de l’enregistrement de votre application - Ce n’est pas un service gratuit, bien qu’il existe un nombre limité de comptes gratuits",
+          "HelpLink": "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/text-translation-overview",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TranslationService",
+          "Caption": "Service de traduction",
+          "Description": "Définit le service de traduction utilisé pour traduire les ressources de localisation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseLocalizationResources",
+          "Caption": "Utiliser les ressources de localisation",
+          "Description": "Définit si les ressources de localisation sont utilisées, sinon les chaînes de texte intégrées à l’application sont utilisées à la place",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Si la prise en charge multilingue est requise, cette propriété doit être activée. Cette propriété s’applique à TOUS les sites exécutés par cette instance de YetaWF."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres de localisation"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres de localisation"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres de localisation"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres de localisation"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres de localisation"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les paramètres de localisation à l’échelle du site et du système. Il est accessible à l’aide des paramètres de > d’administration > des paramètres de localisation (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres de localisation"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres de localisation sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de localisation enregistrés : ces paramètres ne prendront effet qu’après le redémarrage du site."
+    }
+  ]
+}

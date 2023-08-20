@@ -1,0 +1,57 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ComponentsHTML.Components.GridDisplayComponent+PagerUI",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "__Page",
+          "Caption": "Page",
+          "Description": "Entrez la page à afficher et appuyez sur la touche Retour pour accéder à la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "__PageSelection",
+          "Caption": "Entrées",
+          "Description": "Sélectionnez le nombre d’entrées par page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.ComponentsHTML.Components.GridDisplayComponent+FilterBoolEnum",
+      "Entries": [
+        {
+          "Name": "All",
+          "Value": "All",
+          "Caption": "Tout",
+          "Description": "Sélectionner tout"
+        },
+        {
+          "Name": "Yes",
+          "Value": "Yes",
+          "Caption": "Oui",
+          "Description": "Sélectionner les entrées sélectionnées/activées"
+        },
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Non",
+          "Description": "Sélectionner les entrées désélectionnées/désactivées"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

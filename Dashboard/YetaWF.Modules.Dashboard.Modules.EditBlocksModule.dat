@@ -1,0 +1,85 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.EditBlocksModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Not Authorized": "Non autorisé",
+        "Successful": "Réussi"
+      },
+      "Properties": [
+        {
+          "Name": "NotAuthUrlPathContains",
+          "Caption": "Le chemin d’URL contient",
+          "Description": "Liste des fragments de texte, une entrée par ligne - Si un fragment de texte est trouvé dans une URL, la demande renvoie 401 Non autorisé - La comparaison n’est pas sensible à la casse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotAuthUrlPathEndsWith",
+          "Caption": "Le chemin d’accès à l’URL se termine par",
+          "Description": "Liste des fragments de texte, une entrée par ligne - Si un fragment de texte est trouvé à la fin d’un chemin d’URL, la demande renvoie 401 Non autorisé - La comparaison n’est pas sensible à la casse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotAuthUserAgentContains",
+          "Caption": "L’agent utilisateur contient",
+          "Description": "Liste des fragments de texte, une entrée par ligne - Si un fragment de texte est trouvé dans un agent utilisateur, la demande renvoie 401 Non autorisé - La comparaison n’est pas sensible à la casse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuccessUrlPathContains",
+          "Caption": "Le chemin d’URL contient",
+          "Description": "Liste des fragments de texte, une entrée par ligne - Si un fragment de texte est trouvé dans une URL, la requête renvoie 200 OK avec un corps de réponse vide - La comparaison n’est pas sensible à la casse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuccessUrlPathEndsWith",
+          "Caption": "Le chemin d’accès à l’URL se termine par",
+          "Description": "Liste des fragments de texte, une entrée par ligne - Si un fragment de texte est trouvé à la fin d’un chemin d’URL, la requête renvoie 200 OK avec un corps de réponse vide - La comparaison n’est pas sensible à la casse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuccessUserAgentContains",
+          "Caption": "L’agent utilisateur contient",
+          "Description": "Liste des fragments de texte, une entrée par ligne - Si un fragment de texte est trouvé dans un agent utilisateur, la requête renvoie 200 OK avec un corps de réponse vide - La comparaison n’est pas sensible à la casse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Blocage des demandes"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie les paramètres de blocage des demandes, utilisés pour empêcher les bots d’analyser les exploits courants, de gratter"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blocage des demandes"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de blocage des demandes enregistrés"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "gridTotal0",
+      "Text": "Aucun de {0} éléments"
+    },
+    {
+      "Name": "gridTotalNone",
+      "Text": "Aucun article"
+    },
+    {
+      "Name": "gridTotals",
+      "Text": "{0} - {1} de {2} articles"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Surligneur syntaxique Surligneur .js (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module d’habillage prenant en charge la coloration syntaxique dans les modules utilisant Highlight.js, référencé par des sites, des pages ou des modules, auquel cas <pre> les sections .</pre>. sont rendues à l’aide de la coloration syntaxique."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Surligneur de syntaxe d’habillage (surligne.js)"
+    }
+  ]
+}

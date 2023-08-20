@@ -1,0 +1,206 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.UserProfile.Modules.ProfileEditModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "PostSaveUrl",
+          "Caption": "Publier l’URL de sauvegarde",
+          "Description": "Définit la page à afficher une fois le formulaire enregistré - Si elle est omise, l’URL à laquelle revenir est déterminée automatiquement - Cette propriété est ignorée lorsque le module est affiché dans une fenêtre contextuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SaveMessage",
+          "Caption": "Enregistrer le message",
+          "Description": "Définit le message affiché lorsque le profil est enregistré avec succès - S’il est omis, un message par défaut s’affiche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.UserProfile.Modules.ProfileEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Address1",
+          "Caption": "Adresse municipale",
+          "Description": "La partie rue de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Address2",
+          "Caption": "Adresse municipale (opt)",
+          "Description": "La deuxième ligne facultative de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityGeneric",
+          "Caption": "Ville",
+          "Description": "La partie ville de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityUS",
+          "Caption": "Ville",
+          "Description": "La partie ville de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityZip1",
+          "Caption": "Ville",
+          "Description": "La partie ville de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityZipLast",
+          "Caption": "Ville",
+          "Description": "La partie ville de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompanyName",
+          "Caption": "Nom de l’entreprise",
+          "Description": "Nom de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Country",
+          "Caption": "Pays",
+          "Description": "Le pays de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "Votre adresse e-mail - Elle est définie par votre compte sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Votre nom",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StateUS",
+          "Caption": "État",
+          "Description": "L’état de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Telephone",
+          "Caption": "Numéro de téléphone",
+          "Description": "Votre numéro de téléphone - veuillez inclure l’indicatif du pays et le poste si nécessaire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZIPGeneric",
+          "Caption": "Code postal",
+          "Description": "Le code postal de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZipUS",
+          "Caption": "Code postal",
+          "Description": "Le code postal de votre adresse postale - Utilisez le format 00000 ou 00000-0000",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZipZip1",
+          "Caption": "Code postal",
+          "Description": "Le code postal de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZipZipLast",
+          "Caption": "Code postal",
+          "Description": "Le code postal de votre adresse postale",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie votre profil utilisateur"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Profil"
+    },
+    {
+      "Name": "editText",
+      "Text": "Profil"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier votre profil utilisateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier le profil utilisateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie le profil de l’utilisateur connecté (nom, adresse). Ceci est accessible via User > My Profile (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Profil de l’utilisateur"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Profil enregistré"
+    }
+  ]
+}

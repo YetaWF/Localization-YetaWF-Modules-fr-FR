@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplatePhoneNumberModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1Req",
+          "Caption": "Natl ou Internatl (obligatoire)",
+          "Description": "Numéro de téléphone (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": "Numéro de téléphone national ou international.",
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "Natl ou Internatl (Lecture/Seulement)",
+          "Description": "Numéro de téléphone (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop2Req",
+          "Caption": "National (obligatoire)",
+          "Description": "Numéro de téléphone (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": "Numéro de téléphone national seulement.",
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop2RO",
+          "Caption": "National (Lecture/Seulement)",
+          "Description": "Numéro de téléphone (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test de modèle - PhoneNumber"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modèle de test PhoneNumber"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modèle de test PhoneNumber"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Basics.DataProvider.AlertConfig+MessageHandlingEnum",
+      "Entries": [
+        {
+          "Name": "DisplayOnce",
+          "Value": "DisplayOnce",
+          "Caption": "Afficher une fois",
+          "Description": "Afficher le message une seule fois pour la session"
+        },
+        {
+          "Name": "DisplayUntilOff",
+          "Value": "DisplayUntilOff",
+          "Caption": "Affichage jusqu’à son rejet",
+          "Description": "Afficher le message jusqu’à ce qu’il soit rejeté par l’utilisateur"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "emailMessage",
+      "Text": "Message de test - Paramètres du site / E-mail"
+    },
+    {
+      "Name": "emailSent",
+      "Text": "Un e-mail de test vient d’être envoyé à {0}"
+    },
+    {
+      "Name": "emailSubj",
+      "Text": "Test Message"
+    }
+  ]
+}

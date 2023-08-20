@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.TemplateRolesSelectorModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "Sélecteur de rôles",
+          "Description": "Sélecteur de rôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "RolesSélecteur (obligatoire)",
+          "Description": "RolesSélecteur (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "Sélecteur de rôles (en lecture/uniquement)",
+          "Description": "Sélecteur de rôles (en lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le modèle de test RolesSelector"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Sélecteur de rôles"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Sélecteur de rôles"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le modèle de test RolesSelector"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test des composants - Sélecteur de rôles"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant RolesSelector (modification et affichage). Une page de test pour ce module est disponible sur Tests > Templates > RolesSelector (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test RolesSelector"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

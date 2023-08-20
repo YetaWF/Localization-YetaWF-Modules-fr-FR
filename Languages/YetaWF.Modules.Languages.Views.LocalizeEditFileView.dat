@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnApply",
+      "Text": "Appliquer"
+    },
+    {
+      "Name": "btnReset",
+      "Text": "Restaurer les valeurs par défaut"
+    },
+    {
+      "Name": "btnResetTT",
+      "Text": "Supprime les ressources de localisation personnalisées et installées pour la langue actuelle (les ressources par défaut de l’anglais américain ne sont jamais supprimées)"
+    },
+    {
+      "Name": "disabled1",
+      "Text": "La prise en charge de la localisation est actuellement désactivée - Utilisez les paramètres de localisation pour l’activer."
+    },
+    {
+      "Name": "disabled2",
+      "Text": "La prise en charge de la localisation est actuellement désactivée - Utilisez les paramètres du site pour l’activer."
+    }
+  ]
+}

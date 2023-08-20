@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnSend",
+      "Text": "Envoyer"
+    },
+    {
+      "Name": "btnSendClose",
+      "Text": "Envoyer et fermer"
+    },
+    {
+      "Name": "noMsg",
+      "Text": "Les services de messagerie ne sont pas disponibles (ajoutez une référence au module « Notifications du navigateur Web (Skin) » dans Paramètres du site)."
+    }
+  ]
+}

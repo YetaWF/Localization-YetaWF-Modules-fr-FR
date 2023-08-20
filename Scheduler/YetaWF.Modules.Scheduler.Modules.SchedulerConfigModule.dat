@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Rétention (jours)",
+          "Description": "Définit le nombre de jours pendant lesquels les informations de journalisation du planificateur sont enregistrées - Les informations de journalisation du planificateur antérieures au nombre de jours spécifié sont supprimées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du planificateur"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres du planificateur"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres du planificateur"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du planificateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres du planificateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les paramètres du planificateur d’un site. Vous pouvez y accéder à l’aide des paramètres de > d’administration > des paramètres du planificateur (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres du planificateur"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres de journalisation sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de journalisation enregistrés"
+    }
+  ]
+}

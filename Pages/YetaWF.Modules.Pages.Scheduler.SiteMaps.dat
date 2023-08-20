@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDesc",
+      "Text": "Crée des plans de site"
+    },
+    {
+      "Name": "eventName",
+      "Text": "Créer un plan de site"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Événement de planificateur inconnu {0}."
+    }
+  ]
+}

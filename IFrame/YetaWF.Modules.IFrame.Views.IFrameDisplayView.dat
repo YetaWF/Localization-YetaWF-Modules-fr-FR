@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editMode",
+      "Text": "Contenu de l’URL ({0}) non affiché en mode d’édition du site"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.StaticPagesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileNames",
+          "Caption": "Fichiers locaux",
+          "Description": "Le(s) fichier(s) local(aux) contenant le contenu de la page statique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LocalUrl",
+          "Caption": "URL locale",
+          "Description": "L’URL locale de la page statique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StorageType",
+          "Caption": "Type",
+          "Description": "Le type de stockage utilisé pour la page statique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les pages statiques"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Pages statiques"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Pages statiques"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les pages statiques"
+    },
+    {
+      "Name": "modName",
+      "Text": "Pages statiques"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les informations sur les pages statiques. Vous pouvez y accéder à l’aide du tableau de bord Admin > > des pages statiques (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Pages statiques"
+    },
+    {
+      "Name": "removeAllLegend",
+      "Text": "Décharge toutes les pages statiques et supprime les données enregistrées - Les pages seront régénérées lors de leur accès"
+    },
+    {
+      "Name": "removeAllLink",
+      "Text": "Décharger tout"
+    },
+    {
+      "Name": "removeAllMenu",
+      "Text": "Décharger tout"
+    },
+    {
+      "Name": "removeAllTT",
+      "Text": "Déchargez toutes les pages statiques et supprimez les données enregistrées - Les pages seront régénérées lors de leur accès"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Êtes-vous sûr de vouloir décharger la page statique « {0} »?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Décharge la page statique afin qu’elle soit régénérée la prochaine fois qu’elle est demandée"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Décharger la page statique"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Décharger la page statique chargée"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Déchargez la page statique afin qu’elle soit régénérée la prochaine fois qu’elle est demandée"
+    },
+    {
+      "Name": "toggleremoveAll",
+      "Text": "Voulez-vous vraiment décharger toutes les pages statiques ?"
+    }
+  ]
+}

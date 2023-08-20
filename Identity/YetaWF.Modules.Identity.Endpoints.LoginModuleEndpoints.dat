@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "extUser",
+      "Text": "Ce compte n’est accessible qu’à l’aide d’un fournisseur de connexion externe"
+    },
+    {
+      "Name": "noItem",
+      "Text": "Impossible d’envoyer un e-mail de vérification (code motif) 1)"
+    },
+    {
+      "Name": "noNeed",
+      "Text": "Impossible d’envoyer un e-mail de vérification (code motif) 3)"
+    },
+    {
+      "Name": "notApproved",
+      "Text": "Votre compte n’est pas un compte approuvé."
+    },
+    {
+      "Name": "notFoundUser",
+      "Text": "Impossible d’envoyer un e-mail de vérification (code motif) 2)"
+    },
+    {
+      "Name": "verificationSent",
+      "Text": "E-mail de vérification envoyé."
+    }
+  ]
+}

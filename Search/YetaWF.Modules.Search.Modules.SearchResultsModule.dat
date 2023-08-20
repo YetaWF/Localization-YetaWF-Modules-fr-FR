@@ -1,0 +1,80 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchResultsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "MaxResults",
+          "Caption": "Max. Résultats",
+          "Description": "Nombre maximal de résultats de recherche à afficher",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NewWindow",
+          "Caption": "Nouvelle fenêtre",
+          "Description": "Définit si une nouvelle fenêtre est ouverte lorsqu’un utilisateur clique sur une URL de résultat de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowSummary",
+          "Caption": "Afficher le résumé",
+          "Description": "Définit si un résumé de page est affiché dans les résultats de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowUrl",
+          "Caption": "Afficher l’URL",
+          "Description": "Définit si l’URL est affichée dans les résultats de recherche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Résultats de la recherche"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les résultats de la recherche. Le module d’entrée de recherche utilise le module Résultats de la recherche."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Résultats de la recherche"
+    },
+    {
+      "Name": "resultsLegend",
+      "Text": "Affiche les résultats de la recherche pour « {0} »"
+    },
+    {
+      "Name": "resultsLink",
+      "Text": "Résultats de la recherche"
+    },
+    {
+      "Name": "resultsText",
+      "Text": "Résultats de la recherche"
+    },
+    {
+      "Name": "resultsTooltip",
+      "Text": "Afficher les résultats de la recherche pour « {0} »"
+    }
+  ]
+}

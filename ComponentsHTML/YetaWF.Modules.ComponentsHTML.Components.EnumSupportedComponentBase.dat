@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "enumFmt",
+      "Text": "{0} - {1}"
+    },
+    {
+      "Name": "enumPlsSelect",
+      "Text": "Veuillez sélectionner l’une des options disponibles"
+    },
+    {
+      "Name": "enumSelect",
+      "Text": "(sélectionner)"
+    }
+  ]
+}

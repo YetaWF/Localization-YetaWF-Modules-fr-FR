@@ -1,0 +1,134 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntryAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Author",
+          "Caption": "Auteur",
+          "Description": "Le nom de l’auteur du blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AuthorUrl",
+          "Caption": "URL de l’auteur",
+          "Description": "L’URL facultative renvoyant aux informations de l’auteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CategoryIdentity",
+          "Caption": "Catégorie",
+          "Description": "La catégorie de cet article de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePublished",
+          "Caption": "Date de publication",
+          "Description": "La date de publication de cet article",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Keywords",
+          "Caption": "Mots-clés",
+          "Description": "Les mots-clés de cet article de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpenForComments",
+          "Caption": "Autoriser les commentaires",
+          "Description": "Définit si des commentaires peuvent être entrés pour cette entrée de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Published",
+          "Caption": "Publié",
+          "Description": "Définit si cette entrée a été publiée et est visible par tout le monde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Summary",
+          "Caption": "Résumé",
+          "Description": "Le résumé de cette entrée de blog - Si aucun résumé n’est entré, le texte entier du blog est affiché à la place du résumé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text",
+          "Caption": "Texte du blog",
+          "Description": "Le texte complet de cet article de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre de cet article de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute une nouvelle entrée de blog"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter une nouvelle entrée de blog"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Une erreur s’est produite lors de l’ajout de cette nouvelle entrée de blog"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter une entrée de blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Crée une entrée de blog."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter une nouvelle entrée de blog"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouvelle entrée de blog enregistrée"
+    }
+  ]
+}

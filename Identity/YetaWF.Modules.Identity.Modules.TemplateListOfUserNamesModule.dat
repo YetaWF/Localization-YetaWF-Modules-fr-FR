@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.TemplateListOfUserNamesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "Noms d’utilisateur",
+          "Description": "Liste des noms d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "Noms d’utilisateur (obligatoire)",
+          "Description": "Liste des noms d’utilisateur (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "Noms d’utilisateur (en lecture/uniquement)",
+          "Description": "Liste des noms d’utilisateur (lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le modèle de test ListOfUserNames"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "ListOfUserNames"
+    },
+    {
+      "Name": "displayText",
+      "Text": "ListOfUserNames"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher le modèle de test ListOfUserNames"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test des composants - ListOfUserNames"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant ListOfUserNames (modifier et afficher). Une page de test pour ce module se trouve sur Tests > Templates > ListOfUserNames (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test ListOfUserNames"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.CacheInfoModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Key",
+          "Caption": "Me?",
+          "Description": "La clé de cache",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Size",
+          "Caption": "Taille",
+          "Description": "La taille de la valeur (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Value",
+          "Caption": "Valeur",
+          "Description": "Les 100 premiers octets de la valeur de cache",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.CacheInfoModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "CurrentEntryCount",
+          "Caption": "Entrées",
+          "Description": "Nombre actuel d’éléments mis en cache",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CurrentEstimatedSize",
+          "Caption": "Taille estimée",
+          "Description": "La somme estimée de tous les éléments actuellement dans le cache mémoire - Disponible uniquement si MemoryCache suit la taille, ce qui nécessite qu’un SizeLimit soit défini sur le cache",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GridDef",
+          "Caption": "Éléments mis en cache",
+          "Description": "Les clés de cache et les valeurs (le type de données ou les 100 premiers octets de données sont affichés)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TotalHits",
+          "Caption": "Nombre total de visites",
+          "Description": "Nombre total d’accès au cache",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TotalMisses",
+          "Caption": "Nombre total d’échecs",
+          "Description": "Nombre total d’échecs de cache",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche les informations du cache (HttpContext.Current.Cache)"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "HttpContext.Current.Cache"
+    },
+    {
+      "Name": "displayText",
+      "Text": "HttpContext.Current.Cache"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher les informations du cache (HttpContext.Current.Cache)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Informations sur le cache (HttpContext.Current.Cache)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les informations de cache (HttpContext.Current.Cache). Les informations du cache sont accessibles à l’aide du tableau de bord Admin > > HttpContext.Current.Cache (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Informations sur le cache (HttpContext.Current.Cache)"
+    }
+  ]
+}

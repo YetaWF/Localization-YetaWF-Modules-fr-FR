@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "ChangedEntry",
+      "Text": "Vous avez modifié l’entrée de menu actuelle - Veuillez l’enregistrer avant de sélectionner une autre entrée de menu"
+    },
+    {
+      "Name": "NewEntry",
+      "Text": "L’entrée de menu actuelle est une nouvelle entrée - Veuillez l’enregistrer avant de sélectionner une autre entrée de menu"
+    },
+    {
+      "Name": "NewEntryText",
+      "Text": "(nouveau)"
+    },
+    {
+      "Name": "Separator",
+      "Text": "(Séparateur)"
+    }
+  ]
+}

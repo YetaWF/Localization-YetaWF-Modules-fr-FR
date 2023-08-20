@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Logging.Modules.LoggingConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Rétention (jours)",
+          "Description": "Définit le nombre de jours pendant lesquels les informations de journalisation sont enregistrées - Les informations de journalisation antérieures au nombre de jours spécifié sont supprimées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres de journalisation"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres de journalisation"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres de journalisation"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres de journalisation"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres de journalisation"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les paramètres de journalisation d’un site. Vous pouvez y accéder en utilisant les paramètres de > d’administration > les paramètres de journalisation (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres de journalisation"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres de journalisation sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de journalisation enregistrés"
+    }
+  ]
+}

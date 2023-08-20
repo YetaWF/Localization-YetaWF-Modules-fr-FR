@@ -1,0 +1,54 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.SiteTemplateUndoModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": "Le modèle sélectionné est utilisé pour supprimer les pages et les entrées de menu du site actuel - Une fois terminé, la page doit être actualisée manuellement (délibérément pas automatique)",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteTemplate",
+          "Caption": "Nom",
+          "Description": "Liste des modèles de site (situés dans le dossier SiteTemplates)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Annuler le modèle de site"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Annule un modèle de site en supprimant toutes les pages et entrées de menu définies du site actuel. Pour plus d’informations sur les modèles de site, consultez Modèles de site. Le module Annuler le modèle de site est accessible à l’aide des packages > du panneau d’administration >."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Annuler le modèle de site"
+    },
+    {
+      "Name": "undoLegend",
+      "Text": "Annule un modèle de site en supprimant toutes les pages et entrées de menu définies du site actuel"
+    },
+    {
+      "Name": "undoLink",
+      "Text": "Modèle de site"
+    },
+    {
+      "Name": "undoText",
+      "Text": "Modèle de site"
+    },
+    {
+      "Name": "undoTooltip",
+      "Text": "Annuler un modèle de site et ajouter toutes les pages définies au site actuel"
+    }
+  ]
+}

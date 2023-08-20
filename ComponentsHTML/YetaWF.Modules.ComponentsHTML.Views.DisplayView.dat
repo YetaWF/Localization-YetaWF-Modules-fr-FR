@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnClose",
+      "Text": "Fermer"
+    },
+    {
+      "Name": "btnReturn",
+      "Text": "Rendre"
+    }
+  ]
+}

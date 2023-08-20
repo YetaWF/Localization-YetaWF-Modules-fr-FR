@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "notifySMS",
+      "Text": "Appel entrant reçu de {0} ({1}, {2}, {3}, {4}) - {5}"
+    },
+    {
+      "Name": "voiceSMS",
+      "Text": "Un message vocal a été reçu pour le poste {0} ({1}) de {2}, {3}, {4}, {5} {6} - {7}"
+    }
+  ]
+}

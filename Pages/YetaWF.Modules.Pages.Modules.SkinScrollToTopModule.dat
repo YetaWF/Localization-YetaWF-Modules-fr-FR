@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "ScrollToTop (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module d’habillage implémentant un bouton de défilement vers le haut pour revenir en haut de la page en cours. Ce module peut être référencé par des sites, des pages ou des modules, auquel cas une image est affichée en bas à droite d’une page une fois défilée vers le bas, afin que l’utilisateur puisse cliquer sur l’image pour revenir en haut de la page."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin ScrollToTop"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "admin",
+      "Text": "Un exemple d’administrateur"
+    },
+    {
+      "Name": "cantRenameSuper",
+      "Text": "L’utilisateur « {0} » ne peut pas être renommé"
+    },
+    {
+      "Name": "editor",
+      "Text": "Exemple d’éditeur de site"
+    },
+    {
+      "Name": "noSup",
+      "Text": "Seul un superutilisateur peut attribuer le statut de superutilisateur à un autre utilisateur"
+    },
+    {
+      "Name": "user",
+      "Text": "Exemple d’utilisateur"
+    }
+  ]
+}

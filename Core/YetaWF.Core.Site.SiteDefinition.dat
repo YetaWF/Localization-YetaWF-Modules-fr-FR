@@ -1,0 +1,693 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.Site.SiteDefinition",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Addons": "Extensions",
+        "CDN": "CDN",
+        "Email": "Messagerie électronique",
+        "Encryption": "Chiffrement",
+        "Meta": "Méta",
+        "Pages": "Pages",
+        "References": "Références",
+        "Site": "Site",
+        "Skin": "Peau",
+        "URLs": "URL",
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "AdminEmail",
+          "Caption": "E-mail de l’administrateur du site",
+          "Description": "L’adresse e-mail de l’administrateur du site. Le serveur SMTP doit être défini pour la remise des e-mails à l’administrateur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowAnonymousUsers",
+          "Caption": "Autoriser les utilisateurs anonymes",
+          "Description": "Définit si le site autorise l’accès aux utilisateurs anonymes - Cela peut être désactivé lorsqu’un site en cours de développement est accessible publiquement, de sorte que les utilisateurs anonymes sont redirigés vers la page de connexion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowCacheUse",
+          "Caption": "Autoriser l’utilisation du cache",
+          "Description": "Définit si la mise en cache des données est activée (par exemple, la mise en cache de fichiers CSS côté client) - Lors du développement de modules et à des fins de test, vous pouvez désactiver toute la mise en cache en définissant cette propriété sur Non - Sinon, la mise en cache doit être activée pour des performances optimales en définissant cette propriété sur Oui - Un site qui n’est pas marqué comme déployé (voir AppSettings.json, Application.P.YetaWF_Core.Deployed) n’utilise pas la mise en cache et ce paramètre est ignoré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowPopups",
+          "Caption": "Autoriser les fenêtres contextuelles",
+          "Description": "Les modules et les pages peuvent être affichés sous forme de fenêtres contextuelles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Analytics",
+          "Caption": "Analytics",
+          "Description": "Ajouter du code JavaScript analytique (par exemple, le code de suivi Universal Analytics utilisé par Google Analytics ou le code utilisé par Clicky) - Tout code qui doit être ajouté à la fin de la page HTML peut être ajouté ici, y compris <script></script> les balises - Les pages peuvent remplacer ce paramètre",
+          "HelpLink": null,
+          "TextAbove": "Le code Analytics n’est disponible que dans les sites de production déployés et est ignoré dans les builds de débogage (non marqués comme déployés).",
+          "TextBelow": null
+        },
+        {
+          "Name": "AnalyticsContent",
+          "Caption": "Analyse (contenu)",
+          "Description": "Ajouter du code JavaScript d’analyse qui doit être exécuté lorsqu’une nouvelle page devient active dans un ensemble de pages unifié actif - Ne pas inclure <script></script> de balises - Utilisez <<Url>> pour remplacer l’URL réelle - Les pages peuvent remplacer ce paramètre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BundleCSSFiles",
+          "Caption": "Regrouper les fichiers CSS",
+          "Description": "Définit si les feuilles de style (fichiers CSS) sont regroupées dans un seul fichier (à l’exclusion des fichiers volumineux non-YetaWF)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BundleJSFiles",
+          "Caption": "Regrouper des fichiers JavaScript",
+          "Description": "Définit si les fichiers JavaScript sont regroupés dans un seul fichier (à l’exclusion des fichiers volumineux non-YetaWF)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanUseCDN",
+          "Caption": "Situation actuelle",
+          "Description": "Indique si un réseau de distribution de contenu est actuellement utilisé pour les fichiers statiques du site - Appsettings.json (P:YetaWF_Core:UseCDN) doit être défini sur true pour que le paramètre « Utiliser CDN (contenu du site) » soit respecté, sinon un CDN n’est pas utilisé pour le contenu du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanUseCDNComponents",
+          "Caption": "Situation actuelle",
+          "Description": "Indique si un réseau de distribution de contenu est actuellement utilisé pour certains des packages tiers 3rd où un CDN est disponible - Appsettings.json (Application.P.YetaWF_Core.UseCDNComponents) doit être défini sur true pour que le paramètre « Use CDN (Global Addons) » soit respecté, sinon un CDN n’est pas utilisé pour les packages tiers 3rd",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanUseStaticDomain",
+          "Caption": "Situation actuelle",
+          "Description": "Indique si une URL distincte est utilisée pour les fichiers statiques du site - Appsettings.json (P:YetaWF_Core:UseStaticDomain) doit être défini sur true pour que le paramètre « URL des fichiers statiques » soit respecté, sinon il n’est pas utilisé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CDNUrl",
+          "Caption": "CDN URL",
+          "Description": "Si vous utilisez un réseau de diffusion de contenu pour les fichiers statiques situés sur votre site, entrez l’URL racine du CDN pour http:// accès ici - Selon que vous avez activé ou non l’utilisation de votre CDN, l’URL appropriée sera substituée - Le site (et toutes les instances) doit être redémarré pour que ce paramètre prenne effet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CDNUrlSecure",
+          "Caption": "URL CDN (sécurisée)",
+          "Description": "Si vous utilisez un réseau de diffusion de contenu pour les fichiers statiques situés sur votre site, entrez l’URL racine du CDN pour https:// accès (sécurisé) ici - Selon que vous avez activé ou non l’utilisation de votre CDN, l’URL appropriée sera remplacée - Si aucune URL sécurisée n’est spécifiée, l’URL définie à l’aide de l’URL CDN est utilisée à la place - Le site (et toutes les instances) doit être redémarré pour que ce paramètre prenne effet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompressCSSFiles",
+          "Caption": "Compresser les fichiers CSS",
+          "Description": "Définit si des feuilles de style minifiées (fichiers CSS) sont utilisées (Oui) - Sinon, des feuilles de style non minifiées sont utilisées (Non)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Compression",
+          "Caption": "Compression",
+          "Description": "Définit si la compression des espaces est utilisée pour toutes les pages non statiques - Les pages statiques sont toujours compressées - Ce paramètre s’applique uniquement aux sites déployés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompressJSFiles",
+          "Caption": "Compresser des fichiers JavaScript",
+          "Description": "Définit si des fichiers JavaScript minifiés sont utilisés (Oui) - Sinon, des fichiers JavaScript non minifiés sont utilisés (Non)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ContentTypeOptions",
+          "Caption": "Options de type de contenu",
+          "Description": "Définit si les types MIME publiés dans les en-têtes Content-Type ne doivent pas être modifiés et suivis par le navigateur (en définissant l’en-tête HTTP X-Content-Type-Options)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Copyright",
+          "Caption": "Copyright",
+          "Description": "Définit un avis de copyright facultatif affiché sur chaque page, s’il est pris en charge par l’habillage utilisé. Les pages individuelles peuvent remplacer cet avis - utilisez <<Year>> pour l’année en cours",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CopyrightEvaluated",
+          "Caption": "Copyright",
+          "Description": "La propriété Copyright avec substitutions évaluées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Country",
+          "Caption": "Pays",
+          "Description": "Le pays où vous ou votre entreprise est située",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssLocation",
+          "Caption": "Emplacement css",
+          "Description": "Définit si les fichiers CSS sont inclus en haut ou en bas de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssNoTooltips",
+          "Caption": "Supprimer les info-bulles",
+          "Description": "La ou les classes sur les balises A qui supprimeront l’info-bulle de navigation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Currency",
+          "Caption": "Monnaie",
+          "Description": "La devise par défaut utilisée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DEBUGMODE",
+          "Caption": "Mode de débogage",
+          "Description": "Définit si la mise en cache et la compression de données sont désactivées via Appsettings.json - généralement utilisé pour le débogage (ne peut être défini qu’à l’aide de Appsettings.json)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultChangeFrequency",
+          "Caption": "Fréquence de modification du plan de site par défaut",
+          "Description": "Définit la fréquence de modification de page par défaut : chaque page peut remplacer la valeur par défaut à l’aide de sa propriété Modifier la fréquence",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultLanguageId",
+          "Caption": "Langue par défaut",
+          "Description": "Langue par défaut du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultSiteDomain",
+          "Caption": "Domaine de site par défaut",
+          "Description": "Le nom de domaine du site par défaut pour cette instance de YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultSiteMap",
+          "Caption": "Plan de site par défaut",
+          "Description": "Définit si le plan de site est enregistré en tant que plan de site /sitemap par défaut du site.xml",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DiagnosticsMode",
+          "Caption": "Diagnostics Mode",
+          "Description": "Définit si des diagnostics de débogage supplémentaires sont actifs, tels que la vérification de l’existence d’un fichier, etc. - Généralement utilisé pour le débogage (ne peut être défini qu’à l’aide de Appsettings.json)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisableMinimizeFUOC",
+          "Caption": "Désactiver Minimiser FOUC",
+          "Description": "Normalement, CSS est injecté pour minimiser le Flash Of Unstyled Content (FUOC) qui peut se produire lorsque des fichiers JavaScript et / ou CSS sont inclus au bas de la page - Cette fonctionnalité peut être désactivée - Votre kilométrage peut varier (IE / Edge nécessite cette option pour rester activé)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EmailDebug",
+          "Caption": "Débogage des e-mails",
+          "Description": "Configuré pour rediriger tous les e-mails générés par le site vers l’administrateur du site - Ceci est généralement utilisé pour tester/déboguer un site déployé - Un site qui n’est pas marqué comme déployé enverra toujours des e-mails à l’administrateur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnforceSitePort",
+          "Caption": "Appliquer le port",
+          "Description": "Définit si les liens générés pour le site utiliseront le(s) port(s) de site défini(s). Lors de l’exécution locale (généralement sur un système de développement) à l’aide de 'localhost' ou lors de l’utilisation de l’URL du domaine de test, cette propriété est ignorée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnforceSiteUrl",
+          "Caption": "Appliquer le nom de domaine",
+          "Description": "Définit si les demandes entrantes pour le site seront redirigées vers le nom de domaine de site défini et si les liens générés pour le site utiliseront le domaine de site défini. Cela permet à plusieurs noms de domaine de pointer vers le même site, mais tous sont redirigés vers l’URL du site défini, ce qui est le meilleur pour le référencement (optimisation des moteurs de recherche). Lors de l’exécution locale (généralement sur un système de développement) à l’aide de 'localhost' ou lors de l’utilisation de l’URL du domaine de test, cette propriété est ignorée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExternalAccountSetupUrl",
+          "Caption": "URL de configuration de compte externe",
+          "Description": "URL où l’utilisateur est redirigé pour fournir des informations locales lors de l’utilisation d’un fournisseur de connexion externe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyBottom",
+          "Caption": "<BODY> Fond",
+          "Description": "Toutes les balises qui doivent être ajoutées au bas de la <BODY> balise de chaque page peuvent être ajoutées ici",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyTop",
+          "Caption": "<BODY> Retour au début",
+          "Description": "Toutes les balises qui doivent être ajoutées en haut de la <BODY> balise de chaque page peuvent être ajoutées ici",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraHead",
+          "Caption": "<HEAD>",
+          "Description": "Toutes les balises qui doivent être ajoutées à la <HEAD> balise de chaque page peuvent être ajoutées ici",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIcon",
+          "Caption": "FavIcon",
+          "Description": "L’icône par défaut représentant ce site (une petite image PNG utilisée pour le favicon affiche moins ou moins de 64x64 pixels) affichée par le navigateur Web utilisé pour afficher la page - Les pages individuelles peuvent remplacer ce site par défaut - Cette image est réduite / mise à l’échelle selon les besoins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIconLink",
+          "Caption": "FavIcon Html",
+          "Description": "Le code HTML utilisé pour l’icône représentant ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIconLrg",
+          "Caption": "FavIcon (Large)",
+          "Description": "L’icône représentant ce site (une image PNG utilisée pour les favicons de plus de 64x64 pixels) affichée par le navigateur Web utilisé pour afficher la page - Les pages individuelles peuvent remplacer ce site par défaut - Cette image est réduite/mise à l’échelle selon les besoins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FormErrorsImmed",
+          "Caption": "Erreurs de formulaire immédiates",
+          "Description": "Définit si les erreurs sur les formulaires sont immédiatement marquées à l’aide d’indicateurs d’avertissement lors de la première exposition - sinon, les indicateurs sont affichés lorsque les champs sont modifiés et après la première soumission d’un formulaire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GoogleVerification",
+          "Caption": "Vérification Google",
+          "Description": "Les balises meta utilisées par Google Webmaster Central afin que votre site puisse prouver à Google que vous êtes vraiment le propriétaire du site - Vous pouvez obtenir une balise meta auprès de Google Webmaster Central pour la vérification du site - Assurez-vous de copier la balise meta ENTIÈRE (y compris le balisage)",
+          "HelpLink": "http://www.google.com/webmasters/",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HomePageUrl",
+          "Caption": "Page d’accueil du site",
+          "Description": "La page d’accueil de votre site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Site Id",
+          "Description": "L’identifiant associé à votre site, généré par YetaWF lors de la création du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IFrameUse",
+          "Caption": "Utilisation d’IFrame",
+          "Description": "Définit si les pages peuvent être utilisées dans un IFrame par ce site et d’autres sites (en définissant l’en-tête HTTP X-Frame-Options) - Les pages individuelles peuvent remplacer ce paramètre par défaut",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IsDefaultSite",
+          "Caption": "Site par défaut",
+          "Description": "Indique si le site actuel est le site par défaut pour cette instance de YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "JSLocation",
+          "Caption": "Emplacement JavaScript",
+          "Description": "Définit si les fichiers JavaScript sont inclus en haut ou en bas de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Localization",
+          "Caption": "Localisation",
+          "Description": "Définit si la localisation et la prise en charge multilingue sont requises, ce qui signifie que tout le texte est fourni via des ressources. Sinon, seule la langue par défaut est disponible",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Locked",
+          "Caption": "Verrouillé",
+          "Description": "Définit si le site est verrouillé pour maintenance - Si cette option est activée, tous les utilisateurs (sauf vous) sont redirigés vers une page « Maintenance » définie à l’aide de la redirection d’URL verrouillée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedExternal",
+          "Caption": "Verrouillé",
+          "Description": "Définit si le site est verrouillé pour maintenance - Si cette option est activée, tous les utilisateurs (sauf vous) sont redirigés vers une page 'Maintenance' définie à l’aide de la redirection URL verrouillée - Ne peut être activé/désactivé qu’à l’aide de Appsettings.json",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedExternalForIP",
+          "Caption": "Verrouillé pour l’adresse IP",
+          "Description": "La seule adresse IP qui a accès au site - Toutes les autres sont redirigées vers une page 'Maintenance' définie à l’aide de la redirection d’URL verrouillée - Ceci est généralement utilisé lorsque la maintenance est appliquée à un site afin qu’une seule adresse IP ait accès au site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedForIP",
+          "Caption": "Verrouillé pour l’adresse IP",
+          "Description": "La seule adresse IP qui a accès au site - Toutes les autres sont redirigées vers une page 'Maintenance' définie à l’aide de la redirection d’URL verrouillée - Ceci est généralement utilisé lorsque la maintenance est appliquée à un site afin qu’une seule adresse IP ait accès au site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedUrl",
+          "Caption": "Redirection d’URL verrouillée",
+          "Description": "La page où l’utilisateur est redirigé lorsque le site est verrouillé (pour maintenance)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoginUrl",
+          "Caption": "URL de connexion",
+          "Description": "L’URL où l’utilisateur est redirigé pour se connecter au site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MessageType",
+          "Caption": "Message Style",
+          "Description": "Définit le style d’affichage des messages de notification (messages d’information et d’erreur)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MobileSiteUrl",
+          "Caption": "URL de l’appareil mobile",
+          "Description": "Si un appareil mobile accède à ce site, l’utilisateur est redirigé vers cette URL",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotFoundUrl",
+          "Caption": "Page introuvable",
+          "Description": "Si une page inexistante est consultée, l’utilisateur est redirigé vers cette URL",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageMetaTags",
+          "Caption": "Balises méta de page",
+          "Description": "Définit les balises qui <meta> sont ajoutées à toutes les pages par défaut, mais qui peuvent être remplacées par chaque page si la page définit des balises meta à l’aide de la propriété PageMetaTags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSecurity",
+          "Caption": "Appliquer la sécurité",
+          "Description": "Définit comment la sécurité des pages à l’aide de http/https (SSL, Secure Sockets Layer) est appliquée - Cette propriété est ignorée lors de l’utilisation de l’URL du domaine de test",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PortNumberEval",
+          "Caption": "Numéro de port (normal)",
+          "Description": "Le numéro de port utilisé pour accéder à ce site à l’aide de http - Le port typique pour http est 80",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PortNumberSSLEval",
+          "Caption": "Numéro de port (SSL)",
+          "Description": "Le numéro de port utilisé pour accéder à ce site en utilisant https (SSL - Secure Sockets Layer) - Le port typique pour SSL est 443",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "URL de connexion après la publication",
+          "Description": "L’URL où l’utilisateur est redirigé après s’être connecté au site - Si l’URL suivante est déjà connue, ce champ n’a aucun effet - Les rôles individuels peuvent remplacer ce paramètre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PrivateKey",
+          "Caption": "Clé privée",
+          "Description": "La clé privée utilisée pour déchiffrer un jeton - Ceci est utilisé par ce site YetaWF pour chiffrer / décrypter des données en interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PublicKey",
+          "Caption": "Clé publique",
+          "Description": "La clé publique utilisée pour chiffrer un jeton - Ceci est utilisé par ce site YetaWF pour chiffrer / décrypter des données en interne",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferencedModules",
+          "Caption": "Modules de peau",
+          "Description": "Définit les modules qui doivent être injectés dans toutes les pages",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteDomain",
+          "Caption": "Domaine du site",
+          "Description": "Le nom de domaine de votre site (par exemple, yourcompany.com, yetawf.com)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMapPriority",
+          "Caption": "Priorité par défaut du plan de site",
+          "Description": "Définit la priorité de page par défaut utilisée pour le plan de site : chaque page peut remplacer la valeur par défaut à l’aide de sa propriété SiteMap Priority.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMetaTags",
+          "Caption": "Balises Meta du site",
+          "Description": "Définit les <meta> balises ajoutées à TOUTES les pages",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteName",
+          "Caption": "Nom du site",
+          "Description": "Le nom associé à votre site, généralement le nom de votre entreprise ou votre nom",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteTestDomain",
+          "Caption": "Domaine de test",
+          "Description": "Définit le nom d’hôte pour le domaine de test - Il peut être utilisé avec des outils tels que ngrok pour accéder au site en utilisant une URL différente à des fins de test - Ce paramètre n’est respecté que dans les builds DEBUG - Le site (et toutes les instances) doit être redémarré pour que ce paramètre prenne effet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteUrlHttp",
+          "Caption": "URL du site avec http",
+          "Description": "L’URL du site, y compris http :",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteUrlHttps",
+          "Caption": "URL du site avec https",
+          "Description": "L’URL du site, y compris https :",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Skin",
+          "Caption": "Peau",
+          "Description": "L’habillage utilisé pour les pages et les popups",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SMTP",
+          "Caption": "Serveur de messagerie",
+          "Description": "Le serveur de messagerie utilisé pour envoyer des e-mails à partir de ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticDomain",
+          "Caption": "Domaine des fichiers statiques",
+          "Description": "Vous pouvez éventuellement servir des fichiers statiques à partir d’un autre domaine qui peut améliorer les performances de votre site - Entrez le nom de domaine ici (sans http:// ni https://) - Le site (et toutes les instances) doit être redémarré pour que ce paramètre prenne effet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticPages",
+          "Caption": "Autoriser les pages statiques",
+          "Description": "Définit si les pages marquées comme pages statiques (pour les utilisateurs anonymes uniquement) sont servies en tant que pages statiques - Toute page dont le contenu ne change pas peut être marquée comme une page statique, ce qui accélère le chargement de la page pour l’utilisateur final - Les pages sont marquées statiques à l’aide des paramètres de page de la page (voir la propriété Page statique) - Seul un site déployé utilise des pages statiques",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StrictTransportSecurity",
+          "Caption": "Sécurité stricte du transport",
+          "Description": "Définit si un en-tête de réponse HTTP Strict-Transport-Security (HSTS) est généré pour indiquer aux navigateurs que le site ne doit être accessible qu’à l’aide de HTTPS, au lieu d’utiliser HTTP - Ce paramètre ne prend effet que pour un site déployé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thème",
+          "Description": "Le thème utilisé pour toutes les pages du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Fuseau horaire",
+          "Description": "Le fuseau horaire par défaut pour tous les utilisateurs de ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UnsupportedBrowserUrl",
+          "Caption": "URL des navigateurs non pris en charge",
+          "Description": "Si un navigateur non pris en charge accède à ce site, l’utilisateur est redirigé vers cette URL - Si aucune URL n’est définie, les versions du navigateur ne sont pas vérifiées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCDN",
+          "Caption": "Utiliser CDN (contenu du site)",
+          "Description": "Définit si l’URL du réseau de distribution de contenu est utilisée pour les fichiers statiques du site - Ceci n’est généralement utilisé que pour les sites de production - Appsettings.json (P:YetaWF_Core:UseCDN) doit être défini sur true pour que ce paramètre soit respecté, sinon un CDN n’est pas utilisé pour le contenu du site - Le site (et toutes les instances) doit être redémarré pour que ce paramètre prenne effet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCDNComponents",
+          "Caption": "Utiliser CDN (Global Addons)",
+          "Description": "Définit si un réseau de diffusion de contenu est utilisé pour certains des packages tiers 3rd où un CDN est disponible - Ceci n’est généralement utilisé que pour les sites de production - Appsettings.json (Application.P.YetaWF_Core.UseCDNComponents) doit être défini sur true pour que ce paramètre soit respecté, sinon un CDN n’est pas utilisé pour les packages tiers 3rd - Le site (et toutes les instances) doit être redémarré pour que ce paramètre prenne effet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseGeoLocation",
+          "Caption": "Géolocalisation",
+          "Description": "Définit si le site collecte des informations de géolocalisation auprès de vos visiteurs en fonction de leur adresse IP (si disponible)",
+          "HelpLink": "http://www.geoplugin.com/geolocation/",
+          "TextAbove": null,
+          "TextBelow": "-<a href=\"http://www.geoplugin.com/geolocation/ » target=\"_blank » rel=\"noopener noreferrer\">IP Geolocation by <a href=\"http://www.geoplugin.com/ » target=\"_blank\"></a>geoPlugin</a> - En activant la géolocalisation, vous acceptez les conditions générales de tiers"
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

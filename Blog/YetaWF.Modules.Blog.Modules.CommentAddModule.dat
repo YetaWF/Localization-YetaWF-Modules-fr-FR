@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CommentAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": "Remplissez ce formulaire simple pour ajouter un commentaire à cette entrée de blog.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha",
+          "Description": "Veuillez vérifier que vous êtes un humain et non un robot spammeur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Comment",
+          "Caption": "Commentaire",
+          "Description": "Entrez votre commentaire sur cette entrée de blog pour que d’autres puissent le voir",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Votre adresse e-mail",
+          "Description": "Entrez votre adresse e-mail - Une fois votre commentaire publié, votre adresse e-mail ne sera pas affichée, elle n’est pas visible publiquement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Votre nom",
+          "Description": "Entrez votre nom - Une fois votre commentaire publié, votre nom apparaîtra dans votre commentaire.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowGravatar",
+          "Caption": "Afficher Gravatar",
+          "Description": "Définit si votre Gravatar facultatif est affiché, qui est une image visible publiquement, que vous pouvez définir à l’aide du service gratuit à http://gravatar.com afin que tous vos commentaires apparaissent avec votre image",
+          "HelpLink": "http://www.gravatar.com",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Entrez un titre pour votre commentaire - Une fois votre commentaire publié, le titre apparaîtra dans votre commentaire.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Website",
+          "Caption": "Votre site web",
+          "Description": "Entrez votre site Web facultatif, afin que les lecteurs de votre commentaire puissent visiter votre site Web. Votre site Web est entièrement facultatif - Une fois votre commentaire publié, l’adresse de votre site Web apparaîtra dans votre commentaire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyExists",
+      "Text": "Une erreur s’est produite lors de l’ajout de ce nouveau commentaire"
+    },
+    {
+      "Name": "autoApproval",
+      "Text": "Ce commentaire a été automatiquement approuvé."
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter un commentaire"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute un nouveau commentaire. Le commentaire est ajouté à l’entrée de blog définie par l’argument BlogEntry de l’URL de la page. Ce module est généralement utilisé sur la même page que le module d’affichage des entrées."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter un nouveau commentaire"
+    },
+    {
+      "Name": "needApproval",
+      "Text": "Ce commentaire nécessite votre approbation."
+    },
+    {
+      "Name": "newComment",
+      "Text": "Nouveau commentaire de blog ({0} - {1})"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’entrée de blog avec ID {0} introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouveau commentaire ajouté"
+    },
+    {
+      "Name": "okSavedReview",
+      "Text": "Nouveau commentaire enregistré - Il sera examiné avant d’être visible publiquement"
+    }
+  ]
+}

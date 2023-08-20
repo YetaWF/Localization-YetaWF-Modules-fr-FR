@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Notifications du navigateur Web (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module d’habillage utilisé pour prendre en charge les notifications du navigateur Web"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Notifications du navigateur Web Skin"
+    }
+  ]
+}

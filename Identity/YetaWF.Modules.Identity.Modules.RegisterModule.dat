@@ -1,0 +1,218 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RegisterModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "PostRegisterQueryString",
+          "Caption": "Chaîne de requête post-connexion",
+          "Description": "Définit si la chaîne de requête d’origine est transférée avec l’URL de post-connexion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostRegisterUrl",
+          "Caption": "URL de connexion après la connexion",
+          "Description": "Définit la page à afficher une fois que l’utilisateur est connecté - Si elle est omise, l’URL à laquelle revenir est déterminée automatiquement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowPasswordRules",
+          "Caption": "Afficher les règles de mot de passe",
+          "Description": "Définit si les règles de mot de passe sont affichées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RegisterModule+RegisterModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Actions",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha",
+          "Description": "Veuillez vérifier que vous êtes un humain et non un robot spammeur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ConfirmPassword",
+          "Caption": "Confirmation du mot de passe",
+          "Description": "Entrez à nouveau votre mot de passe pour confirmer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "Entrez votre adresse e-mail pour vous inscrire - Il s’agit de l’adresse e-mail utilisée par ce site pour communiquer avec vous",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PartnerName",
+          "Caption": "Partenaire",
+          "Description": "Entrez le nom de votre partenaire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Mot de passe",
+          "Description": "Entrez le mot de passe souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordRules",
+          "Caption": " ",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Nom d’utilisateur",
+          "Description": "Entrez votre nom d’utilisateur pour vous inscrire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantRegister",
+      "Text": "Ce site ne permet pas l’enregistrement de nouveaux utilisateurs"
+    },
+    {
+      "Name": "emailUsed",
+      "Text": "Un compte avec adresse e-mail {0} existe déjà."
+    },
+    {
+      "Name": "logAccountTitle",
+      "Text": "Connectez-vous à l’aide de votre compte {0}"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Utilisé par les nouveaux utilisateurs pour enregistrer un nouveau compte sur le site actuel. Le module Paramètres de connexion utilisateur peut être utilisé pour désactiver l’enregistrement d’un nouvel utilisateur. L’enregistrement du nouvel utilisateur est accessible via User > Register (site YetaWF standard)."
+    },
+    {
+      "Name": "okAwaitApproval",
+      "Text": "Un e-mail vient d’être envoyé à l’administrateur du site pour approbation de votre nouveau compte. Une fois traité et approuvé, vous recevrez un courriel confirmant votre approbation."
+    },
+    {
+      "Name": "okAwaitRegistration",
+      "Text": "Un email vient d’être envoyé à votre adresse email « {0} » pour compléter l’inscription. Prévoyez quelques minutes pour la livraison. Une fois reçu, utilisez les informations contenues dans l’e-mail pour terminer l’inscription."
+    },
+    {
+      "Name": "okRegText",
+      "Text": "Votre nouveau compte a été enregistré avec succès."
+    },
+    {
+      "Name": "okRegTitle",
+      "Text": "Bienvenue!"
+    },
+    {
+      "Name": "regLegend",
+      "Text": "Vous permet de vous inscrire sur ce site en tant que nouvel utilisateur"
+    },
+    {
+      "Name": "regLink",
+      "Text": "Enregistrer un nouveau compte utilisateur"
+    },
+    {
+      "Name": "regText",
+      "Text": "Registre"
+    },
+    {
+      "Name": "regTooltip",
+      "Text": "Si vous n’avez pas de compte sur ce site, cliquez pour vous inscrire"
+    },
+    {
+      "Name": "roleChange",
+      "Text": "Le rôle a l’autorisation de modifier l’état du compte d’autres utilisateurs"
+    },
+    {
+      "Name": "roleChangeC",
+      "Text": "Changer de compte"
+    },
+    {
+      "Name": "sendApprovedLegend",
+      "Text": "Marque le compte d’utilisateur comme approuvé"
+    },
+    {
+      "Name": "sendApprovedLink",
+      "Text": "Approuver l’utilisateur"
+    },
+    {
+      "Name": "sendApprovedMenu",
+      "Text": "Approuver l’utilisateur"
+    },
+    {
+      "Name": "sendApprovedTT",
+      "Text": "Marque le compte d’utilisateur comme approuvé"
+    },
+    {
+      "Name": "sendRejectedLegend",
+      "Text": "Marque le compte d’utilisateur comme rejeté"
+    },
+    {
+      "Name": "sendRejectedLink",
+      "Text": "Rejeter l’utilisateur"
+    },
+    {
+      "Name": "sendRejectedMenu",
+      "Text": "Rejeter l’utilisateur"
+    },
+    {
+      "Name": "sendRejectedTT",
+      "Text": "Marque le compte d’utilisateur comme rejeté"
+    },
+    {
+      "Name": "title",
+      "Text": "Inscription d’un nouvel utilisateur"
+    },
+    {
+      "Name": "userChange",
+      "Text": "L’utilisateur a l’autorisation de modifier l’état du compte d’autres utilisateurs"
+    },
+    {
+      "Name": "userChangeC",
+      "Text": "Changer de compte"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantRemove",
+      "Text": "Impossible de supprimer l’entrée avec id {0}"
+    }
+  ]
+}

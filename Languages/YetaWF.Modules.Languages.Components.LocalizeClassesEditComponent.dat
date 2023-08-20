@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Components.LocalizeClassesEditComponent+UIClassData",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Footer",
+          "Caption": "Pied de page de classe",
+          "Description": "Texte trouvé dans [FooterAttribute(...)]",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Header",
+          "Caption": "En-tête de classe",
+          "Description": "Texte trouvé dans [HeaderAttribute(...)]",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Legend",
+          "Caption": "Légende de la classe",
+          "Description": "Texte trouvé dans [LegendAttribute(...)]",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cmtCaption",
+      "Text": " (Légende)"
+    },
+    {
+      "Name": "cmtDescription",
+      "Text": " (Description)"
+    },
+    {
+      "Name": "cmtHelpLink",
+      "Text": " (HelpLink)"
+    },
+    {
+      "Name": "cmtTextAbove",
+      "Text": " (Texte ci-dessus)"
+    },
+    {
+      "Name": "cmtTextBelow",
+      "Text": " (TexteCi-dessous)"
+    },
+    {
+      "Name": "strNameTT",
+      "Text": "Texte trouvé dans les attributs de la propriété {0}"
+    }
+  ]
+}

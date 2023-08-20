@@ -1,0 +1,383 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "CopyrightEvaluated",
+          "Caption": "Copyright",
+          "Description": "La propriété Copyright avec substitutions évaluées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+AllowedEnum",
+      "Entries": [
+        {
+          "Name": "NotDefined",
+          "Value": "NotDefined",
+          "Caption": " ",
+          "Description": "Non spécifié"
+        },
+        {
+          "Name": "Yes",
+          "Value": "Yes",
+          "Caption": "Oui",
+          "Description": "Autorisé"
+        },
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Non",
+          "Description": "Interdit"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+ChangeFrequencyEnum",
+      "Entries": [
+        {
+          "Name": "Default",
+          "Value": "Default",
+          "Caption": "(Site par défaut)",
+          "Description": "Utiliser la fréquence de modification par défaut définie par le site"
+        },
+        {
+          "Name": "Always",
+          "Value": "Always",
+          "Caption": "Toujours",
+          "Description": "La page peut changer à chaque fois qu’elle est consultée"
+        },
+        {
+          "Name": "Hourly",
+          "Value": "Hourly",
+          "Caption": "Horaire",
+          "Description": "La page peut changer toutes les heures"
+        },
+        {
+          "Name": "Daily",
+          "Value": "Daily",
+          "Caption": "Quotidien",
+          "Description": "La page peut changer quotidiennement"
+        },
+        {
+          "Name": "Weekly",
+          "Value": "Weekly",
+          "Caption": "Hebdomadaire",
+          "Description": "La page peut changer chaque semaine"
+        },
+        {
+          "Name": "Monthly",
+          "Value": "Monthly",
+          "Caption": "Mensuel",
+          "Description": "La page peut changer tous les mois"
+        },
+        {
+          "Name": "Yearly",
+          "Value": "Yearly",
+          "Caption": "Annuel",
+          "Description": "La page peut changer chaque année"
+        },
+        {
+          "Name": "Never",
+          "Value": "Never",
+          "Caption": "Jamais",
+          "Description": "La page ne change jamais - utilisation pour les pages archivées"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+ChangeFrequencySiteEnum",
+      "Entries": [
+        {
+          "Name": "Always",
+          "Value": "Always",
+          "Caption": "Toujours",
+          "Description": "Les pages peuvent changer à chaque fois qu’elles sont consultées"
+        },
+        {
+          "Name": "Hourly",
+          "Value": "Hourly",
+          "Caption": "Horaire",
+          "Description": "Les pages peuvent changer toutes les heures"
+        },
+        {
+          "Name": "Daily",
+          "Value": "Daily",
+          "Caption": "Quotidien",
+          "Description": "Les pages peuvent changer quotidiennement"
+        },
+        {
+          "Name": "Weekly",
+          "Value": "Weekly",
+          "Caption": "Hebdomadaire",
+          "Description": "Les pages peuvent changer chaque semaine"
+        },
+        {
+          "Name": "Monthly",
+          "Value": "Monthly",
+          "Caption": "Mensuel",
+          "Description": "Les pages peuvent changer tous les mois"
+        },
+        {
+          "Name": "Yearly",
+          "Value": "Yearly",
+          "Caption": "Annuel",
+          "Description": "Les pages peuvent changer chaque année"
+        },
+        {
+          "Name": "Never",
+          "Value": "Never",
+          "Caption": "Jamais",
+          "Description": "Les pages ne changent jamais - à utiliser pour les pages archivées"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+IFrameUseEnum",
+      "Entries": [
+        {
+          "Name": "Default",
+          "Value": "Default",
+          "Caption": "(Site par défaut)",
+          "Description": "Utiliser le site défini par défaut (Utilisation IFrame dans Paramètres du site)"
+        },
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Non",
+          "Description": "La page ne peut pas être utilisée dans un IFrame (selon le support du navigateur)"
+        },
+        {
+          "Name": "ThisSite",
+          "Value": "ThisSite",
+          "Caption": "Ce site",
+          "Description": "La page ne peut être utilisée par ce site que dans un IFrame (en fonction du support du navigateur)"
+        },
+        {
+          "Name": "Yes",
+          "Value": "Yes",
+          "Caption": "Oui",
+          "Description": "La page peut être utilisée par n’importe quel site dans un IFrame (en fonction du support du navigateur)"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+PageSecurityType",
+      "Entries": [
+        {
+          "Name": "Any",
+          "Value": "Any",
+          "Caption": "Toujours afficher",
+          "Description": null
+        },
+        {
+          "Name": "httpsOnly",
+          "Value": "httpsOnly",
+          "Caption": "Afficher avec https:// seulement",
+          "Description": null
+        },
+        {
+          "Name": "httpOnly",
+          "Value": "httpOnly",
+          "Caption": "Afficher avec http:// seulement",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+SiteMapPriorityEnum",
+      "Entries": [
+        {
+          "Name": "Default",
+          "Value": "Default",
+          "Caption": "(Site par défaut)",
+          "Description": "Utiliser la priorité de page par défaut définie par le site"
+        },
+        {
+          "Name": "Excluded",
+          "Value": "Excluded",
+          "Caption": "(Exclure du plan du site)",
+          "Description": "La page n’est jamais ajoutée au plan du site"
+        },
+        {
+          "Name": "None",
+          "Value": "None",
+          "Caption": "Aucun",
+          "Description": null
+        },
+        {
+          "Name": "SuperLow",
+          "Value": "SuperLow",
+          "Caption": "Vraiment faible",
+          "Description": null
+        },
+        {
+          "Name": "Low",
+          "Value": "Low",
+          "Caption": "Bas",
+          "Description": null
+        },
+        {
+          "Name": "BelowMedium",
+          "Value": "BelowMedium",
+          "Caption": "En dessous de la moyenne",
+          "Description": null
+        },
+        {
+          "Name": "Medium",
+          "Value": "Medium",
+          "Caption": "Douleur moyenne",
+          "Description": null
+        },
+        {
+          "Name": "AboveMedium",
+          "Value": "AboveMedium",
+          "Caption": "Au-dessus de la moyenne",
+          "Description": null
+        },
+        {
+          "Name": "High",
+          "Value": "High",
+          "Caption": "Haut",
+          "Description": null
+        },
+        {
+          "Name": "Top",
+          "Value": "Top",
+          "Caption": "Maximum",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+SiteMapPrioritySiteEnum",
+      "Entries": [
+        {
+          "Name": "Excluded",
+          "Value": "Excluded",
+          "Caption": "(Exclure du plan du site)",
+          "Description": "Les pages ne sont jamais ajoutées au plan du site"
+        },
+        {
+          "Name": "None",
+          "Value": "None",
+          "Caption": "Aucun",
+          "Description": null
+        },
+        {
+          "Name": "SuperLow",
+          "Value": "SuperLow",
+          "Caption": "Vraiment faible",
+          "Description": null
+        },
+        {
+          "Name": "Low",
+          "Value": "Low",
+          "Caption": "Bas",
+          "Description": null
+        },
+        {
+          "Name": "BelowMedium",
+          "Value": "BelowMedium",
+          "Caption": "En dessous de la moyenne",
+          "Description": null
+        },
+        {
+          "Name": "Medium",
+          "Value": "Medium",
+          "Caption": "Douleur moyenne",
+          "Description": null
+        },
+        {
+          "Name": "AboveMedium",
+          "Value": "AboveMedium",
+          "Caption": "Au-dessus de la moyenne",
+          "Description": null
+        },
+        {
+          "Name": "High",
+          "Value": "High",
+          "Caption": "Haut",
+          "Description": null
+        },
+        {
+          "Name": "Top",
+          "Value": "Top",
+          "Caption": "Maximum",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Pages.PageDefinition+StaticPageEnum",
+      "Entries": [
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Non",
+          "Description": "La page est toujours rendue avec les données actuelles"
+        },
+        {
+          "Name": "Yes",
+          "Value": "Yes",
+          "Caption": "Oui",
+          "Description": "La page est une page statique (enregistrée en interne en tant que fichier)"
+        },
+        {
+          "Name": "YesMemory",
+          "Value": "YesMemory",
+          "Caption": "Oui, en mémoire",
+          "Description": "La page est une page statique (enregistrée en interne en mémoire)"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "errCantImport",
+      "Text": "Page {0} ne peut pas être importée - {1}"
+    },
+    {
+      "Name": "invCore",
+      "Text": "Cette page nécessite la version {0} YetaWF - La version actuelle trouvée est {1}"
+    },
+    {
+      "Name": "invFormat",
+      "Text": "{0} n’est pas valide données de page"
+    },
+    {
+      "Name": "missingMod",
+      "Text": "Module conçu introuvable"
+    },
+    {
+      "Name": "modExists",
+      "Text": "Le module {0} existe déjà et n’a pas été importé (module Guid {1})"
+    },
+    {
+      "Name": "moduleFmt",
+      "Text": "Données de page - {0}.zip"
+    },
+    {
+      "Name": "nonSite",
+      "Text": "Les données de module {0} ne peuvent pas être importées - Il contient des données inattendues non spécifiques au site"
+    },
+    {
+      "Name": "uploadedFile",
+      "Text": "Fichier téléchargé"
+    }
+  ]
+}

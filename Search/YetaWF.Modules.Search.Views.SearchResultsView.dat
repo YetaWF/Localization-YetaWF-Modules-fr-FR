@@ -1,0 +1,39 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "lastUpd",
+      "Text": "Mise à jour {0}"
+    },
+    {
+      "Name": "noDesc",
+      "Text": "(Aucune description)"
+    },
+    {
+      "Name": "noResults",
+      "Text": "Votre recherche pour « {0} » ne correspondait à aucun document."
+    },
+    {
+      "Name": "noResultsAdmin",
+      "Text": "Aucun résultat de recherche disponible."
+    },
+    {
+      "Name": "results",
+      "Text": "Votre recherche de « {0} » a trouvé {1} correspondances."
+    },
+    {
+      "Name": "results1",
+      "Text": "Votre recherche pour « {0} » a trouvé {1} correspondance."
+    },
+    {
+      "Name": "resultsMore",
+      "Text": "Votre recherche de « {0} » a trouvé {1} correspondances - d’autres sont disponibles."
+    },
+    {
+      "Name": "resultsMore1",
+      "Text": "Votre recherche pour « {0} » a trouvé {1} correspondance - d’autres sont disponibles."
+    }
+  ]
+}

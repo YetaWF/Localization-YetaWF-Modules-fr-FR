@@ -1,0 +1,174 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddBrowseModule+Model",
+      "BaseTypeName": null,
+      "Header": "Ajoutez des modules à votre projet pour parcourir, ajouter, modifier et afficher des éléments avec stockage de données dans des fichiers et/ou des tables SQL. La suppression d’éléments est prise en charge par les modules Parcourir, Modifier et Afficher.\r(+nl)\r(+nl) Une fois les modules créés, vous pouvez personnaliser entièrement le modèle de données utilisé et ajouter du code pour accéder aux données externes (tables SQL, fichiers, etc.).\r(+nl)\r(+nl) Les modules générés utilisent jQuery, prennent en charge les popups et les modules basés sur des pages, incluent des pages de propriétés et sont localisables, avec une prise en charge complète des annotations de données.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AddWanted",
+          "Caption": "Ajouter un module",
+          "Description": "Sélectionnez cette option pour générer un module d’ajout",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BrowseDataProvider",
+          "Caption": "Fournisseur de données",
+          "Description": "Entrez le fournisseur de données souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BrowseKeyName",
+          "Caption": "Nom de la clé",
+          "Description": "Entrez le nom de propriété de clé souhaité pour le modèle de données",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Nom, Clé, Nom d’utilisateur, Nom du produit"
+        },
+        {
+          "Name": "BrowseKeyType",
+          "Caption": "Type de clé",
+          "Description": "Entrez le type de clé souhaité pour le modèle de données",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Guid, String, int"
+        },
+        {
+          "Name": "BrowseModelName",
+          "Caption": "Nom du modèle de données",
+          "Description": "Entrez le nom du modèle de données souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : UserSettings, PersonnelData"
+        },
+        {
+          "Name": "BrowseModuleName",
+          "Caption": "Nom du module",
+          "Description": "Entrez le nom de base pour tous les modules de navigation, d’ajout, de modification et d’affichage",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : facture, produit, employé"
+        },
+        {
+          "Name": "BrowseObjectName",
+          "Caption": "Nom de l’objet",
+          "Description": "Entrez le nom d’objet affichable par l’utilisateur souhaité pour le nom du modèle de données",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : compte d’utilisateur, type de produit"
+        },
+        {
+          "Name": "BrowseWanted",
+          "Caption": "Module de navigation",
+          "Description": "Sélectionnez cette option pour générer un module de navigation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Company",
+          "Caption": "Compagnie",
+          "Description": "Entrez le nom de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Nom de mon entreprise - Il est utilisé pour afficher le nom de votre entreprise sous une forme affichable."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "URL de l’entreprise",
+          "Description": "Entrez l’URL du domaine de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MyCompany.com - URL du domaine de votre entreprise."
+        },
+        {
+          "Name": "DisplayWanted",
+          "Caption": "Module d’affichage",
+          "Description": "Sélectionnez cette option pour générer un module d’affichage",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domaine",
+          "Description": "Entrez le nom de domaine de votre entreprise sans .com",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MaEntreprise - Un projet doit déjà exister qui utilise le domaine et le nom de projet saisis. Il est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        },
+        {
+          "Name": "EditWanted",
+          "Caption": "Modifier le module",
+          "Description": "Sélectionnez cette option pour générer un module d’édition",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Project",
+          "Caption": "Nom du projet",
+          "Description": "Entrez le nom de projet souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : StoreFont ou Blog ou Forum - Un projet doit déjà exister et utiliser le domaine et le nom du projet saisis. Il est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute des modules de navigation"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter des modules de navigation"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter des modules de navigation"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter des modules de navigation"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Impossible d’enregistrer les paramètres par défaut du modèle"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter des modules de navigation"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute des modules de navigation"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter des modules de navigation"
+    },
+    {
+      "Name": "notExists",
+      "Text": "Le projet n'{0} pas trouvé. Le dossier {1} n’existe pas. Les modules ne peuvent être ajoutés qu’à des projets existants."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "De nouveaux modules {0} ajoutés au projet {1}/{2}."
+    },
+    {
+      "Name": "select",
+      "Text": "Au moins un type de module doit être sélectionné."
+    }
+  ]
+}

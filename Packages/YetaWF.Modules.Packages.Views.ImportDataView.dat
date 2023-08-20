@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "text",
+      "Text": "Importer des données de package à partir d’un fichier zip (créé par Export Data)."
+    }
+  ]
+}

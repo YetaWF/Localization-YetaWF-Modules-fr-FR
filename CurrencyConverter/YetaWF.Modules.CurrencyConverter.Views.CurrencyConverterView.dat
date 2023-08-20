@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "amount",
+      "Text": "Quantité:"
+    },
+    {
+      "Name": "btnGo",
+      "Text": "Aller"
+    },
+    {
+      "Name": "disclaimer",
+      "Text": "Les conversions sont approximatives et n’incluent pas les taxes/frais et autres coûts de conversion"
+    },
+    {
+      "Name": "from",
+      "Text": "De:"
+    },
+    {
+      "Name": "is",
+      "Text": " => "
+    },
+    {
+      "Name": "to",
+      "Text": "À:"
+    }
+  ]
+}

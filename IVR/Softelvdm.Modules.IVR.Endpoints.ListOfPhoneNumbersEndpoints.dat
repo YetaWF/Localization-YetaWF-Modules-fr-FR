@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "dupPhone",
+      "Text": "Numéro de téléphone {0} a déjà été ajouté"
+    },
+    {
+      "Name": "invPhone",
+      "Text": "Numéro de téléphone {0} n’est pas un numéro de téléphone valide"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.AuditConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Rétention (jours)",
+          "Description": "Définit le nombre de jours pendant lesquels les informations d’audit sont enregistrées - Les informations d’audit antérieures au nombre de jours spécifié sont supprimées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres d’audit"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres d’audit"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres d’audit"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres d’audit"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres d’audit"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les paramètres d’audit d’un site. Vous pouvez y accéder en utilisant les paramètres de > d’administration > les paramètres d’audit (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres d’audit"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres d’audit sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres d’audit enregistrés"
+    }
+  ]
+}

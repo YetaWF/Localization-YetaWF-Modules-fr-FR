@@ -1,0 +1,138 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerEditModule+SchedulerEditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Description de cet élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Activé",
+          "Description": "Définit si l’élément du planificateur est activé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnableOnStartup",
+          "Caption": "Activer au démarrage",
+          "Description": "Définit si l’élément du planificateur est activé chaque fois que le site Web est redémarré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Event",
+          "Caption": "Événement",
+          "Description": "L’événement exécuté à l’heure planifiée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Frequency",
+          "Caption": "Intervalle",
+          "Description": "Fréquence de l’élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom de cet élément du planificateur : le nom est utilisé pour identifier un élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunOnce",
+          "Caption": "Exécuter une fois",
+          "Description": "Définit si l’élément du planificateur n’est exécuté qu’une seule fois. Une fois terminé, il est désactivé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSpecific",
+          "Caption": "Spécifique au site",
+          "Description": "Définit si l’élément du planificateur s’exécute pour chaque site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Startup",
+          "Caption": "Démarrage",
+          "Description": "Définit si l’élément du planificateur s’exécute au démarrage du site Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "L’élément du planificateur nommé « {0} » a été supprimé et ne peut plus être mis à jour."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un élément du planificateur nommé « {0} » existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie un élément de planificateur existant"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier un élément de planificateur existant"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier l’élément du planificateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie les détails d’un élément de planificateur existant. Utilisé par le module Planificateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Élément Planificateur"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’élément du planificateur « {0} » introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Élément du planificateur enregistré"
+    },
+    {
+      "Name": "title",
+      "Text": "Élément du planificateur « {0} »"
+    }
+  ]
+}

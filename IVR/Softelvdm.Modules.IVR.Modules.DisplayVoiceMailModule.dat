@@ -1,0 +1,162 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.DisplayVoiceMailModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caller",
+          "Caption": "De",
+          "Description": "Le numéro de téléphone de l’appelant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCity",
+          "Caption": "De la ville",
+          "Description": "La ville de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCountry",
+          "Caption": "Du pays",
+          "Description": "Le pays de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerState",
+          "Caption": "De l’État",
+          "Description": "L’état de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerZip",
+          "Caption": "À partir du code postal",
+          "Description": "Le code postal de l’appelant (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallSid",
+          "Caption": "Appeler Sid",
+          "Description": "L’identifiant utilisé par Twilio pour identifier l’appel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure de création du message vocal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Duration",
+          "Caption": "Durée",
+          "Description": "Durée du message vocal (en secondes)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Extension",
+          "Description": "L’extension pour laquelle le message vocal est enregistré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Heard",
+          "Caption": "Entendu",
+          "Description": "Définit si la messagerie vocale a déjà été écoutée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Listen",
+          "Caption": "Écouter",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "To",
+          "Caption": "Numéro de téléphone",
+          "Description": "Le numéro de téléphone pour lequel le message vocal est enregistré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche une entrée de messagerie vocale existante"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher l’entrée de messagerie vocale"
+    },
+    {
+      "Name": "listenLegend",
+      "Text": "Utilisé pour écouter la messagerie vocale"
+    },
+    {
+      "Name": "listenLink",
+      "Text": "Écouter"
+    },
+    {
+      "Name": "listenMenu",
+      "Text": "Écouter"
+    },
+    {
+      "Name": "listenTT",
+      "Text": "Écouter la messagerie vocale"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrée de messagerie vocale"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une entrée de messagerie vocale existante."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrée de messagerie vocale"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Entrée de messagerie vocale avec ID {0} introuvable"
+    }
+  ]
+}

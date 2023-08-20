@@ -1,0 +1,88 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.BrowseDataProvidersModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "IOModeName",
+          "Caption": "Mode E/S",
+          "Description": "Le mode d’E/S pris en charge par ce fournisseur de données",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TypeImplName",
+          "Caption": "Nom du type d’implémentation",
+          "Description": "Le type d’implémentation du fournisseur de données pris en charge",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TypeName",
+          "Caption": "Nom du type",
+          "Description": "Le type du fournisseur de données pris en charge",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.BrowseDataProvidersModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche les fournisseurs de données installés"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Fournisseurs de données"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Fournisseurs de données"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher les fournisseurs de données installés"
+    },
+    {
+      "Name": "modName",
+      "Text": "Fournisseurs de données"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les fournisseurs de données installés. Les fournisseurs de données installés sont accessibles à l’aide du tableau de bord Admin > > des fournisseurs de données (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Fournisseurs de données"
+    }
+  ]
+}

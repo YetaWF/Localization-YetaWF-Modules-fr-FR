@@ -1,0 +1,146 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.AddonDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "CssFiles",
+          "Caption": "Fichiers css",
+          "Description": "Liste des fichiers Css pour ce module complémentaire (filelistCSS.txt contenu du fichier)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssPathUrl",
+          "Caption": "Chemin css",
+          "Description": "L’emplacement de l’AddOn pour les fichiers Css (remplace Url) - utilisé uniquement si une directive Folder a été trouvée dans filelistCSS.txt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domaine",
+          "Description": "Le domaine propriétaire de cet AddOn",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "JsFiles",
+          "Caption": "Fichiers JavaScript",
+          "Description": "Liste des fichiers JavaScript pour ce module complémentaire (contenu du fichier filelistJS.txt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "JsPathUrl",
+          "Caption": "Chemin JavaScript",
+          "Description": "L’emplacement de l’AddOn pour les fichiers JavaScript (remplace l’URL) - utilisé uniquement si une directive Folder a été trouvée dans filelistJS.txt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom interne de l’AddOn",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Product",
+          "Caption": "Produit",
+          "Description": "Le nom du produit AddOn",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SkinFilePath",
+          "Caption": "Chemin de définition de l’habillage",
+          "Description": "L’emplacement où se trouve le fichier Skin.txt définissant les attributs Skin - utilisé uniquement pour les modules complémentaires Skin",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SupportTypesStrings",
+          "Caption": "Support Types",
+          "Description": "Liste des types qui définissent l’interface IAddOnSupport pour ce module complémentaire, utilisée pour ajouter des informations de localisation et de configuration pour l’utilisation de JavaScript côté client",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Type",
+          "Caption": "Type",
+          "Description": "Le type AddOn",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL de l’AddOn où se trouvent ses fichiers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Version",
+          "Caption": "Version",
+          "Description": "La version de l’AddOn",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche les informations AddOn"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher les informations AddOn"
+    },
+    {
+      "Name": "modName",
+      "Text": "Détails AddOn"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche des informations détaillées sur un AddOn. Utilisé par le module AddOn Info."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Détails AddOn"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Informations complémentaires pour la clé « {0} » introuvable"
+    }
+  ]
+}

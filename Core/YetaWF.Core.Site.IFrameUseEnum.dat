@@ -1,0 +1,30 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Site.IFrameUseEnum",
+      "Entries": [
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Non",
+          "Description": "Les pages ne peuvent pas être utilisées dans un IFrame (X-Frame-Options: DENY)"
+        },
+        {
+          "Name": "ThisSite",
+          "Value": "ThisSite",
+          "Caption": "Ce site",
+          "Description": "La page ne peut être utilisée par ce site que dans un IFrame (X-Frame-Options: SAMEORIGIN)"
+        },
+        {
+          "Name": "Yes",
+          "Value": "Yes",
+          "Caption": "Oui",
+          "Description": "La page peut être utilisée par n’importe quel site dans un IFrame - Aucun en-tête X-Frame-Options n’est défini par YetaWF, ce qui permet aux applications externes de contrôler le paramètre"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

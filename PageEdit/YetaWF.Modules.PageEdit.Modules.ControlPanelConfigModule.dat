@@ -1,0 +1,76 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.ControlPanelConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "Users",
+          "Caption": "Liste des utilisateurs",
+          "Description": "Liste des comptes d’utilisateurs pouvant être utilisés pour se connecter rapidement au site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "W3CUrl",
+          "Caption": "W3C Validation",
+          "Description": "L’URL utilisée pour valider la page active à l’aide d’un service de validation W3C - Utiliser {0} où l’URL est insérée - Si aucune URL n’est définie, le Panneau de configuration n’affichera pas de lien de validation W3C",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres du Panneau de configuration"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres du Panneau de configuration"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres du Panneau de configuration"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres du Panneau de configuration"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres du Panneau de configuration"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les paramètres du Panneau de configuration. Il est accessible à l’aide des paramètres d’administration > > des paramètres du panneau de configuration (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres du Panneau de configuration"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres du Panneau de configuration sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres du Panneau de configuration enregistrés"
+    },
+    {
+      "Name": "okSavedRestart",
+      "Text": "Paramètres du Panneau de configuration enregistrés - Ces paramètres ne prendront effet qu’après le redémarrage du site"
+    }
+  ]
+}

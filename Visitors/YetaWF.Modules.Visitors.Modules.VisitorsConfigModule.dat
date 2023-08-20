@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.VisitorsConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Rétention (jours)",
+          "Description": "Définit le nombre de jours pendant lesquels les informations des visiteurs sont enregistrées - Les informations sur les visiteurs antérieures au nombre de jours spécifié sont supprimées",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres des visiteurs"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres des visiteurs"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres des visiteurs"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres des visiteurs"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres des visiteurs"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier les paramètres des visiteurs d’un site. Vous pouvez y accéder en utilisant les paramètres de > d’administration > les paramètres des visiteurs (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres des visiteurs"
+    },
+    {
+      "Name": "noInfo",
+      "Text": "Les informations sur les visiteurs ne sont pas disponibles - Voir https://yetawf.com/Documentation/YetaWF/Visitors"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Les paramètres visiteurs sont introuvables"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres des visiteurs enregistrés"
+    }
+  ]
+}

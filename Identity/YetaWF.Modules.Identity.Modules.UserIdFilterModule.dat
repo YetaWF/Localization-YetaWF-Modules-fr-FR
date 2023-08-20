@@ -1,0 +1,88 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UserIdFilterModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "FilterOp",
+          "Caption": "Comparaison",
+          "Description": "Sélectionnez la méthode de comparaison",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur",
+          "Description": "Sélectionnez l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UserIdFilterModule+EditModel+FilterOpEnum",
+      "Entries": [
+        {
+          "Name": "Equal",
+          "Value": "Equal",
+          "Caption": "Égal",
+          "Description": "Afficher uniquement les utilisateurs qui correspondent à l’utilisateur sélectionné"
+        },
+        {
+          "Name": "NotEqual",
+          "Value": "NotEqual",
+          "Caption": "Pas égal",
+          "Description": "Afficher uniquement les utilisateurs qui ne correspondent pas à l’utilisateur sélectionné"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Limite les données affichées à un certain utilisateur"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Filtre"
+    },
+    {
+      "Name": "editText",
+      "Text": "Filtre"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Utiliser un filtre pour limiter les données affichées à un certain utilisateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Filtre UserId"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente un filtre pour un ID utilisateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Filtre utilisateur"
+    },
+    {
+      "Name": "save",
+      "Text": "Enregistrer le filtre"
+    },
+    {
+      "Name": "saveTT",
+      "Text": "Cliquez pour enregistrer l’utilisateur sélectionné en tant que nouveau paramètre de filtre"
+    }
+  ]
+}

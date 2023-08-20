@@ -1,0 +1,24 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Site.StrictTransportSecurityEnum",
+      "Entries": [
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Non spécifié",
+          "Description": "Aucun en-tête Strict-Transport-Security n’est généré"
+        },
+        {
+          "Name": "All",
+          "Value": "All",
+          "Caption": "Tout",
+          "Description": "Un en-tête Strict-Transport-Security est généré définissant une expiration de 2 ans, incluant tous les sous-domaines, et prenant en charge les listes de préchargement"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

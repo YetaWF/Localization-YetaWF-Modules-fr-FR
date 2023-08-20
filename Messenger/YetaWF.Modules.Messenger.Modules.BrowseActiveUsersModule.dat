@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Messenger.Modules.BrowseActiveUsersModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ConnectionId",
+          "Caption": "ID de connexion",
+          "Description": "ID de connexion utilisé pour identifier l’utilisateur actif",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date et l’heure auxquelles le visiteur s’est connecté au site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP du visiteur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur",
+          "Description": "L’adresse e-mail de l’utilisateur (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Parcourir les utilisateurs actifs"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les utilisateurs actuellement actifs. Il est accessible via Admin > Dashboard > Active Users (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Utilisateurs actifs"
+    },
+    {
+      "Name": "notEnabled",
+      "Text": "Les utilisateurs actifs ne sont pas suivis - non activés"
+    }
+  ]
+}

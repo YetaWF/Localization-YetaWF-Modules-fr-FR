@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "selLocal",
+      "Text": "Page conçue"
+    },
+    {
+      "Name": "selLocalTT",
+      "Text": "Sélectionner pour les pages locales conçues"
+    },
+    {
+      "Name": "selRemote",
+      "Text": "URL locale/distante"
+    },
+    {
+      "Name": "selRemoteTT",
+      "Text": "Sélectionnez cette option pour entrer une URL (locale ou distante) - Peut contenir des arguments de chaîne de requête - Les URL locales commencent par /, les URL distantes par http:// ou https://"
+    }
+  ]
+}

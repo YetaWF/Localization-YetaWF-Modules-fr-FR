@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Le rôle nommé « {0} » a été supprimé et ne peut plus être mis à jour."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un rôle nommé « {0} » existe déjà."
+    }
+  ]
+}

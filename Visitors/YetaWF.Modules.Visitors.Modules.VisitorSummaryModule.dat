@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.VisitorSummaryModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "TodaysAnonymous",
+          "Caption": "Les visiteurs anonymes d’aujourd’hui",
+          "Description": "Affiche le nombre de visiteurs anonymes aujourd’hui (en signalant le nombre de sessions distinctes sans utilisateur connecté)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TodaysUsers",
+          "Caption": "Les visiteurs d’aujourd’hui",
+          "Description": "Affiche le nombre de visiteurs connectés aujourd’hui",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "YesterdaysAnonymous",
+          "Caption": "Les visiteurs anonymes d’hier",
+          "Description": "Affiche le nombre de visiteurs anonymes hier (en signalant le nombre de sessions distinctes sans utilisateur connecté)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "YesterdaysUsers",
+          "Caption": "Les visiteurs d’hier",
+          "Description": "Affiche le nombre de visiteurs connectés hier",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche un résumé du visiteur"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher un résumé visiteur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Résumé des activités des visiteurs"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un résumé de l’activité des visiteurs d’hier et d’aujourd’hui. Il est accessible à l’aide du tableau de bord Admin > > de l’activité des visiteurs (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Résumé des activités des visiteurs"
+    }
+  ]
+}

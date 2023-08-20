@@ -1,0 +1,33 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Components.ListOfPhoneNumbersDisplayComponent+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "PhoneNumber",
+          "Caption": "Numéro de téléphone",
+          "Description": "Affiche tous les numéros de téléphone définis",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SendSMS",
+          "Caption": "SMS",
+          "Description": "Indique si un message texte est envoyé au numéro de téléphone lorsqu’un message vocal est reçu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

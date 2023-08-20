@@ -1,0 +1,252 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.LoginConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Accounts": "Comptes",
+        "Captcha": "Captcha",
+        "Notifications": "Notifications",
+        "Two-Step Auth": "Authentification en deux étapes",
+        "Urls": "URL"
+      },
+      "Properties": [
+        {
+          "Name": "AllowUserRegistration",
+          "Caption": "Autoriser les nouveaux utilisateurs",
+          "Description": "Autoriser l’enregistrement de nouveaux utilisateurs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ApprovalPendingUrl",
+          "Caption": "URL d’approbation en attente",
+          "Description": "URL où l’utilisateur est redirigé lorsque l’approbation du compte est en attente après l’enregistrement ou lors de la connexion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ApproveNewUsers",
+          "Caption": "Approbation requise",
+          "Description": "Définit si les nouveaux utilisateurs doivent être approuvés avant d’avoir accès au site - L’approbation est généralement donnée par l’administrateur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BccForgottenPassword",
+          "Caption": "Notifier l’administrateur - Mot de passe oublié",
+          "Description": "Définit si l’administrateur du site reçoit une copie de l’e-mail de mot de passe oublié envoyé aux utilisateurs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BccVerification",
+          "Caption": "Notifier l’administrateur - E-mails de vérification",
+          "Description": "Définit si l’administrateur du site reçoit une copie de l’e-mail de vérification envoyé aux nouveaux utilisateurs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Captcha",
+          "Caption": "Utiliser Captcha",
+          "Description": "Définit si l’utilisateur doit réussir un test « humain » lors de la connexion ou de l’enregistrement d’un nouveau compte (Oui), sinon aucun test n’est effectué (Non)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CaptchaForgotPassword",
+          "Caption": "Utiliser Captcha (Pswd oublié)",
+          "Description": "Pour les mots de passe oubliés, définit si l’utilisateur doit réussir un test « humain » (Oui), sinon aucun test n’est effectué (Non)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ChangePasswordUrl",
+          "Caption": "Modifier l’URL du mot de passe",
+          "Description": "URL où l’utilisateur est redirigé si le mot de passe doit être modifié",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ForgotPasswordUrl",
+          "Caption": "URL du mot de passe oublié",
+          "Description": "URL où l’utilisateur peut récupérer un mot de passe oublié pour un compte existant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoggedOffUrl",
+          "Caption": "URL déconnectée",
+          "Description": "URL où l’utilisateur est redirigé après s’être déconnecté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoginUrl",
+          "Caption": "URL de connexion",
+          "Description": "L’URL où l’utilisateur peut se connecter à l’aide d’un compte existant",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MaxLoginFailures",
+          "Caption": "Max. Échecs de connexion",
+          "Description": "Définit le nombre maximal d’échecs de connexion avant la suspension du compte - Si 0 est spécifié, les échecs de connexion ne suspendront pas les comptes - Une connexion réussie réinitialise le nombre d’échecs de connexion à 0",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotifyAdminNewUsers",
+          "Caption": "Notifier l’administrateur - Nouvel utilisateur",
+          "Description": "Définit si l’administrateur reçoit une notification par courrier électronique lorsqu’un nouveau compte d’utilisateur est créé par un nouvel utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PersistentLogin",
+          "Caption": "Connexion permanente",
+          "Description": "Définit si une connexion utilisateur est permanente (enregistrée à l’aide de cookies)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegisterUrl",
+          "Caption": "URL d’enregistrement",
+          "Description": "L’URL où l’utilisateur peut enregistrer un nouveau compte utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegistrationType",
+          "Caption": "Type d’enregistrement",
+          "Description": "Comment un utilisateur est enregistré sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RejectedUrl",
+          "Caption": "URL rejetée",
+          "Description": "L’URL où l’utilisateur est redirigé lorsque son compte a été rejeté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResetTimeSpan",
+          "Caption": "Réinitialisation du mot de passe",
+          "Description": "Définit la durée de validité d’un e-mail de réinitialisation de mot de passe - Les e-mails de réinitialisation de mot de passe ne sont envoyés que si les mots de passe ne sont pas enregistrés par ce site (Enregistrer le mot de passe) - Non utilisé pour les fournisseurs de connexion externes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SavePlainTextPassword",
+          "Caption": "Enregistrer le mot de passe",
+          "Description": "Définit si le mot de passe de l’utilisateur est enregistré afin qu’il puisse être récupéré (et envoyé par e-mail à l’utilisateur si nécessaire) - Si les mots de passe ne sont pas enregistrés mot de passe, un e-mail de réinitialisation est envoyé à l’utilisateur à la place, ce qui nécessite la saisie d’une clé fournie pour réinitialiser le mot de passe - Non utilisé pour les fournisseurs de connexion externes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuspendedUrl",
+          "Caption": "URL suspendue",
+          "Description": "L’URL où l’utilisateur est redirigé lorsque son compte a été suspendu",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwoStepAuth",
+          "Caption": "Authentification en deux étapes",
+          "Description": "Définit les rôles nécessitant une authentification obligatoire en deux étapes",
+          "HelpLink": null,
+          "TextAbove": "Sélectionnez les rôles nécessitant une authentification obligatoire en deux étapes. Le superutilisateur du site peut toujours accéder au site même si une authentification en deux étapes est requise mais n’a pas encore été configurée. Les autres utilisateurs doivent configurer une authentification en deux étapes avant que l’accès complet au site ne soit accordé.",
+          "TextBelow": null
+        },
+        {
+          "Name": "TwoStepAuthUrl",
+          "Caption": "URL d’authentification en deux étapes",
+          "Description": "URL où l’utilisateur est redirigé si l’authentification en deux étapes n’a pas encore été configurée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerificationPendingUrl",
+          "Caption": "URL de vérification en attente",
+          "Description": "L’URL où l’utilisateur est redirigé lorsque la vérification du compte est en attente après l’inscription ou lors de la connexion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerifyNewUsers",
+          "Caption": "Vérification requise",
+          "Description": "Définit si les nouveaux utilisateurs doivent être vérifiés avant d’avoir accès au site - La vérification est effectuée en envoyant un e-mail au nouvel utilisateur avec un code de vérification, qui doit être entré lors de la première connexion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Modifie les paramètres de connexion de l’utilisateur"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Paramètres de connexion de l’utilisateur"
+    },
+    {
+      "Name": "editText",
+      "Text": "Paramètres de connexion de l’utilisateur"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier les paramètres de connexion de l’utilisateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paramètres de connexion de l’utilisateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Gère les paramètres de connexion utilisateur du site et est utilisé pour définir les paramètres d’un site, tels que si de nouveaux utilisateurs sont acceptés, de nouveaux utilisateurs, nécessitent une vérification, etc. Le module Paramètres de connexion utilisateur est accessible à l’aide des paramètres de > d’administration > des paramètres de connexion utilisateur (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paramètres de connexion de l’utilisateur"
+    },
+    {
+      "Name": "notFound",
+      "Text": "La configuration de connexion utilisateur est introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Paramètres de configuration enregistrés"
+    }
+  ]
+}

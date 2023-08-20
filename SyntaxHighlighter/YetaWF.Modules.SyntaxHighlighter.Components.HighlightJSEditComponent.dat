@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "default",
+      "Text": "(Site par défaut)"
+    },
+    {
+      "Name": "defaultTT",
+      "Text": "Utiliser le thème par défaut défini par le site"
+    },
+    {
+      "Name": "noHighlightJSSkin",
+      "Text": "(par défaut)"
+    }
+  ]
+}

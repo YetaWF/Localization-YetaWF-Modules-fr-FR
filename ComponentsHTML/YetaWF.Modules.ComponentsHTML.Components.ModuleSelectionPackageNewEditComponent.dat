@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "package",
+      "Text": "{0}"
+    },
+    {
+      "Name": "packageTT",
+      "Text": "{0} - {1}"
+    },
+    {
+      "Name": "selectPackage",
+      "Text": "(sélectionner)"
+    }
+  ]
+}

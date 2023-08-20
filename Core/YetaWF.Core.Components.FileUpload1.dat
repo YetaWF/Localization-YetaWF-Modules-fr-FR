@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnSelFile",
+      "Text": "Sélectionnez Fichier..."
+    },
+    {
+      "Name": "btnSelFileTT",
+      "Text": "Cliquez pour rechercher des fichiers"
+    },
+    {
+      "Name": "txtDrop",
+      "Text": "Déposez des fichiers ici pour les télécharger"
+    }
+  ]
+}

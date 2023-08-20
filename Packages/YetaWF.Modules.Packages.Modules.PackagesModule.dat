@@ -1,0 +1,370 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.PackagesModule+PackageModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AreaName",
+          "Caption": "Aire",
+          "Description": "La zone MVC pour les modules de ce produit, utilisée en interne par YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompanyDisplayName",
+          "Caption": "Nom de l’entreprise",
+          "Description": "Le nom de la société qui édite ce produit",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description du produit",
+          "Description": "Une brève description du produit",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domaine",
+          "Description": "Le nom de domaine de la société éditrice de ce produit (sans .com, .net, etc.)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom du package",
+          "Description": "Nom d’assembly du package",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PackageType",
+          "Caption": "Type de colis",
+          "Description": "Le type de package",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Product",
+          "Caption": "Nom du produit",
+          "Description": "Le nom du produit utilisé en interne par YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Version",
+          "Caption": "Version du produit",
+          "Description": "La version du produit",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les packages installés"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Paquets"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Paquets"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les packages installés"
+    },
+    {
+      "Name": "exportLegend",
+      "Text": "Exporte les données du package (données uniquement) en créant un fichier ZIP"
+    },
+    {
+      "Name": "exportLink",
+      "Text": "Exporter des données"
+    },
+    {
+      "Name": "exportMenu",
+      "Text": "Exporter des données"
+    },
+    {
+      "Name": "exportSrcLegend",
+      "Text": "Exporte le package (avec le code source) en créant un fichier ZIP installable"
+    },
+    {
+      "Name": "exportSrcLink",
+      "Text": "Exporter (avec code source)"
+    },
+    {
+      "Name": "exportSrcMenu",
+      "Text": "Package d’exportation (avec code source)"
+    },
+    {
+      "Name": "exportSrcTT",
+      "Text": "Exporter le package (avec le code source) en créant un fichier ZIP installable"
+    },
+    {
+      "Name": "exportTT",
+      "Text": "Exporter les données du package (données uniquement) en créant un fichier ZIP"
+    },
+    {
+      "Name": "infoLegend",
+      "Text": "Liens vers le site Web du produit et affichage des informations sur le produit"
+    },
+    {
+      "Name": "infoLink",
+      "Text": "Info"
+    },
+    {
+      "Name": "infoMenu",
+      "Text": "Info"
+    },
+    {
+      "Name": "infoTT",
+      "Text": "Cliquez pour visiter le site Web du produit et afficher des informations sur le produit"
+    },
+    {
+      "Name": "installLegend",
+      "Text": "Installe toutes les données (fichiers, tables SQL, etc.) nécessaires à ce package"
+    },
+    {
+      "Name": "installLink",
+      "Text": "Installer des modèles"
+    },
+    {
+      "Name": "installMenu",
+      "Text": "Installer des modèles"
+    },
+    {
+      "Name": "installTT",
+      "Text": "Installez toutes les données (fichiers, tables SQL, etc.) nécessaires à ce package."
+    },
+    {
+      "Name": "licenseLegend",
+      "Text": "Liens vers le site Web du produit et affichage des informations de licence"
+    },
+    {
+      "Name": "licenseLink",
+      "Text": "Licence"
+    },
+    {
+      "Name": "licenseMenu",
+      "Text": "Licence"
+    },
+    {
+      "Name": "licenseTT",
+      "Text": "Cliquez pour visiter le site Web du produit et afficher les informations de licence"
+    },
+    {
+      "Name": "localizeAllConfirm",
+      "Text": "Voulez-vous vraiment générer les ressources de localisation pour tous les packages ?"
+    },
+    {
+      "Name": "localizeAllLegend",
+      "Text": "Génère toutes les ressources de localisation par défaut ({0}) utilisées par tous les packages"
+    },
+    {
+      "Name": "localizeAllLink",
+      "Text": "Localiser tous les packages ({0})"
+    },
+    {
+      "Name": "localizeAllMenu",
+      "Text": "Localiser tous les packages ({0})"
+    },
+    {
+      "Name": "localizeAllTT",
+      "Text": "Générer toutes les ressources de localisation par défaut ({0}) utilisées par tous les packages"
+    },
+    {
+      "Name": "localizeLegend",
+      "Text": "Génère toutes les ressources de localisation par défaut ({0}) utilisées par ce package"
+    },
+    {
+      "Name": "localizeLink",
+      "Text": "Localiser le package"
+    },
+    {
+      "Name": "localizeMenu",
+      "Text": "Localiser le package"
+    },
+    {
+      "Name": "localizePlsWait",
+      "Text": "Mise à jour des ressources de localisation par défaut ({0})..."
+    },
+    {
+      "Name": "localizeTT",
+      "Text": "Générer toutes les ressources de localisation par défaut ({0}) utilisées par ce package"
+    },
+    {
+      "Name": "modName",
+      "Text": "Paquets"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les packages installés. Il est accessible à l’aide du panneau d’administration > > des paquets (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Paquets"
+    },
+    {
+      "Name": "noticeLegend",
+      "Text": "Liens vers le site Web du produit et affichage de l’avis de publication"
+    },
+    {
+      "Name": "noticeLink",
+      "Text": "Avis de libération"
+    },
+    {
+      "Name": "noticeMenu",
+      "Text": "Avis de libération"
+    },
+    {
+      "Name": "noticeTT",
+      "Text": "Cliquez pour visiter le site Web du produit et afficher l’avis de sortie"
+    },
+    {
+      "Name": "pLegend",
+      "Text": "Exporte le package (binaire) en créant un fichier ZIP installable"
+    },
+    {
+      "Name": "pLink",
+      "Text": "Exporter un colis"
+    },
+    {
+      "Name": "pMenu",
+      "Text": "Exporter un colis"
+    },
+    {
+      "Name": "pTT",
+      "Text": "Exporter le package (binaire) en créant un fichier ZIP installable"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer ce package ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime le package"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer le package"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer le package"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer le package"
+    },
+    {
+      "Name": "roleImports",
+      "Text": "Le rôle est autorisé à importer/exporter des packages"
+    },
+    {
+      "Name": "roleImportsC",
+      "Text": "Importer/Exporter des packages"
+    },
+    {
+      "Name": "roleInstalls",
+      "Text": "Le rôle est autorisé à installer/désinstaller des packages"
+    },
+    {
+      "Name": "roleInstallsC",
+      "Text": "Installer/désinstaller des packages"
+    },
+    {
+      "Name": "roleLocalize",
+      "Text": "Le rôle a l’autorisation de générer des ressources de localisation pour les packages"
+    },
+    {
+      "Name": "roleLocalizeC",
+      "Text": "Installer/désinstaller des packages"
+    },
+    {
+      "Name": "supportLegend",
+      "Text": "Liens vers le site Web du produit et affichage de la page d’assistance du produit"
+    },
+    {
+      "Name": "supportLink",
+      "Text": "Soutien"
+    },
+    {
+      "Name": "supportMenu",
+      "Text": "Soutien"
+    },
+    {
+      "Name": "supportTT",
+      "Text": "Cliquez pour visiter le site Web du produit et afficher la page d’assistance du produit"
+    },
+    {
+      "Name": "uninstallLegend",
+      "Text": "Supprime toutes les données (fichiers, tables SQL, etc.) utilisées par ce package"
+    },
+    {
+      "Name": "uninstallLink",
+      "Text": "Désinstaller des modèles"
+    },
+    {
+      "Name": "uninstallMenu",
+      "Text": "Désinstaller des modèles"
+    },
+    {
+      "Name": "uninstallTT",
+      "Text": "Supprime toutes les données (fichiers, tables SQL, etc.) utilisées par ce package"
+    },
+    {
+      "Name": "userImports",
+      "Text": "L’utilisateur est autorisé à importer/exporter des packages"
+    },
+    {
+      "Name": "userImportsC",
+      "Text": "Importer/Exporter des packages"
+    },
+    {
+      "Name": "userInstalls",
+      "Text": "L’utilisateur a l’autorisation d’installer/désinstaller des packages"
+    },
+    {
+      "Name": "userInstallsC",
+      "Text": "Installer/désinstaller des packages"
+    },
+    {
+      "Name": "userLocalize",
+      "Text": "L’utilisateur est autorisé à générer des ressources de localisation pour les packages"
+    },
+    {
+      "Name": "userLocalizeC",
+      "Text": "Installer/désinstaller des packages"
+    }
+  ]
+}

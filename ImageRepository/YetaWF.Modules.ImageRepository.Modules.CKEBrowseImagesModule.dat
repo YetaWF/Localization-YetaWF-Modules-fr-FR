@@ -1,0 +1,42 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ImageRepository.Modules.CKEBrowseImagesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ImageName",
+          "Caption": "Sélection d’images",
+          "Description": "Sélectionnez une image ou téléchargez une nouvelle image",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Sélectionner une image (CKEditor)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche un formulaire pour télécharger et sélectionner une image."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sélectionner une image"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Image enregistrée"
+    }
+  ]
+}

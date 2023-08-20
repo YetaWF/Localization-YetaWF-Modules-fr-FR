@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valZipCode",
+      "Text": "Le code postal spécifié n’est pas valide - Utilisez le format de code postal 00000 ou 00000-0000"
+    },
+    {
+      "Name": "valZipCode2",
+      "Text": "Le code postal spécifié n’est pas valide (champ '{0}') - Utilisez le format de code postal 00000 ou 00000-0000"
+    },
+    {
+      "Name": "valZipCode3",
+      "Text": "Le code postal '{0}' n’est pas valide - Utilisez le format de code postal 00000 ou 00000-0000"
+    }
+  ]
+}

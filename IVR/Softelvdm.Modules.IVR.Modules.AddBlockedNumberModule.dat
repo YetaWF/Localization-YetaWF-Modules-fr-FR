@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.AddBlockedNumberModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Entrez une description facultative du numéro bloqué",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Number",
+          "Caption": "Numéro bloqué",
+          "Description": "Entrez le numéro de téléphone à bloquer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute un nouveau numéro bloqué"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter un nouveau numéro bloqué"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Le numéro bloqué existe déjà"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter un nouveau numéro bloqué"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute un nouveau numéro bloqué."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter un nouveau numéro bloqué"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouveau numéro bloqué enregistré"
+    }
+  ]
+}

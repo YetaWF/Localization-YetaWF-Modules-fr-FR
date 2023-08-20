@@ -1,0 +1,54 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Site.PageSecurityType",
+      "Entries": [
+        {
+          "Name": "AsProvided",
+          "Value": "AsProvided",
+          "Caption": "Tel que fourni dans l’URL",
+          "Description": "Tel que fourni dans l’URL - Cela peut être remplacé par les pages utilisant un mode explicite"
+        },
+        {
+          "Name": "AsProvidedAnonymous_LoggedOnhttps",
+          "Value": "AsProvidedAnonymous_LoggedOnhttps",
+          "Caption": "Tel que fourni (anonyme) - https:// (connecté)",
+          "Description": "Comme indiqué dans l’URL pour les utilisateurs anonymes - Les utilisateurs connectés sont par défaut https:// - Cela peut être remplacé par les pages utilisant un mode explicite"
+        },
+        {
+          "Name": "AsProvidedLoggedOn_Anonymoushttp",
+          "Value": "AsProvidedLoggedOn_Anonymoushttp",
+          "Caption": "Tel que fourni (connecté) - http:// (anonyme)",
+          "Description": "Comme indiqué dans l’URL pour les utilisateurs connectés - Les utilisateurs anonymes utilisent par défaut http:// - Cela peut être remplacé par les pages utilisant un mode explicite"
+        },
+        {
+          "Name": "UsePageModuleSettings",
+          "Value": "UsePageModuleSettings",
+          "Caption": "Paramètres de page/module",
+          "Description": "Utiliser les paramètres de propriété de page ou de module"
+        },
+        {
+          "Name": "SSLOnly",
+          "Value": "SSLOnly",
+          "Caption": "https:// seulement",
+          "Description": "Utilisez https:// uniquement"
+        },
+        {
+          "Name": "NoSSLOnly",
+          "Value": "NoSSLOnly",
+          "Caption": "http:// seulement",
+          "Description": "Utilisez uniquement http://"
+        },
+        {
+          "Name": "NoSSLOnlyAnonymous_LoggedOnhttps",
+          "Value": "NoSSLOnlyAnonymous_LoggedOnhttps",
+          "Caption": "http:// (anonyme) - https:// (connecté)",
+          "Description": "http:// pour les utilisateurs anonymes - https:// pour les utilisateurs connectés"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

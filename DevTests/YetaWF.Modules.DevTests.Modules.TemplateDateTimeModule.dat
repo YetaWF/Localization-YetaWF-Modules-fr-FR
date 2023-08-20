@@ -1,0 +1,158 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateDateTimeModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Date/Time": "Date/Heure",
+        "Hours": "Heures",
+        "TimeSpan": "Intervalle de temps"
+      },
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "État du contrôle",
+          "Description": "Définit l’état de traitement des contrôles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateOpt",
+          "Caption": "Date",
+          "Description": "Date/Heure",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateReq",
+          "Caption": "Date (obligatoire)",
+          "Description": "Date (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateRO",
+          "Caption": "Date (lecture/uniquement)",
+          "Description": "Date/Heure (Lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateTimeOpt",
+          "Caption": "Date/Heure",
+          "Description": "Date/Heure",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateTimeReq",
+          "Caption": "Date/Heure (obligatoire)",
+          "Description": "Date/Heure (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateTimeRO",
+          "Caption": "Date/Heure (lecture/uniquement)",
+          "Description": "Date/Heure (Lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpeningHours",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": "Heures hebdomadaires",
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeOfDay",
+          "Caption": "Heure de la journée",
+          "Description": "Heure de la journée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeOfDayReq",
+          "Caption": "Heure de la journée (obligatoire)",
+          "Description": "Heure de la journée (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeOfDayRO",
+          "Caption": "Heure de la journée (lecture / seulement)",
+          "Description": "Heure de la journée (lecture / seulement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeSpanHMSRO",
+          "Caption": "Durée (lecture/uniquement)",
+          "Description": "Durée (Lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeSpanOpt",
+          "Caption": "Durée",
+          "Description": "Durée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeSpanReq",
+          "Caption": "Durée (obligatoire)",
+          "Description": "Durée (obligatoire)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeSpanRO",
+          "Caption": "Durée (lecture/uniquement)",
+          "Description": "Durée (Lecture/uniquement)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test des composants - DateTime"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le composant DateTime. Une page de test pour ce module se trouve à Tests > Templates > DateTime (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Composant de test DateTime"
+    },
+    {
+      "Name": "ok",
+      "Text": "D’ACCORD"
+    }
+  ]
+}

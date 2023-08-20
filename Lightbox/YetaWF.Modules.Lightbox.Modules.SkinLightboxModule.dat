@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Lightbox (habillage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implémente Lightbox sur n’importe quelle page où ce module est inclus. Il peut être inclus explicitement par un habillage ou par les modules d’habillage d’un module, d’une page ou d’un site (voir l’onglet Références dans Paramètres de la page, du module ou du site). Voir Modules d’habillage pour plus d’informations."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin Lightbox"
+    }
+  ]
+}

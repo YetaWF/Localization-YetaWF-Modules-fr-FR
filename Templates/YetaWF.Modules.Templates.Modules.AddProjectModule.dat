@@ -1,0 +1,90 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddProjectModule+Model",
+      "BaseTypeName": null,
+      "Header": "Crée un projet. Ce nouveau projet peut être utilisé pour développer de nouveaux modules YetaWF, des skins et/ou de nouveaux templates partagés (Editor/Display).\r(+nl)\r(+nl) Une fois le projet créé, vous pouvez ajouter de nouveaux éléments (par exemple, le module Parcourir) et d’autres éléments disponibles.",
+      "Footer": "Une fois généré, ajoutez le nouveau projet à votre solution, ajoutez une référence de projet dans le projet Site Web et reconstruisez/redémarrez votre solution.",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Company",
+          "Caption": "Compagnie",
+          "Description": "Entrez le nom de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Nom de mon entreprise - Il est utilisé pour afficher le nom de votre entreprise sous une forme affichable."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "URL de l’entreprise",
+          "Description": "Entrez l’URL du domaine de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MyCompany.com - URL du domaine de votre entreprise."
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domaine",
+          "Description": "Entrez le nom de domaine de votre entreprise sans .com",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MaSociété - Ceci est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        },
+        {
+          "Name": "Project",
+          "Caption": "Nom du projet",
+          "Description": "Entrez le nom de projet souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : StoreFont ou Blog ou Forum - Ceci est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute un nouveau projet"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter un projet"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter un projet"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter un nouveau projet"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Impossible d’enregistrer les paramètres par défaut du modèle"
+    },
+    {
+      "Name": "exists",
+      "Text": "Le dossier {0} existe déjà."
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter un nouveau projet"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute un nouveau projet"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter un nouveau projet"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Nouveau projet {0} ajouté à {1} - Assurez-vous d’ajouter le projet à votre solution, d’ajouter une référence de projet dans le projet Site Web et de regénérer/redémarrer votre solution."
+    }
+  ]
+}

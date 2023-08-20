@@ -1,0 +1,270 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Logging.Modules.BrowseLogModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "URL d’affichage d’un enregistrement de journal - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Logging.Modules.BrowseLogModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Category",
+          "Caption": "Catégorie",
+          "Description": "La catégorie de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Class",
+          "Caption": "Classe",
+          "Description": "La classe enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Info",
+          "Caption": "Info",
+          "Description": "Les informations consignées dans cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP associée à cette entrée de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Level",
+          "Caption": "Niveau",
+          "Description": "Niveau d’erreur de cet enregistrement de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Method",
+          "Caption": "Méthode",
+          "Description": "La méthode enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleName",
+          "Caption": "Nom du module",
+          "Description": "Le module enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Namespace",
+          "Caption": "Espace de noms",
+          "Description": "L’espace de noms enregistrant cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferrerUrl",
+          "Caption": "Referrer",
+          "Description": "URL de référence associée à cette entrée de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequestedUrl",
+          "Caption": "URL",
+          "Description": "L’URL demandée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SessionId",
+          "Caption": "Session Id",
+          "Description": "L’ID de session utilisé pour identifier le visiteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site Id",
+          "Description": "Le site qui a enregistré cet enregistrement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeStamp",
+          "Caption": "Date/Heure",
+          "Description": "L’heure à laquelle cet enregistrement a été enregistré",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Utilisateur",
+          "Description": "Le nom/adresse e-mail de l’utilisateur (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les enregistrements de journal"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Exploitation forestière"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Exploitation forestière"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les enregistrements de journal"
+    },
+    {
+      "Name": "dlZipLegend",
+      "Text": "Télécharge le fichier journal sous forme de fichier ZIP"
+    },
+    {
+      "Name": "dlZipLink",
+      "Text": "Télécharger le journal (zippé)"
+    },
+    {
+      "Name": "dlZipMenu",
+      "Text": "Télécharger le journal (zippé)"
+    },
+    {
+      "Name": "dlZipTT",
+      "Text": "Télécharger le fichier journal en tant que fichier ZIP"
+    },
+    {
+      "Name": "downloadLegend",
+      "Text": "Télécharge le fichier journal"
+    },
+    {
+      "Name": "downloadLink",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "downloadMenu",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "downloadTT",
+      "Text": "Télécharger le fichier journal"
+    },
+    {
+      "Name": "modName",
+      "Text": "Rapport"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les enregistrements de journal. Le module Log est accessible à l’aide du tableau de bord Admin > > Logging (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Rapport"
+    },
+    {
+      "Name": "removeAllLegend",
+      "Text": "Supprimer tous les enregistrements de journal pour tous les sites"
+    },
+    {
+      "Name": "removeAllLink",
+      "Text": "Supprimer tout"
+    },
+    {
+      "Name": "removeAllMenu",
+      "Text": "Supprimer tout"
+    },
+    {
+      "Name": "removeAllTT",
+      "Text": "Supprime tous les enregistrements de journal pour tous les sites"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer TOUS les enregistrements de journal ?"
+    },
+    {
+      "Name": "roleDownload",
+      "Text": "Le rôle a l’autorisation de télécharger le fichier journal"
+    },
+    {
+      "Name": "roleDownloadC",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "roleRemLog",
+      "Text": "Le rôle a l’autorisation d’effacer le journal"
+    },
+    {
+      "Name": "roleRemLogC",
+      "Text": "Supprimer le journal"
+    },
+    {
+      "Name": "userDownload",
+      "Text": "L’utilisateur est autorisé à télécharger le fichier journal"
+    },
+    {
+      "Name": "userDownloadC",
+      "Text": "Télécharger le journal"
+    },
+    {
+      "Name": "userRemLog",
+      "Text": "L’utilisateur est autorisé à effacer le journal"
+    },
+    {
+      "Name": "userRemLogC",
+      "Text": "Supprimer le journal"
+    }
+  ]
+}

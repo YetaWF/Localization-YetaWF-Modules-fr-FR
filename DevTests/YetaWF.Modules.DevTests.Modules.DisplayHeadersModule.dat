@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.DisplayHeadersModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Headers",
+          "Caption": "En-têtes",
+          "Description": "En-têtes de requête",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Variables",
+          "Caption": "Variables",
+          "Description": "Variables diverses",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche les en-têtes de requête"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher les en-têtes de requête"
+    },
+    {
+      "Name": "modName",
+      "Text": "En-têtes"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche les en-têtes de demande. Une page de test pour ce module se trouve à l’adresse Tests > Modules > En-têtes de requête HTTP (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "En-têtes"
+    }
+  ]
+}

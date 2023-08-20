@@ -1,0 +1,59 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnAdd",
+      "Text": "Ajouter"
+    },
+    {
+      "Name": "btnApply",
+      "Text": "Appliquer"
+    },
+    {
+      "Name": "btnDelete",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "btnDown",
+      "Text": ">>"
+    },
+    {
+      "Name": "btnIns",
+      "Text": "Insérer"
+    },
+    {
+      "Name": "btnUp",
+      "Text": "<<"
+    },
+    {
+      "Name": "tab",
+      "Text": "Image {0}"
+    },
+    {
+      "Name": "txtAdd",
+      "Text": "Cliquez pour ajouter une nouvelle image après l’image actuelle"
+    },
+    {
+      "Name": "txtApply",
+      "Text": "Cliquez pour appliquer les modifications actuelles"
+    },
+    {
+      "Name": "txtDelete",
+      "Text": "Cliquez pour supprimer l’image actuelle"
+    },
+    {
+      "Name": "txtDown",
+      "Text": "Cliquez sur Déplacer l’image actuelle"
+    },
+    {
+      "Name": "txtIns",
+      "Text": "Cliquez pour insérer une nouvelle image avant l’image actuelle"
+    },
+    {
+      "Name": "txtUp",
+      "Text": "Cliquez pour déplacer l’image actuelle"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDesc",
+      "Text": "Supprime les anciennes données de journal"
+    },
+    {
+      "Name": "eventName",
+      "Text": "Supprimer les anciennes données de journal"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Événement de planificateur inconnu {0}."
+    }
+  ]
+}

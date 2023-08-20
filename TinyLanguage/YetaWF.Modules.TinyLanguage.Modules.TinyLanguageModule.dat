@@ -1,0 +1,38 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TinyLanguage.Modules.TinyLanguageModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "LanguageId",
+          "Caption": "Langue",
+          "Description": "Sélectionnez la langue à utiliser pour l’ensemble du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Sélection de langue minuscule"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet à l’utilisateur de sélectionner la langue par défaut du site. Ce module est généralement ajouté à chaque page (en tant que module d’habillage) afin que l’utilisateur puisse changer la langue par défaut du site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sélection de langue minuscule"
+    }
+  ]
+}

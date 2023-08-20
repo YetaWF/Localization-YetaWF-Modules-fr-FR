@@ -1,0 +1,266 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Modules.Modules.ModulesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Administrators",
+          "Caption": "Administrateurs",
+          "Description": "Les administrateurs peuvent afficher ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Anonymous",
+          "Caption": "Anonyme",
+          "Description": "Les utilisateurs anonymes peuvent afficher ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AreaName",
+          "Caption": "Aire",
+          "Description": "La zone de mise en œuvre de ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": "Classe CSS",
+          "Description": "Les classes CSS optionnelles à ajouter à la <div> balise du module pour une personnalisation ultérieure via des feuilles de style",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Résumé",
+          "Description": "La description du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Editors",
+          "Caption": "Éditeurs",
+          "Description": "Les éditeurs peuvent visualiser ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleGuid",
+          "Caption": "Module Guid",
+          "Description": "ID identifiant de manière unique ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom du module, qui est utilisé pour identifier le module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre du module, qui apparaît en haut du module comme titre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCount",
+          "Caption": "Nombre d’utilisations",
+          "Description": "Le nombre de pages où ce module est utilisé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Utilisateurs",
+          "Description": "Les utilisateurs connectés peuvent afficher ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantFocus",
+          "Caption": "Veut se concentrer sur les entrées",
+          "Description": "Définit si les champs d’entrée de ce module doivent recevoir le focus d’entrée s’ils sont les premiers sur la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantSearch",
+          "Caption": "Mots-clés de recherche",
+          "Description": "Définit si le contenu de ce module doit être ajouté aux mots-clés de recherche du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les modules"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Modules"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Modules"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les modules"
+    },
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche le module dans une nouvelle fenêtre"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Afficher le module"
+    },
+    {
+      "Name": "displayMenu",
+      "Text": "Afficher le module"
+    },
+    {
+      "Name": "displayTT",
+      "Text": "Afficher le module dans une nouvelle fenêtre"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modules"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les modules et implémente la suppression des modules. Il est également utilisé pour afficher, modifier et supprimer des modules. Il est accessible à l’aide des modules Admin > Panel > (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modules"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Êtes-vous sûr de vouloir supprimer ce module DÉFINITIVEMENT ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime définitivement le module - Le module et ses données sont supprimés DÉFINITIVEMENT et ne peuvent plus être utilisés sur aucune page"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer le module"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer le module"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer définitivement le module - Le module et ses données sont supprimés DÉFINITIVEMENT et ne peuvent plus être utilisés sur aucune page"
+    },
+    {
+      "Name": "restAuthConfirm",
+      "Text": "FONCTIONNALITÉ DE DÉVELOPPEMENT - Êtes-vous sûr de vouloir restaurer les autorisations par défaut pour TOUS les modules - Cela réinitialisera tous les modules à leur autorisation « d’usine »?"
+    },
+    {
+      "Name": "restAuthLegend",
+      "Text": "FONCTIONNALITÉ DE DÉVELOPPEMENT - Restaure l’autorisation par défaut pour tous les modules"
+    },
+    {
+      "Name": "restAuthLink",
+      "Text": "Restaurer l’autorisation par défaut"
+    },
+    {
+      "Name": "restAuthMenu",
+      "Text": "Restaurer l’autorisation par défaut"
+    },
+    {
+      "Name": "restAuthPlsWait",
+      "Text": "Restauration de l’autorisation par défaut pour tous les modules..."
+    },
+    {
+      "Name": "restAuthTT",
+      "Text": "FONCTIONNALITÉ DE DÉVELOPPEMENT - Restaurer l’autorisation par défaut pour tous les modules"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des modules individuels"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer des modules"
+    },
+    {
+      "Name": "roleRestAuth",
+      "Text": "Le rôle a l’autorisation de restaurer les autorisations par défaut pour TOUS les modules"
+    },
+    {
+      "Name": "roleRestAuthC",
+      "Text": "Restaurer l’autorisation par défaut"
+    },
+    {
+      "Name": "roleSetAuth",
+      "Text": "Le rôle a l’autorisation de définir une autorisation globale pour tous les modules"
+    },
+    {
+      "Name": "roleSetAuthC",
+      "Text": "Définir l’autorisation globale"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des modules individuels"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer des modules"
+    },
+    {
+      "Name": "userRestAuth",
+      "Text": "L’utilisateur est autorisé à restaurer les autorisations par défaut pour TOUS les modules"
+    },
+    {
+      "Name": "userRestAuthC",
+      "Text": "Restaurer l’autorisation par défaut"
+    },
+    {
+      "Name": "userSetAuth",
+      "Text": "L’utilisateur a l’autorisation de définir une autorisation globale pour tous les modules"
+    },
+    {
+      "Name": "userSetAuthC",
+      "Text": "Définir l’autorisation globale"
+    }
+  ]
+}

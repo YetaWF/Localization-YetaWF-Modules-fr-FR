@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valExtension",
+      "Text": "L’extension n’est pas valide"
+    },
+    {
+      "Name": "valExtension2",
+      "Text": "L’extension (champ '{0}') n’est pas valide"
+    },
+    {
+      "Name": "valExtension3",
+      "Text": "L’extension '{0}' n’est pas valide"
+    }
+  ]
+}

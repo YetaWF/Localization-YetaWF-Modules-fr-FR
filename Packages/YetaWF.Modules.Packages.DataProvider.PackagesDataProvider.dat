@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantImportData",
+      "Text": "Impossible d’importer des données à partir d’un fichier {0}:(+nl)"
+    },
+    {
+      "Name": "cantInstallModels",
+      "Text": "Impossible d’installer des modèles pour le package {0}:(+nl)"
+    },
+    {
+      "Name": "cantInstallPackage",
+      "Text": "Impossible d’installer le package {0}:(+nl)"
+    }
+  ]
+}

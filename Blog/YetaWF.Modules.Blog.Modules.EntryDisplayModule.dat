@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntryDisplayModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "L’URL pour modifier l’entrée de blog affichée - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntryDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Author",
+          "Caption": "Auteur",
+          "Description": "Le nom de l’auteur du blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AuthorUrl",
+          "Caption": "Auteur",
+          "Description": "L’URL facultative renvoyant aux informations de l’auteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePublished",
+          "Caption": "Date de publication",
+          "Description": "La date de publication de cet article",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text",
+          "Caption": "Texte du blog",
+          "Description": "Le texte complet de cet article de blog",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche une entrée de blog existante"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher l’entrée de blog"
+    },
+    {
+      "Name": "modName",
+      "Text": "Afficher l’entrée de blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une entrée de blog. Ajoutez un module d’en-tête de catégorie pour afficher les informations de la catégorie sélectionnée. Ajoutez un module d’affichage des commentaires pour afficher tous les commentaires de l’entrée de blog. Ajoutez un module d’ajout de commentaires pour permettre aux visiteurs d’entrer des commentaires pour votre entrée de blog."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrée de blog"
+    },
+    {
+      "Name": "moreLegend",
+      "Text": "Affiche l’intégralité de l’entrée de blog"
+    },
+    {
+      "Name": "moreLink",
+      "Text": "Lire la suite"
+    },
+    {
+      "Name": "moreText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "moreTooltip",
+      "Text": "Lire l’intégralité de l’article de blog"
+    }
+  ]
+}

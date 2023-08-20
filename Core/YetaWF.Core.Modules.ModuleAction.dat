@@ -1,0 +1,115 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Modules.ModuleAction+ActionModeEnum",
+      "Entries": [
+        {
+          "Name": "Any",
+          "Value": "Any",
+          "Caption": "Mode d’édition et d’affichage",
+          "Description": null
+        },
+        {
+          "Name": "View",
+          "Value": "View",
+          "Caption": "Mode d’affichage",
+          "Description": null
+        },
+        {
+          "Name": "Edit",
+          "Value": "Edit",
+          "Caption": "Mode d’édition",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Modules.ModuleAction+ActionStyleEnum",
+      "Entries": [
+        {
+          "Name": "Normal",
+          "Value": "Normal",
+          "Caption": "Normal",
+          "Description": "Naviguer vers la page dans la même fenêtre"
+        },
+        {
+          "Name": "NewWindow",
+          "Value": "NewWindow",
+          "Caption": "Nouvelle page",
+          "Description": "Une nouvelle fenêtre s’affichera"
+        },
+        {
+          "Name": "Popup",
+          "Value": "Popup",
+          "Caption": "Fenêtre contextuelle",
+          "Description": "Ouvre la page dans une fenêtre contextuelle (en mode affichage uniquement) - Si une fenêtre contextuelle est déjà active, elle ouvre une nouvelle fenêtre à la place"
+        },
+        {
+          "Name": "PopupEdit",
+          "Value": "PopupEdit",
+          "Caption": "Modifier la fenêtre contextuelle",
+          "Description": "Ouvre la page dans une fenêtre contextuelle (en mode affichage et édition - généralement utilisé pour les modules système uniquement) - Si une fenêtre contextuelle est déjà active, elle ouvre une nouvelle fenêtre à la place"
+        },
+        {
+          "Name": "ForcePopup",
+          "Value": "ForcePopup",
+          "Caption": "Forcer la fenêtre contextuelle",
+          "Description": "Ouvre la page dans une fenêtre contextuelle (en mode affichage uniquement) - Si une fenêtre contextuelle est déjà active, la fenêtre contextuelle actuelle est remplacée par cette nouvelle fenêtre contextuelle"
+        },
+        {
+          "Name": "Post",
+          "Value": "Post",
+          "Caption": "Publier",
+          "Description": "Nécessite une réponse sans page (JavaScript) adaptée à l’affichage dans une fenêtre contextuelle (succès/échec)"
+        },
+        {
+          "Name": "Nothing",
+          "Value": "Nothing",
+          "Caption": "Rien",
+          "Description": "Génère tout le code HTML mais n’effectue aucune action lorsqu’on clique dessus (généralement utilisé pour JavaScript/contrôle côté client)"
+        },
+        {
+          "Name": "OuterWindow",
+          "Value": "OuterWindow",
+          "Caption": "Fenêtre extérieure",
+          "Description": "Utilisé dans une fenêtre contextuelle pour que l’action affecte la fenêtre parente (principale)"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Modules.ModuleAction+MenuEntryType",
+      "Entries": [
+        {
+          "Name": "Entry",
+          "Value": "Entry",
+          "Caption": "Entrée régulière",
+          "Description": null
+        },
+        {
+          "Name": "Parent",
+          "Value": "Parent",
+          "Caption": "Entrée parent (aucune URL ou action disponible)",
+          "Description": null
+        },
+        {
+          "Name": "Separator",
+          "Value": "Separator",
+          "Caption": "Séparateur",
+          "Description": null
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "LinkText",
+      "Text": "(nouveau)"
+    },
+    {
+      "Name": "MenuText",
+      "Text": "(nouveau)"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.SplitterModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "CollapseText",
+          "Caption": "Réduire le texte",
+          "Description": "Définit le texte affiché en regard de l’icône de réduction",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CollapseToolTip",
+          "Caption": "Réduire l’info-bulle",
+          "Description": "Définit l’info-bulle affichée pour le texte et l’icône de réduction",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ContainerSelector",
+          "Caption": "Sélecteur de conteneur",
+          "Description": "Définit un sélecteur utilisé pour localiser le conteneur : le cas échéant, la hauteur du module séparateur est basée sur la hauteur du conteneur et la propriété Height est ignorée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExpandToolTip",
+          "Caption": "Développer l’info-bulle",
+          "Description": "Définit l’info-bulle affichée pour l’icône de développement",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Height",
+          "Caption": "Hauteur (pixels)",
+          "Description": "Définit la hauteur du module en pixels - Définissez sur 0 pour calculer automatiquement la hauteur pour remplir le reste de la page - Cette propriété est ignorée si ContainerSelector définit un conteneur qui peut être trouvé",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MinWidth",
+          "Caption": "Largeur minimale (gauche, pixels)",
+          "Description": "Définit la largeur minimale en pixels",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleLeft",
+          "Caption": "Module (gauche)",
+          "Description": "Le module rendu sur le côté gauche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleRight",
+          "Caption": "Module (droite)",
+          "Description": "Le module rendu sur le côté droit, remplissant le reste de la largeur disponible",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TitleText",
+          "Caption": "Titre de gauche",
+          "Description": "Définit le titre affiché dans le volet gauche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TitleTooltip",
+          "Caption": "Info-bulle de titre de gauche",
+          "Description": "Définit l’info-bulle affichée pour le titre dans le volet gauche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Width",
+          "Caption": "Largeur (gauche, pourcentage)",
+          "Description": "Définit la largeur souhaitée en pourcentage de la fenêtre entière",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Fendeur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet d’afficher deux modules côte à côte."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Fendeur"
+    }
+  ]
+}

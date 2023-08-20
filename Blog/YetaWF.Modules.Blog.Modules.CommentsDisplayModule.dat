@@ -1,0 +1,104 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CommentsDisplayModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "URL permettant de modifier un commentaire de blog - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "approveConfirm",
+      "Text": "Voulez-vous vraiment approuver ce commentaire ?"
+    },
+    {
+      "Name": "approveLegend",
+      "Text": "Approuve un commentaire"
+    },
+    {
+      "Name": "approveLink",
+      "Text": "Approuver"
+    },
+    {
+      "Name": "approveMenu",
+      "Text": "Approuver"
+    },
+    {
+      "Name": "approveTT",
+      "Text": "Approuver le commentaire"
+    },
+    {
+      "Name": "comment0",
+      "Text": "Aucun commentaire"
+    },
+    {
+      "Name": "comment1",
+      "Text": "1 Commentaire"
+    },
+    {
+      "Name": "commentP",
+      "Text": "1 Commentaire en attente d’approbation"
+    },
+    {
+      "Name": "comments",
+      "Text": "{0} Commentaires"
+    },
+    {
+      "Name": "commentsP",
+      "Text": "{0} commentaires - 1 commentaire en attente d’approbation"
+    },
+    {
+      "Name": "commentsPs",
+      "Text": "{0} Commentaires - {1} commentaires en attente d’approbation"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrées de commentaires"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche tous les commentaires d’une entrée de blog. Ce module est généralement utilisé sur la même page que le module d’affichage des entrées. Les utilisateurs autorisés peuvent approuver et supprimer des commentaires."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrées de commentaires"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer ce commentaire ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime un commentaire"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Enlever"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer le commentaire"
+    }
+  ]
+}

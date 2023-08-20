@@ -1,0 +1,29 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.SelectTwoStepAuthModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Veuillez cliquer sur l’une des méthodes d’authentification disponibles pour terminer la connexion.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": []
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Sélectionnez l’authentification en deux étapes"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche la liste des fournisseurs d’authentification en deux étapes disponibles que l’utilisateur peut choisir d’utiliser pour l’authentification en deux étapes. Ceci est utilisé pendant le traitement de connexion pour effectuer l’authentification en deux étapes."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sélectionnez l’authentification en deux étapes souhaitée"
+    }
+  ]
+}

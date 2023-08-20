@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "altImage",
+      "Text": "Image"
+    },
+    {
+      "Name": "altImg",
+      "Text": "Image"
+    },
+    {
+      "Name": "btnClear",
+      "Text": "Clair"
+    },
+    {
+      "Name": "imgAlt",
+      "Text": "Aperçu de l’image"
+    },
+    {
+      "Name": "imgAttr",
+      "Text": "{0} x {1} (l x h)"
+    },
+    {
+      "Name": "txtClear",
+      "Text": "Cliquez pour effacer l’image actuelle"
+    }
+  ]
+}

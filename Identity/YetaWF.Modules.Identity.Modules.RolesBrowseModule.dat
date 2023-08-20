@@ -1,0 +1,158 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter un nouveau rôle - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL d’affichage",
+          "Description": "L’URL pour afficher un rôle - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "URL permettant de modifier un rôle - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "L’utilisation prévue du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "URL de connexion après la connexion",
+          "Description": "URL où un utilisateur avec ce rôle est redirigé après s’être connecté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RoleId",
+          "Caption": "ID de rôle",
+          "Description": "L’ID interne du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Rôles"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Utilisé pour afficher et gérer les rôles. Les rôles peuvent être gérés à l’aide du panneau d’administration > > Identité, onglet Rôles (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Rôles"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer le rôle « {0} » ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime le rôle"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer le rôle"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer le rôle"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer le rôle"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des rôles individuels"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer des rôles"
+    },
+    {
+      "Name": "rolesLegend",
+      "Text": "Affiche et gère les rôles"
+    },
+    {
+      "Name": "rolesLink",
+      "Text": "Rôles"
+    },
+    {
+      "Name": "rolesText",
+      "Text": "Rôles"
+    },
+    {
+      "Name": "rolesTooltip",
+      "Text": "Afficher et gérer les rôles"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur est autorisé à supprimer des rôles individuels"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer des rôles"
+    }
+  ]
+}

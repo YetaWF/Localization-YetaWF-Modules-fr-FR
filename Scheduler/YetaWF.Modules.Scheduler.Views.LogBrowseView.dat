@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "disabled",
+      "Text": "Le planificateur est désactivé."
+    },
+    {
+      "Name": "enabled",
+      "Text": "Le planificateur est activé."
+    },
+    {
+      "Name": "file",
+      "Text": "Le journal du planificateur est un fichier plat. La navigation en ligne n’est pas disponible."
+    },
+    {
+      "Name": "fileNA",
+      "Text": "Le journal du planificateur n’est pas disponible. La journalisation du planificateur n’a pas été démarrée."
+    },
+    {
+      "Name": "fileNA2",
+      "Text": "Cela peut être dû à un dossier journal manquant (\\Data\\DataFolder\\YetaWF_Scheduler) ou à des problèmes d’autorisations d’écriture dans le dossier."
+    }
+  ]
+}

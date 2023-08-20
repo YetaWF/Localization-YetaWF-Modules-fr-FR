@@ -1,0 +1,181 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Packages.Package+AddOnType",
+      "Entries": [
+        {
+          "Name": "Package",
+          "Value": "Package",
+          "Caption": "Colis",
+          "Description": "Package Support Addon"
+        },
+        {
+          "Name": "Template",
+          "Value": "Template",
+          "Caption": "Composant",
+          "Description": "Addon de composant"
+        },
+        {
+          "Name": "Skin",
+          "Value": "Skin",
+          "Caption": "Peau",
+          "Description": "Skin Addon"
+        },
+        {
+          "Name": "AddonNamed",
+          "Value": "AddonNamed",
+          "Caption": "Javascript",
+          "Description": "Addon nommé"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "addProject",
+      "Text": "Vous devez maintenant ajouter le projet à votre solution Visual Studio et ajouter une référence de projet au site YetaWF (site Web) afin qu’il soit généré correctement. Sans cette référence, le site n’utilisera pas le nouveau package lorsqu’il sera reconstruit à l’aide de Visual Studio."
+    },
+    {
+      "Name": "cantDelete",
+      "Text": "Le dossier source du package n’a pas pu {0} être supprimé : {1}"
+    },
+    {
+      "Name": "cantDeleteAddons",
+      "Text": "Le dossier Extensions de site {0} n’a pas pu être supprimé : {1}"
+    },
+    {
+      "Name": "cantInstallModels",
+      "Text": "Impossible d’installer des modèles pour le package {0}:(+nl)"
+    },
+    {
+      "Name": "cantRemove",
+      "Text": "Le dossier des addons de package n{0}'a pas pu être supprimé : {1}"
+    },
+    {
+      "Name": "cantRemoveExtraAsm",
+      "Text": "Impossible de supprimer le fichier {0}: {1}"
+    },
+    {
+      "Name": "cantRemoveHierarchy",
+      "Text": "Le dossier des addons de package n{0}'a pas pu être supprimé : {1}"
+    },
+    {
+      "Name": "cantRemoveMainAsm",
+      "Text": "Impossible de supprimer le fichier {0}: {1}"
+    },
+    {
+      "Name": "errCantImport",
+      "Text": "Le colis {0}({1}) ne peut pas être importé - {2}"
+    },
+    {
+      "Name": "errDataCantImport",
+      "Text": "Le type de modèle {0} ne peut pas être importé - {1}"
+    },
+    {
+      "Name": "errDataCorrupt",
+      "Text": "Le fichier Zip {1} corrompu - le fichier est introuvable {0}."
+    },
+    {
+      "Name": "errModCantExport",
+      "Text": "Le type de modèle {0} ne peut pas être exporté - {1}"
+    },
+    {
+      "Name": "errPackageType",
+      "Text": "Type de package non pris en charge {0}"
+    },
+    {
+      "Name": "errPkgDataDeser",
+      "Text": "Erreur de désérialisation de {0} - {1}"
+    },
+    {
+      "Name": "errPkgDataVers",
+      "Text": "Les données à importer ont été créées pour la version {0} du package {1}, mais le package installé est plus ancien (la version est {2})."
+    },
+    {
+      "Name": "errPkgReqDataImp",
+      "Text": "Le package {0} requis pour importer des données n’est pas installé."
+    },
+    {
+      "Name": "errSymlink",
+      "Text": "Impossible de créer un lien/une jonction symbolique entre {0} et {1} - Vous devrez enquêter sur l’échec et créer manuellement le lien en utilisant:(+nl)mklink /D « {0} »,\"{1} »"
+    },
+    {
+      "Name": "invContentsFormat",
+      "Text": "{0} n’est pas un fichier de package binaire ou de code source valide - Aucun fichier de contenu trouvé."
+    },
+    {
+      "Name": "invCore",
+      "Text": "Ce paquet nécessite la version {0} YetaWF - La version actuelle trouvée est {1}"
+    },
+    {
+      "Name": "invDataContentsFormat",
+      "Text": "{0} n’est pas un fichier de données de package valide - Aucun fichier de contenu trouvé."
+    },
+    {
+      "Name": "invDataFormat",
+      "Text": "{0} n’est pas un fichier de données de package valide."
+    },
+    {
+      "Name": "invFormat",
+      "Text": "{0} n’est pas un fichier de package binaire ou de code source valide."
+    },
+    {
+      "Name": "invMvc",
+      "Text": "Ce package a été créé pour {0}, mais ce site fonctionne {1}"
+    },
+    {
+      "Name": "need400",
+      "Text": "Ce paquet a été créé en utilisant une version antérieure de YetaWF {0} - Avec YetaWF 4.0.0, un nouveau format de paquet a été introduit, rendant les anciens paquets incompatibles"
+    },
+    {
+      "Name": "noCompany",
+      "Text": "Module incorrectement emballé - aucun nom d’entreprise disponible - Package {0}"
+    },
+    {
+      "Name": "noDesc",
+      "Text": "Module incorrectement emballé - aucune description disponible - Package {0}"
+    },
+    {
+      "Name": "noDomain",
+      "Text": "Module incorrectement empaqueté - aucun domaine disponible - Package {0}"
+    },
+    {
+      "Name": "noLangDomain",
+      "Text": "Module incorrectement empaqueté - aucun domaine linguistique disponible - Package {0}"
+    },
+    {
+      "Name": "noName",
+      "Text": "Module incorrectement emballé - aucun nom de produit disponible - Package {0}"
+    },
+    {
+      "Name": "noVers",
+      "Text": "Module incorrectement empaqueté - aucune version disponible - Package {0}"
+    },
+    {
+      "Name": "packageDataFmt",
+      "Text": "Données du package - {0}. {1}.zip"
+    },
+    {
+      "Name": "packageFmtCore",
+      "Text": "Paquet ASPNETCore - {0}. {1}.zip"
+    },
+    {
+      "Name": "packageFmtSrcCore",
+      "Text": "Package w_Source ASPNETCore - {0}. {1}.zip"
+    },
+    {
+      "Name": "uploadedDataFile",
+      "Text": "Fichier téléchargé"
+    },
+    {
+      "Name": "uploadedFile",
+      "Text": "Fichier téléchargé"
+    },
+    {
+      "Name": "warnReqPckages",
+      "Text": "Ce paquet nécessite des packages supplémentaires - Ceux-ci doivent être importés en même temps :{0}"
+    }
+  ]
+}

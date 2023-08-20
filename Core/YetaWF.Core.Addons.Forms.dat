@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "AjaxConnLost",
+      "Text": "Connexion au serveur perdue"
+    },
+    {
+      "Name": "AjaxError",
+      "Text": "Une erreur s’est produite lors du traitement de ce formulaire :(+nl)(+nl){0} - {1}"
+    },
+    {
+      "Name": "AjaxErrorTitle",
+      "Text": "Erreur"
+    },
+    {
+      "Name": "AjaxNotAuth",
+      "Text": "Non autorisé"
+    },
+    {
+      "Name": "FormErrors",
+      "Text": ""
+    }
+  ]
+}

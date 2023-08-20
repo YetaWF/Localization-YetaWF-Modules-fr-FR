@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantImport",
+      "Text": "Impossible d’importer {0}:(+nl)"
+    },
+    {
+      "Name": "clearJsCssAll",
+      "Text": "Les bundles JavaScript/CSS et les petits objets statiques mis en cache ont été effacés"
+    },
+    {
+      "Name": "imported",
+      "Text": "« {0} » importé avec succès(+nl)"
+    }
+  ]
+}

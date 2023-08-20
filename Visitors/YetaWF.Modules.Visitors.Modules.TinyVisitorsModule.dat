@@ -1,0 +1,44 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.TinyVisitorsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "VisitorsUrl",
+          "Caption": "URL des visiteurs",
+          "Description": "La page affichée lorsque vous cliquez sur l’icône",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Statistiques des visiteurs"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une petite icône. Lorsqu’un utilisateur autorisé survole l’icône, les totaux d’aujourd’hui et d’hier pour les visiteurs anonymes et connectés sont affichés. En cliquant sur l’icône, le module Visiteurs s’affiche, affichant toute l’activité des visiteurs (en supposant que l’URL d’une page avec le module Visiteurs a été définie dans les paramètres du module TinyVisit). Ce module est généralement ajouté à chaque page (en tant que module d’habillage) afin que l’administrateur ait accès à l’activité des visiteurs."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Statistiques des visiteurs"
+    },
+    {
+      "Name": "tooltip",
+      "Text": "Aujourd’hui: Utilisateurs {0}, {1} Anonymous - Hier: {2}/{3}"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.IFrame.Modules.IFrameDisplayModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "Height",
+          "Caption": "Hauteur",
+          "Description": "La hauteur utilisée pour afficher le contenu du module - utilisée telle quelle comme hauteur Css (par exemple, 800px, 40em)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL utilisée pour afficher le contenu du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Width",
+          "Caption": "Largeur",
+          "Description": "La largeur utilisée pour afficher le contenu du module - utilisée telle quelle comme largeur Css (par exemple, 100%, 50px, 40em)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "IFrameLegend",
+      "Text": "Affiche une page dans un iframe"
+    },
+    {
+      "Name": "IFrameLink",
+      "Text": "IFrame"
+    },
+    {
+      "Name": "IFrameText",
+      "Text": "IFrame"
+    },
+    {
+      "Name": "IFrameTooltip",
+      "Text": "Afficher une page dans un iframe"
+    },
+    {
+      "Name": "modName",
+      "Text": "IFrame (URL d’affichage)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche l’URL définie dans une balise HTML iframe. Utilisez les paramètres du module pour définir l’URL souhaitée. Un exemple de module IFrame est accessible sur Tests > Modules >IFrame (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "IFrame"
+    }
+  ]
+}

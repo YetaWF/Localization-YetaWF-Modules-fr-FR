@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.LogDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Info",
+          "Caption": "Message",
+          "Description": "Le message",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Level",
+          "Caption": "Niveau",
+          "Description": "Niveau du message",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Nom de l’élément du planificateur en cours d’exécution",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunId",
+          "Caption": "Id",
+          "Description": "ID de l’élément du planificateur exécuté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site Id",
+          "Description": "Site affecté par l’élément du planificateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeStamp",
+          "Caption": "Créé",
+          "Description": "La date/heure de création de cet enregistrement de journal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche une entrée de journal du planificateur existante"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher l’entrée du journal du planificateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrée du journal du planificateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche une entrée de journal du planificateur existante. Utilisé par le module de journal du planificateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Entrée du journal du planificateur"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Entrée de journal du planificateur avec ID introuvable {0}"
+    }
+  ]
+}

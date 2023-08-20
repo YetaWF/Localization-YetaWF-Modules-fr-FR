@@ -1,0 +1,30 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Site.MessageTypeEnum",
+      "Entries": [
+        {
+          "Name": "Popups",
+          "Value": "Popups",
+          "Caption": "Fenêtre contextuelle",
+          "Description": "Les messages sont affichés dans des fenêtres contextuelles qui sont explicitement rejetées par l’utilisateur"
+        },
+        {
+          "Name": "ToastRight",
+          "Value": "ToastRight",
+          "Caption": "Toast (en bas à droite)",
+          "Description": "Les notifications sont affichées en bas à droite de la page et sont automatiquement rejetées après un certain laps de temps ou peuvent être explicitement rejetées par l’utilisateur"
+        },
+        {
+          "Name": "ToastLeft",
+          "Value": "ToastLeft",
+          "Caption": "Toast (en bas à gauche)",
+          "Description": "Les notifications sont affichées en bas à gauche de la page et sont automatiquement rejetées après un certain laps de temps ou peuvent être explicitement rejetées par l’utilisateur"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

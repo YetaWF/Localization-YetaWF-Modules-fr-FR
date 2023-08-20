@@ -1,0 +1,60 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.ImportDataModule+ImportDataModel",
+      "BaseTypeName": null,
+      "Header": "Importer des données de package à partir d’un fichier zip (créé par Export Data).",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Import": "Importation"
+      },
+      "Properties": [
+        {
+          "Name": "UploadFile",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnImport",
+      "Text": "Importer des données..."
+    },
+    {
+      "Name": "modName",
+      "Text": "Importer des données de package"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet d’importer toutes les données d’un package. Seules les données du site actuel sont importées. Une sauvegarde de site contient plusieurs fichiers zip, chacun contenant des données de sauvegarde pour un package particulier. Ces fichiers zip peuvent être restaurés ou importés à l’aide du module Importer les données du package. Le module Importer des données de package est accessible à l’aide du panneau d’administration > > des packages."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Importer des données de package"
+    },
+    {
+      "Name": "roleImports",
+      "Text": "Le rôle a l’autorisation d’importer des données de package"
+    },
+    {
+      "Name": "roleImportsC",
+      "Text": "Importer des données de package"
+    },
+    {
+      "Name": "userImports",
+      "Text": "L’utilisateur est autorisé à importer des données de package"
+    },
+    {
+      "Name": "userImportsC",
+      "Text": "Importer des données de package"
+    }
+  ]
+}

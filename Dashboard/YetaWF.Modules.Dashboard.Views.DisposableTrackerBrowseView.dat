@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "explain",
+      "Text": "<p>Les objets jetables implémentent l’interface IDisposable. Leur création/destruction est suivie à l’aide de la classe DisposableTracker. Si des objets sont montrés, ils doivent être vérifiés car il s’agit de fuites possibles. Certaines classes créent délibérément un objet jetable quasi permanent. Il s’agit de SiteDefinition, LanguageData, LogRecordDataProvider et de tous les fournisseurs de données de base de données. Plusieurs objets peuvent être créés par classe. Seuls les objets avec des appels explicites à DisposableTracker.AddObject/RemoveObject sont suivis.</p><p>Le suivi est activé/désactivé dans le fichier Appsettings.json du site à l’aide de « P:YetaWF_Core:DisposableTracker » défini sur true ou false.</p>"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Pages.Modules.PagesBrowseModule+PageItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Administrators",
+          "Caption": "Administrateurs",
+          "Description": "Les administrateurs peuvent consulter cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Anonymous",
+          "Caption": "Anonyme",
+          "Description": "Les utilisateurs anonymes peuvent consulter cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanonicalUrl",
+          "Caption": "URL canonique",
+          "Description": "URL canonique utilisée pour identifier cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Date de création",
+          "Description": "La date de création de la page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": null,
+          "Description": "Les classes CSS facultatives à ajouter à la balise de la page <body> pour une personnalisation ultérieure via des feuilles de style",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description de la page (généralement non visible, saisie par le concepteur de page, utilisée pour les mots-clés de recherche)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Editors",
+          "Caption": "Éditeurs",
+          "Description": "Les éditeurs peuvent consulter cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MobilePageUrl",
+          "Caption": "Mobile Page URL",
+          "Description": "Si cette page est accessible par un appareil mobile, elle est redirigée vers l’URL définie ici comme URL de la page mobile - La redirection n’est pas active en mode d’édition du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageGuid",
+          "Caption": "Guid",
+          "Description": "L’identifiant identifiant cette page de manière unique",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RedirectToPageUrl",
+          "Caption": "Rediriger vers la page",
+          "Description": "Si vous accédez à cette page, elle est redirigée vers l’URL définie ici - La redirection n’est pas active en mode d’édition du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMapPriority",
+          "Caption": "Priorité du plan de site",
+          "Description": "Définit la priorité de page utilisée pour le plan de site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticPage",
+          "Caption": "Page statique",
+          "Description": "Définit si la page est rendue en tant que page statique (pour les utilisateurs anonymes uniquement) - Une page dont le contenu ne change pas peut être marquée comme une page statique, ce qui accélère le chargement de la page pour l’utilisateur final - Les paramètres du site peuvent être utilisés pour activer/désactiver l’utilisation de pages statiques globalement à l’aide de la propriété StaticPages - Les pages statiques ne sont utilisées qu’avec les sites déployés",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titre",
+          "Description": "Le titre de la page qui apparaîtra comme titre dans la fenêtre du navigateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Updated",
+          "Caption": "Date de mise à jour",
+          "Description": "La date à laquelle la page a été mise à jour",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "URL utilisée pour identifier cette page : il s’agit du nom de la page conçue et peut ne pas inclure les arguments de chaîne de requête nécessaires pour afficher la page.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Utilisateurs",
+          "Description": "Les utilisateurs connectés peuvent afficher cette page",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les pages"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Pages"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Pages"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les pages"
+    },
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche la page"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Afficher la page"
+    },
+    {
+      "Name": "displayMenu",
+      "Text": "Afficher la page"
+    },
+    {
+      "Name": "displayTT",
+      "Text": "Afficher la page dans une nouvelle fenêtre"
+    },
+    {
+      "Name": "downloadLegend",
+      "Text": "Télécharge le fichier de plan de site"
+    },
+    {
+      "Name": "downloadLink",
+      "Text": "Télécharger le plan du site"
+    },
+    {
+      "Name": "downloadMenu",
+      "Text": "Télécharger le plan du site"
+    },
+    {
+      "Name": "downloadTT",
+      "Text": "Télécharger le fichier de plan du site"
+    },
+    {
+      "Name": "modName",
+      "Text": "Pages"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les pages et implémente la suppression de pages. Il est accessible via Admin > Panel > Pages (site YetaWF standard). Il est utilisé pour afficher, modifier les paramètres et supprimer des pages. Le module Pages fournit également des services de création de plan de site. Lors de la suppression de pages, les modules de la page ne sont PAS supprimés."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Pages"
+    },
+    {
+      "Name": "pagelistLegend",
+      "Text": "Télécharge la liste des pages conçues"
+    },
+    {
+      "Name": "pagelistLink",
+      "Text": "Télécharger la liste des pages"
+    },
+    {
+      "Name": "pagelistMenu",
+      "Text": "Télécharger la liste des pages"
+    },
+    {
+      "Name": "pagelistTT",
+      "Text": "Télécharger la liste des pages conçues"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer la page « {0} » ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprimer la page du site"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer l’élément"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer l’élément"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprime la page du site"
+    },
+    {
+      "Name": "restAuthConfirm",
+      "Text": "FONCTIONNALITÉ DE DÉVELOPPEMENT - Êtes-vous sûr de vouloir ajouter une autorisation à toutes les pages pour que l’administrateur ait un contrôle total et que l’éditeur puisse afficher et modifier ?"
+    },
+    {
+      "Name": "restAuthLegend",
+      "Text": "FONCTIONNALITÉ DE DÉVELOPPEMENT - Ajoutez une autorisation à toutes les pages pour que l’administrateur ait un contrôle total et que l’éditeur puisse afficher et modifier"
+    },
+    {
+      "Name": "restAuthLink",
+      "Text": "Autorisation de l’administrateur et de l’éditeur"
+    },
+    {
+      "Name": "restAuthMenu",
+      "Text": "Autorisation de l’administrateur et de l’éditeur"
+    },
+    {
+      "Name": "restAuthPlsWait",
+      "Text": "Mise à jour de toutes les pages afin que l’administrateur ait un contrôle total et que l’éditeur puisse afficher et modifier..."
+    },
+    {
+      "Name": "restAuthTT",
+      "Text": "FONCTIONNALITÉ DE DÉVELOPPEMENT - Ajoutez une autorisation à toutes les pages pour que l’administrateur ait un contrôle total et que l’éditeur puisse afficher et modifier"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle est autorisé à supprimer des pages"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer des pages"
+    },
+    {
+      "Name": "roleSetAuth",
+      "Text": "Le rôle a l’autorisation de définir une autorisation globale pour toutes les pages"
+    },
+    {
+      "Name": "roleSetAuthC",
+      "Text": "Définir l’autorisation globale"
+    },
+    {
+      "Name": "roleSiteMaps",
+      "Text": "Le rôle est autorisé à gérer les plans de site"
+    },
+    {
+      "Name": "roleSiteMapsC",
+      "Text": "Gérer les plans de site"
+    },
+    {
+      "Name": "screAuthConfirm",
+      "Text": "Voulez-vous vraiment créer un nouveau plan de site ?"
+    },
+    {
+      "Name": "screAuthLegend",
+      "Text": "Crée un plan de site"
+    },
+    {
+      "Name": "screAuthLink",
+      "Text": "Créer un plan de site"
+    },
+    {
+      "Name": "screAuthMenu",
+      "Text": "Créer un plan de site"
+    },
+    {
+      "Name": "screAuthPlsWait",
+      "Text": "Création d’un plan de site..."
+    },
+    {
+      "Name": "screAuthTT",
+      "Text": "Créer un plan de site"
+    },
+    {
+      "Name": "sremAuthConfirm",
+      "Text": "Voulez-vous vraiment supprimer le plan de site actuel ?"
+    },
+    {
+      "Name": "sremAuthLegend",
+      "Text": "Supprime le plan de site actuel"
+    },
+    {
+      "Name": "sremAuthLink",
+      "Text": "Supprimer le plan du site"
+    },
+    {
+      "Name": "sremAuthMenu",
+      "Text": "Supprimer le plan du site"
+    },
+    {
+      "Name": "sremAuthTT",
+      "Text": "Supprimer le plan du site actuel"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur a l’autorisation de supprimer des pages"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer des pages"
+    },
+    {
+      "Name": "userSetAuth",
+      "Text": "L’utilisateur a l’autorisation de définir une autorisation globale pour toutes les pages"
+    },
+    {
+      "Name": "userSetAuthC",
+      "Text": "Définir l’autorisation globale"
+    },
+    {
+      "Name": "userSiteMaps",
+      "Text": "L’utilisateur est autorisé à gérer les plans de site"
+    },
+    {
+      "Name": "userSiteMapsC",
+      "Text": "Gérer les plans de site"
+    }
+  ]
+}

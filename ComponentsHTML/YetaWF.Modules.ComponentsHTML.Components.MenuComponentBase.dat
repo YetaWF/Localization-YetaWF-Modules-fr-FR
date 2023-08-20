@@ -1,0 +1,53 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.ComponentsHTML.Components.MenuComponentBase+DirectionEnum",
+      "Entries": [
+        {
+          "Name": "Bottom",
+          "Value": "Bottom",
+          "Caption": "S’ouvre vers le bas",
+          "Description": null
+        },
+        {
+          "Name": "Top",
+          "Value": "Top",
+          "Caption": "S’ouvre vers le haut",
+          "Description": null
+        },
+        {
+          "Name": "Left",
+          "Value": "Left",
+          "Caption": "S’ouvre vers la gauche",
+          "Description": null
+        },
+        {
+          "Name": "Right",
+          "Value": "Right",
+          "Caption": "S’ouvre vers la droite",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.ComponentsHTML.Components.MenuComponentBase+OrientationEnum",
+      "Entries": [
+        {
+          "Name": "Horizontal",
+          "Value": "Horizontal",
+          "Caption": "Menu horizontal",
+          "Description": null
+        },
+        {
+          "Name": "Vertical",
+          "Value": "Vertical",
+          "Caption": "Menu vertical",
+          "Description": null
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

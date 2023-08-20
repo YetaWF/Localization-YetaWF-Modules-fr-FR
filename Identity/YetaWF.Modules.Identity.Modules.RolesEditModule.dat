@@ -1,0 +1,90 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "L’utilisation prévue du rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Nom",
+          "Description": "Le nom de ce rôle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "URL de connexion après la publication",
+          "Description": "URL où un utilisateur avec ce rôle est redirigé après s’être connecté",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Le rôle nommé « {0} » a été supprimé et ne peut plus être mis à jour."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un rôle nommé « {0} » existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie un rôle existant"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier un rôle existant"
+    },
+    {
+      "Name": "modEditTitle",
+      "Text": "Rôle « {0} »"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier le rôle"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Modifie un rôle existant. Ceci est utilisé par le module Rôles pour modifier un rôle."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modifier un rôle"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Le rôle « {0} » introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Rôle « {0} » enregistré"
+    }
+  ]
+}

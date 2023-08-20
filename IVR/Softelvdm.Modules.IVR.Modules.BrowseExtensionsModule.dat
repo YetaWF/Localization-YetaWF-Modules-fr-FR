@@ -1,0 +1,184 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseExtensionsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter une nouvelle extension - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "Modifier l’URL",
+          "Description": "L’URL pour modifier une extension - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseExtensionsModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure à laquelle la prolongation a été ajoutée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "Décrit l’extension",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Extension",
+          "Description": "Définit l’extension (chiffres)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PhoneNumbers",
+          "Caption": "Numéros de téléphone / SMS",
+          "Description": "Affiche les numéros de téléphone à appeler lorsque cette extension est entrée et la sélection de messagerie texte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Updated",
+          "Caption": "Actualisé",
+          "Description": "La date/heure de la dernière mise à jour de la prolongation",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Utilisateurs",
+          "Description": "Affiche les utilisateurs qui peuvent accéder aux messages vocaux pour cette extension",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseExtensionsModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les extensions"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Extensions"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Extensions"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les extensions"
+    },
+    {
+      "Name": "modName",
+      "Text": "Extensions"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les extensions."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Extensions"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer l’extension avec l’id « {0} »?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime l’extension"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer l’extension"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer l’extension"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer l’extension"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des extensions individuelles"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer les entrées d’extension"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur a l’autorisation de supprimer des extensions individuelles"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer les entrées d’extension"
+    }
+  ]
+}

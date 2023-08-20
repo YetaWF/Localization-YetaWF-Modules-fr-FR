@@ -1,0 +1,55 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "adminRole",
+      "Text": "Un administrateur peut TOUT faire sur UN seul site (le site où l’utilisateur a le rôle {0})"
+    },
+    {
+      "Name": "anonymousRole",
+      "Text": "Le rôle {0} décrit chaque utilisateur qui n’est pas connecté (c’est-à-dire qui n’est pas un utilisateur authentifié)"
+    },
+    {
+      "Name": "cantAddSuper",
+      "Text": "Impossible d’ajouter un rôle de superutilisateur intégré"
+    },
+    {
+      "Name": "cantRemoveSuper",
+      "Text": "Impossible de supprimer le rôle de superutilisateur intégré"
+    },
+    {
+      "Name": "cantRemoveUser",
+      "Text": "Le rôle {0} ne peut pas être supprimé"
+    },
+    {
+      "Name": "cantUpdateSuper",
+      "Text": "Impossible de mettre à jour le rôle de superutilisateur intégré"
+    },
+    {
+      "Name": "cantUpdateUser",
+      "Text": "Le rôle {0} ne peut pas être mis à jour"
+    },
+    {
+      "Name": "editorRole",
+      "Text": "Un éditeur est un utilisateur qui peut effectuer des actions d’édition sur le site"
+    },
+    {
+      "Name": "superuserRole",
+      "Text": "Le rôle {0} peut TOUT faire sur tous les sites - aucune restriction"
+    },
+    {
+      "Name": "user2faRole",
+      "Text": "Le rôle {0} décrit chaque utilisateur authentifié qui doit configurer l’authentification en deux étapes (c’est-à-dire pas un utilisateur anonyme)"
+    },
+    {
+      "Name": "userDemoRole",
+      "Text": "Le rôle {0} décrit un utilisateur authentifié limité à la fonctionnalité de démonstration"
+    },
+    {
+      "Name": "userRole",
+      "Text": "Le rôle {0} décrit chaque utilisateur authentifié (c’est-à-dire pas un utilisateur anonyme)"
+    }
+  ]
+}

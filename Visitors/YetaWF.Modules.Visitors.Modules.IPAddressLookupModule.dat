@@ -1,0 +1,130 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.IPAddressLookupModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "City",
+          "Caption": "Ville",
+          "Description": "La ville où se trouve l’adresse IP",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ContinentCode",
+          "Caption": "Continent",
+          "Description": "Le continent où se trouve l’adresse IP",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CountryName",
+          "Caption": "Pays",
+          "Description": "Le pays où se trouve l’adresse IP",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HostName",
+          "Caption": "Nom d’hôte",
+          "Description": "Le nom d’hôte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Latitude",
+          "Caption": "Latitude",
+          "Description": "La latitude où se trouve l’adresse IP",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Longitude",
+          "Caption": "Longitude",
+          "Description": "La longitude où se trouve l’adresse IP",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegionName",
+          "Caption": "Région",
+          "Description": "La région où se trouve l’adresse IP",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayGeoLegend",
+      "Text": "Affiche l’emplacement géographique de l’adresse IP"
+    },
+    {
+      "Name": "displayGeoLink",
+      "Text": "Données géographiques de l’adresse IP"
+    },
+    {
+      "Name": "displayGeoText",
+      "Text": "Données géographiques de l’adresse IP"
+    },
+    {
+      "Name": "displayGeoTooltip",
+      "Text": "Afficher l’adresse IP Géolocalisation"
+    },
+    {
+      "Name": "displayHostLegend",
+      "Text": "Affiche le nom d’hôte de l’adresse IP"
+    },
+    {
+      "Name": "displayHostLink",
+      "Text": "Nom d’hôte de l’adresse IP"
+    },
+    {
+      "Name": "displayHostText",
+      "Text": "Nom d’hôte de l’adresse IP"
+    },
+    {
+      "Name": "displayHostTooltip",
+      "Text": "Afficher le nom d’hôte de l’adresse IP"
+    },
+    {
+      "Name": "limitExceeded",
+      "Text": "La limite actuelle de demandes de géolocalisation par minute a été dépassée"
+    },
+    {
+      "Name": "modName",
+      "Text": "Recherche d’adresse IP"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche des informations pour une adresse IP. Ce module est utilisé par le module d’activité visiteur pour afficher le nom d’hôte et les informations de géolocalisation d’un visiteur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Recherche d’adresse IP"
+    }
+  ]
+}

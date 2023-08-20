@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "explain",
+      "Text": "<p>Les ressources sont prédéfinies par des modules et des packages. Si une ressource définie par un package existant est supprimée, elle est restaurée à son état par défaut.</p>"
+    }
+  ]
+}

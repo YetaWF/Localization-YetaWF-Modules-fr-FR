@@ -1,0 +1,29 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TestStepsModule+Model",
+      "BaseTypeName": null,
+      "Header": "Cette page de test est utilisée pour tester le module DisplaySteps, qui utilise le code côté client pour activer/activer des étapes individuelles (à l’aide de notifications généralement envoyées par d’autres modules sur la même page). Les étapes individuelles peuvent être modifiées dans le module DisplaySteps en passant en mode Modification de site.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": []
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test - Étapes"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module de test pour le module Display Steps (YetaWF.Panels). Une page de test pour ce module se trouve sur Tests > Modules > Steps (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Test des étapes"
+    }
+  ]
+}

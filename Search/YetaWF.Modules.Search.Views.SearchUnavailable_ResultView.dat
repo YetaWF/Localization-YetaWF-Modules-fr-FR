@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "unavailable",
+      "Text": "Les données de recherche ne sont pas disponibles - Voir <a href='https://yetawf.com/Documentation/YetaWF/Search' target='_blank' rel='noopener noreferrer'>https://yetawf.com/Documentation/YetaWF/Search pour plus d’informations</a>."
+    }
+  ]
+}

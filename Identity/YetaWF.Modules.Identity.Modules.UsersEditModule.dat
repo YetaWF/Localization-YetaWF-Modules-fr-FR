@@ -1,0 +1,206 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UsersEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Comment",
+          "Caption": "Commentaire",
+          "Description": "Commentaires",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure de création du compte d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Adresse courriel",
+          "Description": "L’adresse e-mail de cet utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastActivityDate",
+          "Caption": "Dernière activité",
+          "Description": "La dernière fois que l’utilisateur a fait quelque chose sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastActivityIP",
+          "Caption": "Dernière activité IP",
+          "Description": "L’adresse IP à partir de laquelle l’utilisateur a fait quelque chose sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginDate",
+          "Caption": "Dernière connexion",
+          "Description": "La dernière fois que l’utilisateur s’est connecté à son compte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginIP",
+          "Caption": "Dernière adresse IP de connexion",
+          "Description": "L’adresse IP à partir de laquelle l’utilisateur s’est connecté pour la dernière fois sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastPasswordChangedDate",
+          "Caption": "Dernière modification du mot de passe",
+          "Description": "La dernière fois que l’utilisateur a changé son mot de passe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoginFailures",
+          "Caption": "Échecs de connexion",
+          "Description": "Affiche le nombre de tentatives de connexion infructueuses depuis la dernière connexion réussie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NeedsNewPassword",
+          "Caption": "Nouveau mot de passe",
+          "Description": "Définit si l’utilisateur doit modifier le mot de passe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordChangeIP",
+          "Caption": "Mot de passe Changer l’adresse IP",
+          "Description": "L’adresse IP à partir de laquelle l’utilisateur a modifié le mot de passe pour la dernière fois sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegistrationIP",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP à partir de laquelle l’utilisateur s’est inscrit sur ce site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RolesList",
+          "Caption": "Rôles",
+          "Description": "Les rôles de l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Identifiant",
+          "Description": "L’ID interne de cet utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Nom",
+          "Description": "Le nom de l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserStatus",
+          "Caption": "Statut",
+          "Description": "État actuel du compte de l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerificationCode",
+          "Caption": "Code de vérification",
+          "Description": "Le code de vérification pour vérifier l’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "L’utilisateur nommé « {0} » a été supprimé et ne peut plus être mis à jour."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Un utilisateur nommé « {0} » existe déjà."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Modifie un utilisateur existant"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editText",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Modifier un utilisateur existant"
+    },
+    {
+      "Name": "emailUsed",
+      "Text": "Un compte utilisant l’adresse e-mail {0} existe déjà."
+    },
+    {
+      "Name": "modEditTitle",
+      "Text": "{0} utilisateur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modifier l’utilisateur"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Permet de modifier un utilisateur existant. Ceci est utilisé par le module Utilisateurs pour modifier un utilisateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modifier l’utilisateur"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’utilisateur « {0} » introuvable."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Mise à jour par l’utilisateur"
+    }
+  ]
+}

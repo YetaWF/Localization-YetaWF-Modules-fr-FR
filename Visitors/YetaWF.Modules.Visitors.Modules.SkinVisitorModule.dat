@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Module Visiteur (Skin)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Enregistre les informations sur les visiteurs du site. Ce module est généralement ajouté à chaque page (en tant que module d’habillage) afin que toutes les activités des visiteurs soient enregistrées. Pour ce faire, il est préférable d’utiliser une référence de module dans les paramètres du site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Module Visiteur de peau"
+    }
+  ]
+}

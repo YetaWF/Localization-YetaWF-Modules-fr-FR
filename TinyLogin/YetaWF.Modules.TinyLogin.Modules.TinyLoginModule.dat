@@ -1,0 +1,145 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TinyLogin.Modules.TinyLoginModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités",
+        "Variables": "Variables"
+      },
+      "Properties": [
+        {
+          "Name": "AllowUserRegistration",
+          "Caption": "Autoriser les nouveaux utilisateurs",
+          "Description": "Autoriser l’enregistrement de nouveaux utilisateurs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogoffUrl",
+          "Caption": "URL de déconnexion",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le lien de fermeture de session",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogonUrl",
+          "Caption": "URL de connexion",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le lien de connexion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegisterUrl",
+          "Caption": "URL d’enregistrement",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le lien du registre",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowActionMenu",
+          "Caption": "Afficher le menu Action",
+          "Description": "Indique si le menu d’action est affiché pour ce module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UsePopup",
+          "Caption": "Utiliser les fenêtres contextuelles",
+          "Description": "Utilisez des fenêtres contextuelles pour vous connecter et vous inscrire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserTooltip",
+          "Caption": "Info-bulle utilisateur",
+          "Description": "L’info-bulle affichée pour le lien du nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserUrl",
+          "Caption": "URL de l’utilisateur",
+          "Description": "URL où l’utilisateur est redirigé lorsque vous cliquez sur le nom d’utilisateur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "loginLegend",
+      "Text": "Connectez-vous à ce site à l’aide de votre compte existant"
+    },
+    {
+      "Name": "loginLink",
+      "Text": "Connectez-vous"
+    },
+    {
+      "Name": "loginText",
+      "Text": "Connectez-vous"
+    },
+    {
+      "Name": "loginTooltip",
+      "Text": "Cliquez pour vous connecter à ce site en utilisant votre compte existant"
+    },
+    {
+      "Name": "logoffLegend",
+      "Text": "Vous déconnecte de ce site"
+    },
+    {
+      "Name": "logoffLink",
+      "Text": "Déconnexion"
+    },
+    {
+      "Name": "logoffText",
+      "Text": "Déconnexion"
+    },
+    {
+      "Name": "logoffTooltip",
+      "Text": "Cliquez pour vous déconnecter de ce site"
+    },
+    {
+      "Name": "modName",
+      "Text": "Connexion minuscule"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fournit des liens de connexion/enregistrement et affiche le nom de compte d’un utilisateur connecté. Ce module est généralement ajouté à chaque page (en tant que module d’habillage) afin que les utilisateurs anonymes puissent se connecter ou enregistrer un nouveau compte. Pour les utilisateurs connectés, leur nom de compte est affiché avec un lien vers les paramètres utilisateur."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Connexion minuscule"
+    },
+    {
+      "Name": "registerLegend",
+      "Text": "Inscrivez-vous pour accéder à ce site avec un nouveau compte"
+    },
+    {
+      "Name": "registerLink",
+      "Text": "Registre"
+    },
+    {
+      "Name": "registerText",
+      "Text": "Registre"
+    },
+    {
+      "Name": "registerTooltip",
+      "Text": "Cliquez pour créer un nouveau compte pour accéder à ce site"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddTemplateModule+Model",
+      "BaseTypeName": null,
+      "Header": "Ajoutez un module de test de modèle à votre projet pour tester un modèle. Ceci est normalement utilisé lors du développement d’un nouveau modèle.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Company",
+          "Caption": "Compagnie",
+          "Description": "Entrez le nom de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : Nom de mon entreprise - Il est utilisé pour afficher le nom de votre entreprise sous une forme affichable."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "URL de l’entreprise",
+          "Description": "Entrez l’URL du domaine de votre entreprise",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MyCompany.com - URL du domaine de votre entreprise."
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domaine",
+          "Description": "Entrez le nom de domaine de votre entreprise sans .com",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : MaEntreprise - Un projet doit déjà exister qui utilise le domaine et le nom de projet saisis. Il est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        },
+        {
+          "Name": "Project",
+          "Caption": "Nom du projet",
+          "Description": "Entrez le nom de projet souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : StoreFont ou Blog ou Forum - Un projet doit déjà exister et utiliser le domaine et le nom du projet saisis. Il est utilisé dans le cadre de l’espace de noms généré et sera également utilisé pour tous les nouveaux éléments ajoutés à ce projet. L’identifiant ne peut contenir que des lettres et des chiffres."
+        },
+        {
+          "Name": "TemplateModuleName",
+          "Caption": "Nom du modèle",
+          "Description": "Entrez le nom du module de test de modèle souhaité",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Exemple : ModuleSelection"
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ajoute un module de test de modèle"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ajouter un module de test de modèle"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ajouter un module de test de modèle"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Ajouter un module de test de modèle"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Impossible d’enregistrer les paramètres par défaut du modèle"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ajouter un module de test de modèle"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ajoute un module de test de modèle"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ajouter un module de test de modèle"
+    },
+    {
+      "Name": "notExists",
+      "Text": "Le projet n'{0} pas trouvé. Le dossier {1} n’existe pas. Les modules ne peuvent être ajoutés qu’à des projets existants."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Un nouveau module de test de modèle {0} ajouté au projet {1}/{2}."
+    }
+  ]
+}

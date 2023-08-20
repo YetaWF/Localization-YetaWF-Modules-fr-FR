@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "someAttr",
+      "Text": "Informations sur le fichier ici"
+    },
+    {
+      "Name": "uploadSuccess",
+      "Text": "Fichier {0} téléchargé avec succès"
+    }
+  ]
+}

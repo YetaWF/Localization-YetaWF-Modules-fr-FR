@@ -1,0 +1,198 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Backups.Modules.BackupsModule+BackupModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Toutes les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Créé",
+          "Description": "La date/heure de création de la sauvegarde du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileName",
+          "Caption": "Nom de fichier",
+          "Description": "Le nom du fichier de sauvegarde du site (situé dans le dossier Sauvegardes)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FullFileName",
+          "Caption": "Nom complet du fichier",
+          "Description": "Nom du fichier de sauvegarde du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Size",
+          "Caption": "Taille",
+          "Description": "La taille du fichier de la sauvegarde du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Gère les sauvegardes de site"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Sauvegardes"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Sauvegardes"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Gérer les sauvegardes de site"
+    },
+    {
+      "Name": "dnldLegend",
+      "Text": "Télécharge la sauvegarde du site (fichier zip)"
+    },
+    {
+      "Name": "dnldLink",
+      "Text": "Télécharger la sauvegarde"
+    },
+    {
+      "Name": "dnldMenu",
+      "Text": "Télécharger la sauvegarde"
+    },
+    {
+      "Name": "dnldTT",
+      "Text": "Télécharger la sauvegarde du site (fichier zip)"
+    },
+    {
+      "Name": "makeTemplateConfirm",
+      "Text": "Voulez-vous vraiment créer des données de modèle de site ?"
+    },
+    {
+      "Name": "makeTemplateLegend",
+      "Text": "Crée des modèles de site pour l’installation d’un nouveau site YetaWF à l’aide du site actuel"
+    },
+    {
+      "Name": "makeTemplateLink",
+      "Text": "Créer des données de modèle de site"
+    },
+    {
+      "Name": "makeTemplateMenu",
+      "Text": "Créer des données de modèle de site"
+    },
+    {
+      "Name": "makeTemplateTT",
+      "Text": "Créer des modèles de site pour l’installation d’un nouveau site YetaWF à l’aide du site actuel"
+    },
+    {
+      "Name": "modName",
+      "Text": "Sauvegardes"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Gère les sauvegardes de site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sauvegardes de site"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer « {0} » ?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime la sauvegarde du site (fichier zip)"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer la sauvegarde"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer la sauvegarde"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer la sauvegarde du site (fichier zip)"
+    },
+    {
+      "Name": "roleBackups",
+      "Text": "Le rôle est autorisé à créer et supprimer des sauvegardes"
+    },
+    {
+      "Name": "roleBackupsC",
+      "Text": "Gérer les sauvegardes"
+    },
+    {
+      "Name": "roleDownloads",
+      "Text": "Le rôle a l’autorisation de télécharger des sauvegardes"
+    },
+    {
+      "Name": "roleDownloadsC",
+      "Text": "Gérer les sauvegardes"
+    },
+    {
+      "Name": "sbackupConfirm",
+      "Text": "Voulez-vous vraiment créer une sauvegarde de site ?"
+    },
+    {
+      "Name": "sbackupLegend",
+      "Text": "Crée une sauvegarde de site dans le dossier de sauvegarde"
+    },
+    {
+      "Name": "sbackupLink",
+      "Text": "Sauvegarde de site"
+    },
+    {
+      "Name": "sbackupMenu",
+      "Text": "Sauvegarde de site"
+    },
+    {
+      "Name": "sbackupPleaseWait",
+      "Text": "La sauvegarde de votre site est en cours..."
+    },
+    {
+      "Name": "sbackupTT",
+      "Text": "Créer une sauvegarde de site dans le dossier de sauvegarde"
+    },
+    {
+      "Name": "userBackups",
+      "Text": "L’utilisateur est autorisé à créer et supprimer des sauvegardes"
+    },
+    {
+      "Name": "userBackupsC",
+      "Text": "Gérer les sauvegardes"
+    },
+    {
+      "Name": "userDownloads",
+      "Text": "L’utilisateur est autorisé à télécharger des sauvegardes"
+    },
+    {
+      "Name": "userDownloadsC",
+      "Text": "Gérer les sauvegardes"
+    }
+  ]
+}

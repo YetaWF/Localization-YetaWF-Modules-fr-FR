@@ -1,0 +1,83 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Blog.DataProvider.Gravatar+GravatarEnum",
+      "Entries": [
+        {
+          "Name": "None",
+          "Value": "None",
+          "Caption": "(aucune)",
+          "Description": "Aucune image n’est affichée"
+        },
+        {
+          "Name": "mm",
+          "Value": "mm",
+          "Caption": "Homme mystère",
+          "Description": "Un contour simple et dessiné d’une personne - identique pour toutes les adresses e-mail"
+        },
+        {
+          "Name": "identicon",
+          "Value": "identicon",
+          "Caption": "Identicon",
+          "Description": "Un motif géométrique - varie selon l’adresse e-mail"
+        },
+        {
+          "Name": "monsterid",
+          "Value": "monsterid",
+          "Caption": "Monstre",
+          "Description": "Un « monstre » généré avec différentes couleurs, visages, etc. - varie selon l’adresse e-mail"
+        },
+        {
+          "Name": "wavatar",
+          "Value": "wavatar",
+          "Caption": "Wavatar",
+          "Description": "Un visage généré avec des caractéristiques et des arrière-plans différents - varie selon l’adresse e-mail"
+        },
+        {
+          "Name": "retro",
+          "Value": "retro",
+          "Caption": "Rétro",
+          "Description": "Un visage pixélisé impressionnant de style arcade 8 bits généré - varie selon l’adresse e-mail"
+        },
+        {
+          "Name": "blank",
+          "Value": "blank",
+          "Caption": "Blanc",
+          "Description": "Une image PNG transparente - identique pour toutes les adresses e-mail"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.DataProvider.Gravatar+GravatarRatingEnum",
+      "Entries": [
+        {
+          "Name": "G",
+          "Value": "G",
+          "Caption": "Généralités",
+          "Description": "Gravatars adaptés à l’affichage sur tous les sites Web avec n’importe quel type d’audience"
+        },
+        {
+          "Name": "PG",
+          "Value": "PG",
+          "Caption": "Légèrement inapproprié",
+          "Description": "Les gravatars peuvent contenir des gestes grossiers, des individus habillés de manière provocante, des jurons moins importants ou une violence légère"
+        },
+        {
+          "Name": "R",
+          "Value": "R",
+          "Caption": "Inapproprié",
+          "Description": "Les gravatars peuvent contenir des choses telles que des blasphèmes sévères, une violence intense, de la nudité ou de la consommation de drogues dures."
+        },
+        {
+          "Name": "X",
+          "Value": "X",
+          "Caption": "Gravement inapproprié",
+          "Description": "Les Gravatars peuvent contenir des images sexuelles hardcore ou une violence extrêmement dérangeante"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

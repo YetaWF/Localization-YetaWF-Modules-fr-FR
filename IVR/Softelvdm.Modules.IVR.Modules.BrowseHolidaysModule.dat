@@ -1,0 +1,144 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseHolidaysModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "Ajouter une URL",
+          "Description": "L’URL pour ajouter une nouvelle entrée de vacances - si elle est omise, une page par défaut est générée",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseHolidaysModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Actions",
+          "Description": "Les actions disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Description",
+          "Description": "La description des vacances",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HolidayDate",
+          "Caption": "Date",
+          "Description": "La date du jour férié",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseHolidaysModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Affiche et gère les entrées de jours fériés"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Entrées de vacances"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Entrées de vacances"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Afficher et gérer les entrées de vacances"
+    },
+    {
+      "Name": "modName",
+      "Text": "Entrées de vacances"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche et gère les entrées de jours fériés."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Vacances"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Voulez-vous vraiment supprimer cette entrée de vacances?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Supprime l’entrée de jour férié"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Supprimer l’entrée Holiday"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Supprimer l’entrée Holiday"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Supprimer l’entrée de vacances"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Le rôle a l’autorisation de supprimer des entrées de vacances individuelles"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Supprimer les entrées de vacances"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "L’utilisateur a l’autorisation de supprimer des entrées de vacances individuelles"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Supprimer les entrées de vacances"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.VisitorDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AccessDateTime",
+          "Caption": "Consultée",
+          "Description": "La date et l’heure auxquelles le visiteur a visité le site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Error",
+          "Caption": "Erreur",
+          "Description": "Affiche toute erreur qui a pu se produire",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "Adresse IP",
+          "Description": "L’adresse IP du visiteur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Referrer",
+          "Caption": "Referrer",
+          "Description": "L’URL d’où vient le visiteur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SessionId",
+          "Caption": "Session Id",
+          "Description": "L’ID de session utilisé pour identifier le visiteur",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "L’URL consultée par le visiteur du site",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserAgent",
+          "Caption": "Agent utilisateur",
+          "Description": "L’agent utilisateur du navigateur Web",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Identifiant",
+          "Description": "L’adresse e-mail de l’utilisateur (si disponible)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Affiche les détails de l’entrée des visiteurs"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Montrer"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Afficher les détails de l’entrée visiteur"
+    },
+    {
+      "Name": "modName",
+      "Text": "Détails de l’entrée des visiteurs"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche des informations détaillées sur un visiteur. Ceci est utilisé par le module d’activité du visiteur pour afficher les informations détaillées d’un enregistrement."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Détails de l’entrée des visiteurs"
+    },
+    {
+      "Name": "notFound",
+      "Text": "L’entrée visiteur n'{0} pas trouvée."
+    },
+    {
+      "Name": "title",
+      "Text": "Entrée des visiteurs {0}"
+    }
+  ]
+}

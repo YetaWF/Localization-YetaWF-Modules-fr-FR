@@ -1,0 +1,59 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ComponentsHTML.Components.ModuleSelectionEditComponent+ModuleSelectionUIExisting",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Module",
+          "Caption": "Module",
+          "Description": "Sélectionnez l’un des modules disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Package",
+          "Caption": "Paquets",
+          "Description": "Sélectionnez l’un des packages installés pour répertorier tous les modules disponibles pour le package",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.ComponentsHTML.Components.ModuleSelectionEditComponent+ModuleSelectionUINew",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Module",
+          "Caption": "Module",
+          "Description": "Sélectionnez l’un des modules disponibles",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Package",
+          "Caption": "Paquets",
+          "Description": "Sélectionnez l’un des packages installés pour répertorier tous les modules disponibles pour le package",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

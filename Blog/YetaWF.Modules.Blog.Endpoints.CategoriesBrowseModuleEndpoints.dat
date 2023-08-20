@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "screDone",
+      "Text": "Le plan du site d’actualités a été créé avec succès"
+    },
+    {
+      "Name": "sitemapNotFound",
+      "Text": "Plan du site d’actualités introuvable - Fichier '{0}' introuvable"
+    },
+    {
+      "Name": "sremDone",
+      "Text": "Le plan du site d’actualités a été supprimé"
+    }
+  ]
+}

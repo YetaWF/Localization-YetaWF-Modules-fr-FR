@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "confimMsg",
+      "Text": "Voulez-vous vraiment supprimer le numéro de téléphone {0} ?"
+    },
+    {
+      "Name": "removeMsg",
+      "Text": "Le numéro de téléphone {0} a été supprimé"
+    }
+  ]
+}

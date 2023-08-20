@@ -1,0 +1,161 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Text.Modules.TextModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Généralités",
+        "Rss": "RSS"
+      },
+      "Properties": [
+        {
+          "Name": "Contents",
+          "Caption": "Contenu",
+          "Description": "Le contenu du texte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditOnPage",
+          "Caption": "Modifier sur la page",
+          "Description": "Permet la modification sur la page plutôt que dans le cadre des paramètres du module",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Feed",
+          "Caption": "Nourrir",
+          "Description": "Publier le contenu de ce module sous forme de flux RSS",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedDetailUrl",
+          "Caption": "URL détaillée du flux",
+          "Description": "La page de détail du flux RSS optionnel pour ce module Texte",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedImage",
+          "Caption": "Image de flux",
+          "Description": "L’image utilisée pour ce flux Rss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedMainUrl",
+          "Caption": "URL principale du flux",
+          "Description": "URL principale du flux RSS optionnel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedPublishDate",
+          "Caption": "Date de publication du flux",
+          "Description": "La date de publication de ce flux",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedSummary",
+          "Caption": "Résumé du flux",
+          "Description": "Description sommaire du flux Rss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedTitle",
+          "Caption": "Titre du flux",
+          "Description": "Titre du flux Rss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedUpdateDate",
+          "Caption": "Date de mise à jour du flux",
+          "Description": "Date de la dernière mise à jour de ce flux",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "dateFeedUpdate",
+      "Text": "La date de la dernière mise à jour ne peut pas être antérieure à la date de publication de cet élément"
+    },
+    {
+      "Name": "modName",
+      "Text": "Texte (éditeur complet, HTML)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Affiche le contenu textuel modifiable par l’utilisateur (éditeur wysiwyg complet, à l’aide de CKEditor). Un exemple de page est accessible à l’aide de Tests > Modules > Texte (site YetaWF standard)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Éditer"
+    },
+    {
+      "Name": "newContents",
+      "Text": "(nouveau)"
+    },
+    {
+      "Name": "rssDetailLegend",
+      "Text": "Affiche l’entrée du flux RSS"
+    },
+    {
+      "Name": "rssDetailLink",
+      "Text": "Entrée de flux RSS"
+    },
+    {
+      "Name": "rssDetailMenu",
+      "Text": "Entrée de flux RSS"
+    },
+    {
+      "Name": "rssDetailTT",
+      "Text": "Afficher l’entrée du flux RSS"
+    },
+    {
+      "Name": "rssLegend",
+      "Text": "Affiche le flux RSS"
+    },
+    {
+      "Name": "rssLink",
+      "Text": "Flux rss"
+    },
+    {
+      "Name": "rssMenu",
+      "Text": "Flux rss"
+    },
+    {
+      "Name": "rssTT",
+      "Text": "Afficher le flux RSS"
+    },
+    {
+      "Name": "urlDetail",
+      "Text": "La page d’accueil du site ne peut pas être utilisée comme URL de détail du flux (en raison de l’utilisation d’arguments de chaîne de requête lisibles par l’homme, qui pourraient être interprétés à tort comme le nom de la page)"
+    },
+    {
+      "Name": "urlMain",
+      "Text": "La page d’accueil du site ne peut pas être utilisée comme URL principale du flux (en raison de l’utilisation d’arguments de chaîne de requête lisibles par l’homme, qui pourraient être interprétés à tort comme le nom de la page)"
+    }
+  ]
+}
