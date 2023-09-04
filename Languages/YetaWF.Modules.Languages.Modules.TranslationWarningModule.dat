@@ -1,0 +1,42 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.TranslationWarningModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Warning",
+          "Caption": "Message",
+          "Description": "Définit le message qui s’affiche lorsqu’une langue autre que l’anglais américain est la langue actuelle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Avertissement de traduction"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Module d’habillage affichant un avertissement concernant la traduction de la langue."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Avertissement de traduction de peau"
+    },
+    {
+      "Name": "msgTranslation",
+      "Text": "La langue actuellement sélectionnée a été traduite automatiquement et doit être perfectionnée « manuellement ». Cela démontre comment YetaWF peut prendre en charge plusieurs langues, jusqu’aux données stockées dans des fichiers, des tables de base de données et des chaînes généralement intégrées dans le code source."
+    }
+  ]
+}
