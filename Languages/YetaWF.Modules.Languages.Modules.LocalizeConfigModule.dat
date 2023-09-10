@@ -35,7 +35,7 @@
         },
         {
           "Name": "MSClientKey",
-          "Caption": "Me?",
+          "Caption": "Clé",
           "Description": "Définit la clé API de votre application effectuant des traductions - Fourni par Microsoft lors de l’enregistrement de votre application - Ce n’est pas un service gratuit, bien qu’il existe des comptes gratuits limités",
           "HelpLink": null,
           "TextAbove": null,

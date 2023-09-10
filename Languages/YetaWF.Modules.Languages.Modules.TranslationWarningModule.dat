@@ -7,7 +7,9 @@
       "Header": null,
       "Footer": null,
       "Legend": null,
-      "Categories": {},
+      "Categories": {
+        "General": "Généralités"
+      },
       "Properties": [
         {
           "Name": "Warning",
@@ -36,7 +38,7 @@
     },
     {
       "Name": "msgTranslation",
-      "Text": "La langue actuellement sélectionnée a été traduite automatiquement et doit être perfectionnée « manuellement ». Cela démontre comment YetaWF peut prendre en charge plusieurs langues, jusqu’aux données stockées dans des fichiers, des tables de base de données et des chaînes généralement intégrées dans le code source."
+      "Text": "Tout le contenu de la page pour la langue actuellement sélectionnée a été traduit automatiquement et doit être perfectionné « manuellement ». Cela démontre comment YetaWF peut prendre en charge plusieurs langues, jusqu’aux données stockées dans des fichiers, des tables de base de données et des chaînes généralement intégrées dans le code source."
     }
   ]
 }
